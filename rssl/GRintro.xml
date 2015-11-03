@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gravity's Rainbow Intro</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication information</p>        
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head>1</head>
+            <head>Beyond the Zero</head>
+         <p><quote><s>Nature does not know extinction; all it knows is transformation.</s> <s>Everything science has taught me, and continues to teach me, strengthens my belief in the continuity of our spiritual existence after death.</s></quote>
+            —<name>wernher von braun</name></p>
+         <p><s>A screaming comes across the <name>sky</name>.</s> <s>It has happened <time>before</time>, but there is nothing to compare it to <time>now</time>.</s>
+            
+            <seg><s>It is <time>too late</time>.</s> <s>The <name>Evacuation</name> still proceeds, but it's all theatre.</s> <s>There are no lights inside the cars.</s> <s>No light anywhere.</s> <s>Above him lift girders old as an iron queen, and glass somewhere far above that would let the light of day through.</s> <s>But it's night.</s> <s>He's afraid of the way the glass will fall—soon—it will be a spectacle: the fall of a <name>crystal palace</name>.</s> <s>But coming down in total blackout, without one glint of light, only great invisible crashing.</s></seg>
+            
+            <figure>D D D D D D D</figure>
+           <seg> It is too late. The Evacuation still proceeds, but it's all theatre. There are no lights inside the cars. No light anywhere. Above him lift girders old as an iron queen, and glass somewhere far above that would let the light of day through. But it's night. He's afraid of the way the glass will fall—soon—it will be a spectacle: the fall of a crystal palace. But coming down in total blackout, without one glint of light, only great invisible crashing.</seg>
+            
+            <seg>  Inside the carriage, which is built on several levels, he sits in velveteen darkness, with nothing to smoke, feeling metal nearer and farther rub and connect, steam escaping in puffs, a vibration in the carriage's frame, a poising, an uneasiness, all the others pressed in around, feeble ones, second sheep, all out of luck and time: drunks, old veterans still in shock from ordnance 20 years obsolete, hustlers in city clothes, derelicts, exhausted women with more children than it seems could belong to anyone, stacked about among the rest of the things to be carried out to salvation. Only the nearer faces are visible at all, and at that only as half-silvered images in a view finder, green-stained VIP faces remembered behind bulletproof windows speeding through the city. ...</seg> 
+            
+            <seg> They have begun to move. They pass in line, out of the main station, out of downtown, and begin pushing into older and more desolate parts of the city. Is this the way out? Faces turn to the windows, but no one dares ask, not out loud. Rain comes down. No, this is not a disentanglement from, but a progressive knotting into—they go in under archways, secret entrances of rotted concrete that only looked like loops of an underpass . . . certain trestles of blackened wood have moved slowly by overhead, and the smells begun of coal from days far to the past, smells of naphtha winters, of Sundays when no traffic came through, of the coral-like and mysteriously vital growth, around the blind curves and out the lonely spurs, a sour smell of rolling-stock absence, of maturing rust, developing through those emptying days brilliant and deep, especially at dawn, with blue shadows to seal its passage, to try to bring events to Absolute Zero . . . and it is poorer the deeper they go ... ruinous secret cities of poor, places whose names he has never heard. . . the walls break down, the roofs get fewer and so do the chances for light. The road, which ought to be opening out into a broader highway, instead has been getting narrower, more broken, cornering tighter and tighter until all at once, much too soon, they are under the final arch: brakes grab and spring terribly. It is a judgment from which there is no appeal.</seg> 
+            
+            <seg>   The caravan has halted. It is the end of the line. All the evacuees are ordered out. They move slowly, but without resistance. Those marshaling them wear cockades the color of lead, and do not speak. It is some vast, very old and dark hotel, an iron extension of the track and switchery by which they have come here. . . . Globular lights, painted a dark green, hang from under the fancy iron eaves, unlit for centuries . . . the crowd moves without murmurs or coughing down corridors straight and functional as warehouse aisles . . . velvet black surfaces contain the movement: the smell is of old wood, of remote wings empty all this time just reopened to accommodate the rush of souls, of cold plaster where all the rats have died, only their ghosts, still as cave-painting, fixed stubborn and luminous in the walls . . . the evacuees are taken in lots, by elevator—a moving wood scaffold open on all sides, hoisted by old tarry ropes and cast-iron pulleys whose spokes are shaped like Ss. At each brown floor, passengers move on and off. . . thousands of these hushed rooms without light. . . .</seg> 
+            
+            <seg>  Some wait alone, some share their invisible rooms with others. Invisible, yes, what do the furnishings matter, at this stage of things? Underfoot crunches the oldest of city dirt, last crystallizations of all the city had denied, threatened, lied to its children. Each has been hearing a voice, one he thought was talking only to him, say, "You didn't really believe you'd be saved. Come, we all know who we are by now. No one was ever going to take the trouble to save you, old fellow...."</seg> 
+            
+            <seg> There is no way out. Lie and wait, lie still and be quiet. Screaming holds across the sky. When it comes, will it come in darkness, or will it bring its own light? Will the light come before or after?</seg> 
+            
+            <seg>  But it is already light. How long has it been light? All this while, light has come percolating in, along with the cold morning air flowing now across his nipples: it has begun to reveal an assortment of drunken wastrels, some in uniform and some not, clutching empty or near-empty bottles, here draped over a chair, there huddled into a cold fireplace, or sprawled on various divans, un-Hoovered rugs and chaise longues down the different levels of the enormous room, snoring and wheezing at many rhythms, in self-renewing chorus, as London light, winter and elastic light, grows between the faces of the mullioned windows, grows among the strata of last night's smoke still hung, fading, from the waxed beams of the ceiling. All these horizontal here, these comrades in arms, look just as rosy as a bunch of Dutch peasants dreaming of their certain resurrection in the next few minutes.<seg/> 
+            
+               <seg>  His name is Capt. Geoffrey ("Pirate") Prentice. He is wrapped in a thick blanket, a tartan of orange, rust, and scarlet. His skull feels made of metal.</seg> 
+            
+               <seg>  Just above him, twelve feet overhead, Teddy Bloat is about to fall out of the minstrels' gallery, having chosen to collapse just at the spot where somebody in a grandiose fit, weeks before, had kicked out two of the ebony balusters. Now, in his stupor, Bloat has been inching through the opening, head, arms, and torso, until all that's keeping him up there is an empty champagne split in his hip pocket, that's got hooked somehow—</seg> 
+            
+               <seg>   By now Pirate has managed to sit up on his narrow bachelor bed, and blink about. How awful. How bloody awful . . . above him, he hears cloth rip. The Special Operations Executive has trained him to fast responses. He leaps off of the cot and kicks it rolling on its casters in Bloat's direction. Bloat, plummeting, hits square amidships with a great strum of bedsprings. One of the legs collapses. "Good morning," notes Pirate. Bloat smiles briefly and goes back to sleep, snuggling well into Pirate's blanket.</seg> 
+            
+               <seg>  Bloat is one of the co-tenants of the place, a maisonette erected last century, not far from the Chelsea Embankment, by Corydon Throsp, an acquaintance of the Rossettis' who wore hair smocks and liked to cultivate pharmaceutical plants up on the roof (a tradition young Osbie Feel has lately revived), a few of them hardy enough to survive fogs and frosts, but most returning, as fragments of peculiar alkaloids, to rooftop earth, along with manure from a trio of prize Wes-sex Saddleback sows quartered there by Throsp's successor, and dead leaves off many decorative trees transplanted to the roof by later tenants, and the odd unstomachable meal thrown or vomited there by this or that sensitive epicurean—all got scumbled together, eventually, by the knives of the seasons, to an impasto, feet thick, of unbelievable black topsoil in which anything could grow, not the least being bananas. Pirate, driven to despair by the wartime banana shortage, decided to build a glass hothouse on the roof, and persuade a friend who flew the Rio-to-Ascension-to-Fort-Lamy run to pinch him a sapling banana tree or two, in exchange for a German camera, should Pirate happen across one on his next mission by parachute.</seg> 
+            
+               <seg> Pirate has become famous for his Banana Breakfast. Messmates throng here from all over England, even some who are allergic or outright hostile to bananas, just to watch—for the politics of bacteria, the soil's stringing of rings and chains in nets only God can tell the meshes of, have seen the fruit thrive often to lengths of a foot and a half, yes amazing but true.</seg> 
+            
+               <seg> Pirate in the lavatory stands pissing, without a thought in his head. Then he threads himself into a wool robe he wears inside out so as to keep his cigarette pocket hidden, not that this works too well, and circling the warm bodies of friends makes his way to French windows, slides outside into the cold, groans as it hits the fillings in his teeth, climbs a spiral ladder ringing to the roof garden and stands for a bit, watching the river. The sun is still below the horizon. The day feels like rain, but for now the air is uncommonly clear. The great power station, and the gasworks beyond, stand precisely: crystals grown in morning's beaker, stacks, vents, towers, plumbing, gnarled emissions of steam and smoke. . . .</seg> 
+            
+               <seg>   "Hhahh," Pirate in a voiceless roar watching his breath slip away over the parapets, "hhaahhh!" Rooftops dance in the morning. His giant bananas cluster, radiant yellow, humid green. His companions below dream drooling of a Banana Breakfast. This well-scrubbed day ought to be no worse than any—</seg> 
+            
+               <seg>  Will it? Far to the east, down in the pink sky, something has just sparked, very brightly. A new star, nothing less noticeable. He leans on the parapet to watch. The brilliant point has already become a short vertical white line. It must be somewhere out over the North Sea . . . at least that far ... icefields below and a cold smear of sun. . . .</seg> 
+            
+               <seg>   What is it? Nothing like this ever happens. But Pirate knows it, after all. He has seen it in a film, just in the last fortnight. . . it's a vapor trail. Already a finger's width higher now. But not from an airplane.</seg> 
+            
+               <seg>  Airplanes are not launched vertically. This is the new, and still Most Secret, German rocket bomb.</seg> 
+            
+               <seg>  "Incoming mail." Did he whisper that, or only think it? He tightens the ragged belt of his robe. Well, the range of these things is supposed to be over 200 miles. You can't see a vapor trail 200 miles, now, can you.</seg> 
+               <seg>   Oh. Oh, yes: around the curve of the Earth, farther east, the sun over there, just risen over in Holland, is striking the rocket's exhaust, drops and crystals, making them blaze clear across the sea. . . .</seg> 
+            
+               <seg>   The white line, abruptly, has stopped its climb. That would be fuel cutoff, end of burning, what's their word . . . Brennschluss. We don't have one. Or else it's classified. The bottom of the line, the original star, has already begun to vanish in red daybreak. But the rocket will be here before Pirate sees the sun rise.</seg> 
+            
+               <seg>  The trail, smudged, slightly torn in two or three directions, hangs in the sky. Already the rocket, gone pure ballistic, has risen higher. But invisible now.</seg> 
+            
+               <seg>   Oughtn't he to be doing something . . . get on to the operations room at Stanmore, they must have it on the Channel radars—no: no time, really. Less than five minutes Hague to here (the time it takes to walk down to the teashop on the corner . . . for light from the sun to reach the planet of love ... no time at all). Run out in the street? Warn the others?</seg> 
+            
+               <seg> Pick bananas. He trudges through black compost in to the hothouse. He feels he's about to shit. The missile, sixty miles high, must be coming up on the peak of its trajectory by now . . . beginning its fall. . . now. . . .</seg> 
+            
+               <seg>  Trusswork is pierced by daylight, milky panes beam beneficently down. How could there be a winter—even this one—gray enough to age this iron that can sing in the wind, or cloud these windows that open into another season, however falsely preserved?</seg> 
+            
+               <seg> Pirate looks at his watch. Nothing registers. The pores of his face are prickling. Emptying his mind—a Commando trick—he steps into the wet heat of his bananery, sets about picking the ripest and the best, holding up the skirt of his robe to drop them in. Allowing himself to count only bananas, moving barelegged among the pendulous bunches, among these yellow chandeliers, this tropical twilight. . . .</seg> 
+            
+               <seg>  Out into the winter again. The contrail is gone entirely from the sky. Pirate's sweat lies on his skin almost as cold as ice.</seg> 
+            
+               <seg>   He takes some time lighting a cigarette. He won't hear the thing come in. It travels faster than the speed of sound. The first news you get of it is the blast. Then, if you're still around, you hear the sound of it coming in.</seg> 
+            
+               <seg>  What if it should hit exactly—ahh, no—for a split second you'd have to feel the very point, with the terrible mass above, strike the top of the skull. . . .</seg> 
+            
+               <seg>   Pirate hunches his shoulders, bearing his bananas down the corkscrew ladder.</seg> 
+            
+            
+            
+         </p>
+         <figure>
+            <graphic url="http://www.tei-c.org/logos/TEI-glow.png"/>
+         </figure>
+      </body>
+  </text>
+</TEI>
