@@ -11,6 +11,8 @@ scrape_ebba.R
 	the text as plain-text.  It demonstrates several R features, including
 	getting xml data from the web, using XPath to extract particular
 	elements from the returned content, cleaning returned content through
-	gsub, and writing of files to the filesystem.
+	gsub, and writing of files to the filesystem.  This script relies on
+	the XML package developed by Duncan Temple-Lang.  Before you can run
+	it you need to install.packages("XML")
 	
 
