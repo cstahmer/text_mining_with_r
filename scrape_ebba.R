@@ -6,6 +6,9 @@
 #   5.  Removes all tags from the body
 #   6.  Saves the resulting text to a file.
 
+# Initialize process
+print("Process Started")
+
 # Define a range of 
 # search return pages 
 # to get
@@ -40,20 +43,8 @@ for (page in 1:10) {
     textURL <- paste("http://ebba.english.ucsb.edu/ballad/", ballad_id, "/ebba-xml-", ballad_id, sep="")
     
     # go get the TEI from the internet
-    # load into vector and put a newline
-    # at the end of each line
-    text.v <-scan(textURL, what="character", sep="\n")
-    
-    # combine all slices of the vector into a single
-    # long string
-    ballad_text_string <- paste(text.v, collapse = '')
-    
-    # convert multiple spaces into a single space
-    ballad_text_string <- gsub("\\s+", " ", ballad_text_string, TRUE)
-    
-    # convert the full TEI file into an XML
-    # parsable document
-    tei_doc <- htmlParse(ballad_text_string)
+    # load into an XML doc
+    tei_doc <- htmlParse(textURL)
     
     # use XPath to extract the title
     ballad_title <- lapply(tei_doc['//title[@type="main"]'],xmlValue)
@@ -75,20 +66,16 @@ for (page in 1:10) {
     fileConn<-file(file_path)
     
     # write the file
-    writeLines(ballad_text_plain, con = fileConn, sep = "\n", useBytes = FALSE)
+    writeLines(ballad_text_plain, con = fileConn, sep = " ", useBytes = FALSE)
     
     # close the file 
     # writing connection
     close(fileConn)
-
-  # do next ballad
+    
+    # do next ballad
   }
   
-# do next search return page
+  # do next search return page
 }
-
-
-
-
-
-
+print("Process Finished")
+print("Good Bye :)")
