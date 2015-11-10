@@ -1,5 +1,5 @@
 #Assign a file path
-filePath <- "/Users/cstahmer/ballad_text/32191.txt"
+filePath <- "/ballad_text/32191.txt"
 
 #load the file
 text.v <- scan(filePath, what="character", sep="\n")
