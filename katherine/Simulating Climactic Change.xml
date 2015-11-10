@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" part="I">
+            <pb/>
+            <head>3. SIMULATING CLIMATIC CHANGE</head>
+            <div type="introduction">
+               <p n="1">In order to project the impact of human perturbations on the climate system,
+                  it is necessary to calculate the effects of all the key processes operating in the
+                  climate system. These processes can be represented in mathematical terms, but the
+                  complexity of the system means that the calculations can only be performed in
+                  practice using a computer. The mathematical formulation is therefore implemented
+                  in a computer program, which we refer to as a "model". If the model includes
+                  enough of the components of the climate system to be useful for simulating the
+                  climate, it is commonly called a "climate model".</p>
+               <p n="2">A climate model which explicitly included all our current understanding of
+                  the climate system would be too complex to run on any existing computer. For
+                  practical purposes, some compromises have to be made. The basic question is: in
+                  how much detail should the components and processes of the climate system be
+                  represented? If the representation is simplified, fewer calculations are needed
+                  and the model can be run faster or on a less powerful computer.</p>
+               <p n="3">The most detailed model of a particular process is one which is based on
+                  fundamental physical principles which we believe to be invariant. Such a model
+                  would be applicable to any climate. In order to represent the process in a way
+                  which can be used in a climate model, additional, simplifying assumptions have to
+                  be introduced. In some cases, empirically-derived relationships are included. When
+                  this is necessary, the range of the validity of the model will inevitably become
+                  more limited. As far as possible, climate models make use of basic physical
+                  principles or of simplifications which introduce minimal uncertainty. This is
+                  necessary because the conditions of a changed climate may be quite different from
+                  current conditions, so relationships derived empirically or statistically for the
+                  current climate will not necessarily hold <name>(SAR WGI: Section 1.6)</name>.</p>
+               <p n="4">In the most complex climate models, physical quantities which vary
+                  continuously in three dimensions are represented by their values at a finite
+                  number of points arranged in a threedimensional grid. This is clearly necessary
+                  because we can do only a finite number of calculations. The spacing between the
+                  points of the grid is the "spatial resolution". The finer the resolution, the
+                  larger the number of points, and the more calculations there are to be done.
+                  Hence, the resolution is limited by the computing resources available. The typical
+                  resolution that can be used in a climate model is hundreds of kilometres in the
+                  horizontal. Many important elements of the climate system (e.g., clouds, land
+                  surface variations) have scales much smaller than this. Detailed models at high
+                  resolution are available for such processes by themselves, but these are
+                  computationally too expensive to be included in a climate model. Instead, the
+                  climate model has to represent the effect of these sub-grid scale processes on the
+                  climate system at its coarse grid scale. A formulation of the effect of a
+                  small-scale process on the large-scale is called a "parametrization" <name>(SAR
+                     WGI: Section 1.6.1)</name>. All climate models use parametrization to some
+                  extent.</p>
+               <p n="5">Another kind of simplification used in climate models is to average over a
+                  spatial dimension. Thus, instead of a three-dimensional longitude-latitude-height
+                  grid, one might use a two-dimensional latitude-height grid, with each point being
+                  an average over all longitudes at that latitude and height. When the
+                  dimensionality is reduced, more processes have to be parametrized.</p>
+               <p n="6">In the following sub-sections, we briefly outline the major types of models
+                  that have been developed for each of the major steps involved in simulating the
+                  climate and sea level response to anthropogenic emissions. This provides a context
+                  for the specific simple climate models that have been used by the IPCC and which
+                  are described in Section 4.</p>
+            </div>
+            <div type="subsection" part="I" n="3.1">
+               <head>3.1 A Hierarchy of Atmosphere and Ocean Climate Models</head>
+               <p n="7">Some of the main types of models for the atmospheric and oceanic components
+                  of the climate system are as follows:</p>
+               <p n="8">One-dimensional radiative-convective atmospheric models. These models are
+                  globally (horizontally) averaged but contain many layers within the atmosphere.
+                  They treat processes related to the transfer of solar and infrared radiation
+                  within the atmosphere in considerable detail, and are particularly useful for
+                  computing the radiative forcing associated with changes in the atmosphere's
+                  composition. The change in atmospheric water vapour amount as climate changes must
+                  be prescribed (based on observations), but the impact on radiation associated with
+                  a given change in water vapour can be accurately computed. Radiative-convective
+                  models thus provide one means for determining one of the key feedbacks which are
+                  important to climate sensitivity through a combination of observations and
+                  wellestablished physical processes.</p>
+               <p n="9">One-dimensional upwelling-diffusion ocean models. The atmosphere is treated
+                  as a single well-mixed box that exchanges heat with the underlying ocean and land
+                  surface. The absorption of solar radiation by the atmosphere and surface depends
+                  on the specified surface reflectivity and atmospheric transmissivity and
+                  reflectivity. The emission of infrared radiation to space is a linearly increasing
+                  function of atmospheric temperature in this model, with the constant of
+                  proportionality serving as the infrared radiative damping. The ocean is treated as
+                  a one-dimensional column which represents a horizontal average over the real
+                  ocean, excluding the limited regions where deep water forms and sinks to the ocean
+                  bottom, which are treated separately. Figure 2 illustrates this model. The sinking
+                  in polar regions is represented by the pipe to the side of the column. This
+                  sinking and the compensating upwelling within the column represent the global
+                  scale thermohaline circulation. This model is used primarily to study the role of
+                  the oceans in the surface temperature response to changes in radiative
+                  forcing.</p>
+            </div>
+
+            <pb/>
+            <div type="subsection" part="F" n="3.1">
+               <label>16 An Introduction to Simple Climate Models used in the IPCC Second Assessment
+                  Report </label>
+               <figure>
+                  <desc>Figure 2. Illustration of the upwelling-diffusion climate model, consisting
+                     of a single atmospheric box, a surface layer representing both land and the
+                     ocean mixed-layer, and a deep ocean. Solar and infrared radiative transfers,
+                     air-sea heat exchange, and deep ocean mixing by diffusion and thermohaline
+                     overturning are all represented in this model and are indicated in the figure
+                        <name>(based on Harvey and Schneider, (1985)</name>).</desc>
+               </figure>
+               <p n="10">One-dimensional energy balance models. In these models, the only dimension
+                  that is represented is the variation with latitude; the atmosphere is averaged
+                  vertically and in the east-west direction, and is often combined with the surface
+                  to form a single layer. The multiple processes of north-south heat transport by
+                  the atmosphere and oceans are usually represented as diffusion, while infrared
+                  emission to space is represented in the same way as in the upwelling-diffusion
+                  model. These models have provided a number of useful insights concerning the
+                  interaction of horizontal heat transport feedbacks and high latitude feedbacks
+                  involving ice and snow.</p>
+               <p n="10">Two-dimensional atmosphere and ocean models. Several different
+                  two-dimensional (latitude-height or latitude-depth) models of the atmosphere and
+                  oceans have been developed <eg>(e.g., <name>Peng and Arking (1982)</name>, for the
+                     atmosphere; <name>Wright and Stocker (1991)</name>, for the ocean)</eg>. The
+                  two-dimensional models permit a more physically based computation of horizontal
+                  heat transport than in one-dimensional energy balance models. In some
+                  twodimensional ocean models <eg>(e.g., <name>Wright and Stocker, 1991</name>)</eg>
+                  the intensity of the thermohaline overturning is determined by the model itself,
+                  while in others <eg>(e.g., <name>de Wolde, et al., 1995</name>)</eg> it is
+                  prescribed, as in the one-dimensional upwelling-diffusion model. The
+                  one-dimensional energy balance atmosphere-surface climate model has also been
+                  coupled to a two-dimensional ocean model (<name>Harvey, 1992</name>; <name>de
+                     Wolde, et al., 1995</name>, and <name>Bintanja, 1995</name>). It is relatively
+                  easy to run separate two-dimensional ocean models for each of the Atlantic,
+                  Pacific, and Indian Ocean basins, with a connection at their southern boundaries
+                  (representing the Antarctic Ocean) and interaction with a single, zonally-averaged
+                  atmosphere.</p>
+               <p n="11">Three-dimensional atmosphere and ocean general circulation models. The most
+                  complex atmosphere and ocean models are the three-dimensional AGCMs and ocean
+                  general circulation models (OGCMs), both of which are extensively reviewed in the
+                  SAR WGI (Chapter 5). These models divide the atmosphere or ocean into a horizontal
+                  grid with a typical resolution of 2-4 º latitude by 2-4 º longitude in
+                  the latest models, and typically 10 to 20 layers in the vertical. They directly
+                  simulate winds, ocean currents, and many other variables and processes
+                  characterizing the atmosphere and oceans. Both AGCMs and OGCMs have been used
+                  extensively in a stand-alone mode, with prescribed ocean surface temperatures and
+                  sea ice in the case of AGCMs and with prescribed surface temperatures and
+                  salinities, or the corresponding heat and freshwater fluxes, in the case of OGCMs.
+                  An AOGCM consists of an AGCM coupled to an OGCM, with information about the state
+                  of the atmosphere and ocean adjacent to, or at the sea surface, used to compute
+                  exchanges of heat, moisture and momentum between the two components.</p>
+               <p n="12">AOGCMs compute radiative transfer through the atmosphere (explicitly
+                  modelling clouds, water vapour and other atmospheric components), snow and sea
+                  ice, surface fluxes, transport of heat and water by the atmosphere and ocean, as
+                  well as the uptake of heat by the oceans (which delays and modifies the initial
+                  surface temperature response but contributes to sea level rise through expansion
+                  of ocean water as it warms). Thus, coupled AOGCMs explicitly compute the fast
+                  feedback processes, whose interactive effect determines climate sensitivity.
+                  Because of computational constraints, however, the majority of these processes are
+                  parametrized to some extent (<ref>see SAR WGI, Sections 4.2 and 4.3</ref>,
+                  concerning processes in atmospheric and oceanic GCMs, respectively). More detailed
+                  representations are either not practical or have not been developed for use in a
+                  global model. Some parametrizations inevitably include constants which have been
+                  tuned to observations of the current climate. AOGCMs attempt to explicitly
+                  represent a large number of processes, while simpler models represent these
+                  processes by a small number of adjustable parameters.</p>
+            </div>
+            <div type="subsection" part="I" n="3.2">
+               <head>3.2 Models of the Carbon Cycle</head>
+               <p n="13" part="I">The carbon cycle is an integral part of the climate system, and
+                  governs the build-up of atmospheric CO2 in response to human emissions. The key
+                  processes that need to be accurately simulated are photosynthesis and respiration
+                  on land, and the net exchange of CO2 between the ocean and atmosphere. Because</p>
+            </div>
+
+            <pb/>
+            <div type="subsection" n="3.2" part="F" >
+               <label>An Introduction to Simple Climate Models used in the IPCC Second Assessment
+                  Report 17</label>
+               <p n="13" part="F">CO2 is chemically inert in the atmosphere and of rather uniform
+                  concentration, natural changes in atmospheric CO2 concentration depend only on the
+                  global sum of the photosynthesis, respiration, and air-sea flows. However, each of
+                  these flows exhibits substantial variation in time and space and depends on a
+                  number of poorly understood sub-processes <ref>(SAR WGI: Chapters 9 and 10;</ref>
+                  <ref>IPCC WGII, 19963: Chapter A)</ref>. For example, long-term changes in both
+                  the photosynthetic and respiration flows of carbon between the terrestrial
+                  biosphere and the atmosphere are modulated by processes involving soil nutrients
+                  and micro-organisms, while the air-sea flow is modulated by a number of processes
+                  that affect the concentration of CO2 in surface water. These include vertical
+                  mixing of total dissolved carbon and the net sinking of particulate organic matter
+                  and carbonate material into the deep ocean, which is driven in part by surface
+                  biological productivity. The latter, in turn, will be influenced by vertical
+                  mixing of nutrients and changes in temperature. Changes in ocean circulation will,
+                  thus, influence the air-sea exchange of CO2 by altering the exchange of total
+                  dissolved carbon between the surface layer and deep ocean, and by altering
+                  biological productivity by changing the flow of nutrients from the deep ocean to
+                  surface layer.</p>
+               <p n="14">The one-dimensional upwelling-diffusion model can be used as the oceanic
+                  part of the carbon cycle (<name>Hoffert, et al., 1981</name>; <name>Piehler and
+                     Bach, 1992</name>). The global mean atmosphere-ocean exchange of CO2, the
+                  vertical mixing of total dissolved carbon by thermohaline overturning and
+                  diffusion, and the sinking of particulate material produced by biological activity
+                  can all be represented in this model. A two-dimensional ocean model has been used
+                  as the oceanic component of the global carbon cycle (<name>Stocker, et al.,
+                     1994</name>). Finally, OGCMs can be used as the oceanic component of the global
+                  carbon cycle, in which the model-computed ocean currents and other mixing
+                  processes are used, in combination with simple representations of biological
+                  processes and air-sea exchange (e.g., <name>Bacastow and Maier-Reimer,
+                  1990</name>; <name>Najjar, et al., 1992</name>). At the time of the SAR, CO2
+                  uptake calculations using three-dimensional models had been published only for
+                  standalone OGCMs, in which the circulation field and surface temperatures were
+                  fixed. In a coupled simulation, changes in both of these variables, in response to
+                  increasing greenhouse gas concentrations, would alter the subsequent uptake of CO2
+                  to some extent (<ref>see SAR WGI: Chapter 10</ref>). </p>
+               <p n="15">A variety of globally aggregated box models of the terrestrial biosphere
+                  have also been developed and used, in conjunction with simple models of the
+                  oceanic part of the carbon cycle, to project future atmospheric CO2 concentration.
+                  The commonly used global box models are quantitatively compared in Harvey (1989).
+                  Because the terrestrial biosphere is globally aggregated in the SCMs used in the
+                  SAR WGI, it is not possible to simulate separate responses in different latitude
+                  zones (e.g., net release of carbon through temperature effects at high latitudes,
+                  net uptake of carbon in the tropics due to CO2 fertilization), as obtained in
+                  regionally resolved models (van Minnen, et al., 1996). Rather, only a global mean
+                  response is simulated. Since regional responses vary non-linearly with temperature
+                  and atmospheric CO2 concentration, the use of globally aggregated models
+                  undoubtedly introduces errors. </p>
+               <p n="16">The role of the terrestrial biosphere in global climatic change has been
+                  simulated using relatively simple models of vegetation on a global grid with a
+                  resolution as fine as 0.5 º latitude x 0.5 º longitude (SAR WGI:
+                  Section 9.4). Such grid-point models simulate the distribution of potential rather
+                  than actual vegetation; to simulate the latter requires taking into account human
+                  disturbances and soil properties These models have been used to evaluate the
+                  impact on net ecosystem productivity of higher atmospheric CO2 (which tends to
+                  stimulate photosynthesis and improve the efficiency of water use by plants)4 and
+                  warmer temperatures (which can increase or decrease photosynthesis and increase
+                  decay processes). These models distinguish, as a minimum, standing biomass from
+                  soil organic matter. The more sophisticated varieties track the flows of both
+                  carbon and nitrogen (taken to be the limiting nutrient), and include feedbacks
+                  between nitrogen and the rates of both photosynthesis and decay of soil carbon
+                  (<eg>e.g., <name>Rastetter</name>, et al., 1991, 1992; <name>Melillo</name>, et al., 1993</eg>). </p>
+               <p n="17">Grid point models of the terrestrial biosphere have been used to assess the
+                  effect on the net biosphere-atmosphere CO2 flux of hypothetical (or GCM-generated)
+                  changes in temperature and/or atmospheric CO2 concentration, but generally without
+                  allowing for shifts in the ecosystem type at a given grid point as climate
+                  changes. More advanced ecosystem models are being developed and tested that link
+                  biome models (which predict changing ecosystem types) with ecophysiological models
+                  (which predict carbon fluxes) (SAR WGI: Section 9.4). Simulations with these and
+                  earlier models demonstrate the potential importance of feedbacks involving the
+                  nutrient cycle and indicate the potential magnitude of climateinduced changes in
+                  terrestrial biosphere-atmosphere CO2 fluxes. However, individual models still
+                  differ considerably in their responses (VEMAP Members, 1995). As with models of
+                  the oceanic part of the carbon cycle, such simulations have yet to be carried out
+                  interactively with coupled AOGCMs. These models also have not yet been combined
+                  with ocean carbon uptake OGCMs.</p>
+               <p n="18">Rather detailed models of the marine biosphere, involving a number of
+                  species and interactions, have also been developed and applied to specific sites
+                  or regions (e.g., Gregg and Walsh, 1992; Sarmiento, et al., 1993; Antoine and
+                  Morel, 1995). </p>
+            </div>
+            <div type="subsection" part="I" n="3.3">
+               <head>3.3 Models of Atmospheric Chemistry and Aerosols </head>
+               <p n="19" part="I">Atmospheric chemistry is central to the distribution and amount of
+                  ozone in the atmosphere because chemical reactions are</p>
+               <note>3 Hereafter referred to as SAR WGII. 4 The stimulatory effect of higher
+                  atmospheric CO2 concentration on photosynthesis is referred to as CO2
+                  "fertilization", and is discussed further in the accompanying box overleaf.</note>
+            </div>
+            <pb />
+            <div>
+            <label>18 An Introduction to Simple Climate Models used in the IPCC Second Assessment
+               Report</label>
+               <label><hi>Ecosystem responses to changes in atmospheric CO2 concentration and
+                     climate</hi></label>
+               <p n="20"><hi>Plants in terrestrial ecosystems occupy a central role in the
+                     terrestrial carbon cycle, as they take in atmospheric CO2 during photosynthesis
+                     and store carbon as biomass. Photosynthetic rates are influenced by plant type,
+                     ambient CO2 concentrations and temperature, and are often constrained by
+                     nutrients and moisture availability. Higher ambient CO2 levels could enhance
+                     plant growth through the CO2-fertilization effect and through an increase in
+                     water use efficiency. The response of plants to higher atmospheric CO2
+                     concentrations depends, in part, on the particular photosynthetic pathway used
+                     (i.e., whether the plants are C3 or C4 -- see SAR WGI: Section 9.2). This
+                     introduces significant regional differences in the response of plants to higher
+                     CO2. Climatic change further influences plant growth through several pathways.
+                     Warmer temperature can either increase or decrease the rate of photosynthesis
+                     but will tend to increase the rates of plant respiration, which returns carbon
+                     to the atmosphere. The decay of dead biomass (predominantly in soils) also
+                     releases CO2 to the atmosphere; such soil respiration is a function of soil
+                     type, soil temperature, moisture and nutrient availability. Thus, changes in
+                     ambient CO2 concentrations and climate influence ecosystem productivity in a
+                     highly non-linear and complex fashion. These ecophysiological processes are
+                     discussed in detail in the SAR WGI (Chapter 9) and SAR WGII (Chapter
+                  A).</hi></p>
+               <p n="21"><hi>Additional changes in ecosystem productivity are caused by changes in
+                     land-use practices, nitrogen fertilization (both fertilizer applications and
+                     nitrogen deposition through air pollution), and irrigation. However, most SCMs
+                     generally only consider deforestation, the most obvious land-use change, which
+                     has led to large and immediate changes in global carbon storage.</hi></p>
+               <p n="22"><hi>The relationships used in SCMs to compute the response of the
+                     terrestrial biosphere to changes in atmospheric CO2 concentrations and climate
+                     emphasise mainly enhanced plant growth under changed conditions. The
+                     parametrizations used are largely based on short-term glasshouse experiments
+                     with responsive plant species under ideal conditions, and do not consider the
+                     complex non-linear and interactive effects, systemic feedbacks, and changes in
+                     land-use. Simulations with such models suggest that the biosphere will increase
+                     its carbon uptake under future conditions. In real ecosystems, the response
+                     could be quite different. The complexity and heterogeneity of terrestrial
+                     ecosystems and their responses thus make it difficult and dangerous to
+                     extrapolate from current conditions far into the future.</hi></p>
+            </div>
+            <div type="subsection" part="F" n="3.3">
+               <p part="F" n="19">responsible for both the production and removal of ozone (O3). The
+                  dominant chemical reactions and sensitivities are significantly different for the
+                  stratosphere and troposphere. These processes can only be adequately modelled with
+                  three-dimensional atmospheric models (in the case of the troposphere) or with
+                  two-dimensional (latitude-height) models (in the case of the stratosphere).
+                  Atmospheric chemistry is also critical to the removal of methane (CH4) from the
+                  atmosphere and, to a lesser extent, all other greenhouse gases except water vapour
+                  (H2O) and CO2. In the case of CH4, a change in its concentration affects its own
+                  removal rate and, hence, subsequent concentration changes. An accurate simulation
+                  of changes in the removal rate of CH4 requires specification of the concurrent
+                  concentrations of other reactive species, in particular nitrogen oxides (NOx),
+                  carbon monoxide (CO) and the volatile organic compounds (VOCs); and use of a model
+                  with latitudinal and vertical resolution. However, simple globally averaged models
+                  of chemistry-climate interactions have been developed. These models treat the
+                  global CH4-CO-OH cycle in a manner which takes into account the effects of the
+                  heterogeneity of the chemical and transport processes, and provide estimates of
+                  future global or hemispheric mean changes in the chemistry of the Earth's
+                  atmosphere. Some of the models also simulate halocarbon concentrations and the
+                  resulting atmospheric chlorine concentration, as well as radiative effects due to
+                  halocarbons (Prather, et al., 1992). An even simpler approach is to treat the
+                  atmosphere as a single well-mixed box, but to account for the effects of
+                  atmospheric chemistry by making the CH4 lifetime depend on CH4 concentration in a
+                  way that roughly mimics the behaviour of the above-mentioned globally averaged
+                  models or of models with explicit spatial resolution.</p>
+               <p n="20">Atmospheric chemistry is also central to the distribution and radiative
+                  properties of aerosols, although chemistry is only part of what is required in
+                  order to simulate the effects of aerosols on climate. The key processes that need
+                  to be represented are the emissions of aerosols or aerosol precursors; atmospheric
+                  transport, mixing, and chemical and physical transformation; and removal processes
+                  (dry deposition, rain out and wash out). Since part of the effect of aerosols on
+                  climate arises because they serve as cloud condensation nuclei (leading to rain
+                  out), it is important to be able to represent the relationship between changes in
+                  the aerosol mass input to the atmosphere and, ultimately, the radiative properties
+                  of clouds. Establishing the link between aerosol emissions and cloud properties,
+                  however, involves several poorly understood steps and is highly uncertain.</p>
+               <p n="21">Atmospheric O3 and CH4 chemistry is being incorporated into AGCMs for
+                  climate simulation purposes. Geographicallydistributed sulphur aerosol emissions
+                  have been used as the input to AGCMs and, in combination with representations of
+                  aerosol chemical and physical processes, have been used to compute the
+                  geographical distribution of sulphur aerosol mass </p>
+
+            </div>
+            <pb/>
+         </div>
+      </body>
+   </text>
+</TEI>
