@@ -59,7 +59,7 @@ for (page in 1:10) {
     ballad_text_plain <- gsub("\\s+", " ", ballad_text_plain, TRUE)
     
     # define a file path where to save the text
-    file_path <- paste("/Users/cstahmer/ballad_text/", ballad_id, ".txt", sep="")
+    file_path <- paste("/ballad_text/", ballad_id, ".txt", sep="")
     
     # open a file writing 
     # connection
