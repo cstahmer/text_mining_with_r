@@ -1,12 +1,20 @@
 #install.packages("mallet")
 
-print("hello")
+print("Hello")
+
+#set directory where files live
 inputDirPath <- "/Users/cstahmer/ballad_text_full/Dir4"
+
+#print the directory just to be safe
 print(inputDirPath)
 
+#load the files from the path into a vector
 files.v <- dir(path=inputDirPath, pattern=".*txt")
 
+# set up a documents data frame
+#documents <- data.frame(x = character(length(files.v)), y = character(length(files.v)), stringsAsFactors = FALSE)
 documents <- data.frame(x = character(50), y = character(50), stringsAsFactors = FALSE)
+
 #for(i in 1:length(files.v)) {
 for(i in 1:50) {
   print(files.v[i])
