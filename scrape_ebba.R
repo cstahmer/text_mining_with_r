@@ -12,7 +12,7 @@ print("Process Started")
 # Define a range of 
 # search return pages 
 # to get
-for (page in 1:10) {
+for (page in 1:1) {
   
   # construct a search url based on the iteration
   url <- paste("http://ebba.english.ucsb.edu/search_combined/?ss=king&p=", page, sep="")

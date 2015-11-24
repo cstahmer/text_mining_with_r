@@ -42,3 +42,5 @@ sorted.text.freqs.t[1:10]
 
 plot(sorted.text.freqs.t[1:10])
 
+print("Bye Bye!")
+
