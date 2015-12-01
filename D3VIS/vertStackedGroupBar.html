@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3 Demo: Making a scatterplot with SVG</title>
+		<script type="text/javascript" src="./d3/d3.js"></script>
+		<script src="./dimple/dimple.v2.1.2.min.js"></script>
+		<style type="text/css">
+			/* No style rules here yet */		
+		</style>
+	</head>
+	<body>
+
+		<div id="chartContainer">
+		  <script type="text/javascript">
+			var svg = dimple.newSvg("#chartContainer", 590, 400);
+			d3.tsv("./data/example_data.tsv", function (data) {
+			  var myChart = new dimple.chart(svg, data);
+			  myChart.setBounds(60, 45, 510, 315)
+			  myChart.addCategoryAxis("x", ["Price Tier", "Channel"]);
+			  myChart.addMeasureAxis("y", "Unit Sales");
+			  myChart.addSeries("Owner", dimple.plot.bar);
+			  myChart.addLegend(200, 10, 380, 20, "right");
+			  myChart.draw();
+			});
+		  </script>
+		</div>
+			
+		</script>
+	</body>
+</html>
