@@ -50,10 +50,10 @@ topic.model <- MalletLDA(num.topics=43)
 topic.model$loadDocuments(mallet.instances)
 
 #get entire vocab if you want it
-#vocabulary <- topic.model$getVocabulary()
+vocabulary <- topic.model$getVocabulary()
 
 #get word frequency info
-#word.freqs <- mallet.word.freqs(topic.model)
+word.freqs <- mallet.word.freqs(topic.model)
 
 #tweak number of burn-in iterations and
 #interations between optimizations
