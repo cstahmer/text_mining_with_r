@@ -1,5 +1,5 @@
 #Assign a file path
-filePath <- "/Users/cstahmer/ballad_text/32191.txt"
+filePath <- "/Users/cstahmer/Desktop/Not_I.txt"
 
 #load the file
 text.v <- scan(filePath, what="character", sep="\n")
@@ -35,12 +35,15 @@ sorted.text.freqs.t <- sort(text.freqs.t , decreasing=TRUE)
 
 
 totalwords.i
-wordcount.single
-word.percent.occurence.i
+#wordcount.single
+#word.percent.occurence.i
 
-sorted.text.freqs.t[1:10]
+sorted.text.freqs.t[1:500]
 
-plot(sorted.text.freqs.t[1:10])
+plot(sorted.text.freqs.t[1:500])
+
+write.table(sorted.text.freqs.t, file = "/Users/cstahmer/Desktop/not_i_top_500.csv", sep = ",", col.names = NA,
+            qmethod = "double")
 
 print("Bye Bye!")
 

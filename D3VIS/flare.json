@@ -116,7 +116,7 @@
     {"name": "AggregateExpression", "size": 1616},
     {"name": "And", "size": 1027},
     {"name": "Arithmetic", "size": 3891},
-    {"name": "Average", "size": 891},
+    {"name": "AverageMass", "size": 891},
     {"name": "BinaryExpression", "size": 2893},
     {"name": "Comparison", "size": 5103},
     {"name": "CompositeExpression", "size": 3677},
