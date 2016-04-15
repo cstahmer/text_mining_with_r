@@ -1,11 +1,21 @@
+#load needed library
+library(tm)
+
+# set working directory
+setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/TextAnalysisWithR")
+
 #Assign a file path
-filePath <- "/Users/cstahmer/Desktop/Not_I.txt"
+filePath <- "data/plainText/melville.txt"
 
 #load the file
 text.v <- scan(filePath, what="character", sep="\n")
+#text.v <- scan("http://www.gutenberg.org/cache/epub/2701/pg2701.txt", what="character", sep="\n")
 
 #convert everything to lower case
-text.lower.v <-tolower(text.v)
+text.lower.v <- tolower(text.v)
+
+#remove stopwords
+text.lower.v <- removeWords(text.lower.v, stopwords("english"))
 
 #tokenize to words in a list
 text.words.l <- strsplit(text.lower.v, "\\W")

@@ -1,0 +1,491 @@
+nation
+nation<-getNodeSet(doc, "TEI//note[@nation]")
+nation
+nation<-getNodeSet(doc, "/TEI//note[@nation]")
+nation
+nation[[1]]
+class(nation[[1]])
+xmlValue(nation[[1]])
+xmlValue(nation)
+?getNodeSet
+xpathApply
+nation<-xpathApply(doc, "/TEI//note[@nation]")
+nation
+xpathApply(doc, "/TEI//note", xmlGetAttr, "nation")
+nation<-xpathApply(doc, "/TEI//note", xmlGetAttr, "nation")
+gender<-xpathApply(doc, "/TEI//note", xmlGetAttr, "gender")
+gender
+unlinst(gender)
+unlist(gender)
+unlinst(nation)
+unlist(nation)
+tei.header
+author<-xpathApply(doc, "/TEI//author")
+author
+title<-xpathApply(doc, "/TEI//title")
+title
+title<-xpathApply(doc, "/TEI//titleStmt//title")
+title
+title<-xpathApply(doc, "/TEI//sourceDesc//titleStmt//title")
+title
+title<-xpathApply(doc, "/TEI//sourceDesc//titleStmt//title")#
+author<-xpathApply(doc, "/TEI//sourceDesc//titleStmt//author")#
+nation<-xpathApply(doc, "/TEI//teiheader//note", xmlGetAttr, "nation")#
+gender<-xpathApply(doc, "/TEI//teiheader//note", xmlGetAttr, "gender")
+gender
+nation
+author
+title<-xpathApply(doc, "/TEI//sourceDesc//titleStmt//title")#
+author<-xpathApply(doc, "/TEI//sourceDesc//titleStmt//author")#
+nation<-xpathApply(doc, "/TEI//teiHeader//note", xmlGetAttr, "nation")#
+gender<-xpathApply(doc, "/TEI//teiHeader//note", xmlGetAttr, "gender"
+)
+gender
+nation
+unlist(xpathApply(doc, "/TEI//teiHeader//note", xmlGetAttr, "nation"))
+divtags<-xmlElementsByTagName(xmlRoot(doc), "div", recursive = TRUE)#
+title<-xpathApply(doc, "/TEI//sourceDesc//titleStmt//title")#
+author<-xpathApply(doc, "/TEI//sourceDesc//titleStmt//author")#
+nation<-unlist(xpathApply(doc, "/TEI//teiHeader//note", xmlGetAttr, "nation"))#
+gender<-unlist(xpathApply(doc, "/TEI//teiHeader//note", xmlGetAttr, "gender"))
+divtags
+chapters<-xmlElementsByTagName(xmlRoot(doc), "div", recursive = TRUE)
+chapters[[1]]
+chapters[[2]]
+length(chapters)
+unlist(chapters)
+chapters[[1]]
+chapters[[2]]
+chapters[[3]]
+corpus.files[1]
+?xmlParse
+q()
+austen<-scan("/Users/mjockers/Documents/Research/HumanitiesComputing/M-AnalysisUsingR/data/plainText/austen.txt", what="character", sep="\n")#
+startausten<-which(austen == "CHAPTER 1")#
+endausten<-which(austen == "End of the Project Gutenberg EBook of Sense and Sensibility, by Jane Austen")#
+austen.lines<- austen[startausten:(endausten-1)]#
+austen.lines.vector<-unlist(austen.lines)#
+austen.text<-paste(austen.lines, collapse=" ")#
+austen.lower <-tolower(austen.text)#
+austen.words<-strsplit(austen.lower, "\\W")#
+austen.word.vector<-unlist(austen.words)#
+austen.word.vector<- austen.word.vector[which(austen.word.vector!="")] #
+austen.richness<-NULL#
+ave.austen<-NULL#
+for(i in 1:100){#
+	austen.sample<-sample(austen.word.vector, 10000)#
+	austen.richness<-c(austen.richness, length(unique(austen.sample))/length(austen.sample))#
+	ave.austen<-c(ave.austen, length(unique(austen.sample)))#
+}#
+mean(ave.austen)#
+#
+#
+melville<-scan("/Users/mjockers/Documents/Research/HumanitiesComputing/M-AnalysisUsingR/data/plainText/melville.txt", what="character", sep="\n")#
+startmelville<-which(melville == "CHAPTER 1. Loomings.")#
+endmelville<-which(melville == "End of Project Gutenberg's Moby Dick; or The Whale, by Herman Melville")#
+melville.lines<- melville[startmelville:(endmelville-1)]#
+melville.lines.vector<-unlist(melville.lines)#
+melville.text<-paste(melville.lines, collapse=" ")#
+melville.lower <-tolower(melville.text)#
+melville.words<-strsplit(melville.lower, "\\W")#
+melville.word.vector<-unlist(melville.words)#
+melville.word.vector<- melville.word.vector[which(melville.word.vector!="")] #
+melville.richness<-NULL#
+ave.melville<-NULL#
+for(i in 1:100){#
+	melville.sample<-sample(melville.word.vector, 10000)#
+	melville.richness<-c(melville.richness, length(unique(melville.sample))/length(melville.sample))#
+	ave.melville<-c(ave.melville, length(unique(melville.sample)))#
+}#
+mean(ave.melville)
+austen.word.vector["she"]
+austen.word.vector
+austen<-table(austen.word.vector)
+austen["she"]
+austen["she"]/sum(austen)
+austen["she"]/sum(austen)*10,000
+austen["she"]/sum(austen)*10000
+austen["she"]/sum(austen)*1000
+austen["she"]/sum(austen)*10000
+melville<-table(melville.word.vector)
+melville["she"]/sum(melville)*10000
+q()
+setwd("/Users/mjockers/Documents/Research/HumanitiesComputing/M-AnalysisUsingR/data")#
+mydir<-"plainText"#
+inputDir<-"plainText"#
+files<-dir(inputDir, ".*txt")
+files
+i<-1
+text<-scan(files[i], what="character", sep="\W")
+text<-scan(files[i], what="character", sep="\\w")
+text<-scan(files[i], what="character", sep="\\W")
+text<-scan(files[i], what="character", sep=" ")
+files[i]
+system.file(inputDir, files[i])
+inputDir
+?system.file
+text<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\W")
+text<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\\W")
+text<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\W")
+text<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\n")
+?scan
+text<-scan(paste(inputDir, files[i], sep="/"), what="character", sep=" ")
+text
+text<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\n")
+text.lines<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\n")#
+text<-paste(text.lines, collapse=" ")#
+text.lower <-tolower(text)#
+text.words<-strsplit(text.lower, "\\W")
+length(text.words)
+text.word.vector<-unlist(moby.words)#
+text.word.vector<- text.word.vector[which(text.word.vector!="")]
+length(text.word.vector)
+for(i in 1:length(files)){#
+	text.lines<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\n")#
+	text<-paste(text.lines, collapse=" ")#
+	text.lower <-tolower(text)#
+	text.words<-strsplit(text.lower, "\\W")#
+	text.word.vector<-unlist(moby.words)#
+	text.word.vector<- text.word.vector[which(text.word.vector!="")]#
+	text.word.vector.list[[files[i]]]<-text.word.vector#
+}
+text.word.vector.list<-list()#
+#
+for(i in 1:length(files)){#
+	text.lines<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\n")#
+	text<-paste(text.lines, collapse=" ")#
+	text.lower <-tolower(text)#
+	text.words<-strsplit(text.lower, "\\W")#
+	text.word.vector<-unlist(moby.words)#
+	text.word.vector<- text.word.vector[which(text.word.vector!="")]#
+	text.word.vector.list[[files[i]]]<-text.word.vector#
+}
+context<-10#
+myword<-"whale"
+i
+which(text.word.vector.list[[files[i]]] == myword)
+text.word.vector.list[[files[i]]][1:10]
+hits<-which(text.word.vector.list[[files[i]]] == myword)
+?range
+hits
+hits[1]
+h<-1
+text.word.vector.list[[files[i]]][hits[h]-context:hits[h]+context]
+hits[h]-context
+hits[h]
+text.word.vector.list[[files[i]]][hits[h]]
+start<-hits[h]-context#
+	end<-hits[h]+context
+start
+end
+text.word.vector.list[[files[i]]][start:end]
+paste(text.word.vector.list[[files[i]]][start:end], collapse=" ")
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	paste(text.word.vector.list[[files[i]]][start:end], collapse=" ")#
+}
+paste(text.word.vector.list[[files[i]]][start:end], collapse=" ")
+?cat
+cat(text.word.vector.list[[files[i]]][start:end], sep=" ")
+cat(h)#
+	cat(text.word.vector.list[[files[i]]][start:end], sep=" ")
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat(h)#
+	cat(text.word.vector.list[[files[i]]][start:end], sep=" ")#
+}
+?cat
+cat(h,"\n")
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat(h,"\n")#
+	cat(text.word.vector.list[[files[i]]][start:end], sep=" ")#
+}
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n",h,"\n")#
+	cat(text.word.vector.list[[files[i]]][start:end], sep=" ")#
+}
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n",h,"\n------------")#
+	cat(text.word.vector.list[[files[i]]][start:end], sep=" ")#
+}
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat(h,"\n------------------------------------------------")#
+	cat(text.word.vector.list[[files[i]]][start:end], sep=" ")#
+}
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n------------------------------------------------\n")#
+	cat(text.word.vector.list[[files[i]]][start:end], sep=" ")#
+}
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n", h, "------------------------------------------------\n")#
+	cat(text.word.vector.list[[files[i]]][start:end], sep=" ")#
+}
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n-----------------------", h, "-------------------------\n")#
+	cat(text.word.vector.list[[files[i]]][start:end], sep=" ")#
+}
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n-----------------------", h, "-------------------------\n")#
+	cat(text.word.vector.list[[files[i]]][start:h], sep=" ")#
+}
+cat(text.word.vector.list[[files[i]]][start:hits[h]], sep=" ")
+cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" ")
+cat("", hits[h],"" sep="|")
+cat("[", hits[h],"]", sep="")
+cat("[", text.word.vector.list[[files[i]]][hits[h]],"]", sep="")
+cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" ")#
+	cat("[", text.word.vector.list[[files[i]]][hits[h]],"]", sep="")#
+	cat(text.word.vector.list[[files[i]]][hits[h]+1:end], sep=" ")
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n-----------------------", h, "-------------------------\n")#
+	cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" ")#
+	cat("[", text.word.vector.list[[files[i]]][hits[h]],"]", sep="")#
+	cat(text.word.vector.list[[files[i]]][hits[h]+1:end], sep=" ")#
+}
+h<-1
+i
+start<-hits[h]-context#
+	end<-hits[h]+context
+start
+end
+cat("\n-----------------------", h, "-------------------------\n")#
+	cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" ")#
+	cat("[", text.word.vector.list[[files[i]]][hits[h]],"]", sep="")#
+	cat(text.word.vector.list[[files[i]]][hits[h]+1:end], sep=" ")
+cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" ")
+cat("[", text.word.vector.list[[files[i]]][hits[h]],"]", sep="")
+hits[h]+1
+end
+cat(text.word.vector.list[[files[i]]][hits[h]+1:end], sep=" ")
+hits[h]+1:end
+h
+hits[h]
+hits[h]+1
+end
+text.word.vector.list[[files[i]]][hits[h]+1:end]
+text.word.vector.list[[files[i]]][hits[h]:end]
+text.word.vector.list[[files[i]]][(hits[h]+1):end]
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n-----------------------", h, "-------------------------\n")#
+	cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" ")#
+	cat("[", text.word.vector.list[[files[i]]][hits[h]],"]", sep="")#
+	cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" ")#
+}
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n-----------------------", h, "-------------------------\n")#
+	cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" ")#
+	cat("[", text.word.vector.list[[files[i]]][hits[h]],"]", sep=" ")#
+	cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" ")#
+}
+for(h in 1:length(hits)){#
+	start<-hits[h]-context#
+	end<-hits[h]+context#
+	cat("\n-----------------------", h, "-------------------------\n")#
+	cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" ")#
+	cat(" [", text.word.vector.list[[files[i]]][hits[h]],"] ", sep="")#
+	cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" ")#
+}
+toprint<- as.character((readline("Would you like to save this result to a file: enter 1 for yes \n"))
+)
+toprint
+cbind(cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" "), keyword, cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" "))
+keyword<- as.character(tolower((readline("Enter a keyword: \n")))
+)
+keyword
+cbind(cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" "), keyword, cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" "))
+cbind(cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" "), keyword, cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" "))
+keyword
+cat(text.word.vector.list[[files[i]]][hits[h]], sep="")
+cbind(cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" "), cat(text.word.vector.list[[files[i]]][hits[h]], sep=""), cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" "))
+cbind(cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" "), cat(text.word.vector.list[[files[i]]][hits[h]], sep=" "), cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" "))
+result<-rbind(result,myrow)
+result<-NULL
+result<-rbind(result,myrow)
+myrow<-cbind(cat(text.word.vector.list[[files[i]]][start:hits[h]-1], sep=" "), cat(text.word.vector.list[[files[i]]][hits[h]], sep=" "), cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" "))
+result<-NULL
+myrow<-cbind(paste(text.word.vector.list[[files[i]]][start:hits[h]-1], collapse=" "), paste(text.word.vector.list[[files[i]]][hits[h]], collapse=" "), paste(text.word.vector.list[[files[i]]][(hits[h]+1):end], collapse=" "))
+myrow
+result<-rbind(result,myrow)
+result<-rbind(result,myrow)
+result
+dim(result)
+write.csv(result, paste(keword, ".csv"))
+keyword<- as.character(tolower((readline("Enter a keyword: \n"))))
+keyword
+write.csv(result, paste(keyword, ".csv"))
+getwd()
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+for(i in 1:length(files)){#
+	cat(i, files[i], sep=" ")#
+}
+for(i in 1:length(files)){#
+	cat(i, files[i], sep="\n")#
+}
+for(i in 1:length(files)){#
+	cat(i, files[i], "\n", sep=" ")#
+}
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+files[i]
+source("/Users/mjockers/Desktop/alice.R")
+showFiles<-function(files){#
+	for(i in 1:length(files)){#
+		cat(i, files[i], "\n", sep=" ")#
+	}#
+}
+showFiles(files)
+make.file.list<-function(files){#
+	text.word.vector.list<-list()#
+	for(i in 1:length(files)){#
+		text.lines<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\n")#
+		text<-paste(text.lines, collapse=" ")#
+		text.lower <-tolower(text)#
+		text.words<-strsplit(text.lower, "\\W")#
+		text.word.vector<-unlist(text.words)#
+		text.word.vector<- text.word.vector[which(text.word.vector!="")]#
+		text.word.vector.list[[files[i]]]<-text.word.vector#
+	}#
+}
+files<-dir(inputDir, ".*txt")#
+#
+showFiles<-function(files){#
+	for(i in 1:length(files)){#
+		cat(i, files[i], "\n", sep=" ")#
+	}#
+}#
+#
+make.file.list<-function(files){#
+	text.word.vector.list<-list()#
+	for(i in 1:length(files)){#
+		text.lines<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\n")#
+		text<-paste(text.lines, collapse=" ")#
+		text.lower <-tolower(text)#
+		text.words<-strsplit(text.lower, "\\W")#
+		text.word.vector<-unlist(text.words)#
+		text.word.vector<- text.word.vector[which(text.word.vector!="")]#
+		text.word.vector.list[[files[i]]]<-text.word.vector#
+	}#
+}#
+#
+text.word.vector.list<-make.file.list(files)#
+cat("Directory Files Processed. . . \n")
+showFiles(files)
+doKwic<-function(files, text.word.vector.list){#
+	showFiles(files)#
+	i<- as.numeric(readline("Which file would you like to examine? Enter a file number: \n"))#
+	context<- as.numeric(readline("How much context do you want to see, Enter a number: \n"))#
+	keyword<- as.character(tolower((readline("Enter a keyword: \n"))))#
+	hits<-which(text.word.vector.list[[files[i]]] == keyword)#
+	result<-NULL#
+	for(h in 1:length(hits)){#
+		start<-hits[h]-context#
+		end<-hits[h]+context#
+		cat("\n-----------------------", h, "-------------------------\n")#
+		cat(text.word.vector.list[[files[i]]][start:(hits[h]-1)], sep=" ")#
+		cat(" [", text.word.vector.list[[files[i]]][hits[h]],"] ", sep="")#
+		cat(text.word.vector.list[[files[i]]][(hits[h]+1):end], sep=" ")#
+		myrow<-cbind(paste(text.word.vector.list[[files[i]]][start:(hits[h]-1)], collapse=" "), paste(text.word.vector.list[[files[i]]][hits[h]], collapse=" "), paste(text.word.vector.list[[files[i]]][(hits[h]+1):end], collapse=" "))#
+		result<-rbind(result,myrow)#
+	}#
+	toprint<- as.numeric((readline("Would you like to save this result to a file: enter 1 for yes \n")))#
+	if(toprint==1){#
+		write.csv(result, paste(outputDir, keyword, ".csv"))#
+	}#
+}
+doKwic(files, text.word.vector.list)
+?while
+()
+quit<-as.numeric(readline("Would you like to continue? 1=yes or 0=no: \n"))
+quit
+is.true(quit)
+print("hello")
+if(quit){#
+	print("hello")#
+}
+quit<-1
+if(quit){#
+	print("hello")#
+}
+while(quit){#
+	doKwic(files, text.word.vector.list)#
+	quit<-as.numeric(readline("Would you like to continue? 1=yes or 0=no: \n"))#
+}
+source("/Users/mjockers/Desktop/alice.R")
+quit
+quit<-0
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+myrow
+source("/Users/mjockers/Desktop/alice.R")
+result
+myrow
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+text.word.vector.list[[files[i]]]
+1<-2
+i<-2
+text.word.vector.list[[files[i]]]
+files[i]
+files
+vector.list<-make.file.list(files)
+vector.list
+length(vector.list)
+make.file.list<-function(files){#
+	text.word.vector.list<-list()#
+	for(i in 1:length(files)){#
+		text.lines<-scan(paste(inputDir, files[i], sep="/"), what="character", sep="\n")#
+		text<-paste(text.lines, collapse=" ")#
+		text.lower <-tolower(text)#
+		text.words<-strsplit(text.lower, "\\W")#
+		text.word.vector<-unlist(text.words)#
+		text.word.vector<- text.word.vector[which(text.word.vector!="")]#
+		text.word.vector.list[[files[i]]]<-text.word.vector#
+	}#
+	return(text.word.vector.list)#
+}
+vector.list<-make.file.list(files)
+length(vector.list)
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+source("/Users/mjockers/Desktop/alice.R")
+q()
