@@ -1,5 +1,30 @@
+# Script: kwic.R
+# 
+# A script written and distributed as a teaching
+# aid for demonstrating how to perform corpus
+# stemming in R.  The script loads files from 
+# a directory into a corpus and performs keyword
+# in context analysis across the corpus based
+# on a configured word of interest.
+#
+# Copyright Carl G Stahmer
+#
+# This work is licensed under a Creative Commons 
+# Attribution-ShareAlike 4.0 International License.
+#
+# see http://creativecommons.org/licenses/by-sa/4.0/
+
+
+###################################
+#         configuration           #
+###################################
+
 # set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/TextAnalysisWithR")
+setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
+
+# define the input directory for the texts to
+# be analyzed
+input.dir <- "data/plainText"
 
 # define a word of interest that you want to plot
 wordofinterest.str = "dog"
@@ -8,17 +33,21 @@ wordofinterest.str = "dog"
 # want to examine
 range.int = 3
 
-# Create a Function that will provide a more human readable output
-# of a vector's contents
+###################################
+#      function declarations      #
+###################################
+
+# A callable function that writes out the contents
+# of a vector in human readable form.
 show.vector <- function(file.name.v) {
   for(i in 1:length(file.name.v)) { 
       cat(i, file.name.v[i], "\n", sep=" ")
   } 
 }
 
-# define the input directory for the texts to
-# be analyzed
-input.dir <- "data/plainText"
+###################################
+#        Operational Code         #
+###################################
 
 # get a list of all files in the working directory
 # that have the appropriate file suffix

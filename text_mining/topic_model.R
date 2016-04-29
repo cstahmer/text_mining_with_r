@@ -1,6 +1,25 @@
+# Script: topic_model.R
+# 
+# A script written and distributed as a teaching
+# aid for demonstrating how to perform corpus
+# stemming in R.  The script constructs a corpus
+# of texts from a files in a directory and creates
+# a configurable topic model.
+#
+# Copyright Carl G Stahmer
+#
+# This work is licensed under a Creative Commons 
+# Attribution-ShareAlike 4.0 International License.
+#
+# see http://creativecommons.org/licenses/by-sa/4.0/
+
 #install.packages("mallet")
 
-print("Hello")
+library(mallet)
+
+###################################
+#         configuration           #
+###################################
 
 #set directory where files live
 inputDirPath <- "/Users/cstahmer/ballad_text_full/Dir4"
@@ -10,6 +29,10 @@ print(inputDirPath)
 
 #load the files from the path into a vector
 files.v <- dir(path=inputDirPath, pattern=".*txt")
+
+###################################
+#        Operational Code         #
+###################################
 
 # set up a documents data frame
 #documents <- data.frame(x = character(length(files.v)), y = character(length(files.v)), stringsAsFactors = FALSE)
@@ -86,8 +109,6 @@ wordcloud(topic.top.words$words, topic.top.words$weights, c(4,.8), rot.per=0, ra
 #calculate the probability that a topic appears in a each text
 doc.topics.m <- mallet.doc.topics(topic.model, smoothed=T,normalized=T)
 
-
-print("Bye Bye!")
 
 
 

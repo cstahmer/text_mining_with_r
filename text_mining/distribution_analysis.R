@@ -1,12 +1,37 @@
+# Script: distribution_analysis.R
+# 
+# A script written and distributed as a teaching
+# aid for demonstrating how to perform corpus
+# stemming in R.  The script reads a single file
+# chunks and annotates sentences and words.
+#
+# Copyright Carl G Stahmer
+#
+# This work is licensed under a Creative Commons 
+# Attribution-ShareAlike 4.0 International License.
+#
+# see http://creativecommons.org/licenses/by-sa/4.0/
+
+
+###################################
+#         configuration           #
+###################################
+
 # set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/TextAnalysisWithR")
+setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
+
+# identify the text file to analyze
+input.file = "data/plainText/melville.txt"
 
 # define a word of interest that you want to plot
 wordofinterest.str = "whale"
 
+###################################
+#        Operational Code         #
+###################################
+
 # load the text
-text.v <- scan("data/plainText/melville.txt", what="character", sep="\n")
-#text.v <- scan("http://www.gutenberg.org/cache/epub/2701/pg2701.txt", what="character", sep="\n")
+text.v <- scan(input.file, what="character", sep="\n")
 
 # find the location in the vector where the first chapter heading is
 start.e <- which(text.v == "CHAPTER 1. Loomings.")
@@ -65,6 +90,9 @@ w.count.v[wordofinterest.v] <- 1
 # now generate the plot
 plot(w.count.v, main="Dispersion Plot of `whale' in Moby Dick",
      xlab="Novel Time - Words Location in the Novel", ylab="whale", type="h", ylim=c(0,1), yaxt='n')
+
+
+
 
 
 
