@@ -48,7 +48,7 @@ setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
 type.string = "person"
 
 # set the file path
-filePath.str = "data/plainText/melvilleClean.txt"
+filePath.str = "data/cleanText/melville_truncated.txt"
 
 ###################################
 #      function declarations      #

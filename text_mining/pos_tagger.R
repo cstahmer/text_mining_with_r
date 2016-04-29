@@ -70,7 +70,7 @@ library(openNLPmodels.en)
 setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
 
 # set the file path
-filePath.str = "data/plainText/melvilleClean.txt"
+filePath.str = "data/cleanText/melville_truncated.txt"
 
 # calculate identification probability
 showProbability.bln <- TRUE

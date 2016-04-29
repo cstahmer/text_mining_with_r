@@ -34,7 +34,7 @@ library(RWeka)
 setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
 
 # set the file path
-filePath.str = "data/cleanText/melville.txt"
+filePath.str = "data/cleanText/melville_truncated.txt"
 
 ###################################
 #        Operational Code         #
@@ -70,7 +70,7 @@ text.annotator <- annotate(text.string, list(sent_ann, word_ann))
 text.doc <- AnnotatedPlainTextDocument(text.string, text.annotator)
 
 # show the fist sentences in the document
-# sents(text.doc) %>% head(2)
+# sents(text.doc)
 
-# show the first 10 words in the document
-# words(text.doc) %>% head(10)
+# show the first words in the document
+# words(text.doc)

@@ -26,7 +26,7 @@ setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
 # define the input directory for the texts to
 # be analyzed
-input.dir <- "~/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainText"
+input.dir <- "~/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainTextTruncated"
 
 ###################################
 #      function declarations      #
