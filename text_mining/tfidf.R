@@ -71,15 +71,19 @@ for (document in 1:numcols) {
   # Convert the TDM to a normal matrix for sorting
   var_single_doc_matrix <- as.matrix(tfidf.matrix[, document])
   
-  # Create a sorted TF-IDF matrix
-  var_single_doc_matrix[sort.list(var_single_doc_matrix[,1]), decreasing = TRUE]
+  # Remove the non-word items from the list
+  var_numeric_labels_list = grepl(".*[0-9]+.*", rownames(var_single_doc_matrix)) 
+  var_single_doc_non_numeric_matrix <- as.matrix(var_single_doc_matrix[ !var_numeric_labels_list, ]) 
+  
+  # Sort the results Matrix
+  var_single_doc_non_numeric_matrix[sort.list(var_single_doc_non_numeric_matrix[,1]), decreasing = TRUE]
   
   # Subset the whole matrix so that we only 
   # inspect the top entries
-  var_top_x_terms <- var_single_doc_matrix[1:5,1]
+  var_top_x_terms <- var_single_doc_non_numeric_matrix[1:5,1]
   
   print(paste("Document:", document))
-  var_top_x_terms
+  print(var_top_x_terms)
   
 }
 
