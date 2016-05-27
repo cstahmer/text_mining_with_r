@@ -14,25 +14,27 @@
 # see http://creativecommons.org/licenses/by-sa/4.0/
 
 #install.packages("mallet")
+#install.packages("wordcloud")
 
 library(mallet)
+library(wordcloud)
 
 ###################################
 #         configuration           #
 ###################################
 
+# Set working directory
+setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
+
 #set directory where files live
-inputDirPath <- "/Users/cstahmer/ballad_text_full/Dir4"
-
-#print the directory just to be safe
-print(inputDirPath)
-
-#load the files from the path into a vector
-files.v <- dir(path=inputDirPath, pattern=".*txt")
+inputDirPath <- "data/ballads"
 
 ###################################
 #        Operational Code         #
 ###################################
+
+#load the files from the path into a vector
+files.v <- dir(path=inputDirPath, pattern=".*txt")
 
 # set up a documents data frame
 #documents <- data.frame(x = character(length(files.v)), y = character(length(files.v)), stringsAsFactors = FALSE)
@@ -97,9 +99,6 @@ keywords <- c("king", "maiden")
 topic.words.m[, keywords]
 imp.row <- which(rowSums(topic.words.m[, keywords]) == max(rowSums(topic.words.m[, keywords])))
 
-#let mallet tell you the most frequently used key terms in topics
-mallet.top.words(topic.model, topic.words.m[imp.row,], 10)
-
 #prepare  matrix for visualization of top topic words
 topic.top.words <- mallet.top.words(topic.model, topic.words.m[imp.row,], 100)
 
@@ -108,6 +107,9 @@ wordcloud(topic.top.words$words, topic.top.words$weights, c(4,.8), rot.per=0, ra
 
 #calculate the probability that a topic appears in a each text
 doc.topics.m <- mallet.doc.topics(topic.model, smoothed=T,normalized=T)
+
+#let mallet name topics based on word frequency within cluster
+mallet.top.words(topic.model, topic.words.m[imp.row,], 10)
 
 
 

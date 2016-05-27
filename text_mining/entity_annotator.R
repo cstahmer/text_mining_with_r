@@ -126,7 +126,7 @@ sortedEntities.v <- sort(uniqueEntities.v)
 
 # review list of returned entities and create list
 # of items entities that should be removed from the list
-droplist.v <- c("William", "Young", "Zoroaster")
+droplist.v <- c("With", "Starbuck", "Watts")
 
 # now remove items from the droplist from the vector of
 # extracted named entities
