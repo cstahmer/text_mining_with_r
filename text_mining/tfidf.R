@@ -1,12 +1,51 @@
 # Script: tfidf.R
 # 
 # A script written and distributed as a teaching
-# aid for demonstrating how to perform corpus
-# stemming in R.  The script reads files from
-# an identified directory into a corpus and then
+# aid for demonstrating how to perform Term 
+# Frequency - Inverse Document Frequency analysis
+# across a corpus.  The script loads files from
+# a designated directory into a corpus and then
 # creates a normalized TF-IDF matrix.
 #
-# Copyright Carl G Stahmer
+# Because the code is designed for teaching, it
+# aims for step by step clarity rather than code
+# efficiency.  Experienced programmers will see
+# many ways that this code could be made more
+# efficient and elegant in terms of both processing
+# speed and memory management.  The code as
+# presented is designed to allow a novice coder
+# to follow the logic of the script as intuitively
+# as possible. With this in mind, the following
+# conventions are used throught the code:
+#
+# (1) In order to facilitate distinguishing between
+# variables, functions, and objects all variables in 
+# the code begin with the "var_" prefix.
+#
+# (2) In order to facilitate distinguishing a
+# a variable's type or class, all variables are
+# names using a _suffix that identifies the 
+# variable type.
+#
+# (3) In order to facilitate distinguishing between
+# variables, functions, and objects all objects in 
+# the code begin with the "obj_" prefix.
+#
+# (4) Locally defined functions begin with the 
+# function_ prefix
+#
+# Copyright Carl G. Stahmer - 2016
+# Director of Digital Scholarship - UC Davis Library
+# Associate Director for Humanities - Data Science Initiative
+# Associate Director - English Broadside Ballad Archive
+#
+# Portions of this code are based on Matt Jockers'
+# Introduction to text analysis with R:
+#
+# Jockers, M. (2014). 
+# _Text Analysis with R for Students of Literature_
+# Quantitative Methods in the Humanities and Social …. 
+# doi:10.1007/978-3-319-03164-4
 #
 # This work is licensed under a Creative Commons 
 # Attribution-ShareAlike 4.0 International License.
@@ -26,7 +65,7 @@ setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
 # define the input directory for the texts to
 # be analyzed
-input.dir <- "~/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainTextTruncated"
+var_inputDir_character <- "~/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainTextTruncated"
 
 ###################################
 #      function declarations      #
@@ -45,45 +84,43 @@ show.vector <- function(file.name.v) {
 ###################################
 
 # create a tm corpus
-termMatrix.corpus <- VCorpus(DirSource(directory = input.dir), readerControl = list(language = "en"))
+obj_termMatrix_corpus <- VCorpus(DirSource(directory = var_inputDir_character), readerControl = list(language = "en"))
 
 # create the tdm from the corpus
-stemmed.tdm <- TermDocumentMatrix(termMatrix.corpus,
+obj_stemmed_tdm <- TermDocumentMatrix(obj_termMatrix_corpus,
                                   control = list(removePunctuation = TRUE,
                                                  stopwords = TRUE,
                                                  stripWhitespace = TRUE,
                                                  stemming = TRUE))
 # create tf-idf matrix
-tfidf.matrix <- weightTfIdf(stemmed.tdm, normalize = TRUE)
+obj_tfidfMatrix_tdm <- weightTfIdf(obj_stemmed_tdm, normalize = TRUE)
 
 # print the stats of the tfdif matrix
-tfidf.matrix
+obj_tfidfMatrix_tdm
 
 # get the number of rows in the tfidf
-numrows <- nrow(tfidf.matrix)
+var_numRows_int <- nrow(obj_tfidfMatrix_tdm)
 
 # get the number of columns in the tfidf
-numcols <- ncol(tfidf.matrix)
+var_numcols_int <- ncol(obj_tfidfMatrix_tdm)
 
 # loop throught the matrix by column
-for (document in 1:numcols) {
+for (var_document_integer in 1:var_numcols_int) {
   
   # Convert the TDM to a normal matrix for sorting
-  var_single_doc_matrix <- as.matrix(tfidf.matrix[, document])
+  var_singleDoc_matrix <- as.matrix(obj_tfidfMatrix_tdm[, var_document_integer])
   
   # Remove the non-word items from the list
-  var_numeric_labels_list = grepl(".*[0-9]+.*", rownames(var_single_doc_matrix)) 
-  var_single_doc_non_numeric_matrix <- as.matrix(var_single_doc_matrix[ !var_numeric_labels_list, ]) 
+  var_numericLabels_list = grepl(".*[0-9]+.*", rownames(var_singleDoc_matrix)) 
+  var_singleDocNonNumeric_matrix <- as.matrix(var_singleDoc_matrix[ !var_numericLabels_list, ]) 
   
   # Sort the results Matrix
-  var_single_doc_non_numeric_matrix[sort.list(var_single_doc_non_numeric_matrix[,1]), decreasing = TRUE]
+  var_sorted_matrix <- var_singleDocNonNumeric_matrix[sort.list(var_singleDocNonNumeric_matrix[,1]), decreasing=TRUE]
   
   # Subset the whole matrix so that we only 
   # inspect the top entries
-  var_top_x_terms <- var_single_doc_non_numeric_matrix[1:5,1]
-  
-  print(paste("Document:", document))
-  print(var_top_x_terms)
+  #varTopTerms <- var_sorted_matrix[5:10,1]
   
 }
 
+#print(varTopTerms)

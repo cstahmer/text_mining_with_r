@@ -3,17 +3,53 @@
 # A script written and distributed as a teaching
 # aid for demonstrating how to perform corpus
 # stemming in R.  The script loads files from 
-# a directory into a corpus and performs keyword
-# in context analysis across the corpus based
-# on a configured word of interest.
+# a directory into a corpus and performs analysis
+# of the linguistic complexity of the works.
 #
-# Copyright Carl G Stahmer
+# Because the code is designed for teaching, it
+# aims for step by step clarity rather than code
+# efficiency.  Experienced programmers will see
+# many ways that this code could be made more
+# efficient and elegant in terms of both processing
+# speed and memory management.  The code as
+# presented is designed to allow a novice coder
+# to follow the logic of the script as intuitively
+# as possible. With this in mind, the following
+# conventions are used throught the code:
+#
+# (1) In order to facilitate distinguishing between
+# variables, functions, and objects all variables in 
+# the code begin with the "var_" prefix.
+#
+# (2) In order to facilitate distinguishing a
+# a variable's type or class, all variables are
+# names using a _suffix that identifies the 
+# variable type.
+#
+# (3) In order to facilitate distinguishing between
+# variables, functions, and objects all objects in 
+# the code begin with the "obj_" prefix.
+#
+# (4) Locally defined functions begin with the 
+# function_ prefix
+#
+# Copyright Carl G. Stahmer - 2016
+# Director of Digital Scholarship - UC Davis Library
+# Associate Director for Humanities - Data Science Initiative
+# Associate Director - English Broadside Ballad Archive
+#
+# Portions of this code are based on Matt Jockers'
+# Introduction to text analysis with R:
+#
+# Jockers, M. (2014). 
+# _Text Analysis with R for Students of Literature_
+# Quantitative Methods in the Humanities and Social …. 
+# doi:10.1007/978-3-319-03164-4
 #
 # This work is licensed under a Creative Commons 
 # Attribution-ShareAlike 4.0 International License.
 #
-# See http://creativecommons.org/licenses/by-sa/4.0/
-
+# see http://creativecommons.org/licenses/by-sa/4.0/
 
 ###################################
 #         configuration           #
@@ -23,7 +59,7 @@
 setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
 # Define the input directory for the texts to be analyzed.
-var_input_dir <- "data/plainText"
+var_inputDir_string <- "data/plainText"
 
 ###################################
 #      function declarations      #
@@ -31,7 +67,7 @@ var_input_dir <- "data/plainText"
 
 # A callable function that writes out the contents
 # of a vector in human readable form.
-function_show_vector <- function(var_vec_to_show_vector) {
+function_showVector <- function(var_vec_to_show_vector) {
   for(i in 1:length(var_vec_to_show_vector)) { 
       cat(i, var_vec_to_show_vector[i], "\n", sep=" ")
   } 
@@ -43,11 +79,11 @@ function_show_vector <- function(var_vec_to_show_vector) {
 
 # Get a list of all files in the working directory
 # that have the appropriate file suffix.
-var_files_vector <- dir(var_input_dir, "\\.txt$")
+var_files_vector <- dir(var_inputDir_string, "\\.txt$")
 
-# Send our files vector to our function_show_vector
+# Send our files vector to our function_showVector
 # function to print to display.
-function_show_vector(var_files_vector)
+function_showVector(var_files_vector)
 
 # Setup an empty list container to hold the word vectors
 # for each text in the working diretory.
@@ -55,27 +91,27 @@ var_corpus_list <- list()
 
 # Setup an empty list container to hold the raw
 # frequency counts for each text
-var_text_raw_freqs_list <- list()
+var_textRawFreqs_list <- list()
 
 # Setup an empty list container to hold the relative
 # frequency counts for each text
-var_text_freqs_relative_list <- list()
+var_relativeTextFrequencies_list <- list()
 
 # Loop through all files listed in the files vector
 # and open and process them.
 for(var_iteration_int in 1:length(var_files_vector)){
   
   # Define the file path to the file to read by concatenating 
-  # (joining) the var_input_dir to the filename contained in 
+  # (joining) the var_inputDir_string to the filename contained in 
   # the vector element being processed (element[var_iteration_int])
   # and putting a forward shlash between them so that the result
   # is a correct file path.
-  var_filepath_str <- paste(var_input_dir, var_files_vector[var_iteration_int], sep="/")
+  var_filepath_string <- paste(var_inputDir_string, var_files_vector[var_iteration_int], sep="/")
   
   # Read the file into a character vector using the scan funtion, spliting 
   # the input on newlines ("\n" is unix shorthand for newline) so that each
   # element in the vector is a single line of text.
-  var_text_lines_vec <- scan(var_filepath_str, what="character", sep="\n") 
+  var_textLines_vector <- scan(var_filepath_string, what="character", sep="\n") 
   
   # Create a new vector that holds the entire text as
   # as a blob (one long running chunk of text).  This is 
@@ -84,7 +120,7 @@ for(var_iteration_int in 1:length(var_files_vector)){
   # each element/line.  The result is a charactre vector
   # containing one element containing the complete text as a
   # blob.
-  var_text_vec <- paste(var_text_lines_vec, collapse=" ")
+  var_text_vector <- paste(var_textLines_vector, collapse=" ")
   
   # NOTE:  You might be asking why, in the above, we first
   # read the text into a vector of lines and then collapsed the
@@ -99,7 +135,7 @@ for(var_iteration_int in 1:length(var_files_vector)){
   
   # Now that we have our blob, convert it to lowercase so that
   # later comparison doesnt treat "Cat" and "cat" as different.
-  var_text_lower_vec <- tolower(var_text_vec)
+  var_textLowerCase_vec <- tolower(var_text_vector)
   
   # Split the blob character vector on character that is not
   # a word.  "\W" is unix/regex shorthand for anytying not a
@@ -110,35 +146,35 @@ for(var_iteration_int in 1:length(var_files_vector)){
   # elements of different types ([1]=charachter, [2]=integer, etc.)
   # whereas a vector is atomic and each element must be of the same
   # base data type.
-  var_text_words_list <- strsplit(var_text_lower_vec, "\\W")
+  var_textWords_list <- strsplit(var_textLowerCase_vec, "\\W")
   
   # We need to get our data back into atomic (vector) form to do
   # subsequent operations, so here we'll move our list data
   # back into vector space.
-  var_text_words_vec <- unlist(var_text_words_list)
+  var_textWords_vector <- unlist(var_textWords_list)
   
   # Make sure that none of our vector elements are blank
   # by subsetting the vector for anything that is not a
   # blank space.  Remember that "!=" means "not equal to."
   # Also note that here we are re-assigning the vector to 
   # itself rather than creating a whole new vector.
-  var_text_words_vec <- var_text_words_vec[which(var_text_words_vec!="")]
+  var_textWords_vector <- var_textWords_vector[which(var_textWords_vector!="")]
   
   # Add our text data to our corpus list [var_corpus_list]
   # using the name of the file as the column name for the text.
-  var_corpus_list[[var_files_vector[var_iteration_int]]] <- var_text_words_vec
+  var_corpus_list[[var_files_vector[var_iteration_int]]] <- var_textWords_vector
   
   # Create a word frequency table for each text
-  var_text_freqs_table <- table(var_text_words_vec)
+  var_textFrequencies_table <- table(var_textWords_vector)
   
   # Put raw frequency counts into a list
-  var_text_raw_freqs_list[[var_files_vector[var_iteration_int]]] <- var_text_freqs_table
+  var_textRawFreqs_list[[var_files_vector[var_iteration_int]]] <- var_textFrequencies_table
   
   # Calculate a relative frequency value for each item
-  var_text_freqs_rel_table <- 100*(var_text_freqs_table/sum(var_text_freqs_table))
+  var_relativeTextFrequencies_table <- 100*(var_textFrequencies_table/sum(var_textFrequencies_table))
   
   # Convert the table to a list
-  var_text_freqs_relative_list[[var_files_vector[var_iteration_int]]] <- var_text_freqs_rel_table
+  var_relativeTextFrequencies_list[[var_files_vector[var_iteration_int]]] <- var_relativeTextFrequencies_table
 
 }
 
@@ -146,30 +182,30 @@ for(var_iteration_int in 1:length(var_files_vector)){
 # index [1] to [x] to see the words from the "x"th text
 # loaded.
 var_corpus_list[[1]][1:3]
-var_text_raw_freqs_list[[1]][1:3]
-var_text_freqs_relative_list[[1]][1:3]
+var_textRawFreqs_list[[1]][1:3]
+var_relativeTextFrequencies_list[[1]][1:3]
 
 # For each item in our freqency count list
 # return the sum of the values that are equal
 # to 1 to a vector.  This sum represents a 
 # count of the number of words in the text
 # that appear only once
-var_text_hapax_vector <- sapply(var_text_raw_freqs_list, function(x) sum(x == 1))
+var_textHapax_vector <- sapply(var_textRawFreqs_list, function(x) sum(x == 1))
 
 # Print out the non-relative hapax scores
-var_text_hapax_vector
+var_textHapax_vector
 
 # Calculate word totals for each text so
 # that we can calculate relative hpax scors
-var_text_lengths_matrix <- do.call(rbind, lapply(var_text_raw_freqs_list,sum))
+var_textLengths_matrix <- do.call(rbind, lapply(var_textRawFreqs_list,sum))
 
 # Calculate relative hapax scores
-var_relative_hapax_matrix <- var_text_hapax_vector / var_text_lengths_matrix
+var_relativeHapax_matrix <- var_textHapax_vector / var_textLengths_matrix
 
 # Print out relative hapax scores
-var_relative_hapax_matrix
+var_relativeHapax_matrix
 
 # Plot hapax richness
-barplot(var_relative_hapax_matrix, beside=T,col="grey", names.arg = row.names(var_relative_hapax_matrix))
+barplot(var_relativeHapax_matrix, beside=T,col="grey", names.arg = row.names(var_relativeHapax_matrix))
 
 
