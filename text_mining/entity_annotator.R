@@ -86,7 +86,7 @@ setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainText")
 var_entityType_string = "person"
 
 # set the file path
-var_filePath_string = "emerson.txt"
+var_filePath_string = "melville.txt"
 
 ###################################
 #      function declarations      #

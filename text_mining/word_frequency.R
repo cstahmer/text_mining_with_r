@@ -1,5 +1,4 @@
-# Script: distribution_analysis.R
-# 
+# Script: word_frequency.R
 # A script written and distributed as a teaching
 # aid for demonstrating how to perform word
 # frequency analysis.  
@@ -48,6 +47,7 @@
 # Attribution-ShareAlike 4.0 International License.
 #
 # see http://creativecommons.org/licenses/by-sa/4.0/
+#install.packages("tm")
 
 library(tm)
 
@@ -79,10 +79,10 @@ var_outputFile_character <-"/Users/cstahmer/textmining/word_freq2.csv"
 var_textLines_vector <- readLines(var_textFile_character)
 
 # collapse the vector of lines into a single element
-var_textBlog_character <- paste(var_textLines_vector, collapse = " ")
+var_textBlob_character <- paste(var_textLines_vector, collapse = " ")
 
 # change to lowercase
-var_lowercase_vector <- tolower(var_textBlog_character)
+var_lowercase_vector <- tolower(var_textBlob_character)
 
 # remove stopwords
 var_unStopped_vector <- removeWords(var_lowercase_vector, stopwords('english'))
@@ -100,14 +100,14 @@ var_text_word_vector <- unlist(var_words_list)
 var_notBlank_vector  <-  which(var_text_word_vector!="")
 
 # create a new vector tha thas no empty elements
-var_clenedWordList_vector <-  var_text_word_vector[var_notBlank_vector]
+var_cleanedWordList_vector <-  var_text_word_vector[var_notBlank_vector]
 
 # calcuate how many of the totals words are
 # the wor of interest
-var_seedHits_integer <- length(var_clenedWordList_vector[which(var_clenedWordList_vector==var_WordOfInterest_character)])
+var_seedHits_integer <- length(var_cleanedWordList_vector[which(var_cleanedWordList_vector==var_WordOfInterest_character)])
 
 # calculate total word count
-var_totalWords_integer <- length(var_clenedWordList_vector)
+var_totalWords_integer <- length(var_cleanedWordList_vector)
 
 # calcuate the percentage frequency of the
 # word of interest
@@ -116,7 +116,7 @@ var_wiPercent_integer <- 100 * (var_seedHits_integer / var_totalWords_integer)
 print(paste("The word ", var_WordOfInterest_character, " comprises ", var_wiPercent_integer, " of the text."))
 
 # setup a frequency table
-obj_frequencies_table <- table(var_clenedWordList_vector)
+obj_frequencies_table <- table(var_cleanedWordList_vector)
 
 # sort the frequency table
 obj_sortedFrequencies_table <- sort(obj_frequencies_table , decreasing=T)
