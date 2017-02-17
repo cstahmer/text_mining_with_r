@@ -1,0 +1,277 @@
+
+  Discover a faster, simpler path to publishing in a high-quality journal. PLOS ONE promises fair, rigorous peer review,
+  broad scope, and wide readership – a perfect fit for your research every time.
+   
+    
+     Learn More
+    
+    
+      Submit Now
+    
+   Click through the PLOS taxonomy to find articles in your field. For more information about PLOS Subject Areas, click
+          here.
+         Loading metrics Paper's citation count computed by Scopus. Sum of PLOS and PubMed Central page views and downloads. Sum of Facebook and Twitter activity. Open Access Peer-reviewed Research Article 
+      Contributed equally to this work with:
+    Jorge Alvar,
+    Margriet den Boer
+    * E-mail: alvarj@who.int Affiliation
+    Department for the Control of Neglected Tropical Diseases (HTM/NTD/IDM), Leishmaniasis Control Program, World Health Organization, Geneva, Switzerland
+   Affiliations
+    Department for the Control of Neglected Tropical Diseases (HTM/NTD/IDM), Leishmaniasis Control Program, World Health Organization, Geneva, Switzerland, 
+    PECET, Universidad de Antioquia, Medellin, Colombia
+   Affiliation
+    Division of Parasitic Diseases and Malaria, National Center for Global Health, Centers for Disease Control and Prevention, Atlanta, Georgia, United States of America
+   Affiliation
+    Disease Prevention and Control Programmes, World Health Organization, Addis Ababa, Ethiopia
+   Affiliation
+    Institute of OneWorldHealth, San Francisco, California, United States of America
+   Affiliation
+    National Centre for Tropical Medicine and International Health, Instituto de Salud Carlos III, Madrid, Spain
+   Affiliation
+    Department for the Control of Neglected Tropical Diseases (HTM/NTD/IDM), Leishmaniasis Control Program, World Health Organization, Geneva, Switzerland
+   
+      Contributed equally to this work with:
+    Jorge Alvar,
+    Margriet den Boer
+   Affiliation
+    Department for the Control of Neglected Tropical Diseases (HTM/NTD/IDM), Leishmaniasis Control Program, World Health Organization, Geneva, Switzerland
+   ¶For a full list of the members of the WHO Leishmaniasis Control Team please see the Acknowledgments section. As part of a World Health Organization-led effort to update the empirical evidence base for the leishmaniases, national experts provided leishmaniasis case data for the last 5 years and information regarding treatment and control in their respective countries and a comprehensive literature review was conducted covering publications on leishmaniasis in 98 countries and three territories (see ‘Leishmaniasis Country Profiles Text S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S30, S31, S32, S33, S34, S35, S36, S37, S38, S39, S40, S41, S42, S43, S44, S45, S46, S47, S48, S49, S50, S51, S52, S53, S54, S55, S56, S57, S58, S59, S60, S61, S62, S63, S64, S65, S66, S67, S68, S69, S70, S71, S72, S73, S74, S75, S76, S77, S78, S79, S80, S81, S82, S83, S84, S85, S86, S87, S88, S89, S90, S91, S92, S93, S94, S95, S96, S97, S98, S99, S100, S101’). Additional information was collated during meetings conducted at WHO regional level between 2007 and 2011. Two questionnaires regarding epidemiology and drug access were completed by experts and national program managers. Visceral and cutaneous leishmaniasis incidence ranges were estimated by country and epidemiological region based on reported incidence, underreporting rates if available, and the judgment of national and international experts. Based on these estimates, approximately 0.2 to 0.4 cases and 0.7 to 1.2 million VL and CL cases, respectively, occur each year. More than 90% of global VL cases occur in six countries: India, Bangladesh, Sudan, South Sudan, Ethiopia and Brazil. Cutaneous leishmaniasis is more widely distributed, with about one-third of cases occurring in each of three epidemiological regions, the Americas, the Mediterranean basin, and western Asia from the Middle East to Central Asia. The ten countries with the highest estimated case counts, Afghanistan, Algeria, Colombia, Brazil, Iran, Syria, Ethiopia, North Sudan, Costa Rica and Peru, together account for 70 to 75% of global estimated CL incidence. Mortality data were extremely sparse and generally represent hospital-based deaths only. Using an overall case-fatality rate of 10%, we reach a tentative estimate of 20,000 to 40,000 leishmaniasis deaths per year. Although the information is very poor in a number of countries, this is the first in-depth exercise to better estimate the real impact of leishmaniasis. These data should help to define control strategies and reinforce leishmaniasis advocacy. Citation: Alvar J, Vélez ID, Bern C, Herrero M, Desjeux P, Cano J, et al.  (2012) Leishmaniasis Worldwide and Global Estimates of Its Incidence. PLoS ONE 7(5):
+        e35671.
+        doi:10.1371/journal.pone.0035671 Editor: Martyn Kirk, The Australian National University, Australia Received: December 6, 2011; Accepted: March 22, 2012; Published:  May 31, 2012 This is an open-access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication. Funding: The Spanish Agency for International Cooperation for Development (AECID) has provided generous support to the WHO Leishmaniasis program since 2005. This support permitted among many other activities regional meetings with the AFRO, EURO, PAHO and SEARO countries, and provided for short term contracts for IDV, MdB, MH and JS related to the preparation of the country profiles. Sanofi provided a grant for a regional meeting with the EMRO countries and various activities related to the control of cutaneous Leishmaniasis in the EMRO region. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. Competing interests:  The authors have declared that no competing interests exist. Although estimated to cause the ninth largest disease burden among individual infectious diseases, leishmaniasis is largely ignored in discussions of tropical disease priorities [1], [2]. This consignment to critical oblivion results from its complex epidemiology and ecology, the lack of simple, easily-applied tools for case management and the paucity of current incidence data, and often results in a failure on the part of policy-makers to recognize its importance [3], [4]. Based on the World Health Assembly Resolution 2007/60.13, the World Health Organization (WHO) convened the Expert Committee on Leishmaniasis in March 2010, which subsequently issued the first updated technical report on leishmaniasis in more than 20 years [5], [6]. Both the WHA Resolution and the Expert Committee report highlighted the need to update the epidemiological evidence base in order to plan appropriate approaches to the control of leishmaniasis. Estimates of disease burden are widely used by policy-makers and funding organizations to establish priorities [7], [8], [9], [10]. These estimates are most commonly expressed as disability-adjusted life years (DALYs) lost, a measurement first promoted in the 1993 World Development Report and the focus of intense scrutiny ever since [11], [12], [13]. The accuracy of this measure depends on the reliability of the incidence, duration, severity and mortality data for a given condition, as well as the underlying assumptions used in the calculations [7], [14]. Although a new round of global disease burden estimation is currently underway, empirical data collection and field validation are neither included nor supported as part of the exercise [15].  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t001  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t002  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t003  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t004  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t005  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t006  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t007  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t008  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t009  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t010  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t011  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t012  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t013  
+              http://dx.doi.org/10.1371/journal.pone.0035671.t014 The evidence base for the neglected tropical diseases (NTDs) is acknowledged to be particularly problematic [9], [16]. Leishmaniasis, like many other NTDs, occurs in a focal distribution and in remote locations, making extrapolation from official data sources difficult [4]. Visceral leishmaniasis (VL) results in death if not treated, the majority of leishmaniasis deaths go unrecognized, and even with treatment access, VL may result in case-fatality rates of 10–20% [17], [18], [19], [20], [21], [22]. Reported leishmaniasis case figures are widely acknowledged to represent gross underestimates of the true burden, but studies that measure the degree of underreporting are rare [23]. As part of the WHO effort to update the leishmaniasis evidence base, a series of regional meetings were held. National program managers and expert professionals were asked to provide detailed information on epidemiology, ecology, geographical distribution and trends, drug access and management of leishmaniasis for their respective countries. These data, accompanied by literature reviews, are compiled in extensive profiles of each endemic country or territory in the Annex of this publication (see ‘Leishmaniasis Country Profiles Text S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S30, S31, S32, S33, S34, S35, S36, S37, S38, S39, S40, S41, S42, S43, S44, S45, S46, S47, S48, S49, S50, S51, S52, S53, S54, S55, S56, S57, S58, S59, S60, S61, S62, S63, S64, S65, S66, S67, S68, S69, S70, S71, S72, S73, S74, S75, S76, S77, S78, S79, S80, S81, S82, S83, S84, S85, S86, S87, S88, S89, S90, S91, S92, S93, S94, S95, S96, S97, S98, S99, S100, S101’). This paper focuses on an analysis of the findings, and estimates of leishmaniasis incidence derived from the epidemiological data. From 2007 to 2010, WHO organized a series of regional meetings (EMRO countries, Geneva 2007; PAHO countries, Medellin 2008; EURO countries, Istanbul 2009; AFRO countries, Addis Ababa 2010; SEARO countries, Paro 2011). In preparation for each meeting, country representatives were asked to provide yearly reported VL and cutaneous leishmaniasis (CL) incidence data for at least the last 5 years prior to the meeting. In addition, an electronic epidemiological questionnaire was sent to the national control program managers and/or to reputable national scientists to fill information gaps. Data collected included administrative divisions affected, whether VL and CL case notification is mandatory, characteristics of known reservoirs and vector control programs, estimated and reported case numbers, and outbreaks in the previous 5 years. A comprehensive literature search was also conducted, and the resulting information was used as an independent validation of these data. We reviewed the literature based on MEDLINE searches using the terms leishmaniasis and epidemiology with the name of each endemic country or territory. For the initial search, we included all articles listed in MEDLINE in English, French, Spanish or Russian up to October 2010, when the search was conducted. We selected articles that explicitly addressed incidence, geographic distribution, surveillance and/or trends over time, and preferentially chose articles published since 2000 if available. For countries with sparse data on leishmaniasis, we broadened the review to include all articles that shed light on the occurrence of the disease within that country. We reviewed titles for all references, abstracts when available for those whose titles were not sufficient to lead us to exclude the paper, and the full article when the abstract indicated possible relevance. The search for country-specific literature yielded 3242 potentially relevant articles, of which 340 were retained based on our selection criteria. Five recent review articles were also included. Twenty-six additional unpublished reports were provided by national or international experts. The literature was reviewed by at least 2 authors and regular meetings were held among the authors to discuss the findings in depth. A MEDLINE search was also performed using the terms leishmaniasis and underreporting to identify articles that would aid in making incidence estimates. This search yielded 8 articles of which 5 presented data on the magnitude of leishmaniasis underreporting. One additional article was identified from author literature collections, yielding 3 articles with empirical data regarding VL and 3 for CL underreporting [24], [25], [26], [27], [28], [29]. These articles were used to establish probable degrees of underreporting for the countries in which their analyses were performed, and were also used for estimates in countries judged similar in their degree of underreporting. National and international experts provided their judgements of the magnitude of underreporting. In addition, for countries where reporting is sparse, but surveys have been performed, the published data were used as a basis to select the appropriate degree of underreporting [30]. Wherever possible, estimated plausible VL and CL incidence ranges were assigned by country and/or region based on reported incidence and multiplication by the probable underreporting factors. Estimates less than 20 were retained as the precise product of the reported case number times the underreporting factor, those between 20 and 1000 were rounded to the nearest 10 and those over 1000 were rounded to the nearest 100. Where reporting was absent but incidence was known to be substantial, estimates were assigned based on the judgment of national and international experts. The regional estimates represent the sum of the country estimates followed by the same rounding process. Similarly, the global estimates represent the sum of the regional estimates followed by rounding as described above. In order to facilitate expert judgment regarding the probable accuracy of the figures presented here, we defined geographical regions consistent with the major ecological foci of leishmaniasis transmission, rather than official WHO regions [31], [32], [33]. A second questionnaire addressed access to antileishmanial medicines, and included specific questions: whether the public sector provides health care free of charge; the existence of a national program for control of leishmaniasis; inclusion of antileishmanial medicines in the National Essential Drug List; the number of different medicines purchased for the public sector or donations received in the last two years; sale of antileishmanial drugs in the private sector and price per tablet or vial; percentage of people using the for-profit private sector versus public sector for leishmaniasis treatment; health care level providing treatment in the public sector; presence of NGOs or other non-profit agencies providing leishmaniasis treatment; and barriers to access for treatment of leishmaniasis. Basic social and health data from each country were obtained from the websites of the relevant international agencies [34], [35], [36], [37], [38]. The epidemiological data were used to produce maps with 2008 as the reference year using ArcGIS 9.3– Desktop (Esri, Redlands, CA) and following WHO guidelines for GIS usage. The numbers of confirmed cases by clinical form (VL, CL, mucocutaneous leishmaniasis) were mapped by official first level administrative division. These data were used to calculate annual incidence rates. A single standard range of values was used for each clinical form to facilitate visual comparison between countries. Draft maps were shared with data providers and other leishmaniasis experts for validation. The following maps were developed for each country: situational map with neighbouring countries and world globe, maps of cases by clinical form, and maps of incidence per 10,000 inhabitants. All maps follow a consistent set of characteristics: five categories of colours in a yellow-to-red scale were chosen for the maps of cases, and six categories of colours in blue tones scale were chosen for the maps of incidence. The sparse information in a few countries required the use of ad hoc scales. Only WHO GIS shapefile databases were used; the maps follow the administrative limits and frontiers recognized by United Nations conventions. The parasitological information has been reproduced from the WHO Technical Report Series 949 (http://whqlibdoc.who.int/trs/WHO_TRS_949_eng.pdf) published in 2010. Basic social and health data, results of literature reviews, data on the magnitude of underreporting, maps, data regarding epidemiology, case load, access to treatment and access to drugs, and parasitological information are presented in a series of extensive Profiles of each endemic individual country and territory and are presented in the Annex of this publication (see ‘Leishmaniasis Country Profiles Text S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S30, S31, S32, S33, S34, S35, S36, S37, S38, S39, S40, S41, S42, S43, S44, S45, S46, S47, S48, S49, S50, S51, S52, S53, S54, S55, S56, S57, S58, S59, S60, S61, S62, S63, S64, S65, S66, S67, S68, S69, S70, S71, S72, S73, S74, S75, S76, S77, S78, S79, S80, S81, S82, S83, S84, S85, S86, S87, S88, S89, S90, S91, S92, S93, S94, S95, S96, S97, S98, S99, S100, S101’). A total of 98 countries and 3 territories on 5 continents reported endemic leishmaniasis transmission (Tables 1, 2, 3, 4, 5, 6 and 7, 8, 9, 10, 11, 12). In total, official case counts totalled more than 58,000 VL cases and 220,000 CL cases per year (Tables 13 and 14). However, only about two-thirds of countries had reported incidence data for a five-year period; data were sparsest for the foci in Africa. A number of countries are listed here as endemic despite the lack of reported human cases, usually reflecting an absence of surveillance or other investigations. [39] For example, although Mongolia has not reported human CL cases, L. major genetically identical to that found in countries with proven endemic transmission has been isolated on multiple occasions from gerbils. [40] Only countries with circulating species known to be pathogenic to humans are included as endemic. For this reason, Australia is not considered endemic despite reports of CL among red kangaroos caused by a newly described leishmanial species. [41] Human infections due to lower trypanosomatids are also excluded. [42]. There are few published empirical assessments of underreporting in official surveillance data. Two studies from Bihar, India, compared VL case numbers ascertained through active house-to-house surveys to those reported in the official surveillance system; official figures were shown to be 4.2-fold and 8.1-fold lower than the incidence found by active case detection in the two studies, respectively. [27], [28] A study in Brazil used the capture-recapture method to estimate underreporting of VL, based on data from 3 different sources; the degree of underreporting was found to be 1.3- to 1.7-fold. [25] Data from one province in Argentina estimated the degree of CL underreporting to be 2.8 to 4.6-fold; however, studies from Guatemala and Jordan indicate that CL incidence may be underestimated by 40- to 47-fold in national surveillance data. [24], [26], [29] Based on these publications, country-level VL underreporting magnitude was categorized as follows: mild (1.2- to 1.8-fold based on data from Brazil [25]); severe (4.0- to 8.0-fold based on data from India [27], [28]); and an intermediate category of moderate (2.0 to 4.0-fold) underreporting. Despite the high published range of CL underreporting [24], [26], we chose conservative multipliers: mild (2.8 to 4.6-fold based on data from Argentina [29]) and moderate (5.0- to 10.0-fold). No estimates could be made for most countries in sub-Saharan Africa, where almost no data were available. Based on these estimates, approximately 0.2 to 0.4 million VL cases and 0.7 to 1.2 million CL cases occur each year. More than 90% of global VL cases occur in just six countries: India, Bangladesh, Sudan, South Sudan, Brazil and Ethiopia (Table 13). Cutaneous leishmaniasis is more widely distributed, with about one-third of cases occurring in each of three regions, the Americas, the Mediterranean basin, and western Asia from the Middle East to Central Asia (Table 14). The ten countries with the highest estimated case counts, Afghanistan, Algeria, Colombia, Brazil, Iran, Syria, Ethiopia, North Sudan, Costa Rica and Peru, together account for 70 to 75% of global estimated CL incidence. Mortality data are extremely sparse and generally represent hospital-based deaths only. The reported case-fatality rate for VL in Brazil in 2006 was 7.2%. In the Indian subcontinent, the focus responsible for the largest proportion of global VL cases, reported case-fatality rates ranged from 1.5% (93 deaths/6224 VL cases from 2004–2008) in Bangladesh to 2.4% (853/34,918) in India and 6.2% (91/1477) in Nepal. However, community-based studies that included active searches for deaths due to kala-azar estimate case-fatality rates of more than 10%, while data from a village-based study in India suggest that as many as 20% of VL patients, disproportionately poor and female, died before their disease was recognized. [43], [44], [45] In South Sudan, one community-based longitudinal study demonstrated a case-fatality rate of 20% in a settled village in peacetime; in areas of conflict, famine or population displacement mortality rates are much higher. [22], [46] A recent study from South Sudan estimated that 91% of all kala-azar deaths went unrecognized. [47] Using an overall case-fatality rate of 10% and assuming that virtually all deaths are from VL, we reach a tentative estimate of 20,000 to 40,000 leishmaniasis deaths per year, in line with previous WHO estimates. [10] The data presented here and in the accompanying Annex (see ‘Leishmaniasis Country Profiles Text S1–S101’) represent the first update of the empirical database for leishmaniasis since 1991. [48], [49] We are acutely cognizant of the uncertainties inherent in the data, and for that reason, have presented rough ranges rather than single estimates for each outcome. We deliberately used conservative assumptions for the underreporting rates and resultant multipliers; true leishmaniasis incidence rates may be substantially higher. Due to the lack of data, we made no estimates for post-kala-azar dermal leishmaniasis, mucocutaneous leishmaniasis, and other less frequent forms of leishmaniasis. Our mortality estimate contains even more uncertainty than the incidence estimate, because studies affirm that a large proportion of kala-azar deaths occur outside of health facilities and the cause likely never recognized, precluding the possibility of accurate passive reporting. [43], [45], [47]. The limitations of these data are obvious: surveillance and vital records reporting in the countries most affected by leishmaniasis are incomplete, and we have very sparse data on which to base correction factors for underreporting. The figures in this report should not be considered precise and should be interpreted with caution. Nevertheless, these data include a more comprehensive review of leishmaniasis incidence than any previous publication, and represent a major improvement in the evidence base for one of the most neglected diseases. [50] Better surveillance systems are urgently needed, in particular in disease foci targeted for more intensive control or elimination. [4], [51] Many key measures of progress, such as validation of trends seen in surveillance data and accurate case-fatality rates, can only be obtained through the active collection of community-based data. [4], [52] We hope the data presented here will allow a more nuanced interpretation of published disease burden estimates, and the uncertainties in these data will spur activities to improve the evidence base for leishmaniasis and other neglected diseases. 
+            Leishmaniasis Country Profiles, Afghanistan.
+           doi:10.1371/journal.pone.0035671.s001 (DOCX) 
+            Leishmaniasis Country Profiles, Albania.
+           doi:10.1371/journal.pone.0035671.s002 (DOCX) 
+            Leishmaniasis Country Profiles, Algeria.
+           doi:10.1371/journal.pone.0035671.s003 (DOCX) 
+            Leishmaniasis Country Profiles, Argentina.
+           doi:10.1371/journal.pone.0035671.s004 (DOCX) 
+            Leishmaniasis Country Profiles, Armenia.
+           doi:10.1371/journal.pone.0035671.s005 (DOCX) 
+            Leishmaniasis Country Profiles, Azerbijan.
+           doi:10.1371/journal.pone.0035671.s006 (DOCX) 
+            Leishmaniasis Country Profiles, Bangladesh.
+           doi:10.1371/journal.pone.0035671.s007 (DOCX) 
+            Leishmaniasis Country Profiles, Belize.
+           doi:10.1371/journal.pone.0035671.s008 (DOCX) 
+            Leishmaniasis Country Profiles, Bhutan.
+           doi:10.1371/journal.pone.0035671.s009 (DOCX) 
+            Leishmaniasis Country Profiles, Bolivia.
+           doi:10.1371/journal.pone.0035671.s010 (DOCX) 
+            Leishmaniasis Country Profiles, Bosnia.
+           doi:10.1371/journal.pone.0035671.s011 (DOCX) 
+            Leishmaniasis Country Profiles, Brazil.
+           doi:10.1371/journal.pone.0035671.s012 (DOCX) 
+            Leishmaniasis Country Profiles, Bulgaria.
+           doi:10.1371/journal.pone.0035671.s013 (DOCX) 
+            Leishmaniasis Country Profiles, Burkina Faso.
+           doi:10.1371/journal.pone.0035671.s014 (DOCX) 
+            Leishmaniasis Country Profiles, Cameroon.
+           doi:10.1371/journal.pone.0035671.s015 (DOCX) 
+            Leishmaniasis Country Profiles, Central African Republic.
+           doi:10.1371/journal.pone.0035671.s016 (DOCX) 
+            Leishmaniasis Country Profiles, Chad.
+           doi:10.1371/journal.pone.0035671.s017 (DOCX) 
+            Leishmaniasis Country Profiles, China.
+           doi:10.1371/journal.pone.0035671.s018 (DOCX) 
+            Leishmaniasis Country Profiles, Colombia.
+           doi:10.1371/journal.pone.0035671.s019 (DOCX) 
+            Leishmaniasis Country Profiles, Costa Rica.
+           doi:10.1371/journal.pone.0035671.s020 (DOCX) 
+            Leishmaniasis Country Profiles, Cote d’Ivoire.
+           doi:10.1371/journal.pone.0035671.s021 (DOCX) 
+            Leishmaniasis Country Profiles, Croatia.
+           doi:10.1371/journal.pone.0035671.s022 (DOCX) 
+            Leishmaniasis Country Profiles, Cyprus.
+           doi:10.1371/journal.pone.0035671.s023 (DOCX) 
+            Leishmaniasis Country Profiles, Democratic Republic of the Congo.
+           doi:10.1371/journal.pone.0035671.s024 (DOCX) 
+            Leishmaniasis Country Profiles, Djibouti.
+           doi:10.1371/journal.pone.0035671.s025 (DOCX) 
+            Leishmaniasis Country Profiles, Dominican Republic.
+           doi:10.1371/journal.pone.0035671.s026 (DOCX) 
+            Leishmaniasis Country Profiles, Ecuador.
+           doi:10.1371/journal.pone.0035671.s027 (DOCX) 
+            Leishmaniasis Country Profiles, Egypt.
+           doi:10.1371/journal.pone.0035671.s028 (DOCX) 
+            Leishmaniasis Country Profiles El Salvador.
+           doi:10.1371/journal.pone.0035671.s029 (DOCX) 
+            Leishmaniasis Country Profiles, Eritrea.
+           doi:10.1371/journal.pone.0035671.s030 (DOCX) 
+            Leishmaniasis Country Profiles, Ethiopia.
+           doi:10.1371/journal.pone.0035671.s031 (DOCX) 
+            Leishmaniasis Country Profiles, France.
+           doi:10.1371/journal.pone.0035671.s032 (DOCX) 
+            Leishmaniasis Country Profiles, French Guyana.
+           doi:10.1371/journal.pone.0035671.s033 (DOCX) 
+            Leishmaniasis Country Profiles, Gambia.
+           doi:10.1371/journal.pone.0035671.s034 (DOCX) 
+            Leishmaniasis Country Profiles, Georgia.
+           doi:10.1371/journal.pone.0035671.s035 (DOCX) 
+            Leishmaniasis Country Profiles, Ghana.
+           doi:10.1371/journal.pone.0035671.s036 (DOCX) 
+            Leishmaniasis Country Profiles, Greece.
+           doi:10.1371/journal.pone.0035671.s037 (DOCX) 
+            Leishmaniasis Country Profiles, Guatemala.
+           doi:10.1371/journal.pone.0035671.s038 (DOCX) 
+            Leishmaniasis Country Profiles, Guinea Bissau.
+           doi:10.1371/journal.pone.0035671.s039 (DOCX) 
+            Leishmaniasis Country Profiles, Guinea.
+           doi:10.1371/journal.pone.0035671.s040 (DOCX) 
+            Leishmaniasis Country Profiles, Guyana.
+           doi:10.1371/journal.pone.0035671.s041 (DOCX) 
+            Leishmaniasis Country Profiles, Honduras.
+           doi:10.1371/journal.pone.0035671.s042 (DOCX) 
+            Leishmaniasis Country Profiles, India.
+           doi:10.1371/journal.pone.0035671.s043 (DOCX) 
+            Leishmaniasis Country Profiles, Iran.
+           doi:10.1371/journal.pone.0035671.s044 (DOCX) 
+            Leishmaniasis Country Profiles, Iraq.
+           doi:10.1371/journal.pone.0035671.s045 (DOCX) 
+            Leishmaniasis Country Profiles, Israel.
+           doi:10.1371/journal.pone.0035671.s046 (DOCX) 
+            Leishmaniasis Country Profiles, Italy.
+           doi:10.1371/journal.pone.0035671.s047 (DOCX) 
+            Leishmaniasis Country Profiles, Jordan.
+           doi:10.1371/journal.pone.0035671.s048 (DOCX) 
+            Leishmaniasis Country Profiles, Kazakhstan.
+           doi:10.1371/journal.pone.0035671.s049 (DOCX) 
+            Leishmaniasis Country Profiles, Kenya.
+           doi:10.1371/journal.pone.0035671.s050 (DOCX) 
+            Leishmaniasis Country Profiles, Kuwait.
+           doi:10.1371/journal.pone.0035671.s051 (DOCX) 
+            Leishmaniasis Country Profiles, Kyrgyzstan.
+           doi:10.1371/journal.pone.0035671.s052 (DOCX) 
+            Leishmaniasis Country Profiles, Lebanon.
+           doi:10.1371/journal.pone.0035671.s053 (DOCX) 
+            Leishmaniasis Country Profiles, Libya.
+           doi:10.1371/journal.pone.0035671.s054 (DOCX) 
+            Leishmaniasis Country Profiles, Malawi.
+           doi:10.1371/journal.pone.0035671.s055 (DOCX) 
+            Leishmaniasis Country Profiles, Mali.
+           doi:10.1371/journal.pone.0035671.s056 (DOCX) 
+            Leishmaniasis Country Profiles, Malta.
+           doi:10.1371/journal.pone.0035671.s057 (DOCX) 
+            Leishmaniasis Country Profiles, Mauritania.
+           doi:10.1371/journal.pone.0035671.s058 (DOCX) 
+            Leishmaniasis Country Profiles, Mexico.
+           doi:10.1371/journal.pone.0035671.s059 (DOCX) 
+            Leishmaniasis Country Profiles, Monaco.
+           doi:10.1371/journal.pone.0035671.s060 (DOCX) 
+            Leishmaniasis Country Profiles, Mongolia.
+           doi:10.1371/journal.pone.0035671.s061 (DOCX) 
+            Leishmaniasis Country Profiles, Montenegro.
+           doi:10.1371/journal.pone.0035671.s062 (DOCX) 
+            Leishmaniasis Country Profiles, Morocco.
+           doi:10.1371/journal.pone.0035671.s063 (DOCX) 
+            Leishmaniasis Country Profiles, Namibia.
+           doi:10.1371/journal.pone.0035671.s064 (DOCX) 
+            Leishmaniasis Country Profiles, Nepal.
+           doi:10.1371/journal.pone.0035671.s065 (DOCX) 
+            Leishmaniasis Country Profiles, Nicaragua.
+           doi:10.1371/journal.pone.0035671.s066 (DOCX) 
+            Leishmaniasis Country Profiles, Niger.
+           doi:10.1371/journal.pone.0035671.s067 (DOCX) 
+            Leishmaniasis Country Profiles, Nigeria.
+           doi:10.1371/journal.pone.0035671.s068 (DOCX) 
+            Leishmaniasis Country Profiles, Oman.
+           doi:10.1371/journal.pone.0035671.s069 (DOCX) 
+            Leishmaniasis Country Profiles, Pakistan.
+           doi:10.1371/journal.pone.0035671.s070 (DOCX) 
+            Leishmaniasis Country Profiles, Panama.
+           doi:10.1371/journal.pone.0035671.s071 (DOCX) 
+            Leishmaniasis Country Profiles, Paraguay.
+           doi:10.1371/journal.pone.0035671.s072 (DOCX) 
+            Leishmaniasis Country Profiles, Peru.
+           doi:10.1371/journal.pone.0035671.s073 (DOCX) 
+            Leishmaniasis Country Profiles, Portugal.
+           doi:10.1371/journal.pone.0035671.s074 (DOCX) 
+            Leishmaniasis Country Profiles, Romania.
+           doi:10.1371/journal.pone.0035671.s075 (DOCX) 
+            Leishmaniasis Country Profiles, Saudi Arabia.
+           doi:10.1371/journal.pone.0035671.s076 (DOCX) 
+            Leishmaniasis Country Profiles, Senegal.
+           doi:10.1371/journal.pone.0035671.s077 (DOCX) 
+            Leishmaniasis Country Profiles, Slovenia.
+           doi:10.1371/journal.pone.0035671.s078 (DOCX) 
+            Leishmaniasis Country Profiles, Somalia.
+           doi:10.1371/journal.pone.0035671.s079 (DOCX) 
+            Leishmaniasis Country Profiles, South Africa.
+           doi:10.1371/journal.pone.0035671.s080 (DOCX) 
+            Leishmaniasis Country Profiles, South Sudan.
+           doi:10.1371/journal.pone.0035671.s081 (DOCX) 
+            Leishmaniasis Country Profiles, Spain.
+           doi:10.1371/journal.pone.0035671.s082 (DOCX) 
+            Leishmaniasis Country Profiles, Sri Lanka.
+           doi:10.1371/journal.pone.0035671.s083 (DOCX) 
+            Leishmaniasis Country Profiles, Sudan.
+           doi:10.1371/journal.pone.0035671.s084 (DOCX) 
+            Leishmaniasis Country Profiles, Surinam.
+           doi:10.1371/journal.pone.0035671.s085 (DOCX) 
+            Leishmaniasis Country Profiles, Syrian Arab Republic.
+           doi:10.1371/journal.pone.0035671.s086 (DOCX) 
+            Leishmaniasis Country Profiles, Taiwan.
+           doi:10.1371/journal.pone.0035671.s087 (DOCX) 
+            Leishmaniasis Country Profiles, Tajikistan.
+           doi:10.1371/journal.pone.0035671.s088 (DOCX) 
+            Leishmaniasis Country Profiles, Thailand.
+           doi:10.1371/journal.pone.0035671.s089 (DOCX) 
+            Leishmaniasis Country Profiles, The Former Yugoslav Republic of Macedonia.
+           doi:10.1371/journal.pone.0035671.s090 (DOCX) 
+            Leishmaniasis Country Profiles, Tunisia.
+           doi:10.1371/journal.pone.0035671.s091 (DOCX) 
+            Leishmaniasis Country Profiles, Turkey.
+           doi:10.1371/journal.pone.0035671.s092 (DOCX) 
+            Leishmaniasis Country Profiles, Turkmenistan.
+           doi:10.1371/journal.pone.0035671.s093 (DOCX) 
+            Leishmaniasis Country Profiles, Uganda.
+           doi:10.1371/journal.pone.0035671.s094 (DOCX) 
+            Leishmaniasis Country Profiles, Ukraine.
+           doi:10.1371/journal.pone.0035671.s095 (DOCX) 
+            Leishmaniasis Country Profiles, United States of America.
+           doi:10.1371/journal.pone.0035671.s096 (DOCX) 
+            Leishmaniasis Country Profiles, Uzbekistan.
+           doi:10.1371/journal.pone.0035671.s097 (DOCX) 
+            Leishmaniasis Country Profiles, Venezuela.
+           doi:10.1371/journal.pone.0035671.s098 (DOCX) 
+            Leishmaniasis Country Profiles, West Bank and Gaza Strip.
+           doi:10.1371/journal.pone.0035671.s099 (DOCX) 
+            Leishmaniasis Country Profiles, Yemen.
+           doi:10.1371/journal.pone.0035671.s100.docx (DOCX) 
+            Leishmaniasis Country Profiles, Zambia.
+           doi:10.1371/journal.pone.0035671.s101 (DOCX) The WHO leishmaniasis control team has contributed importantly to this publication and consists of the following members: Daniel Argaw (WHO/HQ), Sujit Bhattacharya (WHO/SEARO), Mikhail Ejov (WHO/EURO), Ana Nilce Elkhouri (WHO/PAHO), José Antonio Ruiz-Postigo (WHO/EMRO), and Joseph Serrano (WHO/HQ). The constant support of Avideh Denereaz within the WHO/NTD/IDM department has been crucial to structure the Leishmaniasis program as a whole but in particular facilitated the three year process of preparing the country profiles. Special thanks are given to colleagues who reviewed the information of some countries or provided accurate data like Byron Arana (WHO/TDR), and in particular to the members of the PECET, University of Medellin in Colombia, namely Sara M Robledo, Karina Mondragón, Andrés Vélez, Liliana López and Luz A. Acosta. Last but not least, we want to highlight our gratitude to all these that participated in the meetings and responded the questionnaires which contributions have been of paramount importance to prepare this publication. Disclaimer: The boundaries and names shown and the designations used on the maps presented in this paper do not imply the expression of any opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. Dotted lines on maps represent approximate border lines for which there may not yet be full agreement. Wrote the paper: JA IV CB MdB. Performed surveys to obtain Individual Country Data: JA IV MdB. Supported Regional Meetings to obtain Individual Country Data: JA IV MH JJ MdB. In addition to these authors the WHO Leishmaniasis Control Team should be mentioned, this consists of Daniel Argaw (WHO/HQ), Sujit Bhattacharya (WHO/SEARO), Mikhail Ejov (WHO/EURO), Ana Nilce Elkhouri (WHO/PAHO), José Antonio Ruiz-Postigo (WHO/EMRO), and Josep Serrano (WHO/HQ). Critical editing of Individual Country Data: PD. Map Design: JC. For more information about PLOS Subject Areas, click
+          here. Is the Subject Area "Leishmaniasis" applicable to this article?
+          Yes
+          No Thanks for your feedback. Is the Subject Area "Kala-azar" applicable to this article?
+          Yes
+          No Thanks for your feedback. Is the Subject Area "Asia" applicable to this article?
+          Yes
+          No Thanks for your feedback. Is the Subject Area "Ethiopia" applicable to this article?
+          Yes
+          No Thanks for your feedback. Is the Subject Area "Brazil" applicable to this article?
+          Yes
+          No Thanks for your feedback. Is the Subject Area "Global health" applicable to this article?
+          Yes
+          No Thanks for your feedback. Is the Subject Area "India" applicable to this article?
+          Yes
+          No Thanks for your feedback. Is the Subject Area "South Sudan" applicable to this article?
+          Yes
+          No Thanks for your feedback. 
+
+ 
+
+       Publications plos.org Blogs Collections Send us feedback Help using this site LOCKSS PLOS is a nonprofit 501(c)(3) corporation, #C2354500, and is based in San Francisco, California, US

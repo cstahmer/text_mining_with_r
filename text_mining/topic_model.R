@@ -26,25 +26,38 @@ library(wordcloud)
 # Set working directory
 setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
-#set directory where files live
-inputDirPath <- "data/ballads"
+# Set directory where files live
+inputDirPath <- "/Users/cstahmer/SpiderOak Hive/writing/close_reading_ballads/runscript"
+
+# Set number of topics
+intNumTopics <- 43
+
+# Set alpha burn-in iterations
+intAlphaBurnIn <- 40
+
+# Set number of iterations between alpha optimization
+intAlphaOptIterations <- 80
+
+# Set the number of training iterations
+intTraniningIterations <- 400
+
 
 ###################################
 #        Operational Code         #
 ###################################
 
 #load the files from the path into a vector
-files.v <- dir(path=inputDirPath, pattern=".*txt")
+files.v <- dir(path=inputDirPath, pattern="*")
 
 # set up a documents data frame
-#documents <- data.frame(x = character(length(files.v)), y = character(length(files.v)), stringsAsFactors = FALSE)
-documents <- data.frame(x = character(50), y = character(50), stringsAsFactors = FALSE)
+documents <- data.frame(x = character(length(files.v)), y = character(length(files.v)), stringsAsFactors = FALSE)
+#documents <- data.frame(x = character(50), y = character(50), stringsAsFactors = FALSE)
 
-#for(i in 1:length(files.v)) {
-for(i in 1:50) {
-  print(files.v[i])
+for(i in 1:length(files.v)) {
+#for(i in 1:50) {
+  # print(files.v[i])
   filePath <- paste(inputDirPath, "/", files.v[i], sep="")
-  print(filePath)
+  # print(filePath)
   
   #load the file
   text.v <- scan(filePath, what="character", sep="\n")
@@ -69,7 +82,7 @@ mallet.instances <- mallet.import(documents$x, documents$y,
                                   token.regexp="[\\p{L}']+")
 
 #now setup a trainer
-topic.model <- MalletLDA(num.topics=43)
+topic.model <- MalletLDA(num.topics = intNumTopics)
 
 #now load the docs
 topic.model$loadDocuments(mallet.instances)
@@ -82,11 +95,11 @@ word.freqs <- mallet.word.freqs(topic.model)
 
 #tweak number of burn-in iterations and
 #interations between optimizations
-topic.model$setAlphaOptimization(40, 80)
+topic.model$setAlphaOptimization(intAlphaBurnIn, intAlphaOptIterations)
 
 #set number of training iterations.
 #in theory, the higher the better
-topic.model$train(400)
+topic.model$train(intTraniningIterations)
 
 #see the topic word clusters
 topic.words.m <- mallet.topic.words(topic.model, smoothed=TRUE,normalized=TRUE)
@@ -95,7 +108,8 @@ colnames(topic.words.m) <- vocabulary
 topic.words.m[1:3, 1:3]
 
 #now find rows that have the highest concentration of user identified key words
-keywords <- c("king", "maiden")
+#keywords <- c("king", "maiden")
+keywords <- c("wife", "miller")
 topic.words.m[, keywords]
 imp.row <- which(rowSums(topic.words.m[, keywords]) == max(rowSums(topic.words.m[, keywords])))
 
@@ -111,7 +125,17 @@ doc.topics.m <- mallet.doc.topics(topic.model, smoothed=T,normalized=T)
 #let mallet name topics based on word frequency within cluster
 mallet.top.words(topic.model, topic.words.m[imp.row,], 10)
 
+# get topics per document
+mallet.doc.topics(topic.model, FALSE, FALSE)
 
+# get the filenames into a vector
+file.ids.v <- documents[,1] 
+head(file.ids.v)
+
+doc.topics.df <- as.data.frame(doc.topics.m)
+doc.topics.df <- cbind(file.ids.v, doc.topics.df)
+doc.topic.means.df <- aggregate(doc.topics.df[, 2:ncol(doc.topics.df)], list(doc.topics.df[,1]), mean)
+barplot(doc.topic.means.df[, "V6"], names.arg=c(1:43))
 
 
 

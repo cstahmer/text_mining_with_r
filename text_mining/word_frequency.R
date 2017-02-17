@@ -47,7 +47,7 @@
 # Attribution-ShareAlike 4.0 International License.
 #
 # see http://creativecommons.org/licenses/by-sa/4.0/
-#install.packages("tm")
+#install.packages("tm")0
 
 library(tm)
 
@@ -132,11 +132,9 @@ print(obj_sortedFrequenciesRel_table[1:50])
 
 # plot the word frequencies
 var_numToPlot_integer <- 10
-plot(obj_sortedFrequenciesRel_table[1:10], main="Relative Word Frequency", type="b", xlab="Top Ten Words", ylab="Percentage of Full Text", xaxt ="n") 
+plot(obj_sortedFrequenciesRel_table[1:var_numToPlot_integer], main="Relative Word Frequency", type="b", xlab="Top Ten Words", ylab="Percentage of Full Text", xaxt ="n") 
 axis(1, 1:var_numToPlot_integer, labels=names(obj_sortedFrequenciesRel_table [1:var_numToPlot_integer]))
 
 # save the results to a csv file
 write.csv(obj_sortedFrequencies_table, file = var_outputFile_character)
-
-
 

@@ -65,7 +65,7 @@ setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
 # define the input directory for the texts to
 # be analyzed
-var_inputDir_character <- "~/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainTextTruncated"
+var_inputDir_character <- "/Users/cstahmer/SpiderOak Hive/writing/close_reading_ballads/runscript"
 
 ###################################
 #      function declarations      #
@@ -124,3 +124,6 @@ for (var_document_integer in 1:var_numcols_int) {
 }
 
 #print(varTopTerms)
+
+# Write CSV in R
+# write.csv(var_sorted_matrix, file = "/Users/cstahmer/SpiderOak Hive/writing/close_reading_ballads/tfidf.csv")
