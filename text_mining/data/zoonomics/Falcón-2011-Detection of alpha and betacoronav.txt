@@ -1,0 +1,1433 @@
+Arch Virol (2011) 156:1883–1890
+DOI 10.1007/s00705-011-1057-1
+
+BRIEF REPORT
+
+Detection of alpha and betacoronaviruses in multiple
+Iberian bat species
+Ana Falcón • Sonia Vázquez-Morón • Inmaculada Casas • Carolina Aznar
+Guillermo Ruiz • Francisco Pozo • Pilar Perez-Breña • Javier Juste •
+Carlos Ibáñez • Inazio Garin • Joxerra Aihartza • Juan E. Echevarrı́a
+
+•
+
+Received: 2 February 2011 / Accepted: 20 June 2011 / Published online: 16 July 2011
+Ó The Author(s) 2011. This article is published with open access at Springerlink.com
+
+Abstract Bat coronaviruses (CoV) are putative precursors of the severe acute respiratory syndrome (SARS) CoV
+and other CoV that crossed the species barrier from zoonotic reservoirs into the human population. To determine
+the presence and distribution of CoV in Iberian bats, 576
+individuals of 26 different bat species were captured in 13
+locations in Spain. We report for the first time the presence
+of 14 coronaviruses in 9 Iberian bat species. Phylogenetic
+analysis of a conserved CoV genome region (RdRp gene)
+shows a wide diversity and distribution of alpha and
+betacoronavirus in Spain. Interestingly, although some of
+these viruses are related to other European BatCoV, or to
+Asian CoV, some of the viruses found in Spain cluster in
+new groups of a and b CoV.
+
+GenBank accession numbers: Partial sequences of RdRp gene of bat
+coronaviruses obtained in this study were deposited in GenBank
+under the accession numbers HQ184049 to HQ184062.
+A. Falcón  S. Vázquez-Morón  I. Casas  C. Aznar  G. Ruiz 
+F. Pozo  P. Perez-Breña  J. E. Echevarrı́a
+Centro Nacional de Microbiologı́a, Instituto de Salud Carlos III,
+Madrid, Spain
+A. Falcón (&)
+Centro Nacional de Biotecnologı́a, CSIC, Darwin 3,
+Campus Cantoblanco, 28049 Madrid, Spain
+e-mail: afalcon@cnb.csic.es
+J. Juste  C. Ibáñez
+Estación Biológica de Doñana, CSIC, Seville, Andalusia, Spain
+I. Garin  J. Aihartza
+Department of Zoology and Animal Cell Biology,
+University of the Basque Country (UPV/EHU),
+Leioa, The Basque Country, Spain
+
+The emergence of infectious diseases is a major threat to
+global public health in this century (WHO, World Health
+Report
+http://www.who.int/whr/previous/en/index.html)
+and many of these new infectious human diseases are
+caused by viruses emerging from wildlife. In the last
+50 years, more than 30 new infectious human diseases
+have been identified (WHO, World Health Report
+http://www.who.int/whr/previous/en/index.html) including
+the Severe Acute Respiratory Syndrome (SARS). The
+aetiological agent of this disease was identified as a
+previously unknown coronavirus (SARS-CoV) [1] and
+BatCoV are putative precursors of SARS-CoV [2]. The
+outbreak of SARS-CoV and subsequent identification of
+two additional human coronaviruses (HCoV-NL63[3] and
+HCoV-HKU1 [4]) has drawn human and animal health
+attention to Coronavirinae subfamily, that includes three
+genera, Alphacoronavirus (a CoV), Betacoronavirus
+(b CoV) and Gammacoronavirus (c CoV), replacing the
+classical groups 1, 2 and 3 [5] (http://talk.ictvonline.org/
+media/g/vertebrate-2008/default.aspx).
+The relevance and possible re-emergence of the pandemic SARS-CoV and other emerging viruses of zoonotic
+origin have activated surveillance systems of hazard agents
+in wild animals, including bats. As a result of these studies,
+bats have been described as putative reservoirs for some
+emerging viruses affecting humans [6]. BatCoV are putative precursors of CoV affecting humans and mammals [7,
+8], including SARS-CoV [2] and other CoV that crossed
+the species barrier from zoonotic reservoirs into the human
+population [9]. In fact, association of some of these CoV to
+certain bat species has been suggested [10, 11], reinforcing
+the notion that there may be a relationship between some
+BatCoV and their hosts. Nowadays the presence of CoV
+has been shown in bats in China [12, 13], North and South
+America [14–17], Africa [18] and a number of regions in
+
+123
+
+1884
+
+Europe [11, 19–21] but not the Iberian Peninsula (Spain
+and Portugal), which is a bridge for European and African
+bat populations [22]. Thus, surveillance of wildlife reservoirs of putative zoonotic CoV is necessary, not only to
+unveil the ecology of these viruses, but also to permit early
+detection of viruses that might pose a threat to human
+health.
+To determine the presence and distribution of putative
+zoonotic CoV in Iberian bats, 576 individuals from 26 bat
+species were captured and sampled in 13 different locations
+throughout Spain during 2004-2007 (Fig. 1). These samples were collected in the context of bat rhabdoviruses and
+lyssaviruses Surveillance Program in Spain. Most of the
+sampled bat species are also distributed across Europe, but
+Eptesicus isabellinus is a meridional serotine bat restricted
+to North Africa and the Iberian Peninsula [23], and Myotis
+escalerai is endemic in the Iberian Peninsula. Bats were
+caught with mist nets mainly as they left diurnal roost and
+by hand with polyethylene butterfly nets within roosts.
+Oro-pharyngeal swabs (n=390) between 2004 and 2007 as
+well as faecal samples from individual bats (n=216) in
+2007 were taken before bats were released (Table 1).
+Oro-pharyngeal swabs collected between 2004 and 2006
+were preserved in 1 ml of lysis buffer (4 M GuSCN (Sigma),
+OS% N-lauroyl Sarcosine (Sigma), 1 mM dithiothreitol
+(DTT, Sigma), 25 mM Sodium Citrate and 20 pg/tube
+Glycogen (Boehringer Mannheim). Oro-pharyngeal swabs
+and faeces collected in 2007 were preserved in both 1 ml of
+lysis buffer and 1 ml of viral transport medium (VTM)
+(Eagle’s minimal essential medium (EMEM) supplemented
+with 10 UI/ml of penicillin, 10 lg/ml of streptomycin,
+160 lg/ml of gentamicin, 50 UI/ml of mycostatin and 1% of
+
+Fig. 1 Geographical location of bat capture sites in Spain. 1: A
+Coruña, 2: Lugo, 3: La Rioja, 4: Gerona, 5: Castellón, 6: Valencia, 7:
+Alicante, 8: Málaga, 9: Cádiz, 10: Sevilla, 11: Huelva, 12: Cáceres,
+13: Menorca. The stars show the locations where positive samples
+were found
+
+123
+
+A. Falcón et al.
+
+bovine serum albumin). All samples were frozen at -80°C
+before sending them to the Rabies Reference Laboratory at
+the Centro Nacional de Microbiologı́a, ISCIII in Madrid.
+Faecal samples were clarified by centrifugation. Total
+nucleic acid was extracted from a 200 ll aliquot of each
+specimen for PCR assays and the rest were stored to -80°C
+in two different aliquots. Final pellets were always resuspended to 55 ll of water.
+A pan-coronavirus nested PCR was designed in the
+RdRp gene. A total of 5 ll of extracted RNA was added to
+45 ll of reaction mixture of OneStep RT-PCR kit
+(QIAGEN, Valencia, CA, USA) containing 200 lM
+dNTPs and 60 pmol of generic CoV-specific degenerated
+primers (forward 50 -CARATGAATYTIAARTAYGC-30
+and reverse 50 -TGYTGWGARCAAAAYTCRTG-30 ) and
+following manufacturer indications. Amplifications were
+carried out into thin-walled reaction tubes (Sorenson,
+BioScience, UT) in a PTC-200 (Peltier Thermal Cycler, MJ
+Research, Watertown, MA). Nested PCR amplifications
+were performed using 2 ll of first amplification product
+and 48 ll of reaction mixture containing 60 mM Tris-HCl
+(pH 8.5), 15 mM (NH4)2SO4, 200 lM dNTPs (Amersham
+Pharmacia Biotech, Piscataway, NJ), 3 mM MgCl2,
+35 pmol of generic CoV-specific degenerated primers
+(forward 50 -ATGGGWTGGGAYTAYCCIAARTG-30 and
+reverse 50 -ACRTTRTTYTGRWARTA-30 ) and 1.25 U
+AmpliTaq DNA Polymerase (Perkin-Elmer Cetus, Norwalk). Amplification product size of 512 nt was visualized
+by agarose gel electrophoresis and sequenced directly in
+both directions using an automated ABI PRISM 377 model
+sequencer. For phylogeny reconstruction, consensus
+sequences were aligned together with others obtained from
+public genomic databases using the program CLUSTAL X
+(version 1.83) (Table 2). A Bayesian phylogenetic inference was obtained using Mr Bayes version 3.1 [24] with
+random starting trees without constraints. For the analyses
+GTR substitution model, gamma estimation and two
+simultaneous runs of 107 generations were done, each with
+four Markov chains, and the trees were sampled every 100
+generations. Amino acid identity was calculated with
+MEGA 4 using the pairwise deletion option. The alignment
+comprised the same 396 bp of the RdRp gene used for the
+phylogenetic reconstruction.
+A total of 26 out of the 30 known bat species known for
+Iberian Peninsula were screened for CoV and 14 samples
+taken from 9 bat species, all included in the family
+Vespertilionidae, were positive for CoV RNA (Tables 1
+and 2). Twelve of them were found within faecal samples
+(5.5%) of 7 different bat species in 6 locations and two
+were obtained in oral samples (0.5%) of 2 other different
+species in the same location (Table 1). In view of these
+results, it is not surprising that the presence of CoV RNA is
+significantly more frequent in faeces than in oral cavity
+
+Alpha and Betacoronaviruses in Iberian bats
+
+1885
+
+Table 1 Results of detection of CoV RNA in faecal or oral samples of bats collected in Spain
+Bat Species
+
+Faecal samples
+positive/no. tested
+
+Oral samples
+positive/no. tested
+
+Location
+
+Genus
+
+Barbastella barbastellus
+
+0/4
+
+0/2
+
+3, 4
+
+Eptesicus isabellinus
+
+1/8
+
+NA
+
+10a
+
+Eptesicus serotinus
+
+0/7
+
+NA
+
+1, 12
+
+Hypsugo savii
+
+2/26
+
+0/10
+
+2, 4a, 12a,b
+
+a,b
+
+Miniopterus schreibersii
+
+0/2
+
+1/71
+
+2, 5, 6a, 7, 8, 9, 12, 13
+
+a
+
+Myotis alcathoe
+
+0/1
+
+NA
+
+3
+
+Myotis bechsteinii
+Myotis blythii
+
+0/2
+NA
+
+0/3
+1/11
+
+4, 8
+6a, 7, 12
+
+Myotis capaccinii
+
+NA
+
+0/14
+
+5, 6, 13
+
+Myotis daubentonii
+
+1/39
+
+0/52
+
+2, 3, 8a, 11, 12
+
+Myotis emarginatus
+
+NA
+
+0/2
+
+8, 12
+
+Myotis escalerai
+
+NA
+
+0/15
+
+11, 7
+
+Myotis myotis
+
+1/1
+
+0/17
+
+6, 7, 8a, 12
+
+Myotis mystacinus
+
+0/5
+
+NA
+
+2, 3
+
+Myotis nattereri
+
+0/3
+
+0/3
+
+4
+
+Nyctalus lasiopterus
+
+5/37
+
+0/137
+
+3, 8a,b, 9, 10, 11
+
+Nyctalus leisleri
+
+0/23
+
+0/11
+
+2, 3, 4, 8
+
+Pipistrellus kuhlii
+
+1/4
+
+0/6
+
+8, 12a
+
+Pipistrellus pipistrellus
+
+0/3
+
+0/1
+
+3, 12
+
+Pipistrellus pygmaeus
+
+NA
+
+0/1
+
+12
+
+Pipistrellus sp.
+
+1/29
+
+0/5
+
+1, 2, 4, 8, 12a,b
+
+Plecotus auritus
+Plecotus austriacus
+
+0/7
+0/7
+
+NA
+0/10
+
+1, 3, 4
+4, 11, 12
+
+Rhinolophus euryale
+
+NA
+
+0/13
+
+6, 7, 12
+
+Rhinolophus ferrumequinum
+
+0/3
+
+0/5
+
+4, 8, 12
+
+Rhinolophus hipposideros
+
+0/4
+
+NA
+
+4, 12
+
+Rhinolophus mehelyi
+
+NA
+
+0/1
+
+12
+
+Total
+
+12/216
+
+2/390
+
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+
+b
+
+a
+a
+
+a
+
+a
+a
+
+a
+
+a,b
+
+NA no samples available
+a
+
+Locations where positives samples were found
+
+b
+
+These samples were collected in different localities than other positive samples with the same number location
+
+(p\0.0001, FISHER EXACT TEST). It is of interest that
+none of the viruses has been found in oropharingeal and
+faecal samples of the same individual, when both samples
+were available. This fact may indicate either that the
+infection was at different stage in the different individuals
+at the time of sampling or that replication of virus may take
+place independently in the intestinal and respiratory tracts
+[25]. Most of the CoV RNA sequences found in faecal
+samples (83%) correspond to a CoV, the remaining two
+belonging to b CoV. All CoV RNAs from oral samples
+(100%) were found to contain viral RNA sequences corresponding to a CoV. In agreement with all previous
+studies [7], none of the coronavirus detected in Spanish
+bats belong to group c.
+The phylogenetic analysis of Spanish BatCoV was
+performed using 396nt out of the 512 nt RT-PCR amplified
+
+fragments. 116nt fragment information was lost to allowed
+us include more sequences from other European countries
+and other continents deposited in GenBanK to perform a
+meaningful analysis. This small part of the RdRp gene has
+been previously used, and sufficiently represents the full
+gene information, for phylogenetic analysis of BatCoV [11,
+14, 20]
+The phylogenetic reconstruction showed 6 different
+lineages of Spanish BatCoV (Fig. 2). BatCoV A and B
+were closely related to other a BatCoV found in China
+[12], although they appeared to display certain genetic
+differentiation (Fig. 2). Myotis daubentonii-associated
+CoV H, and Pipistrellus-associated CoV K, clustered
+respectively with lineages 4 and 3 of a CoV previously
+described in Germany and are hosted by the same bat
+species or genera [11] (Fig. 2). BatCoV L was closely
+
+123
+
+1886
+
+A. Falcón et al.
+
+Table 2 Data of interest related to the 91 coronavirus sequences used for the generation of the phylogenetic tree
+Access no
+
+Host species
+
+Country
+
+Genus
+
+Cluster
+
+DQ249221
+
+Bat
+
+China
+
+b
+
+HKU5
+
+DQ249219
+
+Bat
+
+China
+
+b
+
+HKU5
+
+DQ249218
+
+Pipistrellus sp.
+
+China
+
+b
+
+HKU5
+
+DQ648809
+
+Bat
+
+China
+
+b
+
+DQ648807
+
+Bat
+
+China
+
+b
+
+DQ249217
+
+Pipistrellus sp.
+
+China
+
+b
+
+DQ648819
+
+Bat
+
+China
+
+b
+
+HKU5
+
+DQ249215
+
+Tylonycteris
+
+China
+
+b
+
+HKU4
+
+DQ249214
+
+Tylonycteris
+
+China
+
+b
+
+HKU4
+
+DQ074652
+
+Tylonycteris
+
+China
+
+b
+
+HKU4
+
+DQ249216
+DQ648803
+
+Tylonycteris
+Bat
+
+China
+China
+
+b
+b
+
+HKU4
+
+HQ184059
+
+Hypsugo savii
+
+Spain
+
+b
+
+HQ184062
+
+Eptesicus isabellinus
+
+Spain
+
+b
+
+GQ404795
+
+Rhinolophus hipposideros
+
+Slovenia
+
+b
+
+GQ404796
+
+Rhinolophus hipposideros
+
+Slovenia
+
+b
+
+GQ404797
+
+Rhinolophus hipposideros
+
+Slovenia
+
+b
+
+DQ022305
+
+Rhinolophus sinicus
+
+China
+
+b
+
+NC_009696
+
+Rhinolophus macrotis
+
+b
+b
+
+NC_004718
+
+Human
+
+NC_009021
+
+Rousettus leschenaulti
+
+NC_006577
+
+Human
+
+b
+
+NC_006852
+
+Mouse
+
+b
+
+NC_007732
+
+Pig
+
+b
+
+NC_005147
+
+Human
+
+b
+
+China
+
+b
+
+EF544563
+
+Myotis occultus
+
+USA
+
+a
+
+EF544565
+HQ184049
+
+Myotis occultus
+Miniopterus schreibersii
+
+USA
+Spain
+
+a
+a
+
+HQ184050
+
+Myotis blythii
+
+Spain
+
+a
+
+DQ648838
+
+Bat
+
+China
+
+a
+
+DQ648855
+
+Rhinolophus ferrumequinum
+
+China
+
+a
+
+DQ648854
+
+Rhinolophus ferrumequinum
+
+China
+
+a
+a
+
+NC_003436
+
+Pig
+
+EU375862
+
+Myotis dasycneme
+
+Germany
+
+a
+
+EU375859
+
+Myotis dasycneme
+
+Germany
+
+a
+
+EU375858
+
+Myotis dasycneme
+
+Germany
+
+a
+
+EU375855
+
+Myotis dasycneme
+
+Germany
+
+a
+
+EU375863
+
+Myotis dasycneme
+
+Germany
+
+a
+
+EU375861
+
+Myotis dasycneme
+
+Germany
+
+a
+
+EU375856
+
+Myotis dasycneme
+
+Germany
+
+a
+
+EU375854
+
+Myotis dasycneme
+
+Germany
+
+a
+
+EU375857
+EU375865
+
+Myotis dasycneme
+Myotis bechsteinii
+
+Germany
+Germany
+
+a
+a
+
+EU375853
+
+Myotis bechsteinii
+
+Germany
+
+a
+
+EU375860
+
+Myotis bechsteinii
+
+Germany
+
+a
+
+EU375869
+
+Pipistrellus nathusii
+
+Germany
+
+a
+
+EU375864
+
+Pipistrellus nathusii
+
+Germany
+
+a
+
+EU375870
+
+Pipistrellus pygmaeus
+
+Germany
+
+a
+
+123
+
+HKU9
+
+Alpha and Betacoronaviruses in Iberian bats
+
+1887
+
+Table 2 continued
+Access no
+
+Host species
+
+Country
+
+Genus
+
+EU375868
+
+Pipistrellus pygmaeus
+
+Germany
+
+a
+
+EU375867
+
+Pipistrellus pygmaeus
+
+Germany
+
+a
+
+HQ184060
+
+Pipistrellus sp.
+
+Spain
+
+a
+
+DQ648822
+
+Bat
+
+China
+
+a
+
+DQ648821
+
+Bat
+
+China
+
+a
+
+DQ648824
+
+Bat
+
+China
+
+a
+
+DQ648823
+
+Bat
+
+China
+
+a
+
+EU375875
+
+Myotis daubentonii
+
+Germany
+
+a
+
+EU375873
+
+Myotis daubentonii
+
+Germany
+
+a
+
+EU375874
+
+Myotis daubentonii
+
+Germany
+
+a
+
+EU375872
+
+Myotis daubentonii
+
+Germany
+
+a
+
+EU375866
+
+Myotis daubentonii
+
+Germany
+
+a
+
+HQ184056
+EU375871
+
+Myotis daubentonii
+Myotis daubentonii
+
+Spain
+Germany
+
+a
+a
+
+DQ648833
+
+Myotis ricketti
+
+China
+
+a
+
+DQ249224
+
+Myotis ricketti
+
+China
+
+a
+
+DQ648837
+
+Myotis ricketti
+
+China
+
+a
+
+Cluster
+
+HKU6
+
+DQ249235
+
+Rhinolophus sinicus
+
+China
+
+a
+
+HKU2
+
+DQ249213
+
+Rhinolophus sinicus
+
+China
+
+a
+
+HKU2
+
+a
+
+DQ648840
+
+Bat
+
+China
+
+DQ249228
+
+Miniopterus sp.
+
+China
+
+a
+
+EU834954
+
+Miniopterus australis
+
+Australia
+
+a
+
+EU834952
+
+Miniopterus australis
+
+Australia
+
+a
+
+EU834955
+
+Miniopterus schreibersii
+
+Australia
+
+a
+
+EU834953
+
+Rhinolophus megaphyllus
+
+Australia
+
+a
+
+DQ648835
+
+Miniopterus schreibersii
+
+China
+
+a
+
+DQ648796
+
+Bat
+
+China
+
+a
+
+DQ648797
+DQ249226
+
+Bat
+Miniopterus magnater
+
+China
+China
+
+a
+a
+
+HQ184061
+
+Hypsugo savii
+
+Spain
+
+a
+
+HQ184051
+
+Nyctalus lasiopterus
+
+Spain
+
+a
+
+HQ184054
+
+Nyctalus lasiopterus
+
+Spain
+
+a
+
+HQ184053
+
+Nyctalus lasiopterus
+
+Spain
+
+a
+
+HQ184052
+
+Nyctalus lasiopterus
+
+Spain
+
+a
+
+HQ184055
+
+Nyctalus lasiopterus
+
+Spain
+
+a
+
+HQ184057
+
+Myotis myotis
+
+Spain
+
+a
+
+HQ184058
+
+Pipistrellus kuhlii
+
+Spain
+
+a
+
+Australia
+
+a
+
+EU834951
+
+Myotis macropus
+
+NC_002645
+
+Human
+
+a
+
+NC_005831
+
+Human
+
+a
+
+AY994055
+
+Cat
+
+a
+
+NC_002306
+
+Pig
+
+a
+
+NC_001451
+
+Chicken
+
+c
+
+HKU8
+
+HKU7
+
+123
+
+1888
+
+Fig. 2 CoV phylogenetic reconstruction based on 396 bp of the RdRp
+gene including 14 Spanish CoV from different bat species and 77 alpha,
+beta and gammacoronaviruses obtained from GenBank. Accession
+numbers are shown in brackets. BatCoV detected in Spain are
+highlighted in italics. For the analyses GTR substitution model, gamma
+estimation and two simultaneous runs of 107 generations were done,
+each with four Markov chains, and the trees were sampled every 100
+generations. First 25% trees were excluded as burn-in from the analysis.
+Significant posterior probabilities are indicated. Complementary
+
+123
+
+A. Falcón et al.
+
+information about sequences used in this phylogenetic reconstruction
+are shown in Table 2. Positive samples described in this work are shown
+in shaded rectangles and ovals. The new alpha and betacoronavirus
+groups described in this work are shown in shaded ovals. Amino acid
+identity was calculated with MEGA 4 using the pairwise deletion
+option. The alignment comprised the same 396 bp of the RdRp gene
+used for the phylogenetic reconstruction. Amino acid identities across
+132 amino acids are indicated next to the brackets that links every
+Spanish BatCoV to the phylogenetic neighbours
+
+Alpha and Betacoronaviruses in Iberian bats
+
+related to cluster HKU7 described in China [10]. BatCoV
+C, D, E, F, G and I belonged to the same lineage and
+showed an intriguing new independent cluster (significant
+posterior probability = 0.95) including BatCoV I0 (Fig. 2).
+In addition, BatCoV J and M were genetically related to b
+CoV, although they did not really associate with any of
+their previously described linages. Sequences corresponding to two different groups of CoV were found in the same
+bat species (Hypsugo savii) as it was also found for other
+bat species elsewhere [12]. Spanish BatCoV described here
+were also classified calculating amino acid distances of
+these viruses from phylogenetic neighbours and related
+reference species [21]. Amino acid distance criteria
+recently described for separating RdRp grouping units
+(RGU) were adopted [21]. Interestingly, the amino acid
+distance criteria ([4.8% for alphacoronavirus and [6.3%
+for betacoronavirus) reinforced the presence of the new
+group of alphacoronaviruses mentioned above including
+Spanish BatCoV C, D, E, F, G and I; and additionally
+showed four new tentative groups (Fig. 2). BatCoV A and
+B were included in a new alphacoronavirus group and
+BatCoV I0 constituted another independent alphacoronavirus group. BatCoV J, and M represented two new betacoronavirus groups and BatCoV H, K and L remained as
+part of several established species (Fig. 2).
+It has been previously suggested that some CoV associate to certain bat species [10, 11]. However, we found
+that different bat species from the same colony or location
+harbour CoV of the same genetic lineage (BatCoV A and
+B; G and I), indicating a greater diversity and higher
+complexity than previously described for the ecology of
+BatCoV. Similar exceptions were found in China and
+South America [12, 16, 26] and could also be observed
+with Australian BatCoV (Fig. 2 and Table 2).
+In conclusion, previous studies showed the presence of
+BatCoV in Europe. However, to our knowledge, this is the
+first report describing the presence of CoV RNA in Iberian
+bat species. Phylogenetic data indicate high diversity, wide
+distribution and complex ecology of CoV in bats captured
+in diverse Spanish locations. The sequences reported herein
+provide new insights into the diversity of coronaviruses and
+describe new phylogenetic linages that appear to diverge
+from all genotypes previously detected in other European
+locations. Future studies should clarify whether such
+apparently high diversity reflects the bio-geographical
+peculiarities of the Iberian Peninsula or not. This study
+contributes with a new dataset to the global surveillance of
+emerging BatCoV with pathogenic potential in humans.
+Our data reinforce the notion that the ecology and transmission of CoV in bat reservoirs is far from being completely understood and that more studies will be necessary
+to evaluate the magnitude of the potential threat that these
+viruses pose to human health.
+
+1889
+Acknowledgments We gratefully thank S. Perlman and P. Woo for
+providing MHV RNA and HCoV-HKU1 RT-PCR products respectively, as controls for pancoronavirus PCR development. We also
+thank L. Enjuanes for scientific discussions and P. Gastaminza for
+critical comments on the manuscript. We are grateful to David Garcı́a,
+Ana Popa, Grupo Drosera, Museu de Granollers and everyone who
+participated in the collection of field samples and the Genomic Unit of
+the National Center of Microbiology for analyzing the genomic
+sequences. This work was supported by a Spanish Ministry of Science
+and Innovation grant (Projects SAF2006-12784-C02-01 and
+SAF2006-12784-C02-02) and a grant from the Basque Government
+(ref. IT301-10).
+Conflict of interest
+
+The authors declare no conflict of interest.
+
+Open Access This article is distributed under the terms of the
+Creative Commons Attribution Noncommercial License which permits any noncommercial use, distribution, and reproduction in any
+medium, provided the original author(s) and source are credited.
+
+References
+1. Drosten C, Günther S, Preiser W, van der Werf S et al (2003)
+Identification of a novel coronavirus in patients with severe acute
+respiratory syndrome. N Engl J Med 348:1967–1976
+2. Li W, Shi Z, Yu M, Ren W, Smith C, Epstein JH, Wang H et al
+(2005) Bats are natural reservoirs of SARS-like coronaviruses.
+Science 310:676–679
+3. van der Hoek L, Pyrc K, Jebbink MF, Vermeulen-Oost W,
+Berkhout RJ, Wolthers KC, Wertheim-van Dillen PM, Kaandorp
+J, Spaargaren J, Berkhout B (2004) Identification of a new human
+coronavirus. Nat Med 10:368–373
+4. Woo PC, Lau SK, Chu CM, Chan KH, Tsoi HW, Huang Y, Wong
+BH, Poon RW, Cai JJ, Luk WK, Poon LL, Wong SS, Guan Y,
+Peiris JS, Yuen KY (2005) Characterization and complete genome sequence of a novel coronavirus, coronavirus HKU1, from
+patients with pneumonia. J Virol 79:884–895
+5. de Groot RJ, Ziebur J, Poon LL, Woo PC, Talbot P, Rottier PJM,
+Holmes KV, Baric R, Perlman S, Enjuanes L, Gorbalenya AE
+(2010) Taxonomic structure of the Coronaviridae. In: Fauquet
+CM, Mayo MA, Maniloff J, Desselberg U, King A (eds) Virus
+taxonomy. International committee on taxonomy of viruses.
+Academic Press, London
+6. Calisher CH, Childs JE, Field HE, Holmes KV, Schountz T
+(2006) Bats: important reservoir hosts of emerging viruses. Clin
+Microbiol Rev 19:531–545
+7. Vijaykrishna D, Smith GJ, Zhang JX, Peiris JS, Chen H, Guan Y
+(2007) Evolutionary insights into the ecology of coronaviruses.
+J Virol 81:4012–4020
+8. Woo PCY, Lau SKP, Huang Y, Yuen KY (2009) Coronavirus
+diversity, phylogeny and interspecies jumping. Exp Biol Med
+234:1117–1127
+9. Pfefferle S, Oppong S, Drexler JF, Gloza-Rausch F, Ipsen A,
+Seebens A, Muller MA, Annan A, Vallo P, Adu-Sarkodie Y,
+Kruppa TF, Drosten C (2009) Distant relatives of severe acute
+respiratory coronavirus and close relatives of human coronavirus
+229E in bats, Ghana. Emerg Infect Dis 15:1377–1384
+10. Woo PC, Lau SK, Li KS, Poon RW, Wong BH, Tosı́ HW, Yip
+BC, Huang Y, Chan KH, Yuen KY (2006) Molecular diversity of
+coronaviruses in bats. Virology 20:180–187
+11. Gloza-Rausch F, Ipsen A, Seebens A, Göttsche M, Panning M,
+Felix Drexler J, Petersen N, Annan A, Grywna K, Müller M,
+Pfefferle S, Drosten C (2008) Detection and prevalence patterns
+
+123
+
+1890
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+of group I coronaviruses in bats, northern Germany. Emerg Infect
+Dis 14:626–631
+Tang XC, Zhang JX, Zhang SY, Wang P, Fan XH, Li LF, Li G,
+Dong BQ, Liu W, Cheung CL, Xu KM, Song WJ, Vijaykrishna
+D, Poon LLM, Peiris JSM, Smith GJD, Chen H, Guan Y (2006)
+Prevalence and genetic diversity of coronavirus in bats from
+China. J Virol 80:7481–7490
+Chu DK, Poon LL, Chan KH, Chen H, Guan Y, Yuen KY, Peiris
+JS (2006) Coronaviruses in bent-winged bats (Miniopterus spp.).
+J Gen Virol 87:2461–2466
+Dominguez SR, O’Shea TJ, Oko LM, Holmes KV (2007)
+Detection of group 1 coronaviruses in bats in North America.
+Emerg Infect Dis 13:1295–1300
+Misra V, Dumonceaux T, Dubois J, Willis C, Nadin-Davis S,
+Severini A, Wandeler A, Lindsay R, Artsob H (2009) Detection
+of polyoma and corona viruses in bats of Canada. J Gen Virol
+90:2015–2022
+Carrington CV, Foster JE, Zhu HC, Zhang JX, Smith GJ,
+Thompson N, Auguste AJ, Ramkissoon V, Adesiyun AA, Guan Y
+(2008) Detection and phylogenetic analysis of group 1 coronaviruses in South American bats. Emerg Infect Dis 14:1890–1893
+Brandao PE, Scheffer K, Villarreal LY, Achkar S, Oliveira Rde
+N, Fahl Wde O, Castilho JG, Kotait I, Richtzenhain LJ (2008) A
+coronavirus detected in the vampire bat Desmodus rotundus. Braz
+J Infect Dis 12:466–468
+Tong S, Conrardy C, Ruone S, Kuzmin IV, Guo X, Tao Y,
+Niezgoda M, Haynes L, Agwanda B, Breiman RF, Anderson LJ,
+Rupprecht CE (2009) Detection of novel SARS-like and other
+coronaviruses in bats from Kenya. Emerg Infect Dis 15:482–485
+
+123
+
+A. Falcón et al.
+19. Balboni A, Palladini A, Bogliani G, Battilani M (2010) Detection
+of a virus related to betacoronaviruses in Italian greater horseshoe
+bats. Epidemiol Infect 18:1–4
+20. Rihtaric D, Hostnik P, Steyer A, Grom J, Toplak I (2010) Identification of SARS-like coronaviruses in horseshoe bats (Rhinolophus hipposideros) in Slovenia. Arch Virol 155:507–514
+21. Drexler JF, Gloza-Rausch F, Glende J, Corman VM, Muth D,
+Goettsche M, Seebens A, Niedrig M, Pfefferle S, Yordanov S,
+Zhelyazkov L, Hermanns U, Vallo P, Lukashev A, Müller MA,
+Deng H, Herrler G, Drosten C (2010) Genomic characterization
+of severe acute respiratory syndrome-related coronavirus in
+European bats and classification of coronaviruses based on partial
+RNA-dependent RNA polymerase gene sequences. J Virol
+84:11336–11349
+22. Garcı́a-Mudarra JL, Ibáñez C, Juste J (2009) The Straits of
+Gibraltar: barrier or bridge to Ibero-Moroccan bat diversity? Biol
+J Linn Soc 96:434–450
+23. Ibañez C, Garcı́a-Mudarra JL, Ruedi M, Stadelmann B, Juste J
+(2006) The Iberian contribution to cryptic diversity in European
+bats. Acta Chiropter 8:277–297
+24. Huelsenbeck JP, Ronquist F (2001) MrBayes: Bayesian inference
+of phylogenetic trees. Bioinformatics 17:754–755
+25. Liu W, Tang F, Fontanet A, Zhan L, Zhao QM, Zhang PH, Wu
+XM, Zuo SQ, Baril L, Vabret A, Xin ZT, Shao YM, Yang H, Cao
+WC (2004) Long-term SARS coronavirus excretion from patient
+cohort, China. Emerg Infect Dis 10:1841–1843
+26. Wang LF, Shi Z, Zhang S, Field H, Daszak P, Eaton BT (2006)
+Review of bats and SARS. Emerg Infect Dis 12:1834–1840
+
+

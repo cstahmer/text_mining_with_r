@@ -1,0 +1,746 @@
+Virology Journal
+
+BioMed Central
+
+Open Access
+
+Case Report
+
+Phylogenetic analysis and characterization of Korean orf virus from
+dairy goats: case report
+Jae-Ku Oem*, In-Soon Roh, Kyung-Hyun Lee, Kyoung-Ki Lee, HyeRyoung Kim, Young-Hwa Jean and O-Soo Lee
+Address: Animal Disease Diagnostic Center, National Veterinary Research and Quarantine Service, 480 Anyang-6-Dong, Anyang, 430-824,
+Republic of Korea
+Email: Jae-Ku Oem* - jku0622@nvrqs.go.kr; In-Soon Roh - isroh@nvrqs.go.kr; Kyung-Hyun Lee - leeh0115@nvrqs.go.kr; KyoungKi Lee - leekk@nvrqs.go.kr; Hye-Ryoung Kim - kimhr@nvrqs.go.kr; Young-Hwa Jean - Jean@nvrqs.go.kr; O-Soo Lee - leeosoo@nvrqs.go.kr
+* Corresponding author
+
+Published: 16 October 2009
+Virology Journal 2009, 6:167
+
+doi:10.1186/1743-422X-6-167
+
+Received: 4 July 2009
+Accepted: 16 October 2009
+
+This article is available from: http://www.virologyj.com/content/6/1/167
+© 2009 Oem et al; licensee BioMed Central Ltd.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0),
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+Abstract
+An outbreak of orf virus infection in dairy goats in Korea was investigated. Suspected samples of
+the skin and lip of affected goats were sent to the laboratory for more exact diagnosis. Orf virus
+was detected by electron microscopy and viral DNA was identified by PCR. To reveal the genetic
+characteristics of the Korean strain (ORF/09/Korea), the sequences of the major envelope protein
+(B2L) and orf virus interferon resistance (VIR) genes were determined and then compared with
+published reference sequences. Phylogenetic analysis revealed that the ORF/09/Korea strain was
+closest to the isolates (Taiping) from Taiwan. This is believed to be the first report on the molecular
+characterization of orf virus in Korea.
+
+Background
+Contagious ecthyma (contagious pustular dermatitis; orf)
+is a common epitheliotrophic viral disease of sheep,
+goats, and wild ruminants and is characterized by the formation of papules, nodules, or vesicles that progress into
+thick crusts or heavy scabs on the lips, gingiva, and
+tongue. Orf virus is an oval, enveloped virus containing
+dsDNA genome within the genus Parapoxvirus, family Poxviridae [1]. The genus also includes pseudocowpox virus
+(PCPV) and bovine papular stomatitis virus (BPSV) in cattle and parapoxvirus of red deer in New Zealand. Zoonotic
+infection with orf virus is characterized by nodular and
+papillomatous lesions mainly on the hands, face, and
+mouth [2,3].
+To reveal the genetic variation and characterization of
+parapoxvirus, the major virus envelope protein B2L and
+
+virus interferon resistance (VIR) genes have been used
+recently [4-8]. Orf virus infection has been diagnosed
+occasionally in Korea since the outbreak of orf was
+reported clinically in the 1990s. Although a few studies
+have been conducted, molecular epidemiology based on
+gene sequences of orf virus has not been performed
+because the population of sheep and goats is low in Korea.
+In the present study, orf virus infection in dairy goats was
+identified by clinical diagnosis and PCR. The complete
+B2L and VIR genes were sequenced, and their phylogenetic trees were constructed.
+
+Case presentation
+In April 2009, an exanthematic outbreak occurred in a
+farm with 400 dairy goats in the Chungbuk province. Sixty
+dairy goats presented with wart-like lesions on the lips,
+tongue, and around the anus (Fig. 1A and 1B). The clinical
+
+Page 1 of 5
+(page number not for citation purposes)
+
+Virology Journal 2009, 6:167
+
+http://www.virologyj.com/content/6/1/167
+
+diagnosis was contagious ecthyma. Morbidity was 15%
+(60/400), and goats of all the ages ranging from 2 weeks
+to 1 month were affected. Dried scabs collected from
+affected goats were stored in a -70°C freezer until the samples were used for further study.
+
+(A)
+
+
+
+(B)
+
+
+
+(C)
+
+(D)
+
+Figure 1
+Typical clinical cases of orf virus infection in diary
+goats (A, B), histopathological findings (C) showing
+intracytoplasmic eosinophilic inclusion bodies
+(arrows) in the keratinocytes indicated virus-induced
+lesions (HE, bar = 35 m) and electron micrograph of
+the orf virus particle (D) showing typical oval-shaped
+morphology (bar = 100 nm).
+
+The tissue samples were either fixed in 10% buffered formalin for histological examination, or were homogenized
+mechanically in PBS in a tube using a pellet pestle device.
+The homogenates were centrifuged at 3000 g for 5 min,
+and the supernatant was collected and negatively stained
+with 2% phosphotungstic acid for electron-microscopic
+examination of orf virus.
+A PCR with OVS and OVA primers was performed as
+described previously [9]. In brief, the sequences of OVS
+and OVA primers are 5'-AGGCGGTGGAATGGAAAGA-3'
+and 5'-CCAGCAGGTATGCCAGGATG-3', respectively.
+The total viral DNA was extracted from scab samples using
+QIAamp DNA Mini Kit (Qiagen, Hilden, Germany) following the manufacturer's instructions. The amplication
+were performed in a GeneAmp PCR System 2700
+(Applied Biosystems) using the following conditions: a
+preliminary heating for 5 min at 94°C; 10 cycles of 30 s at
+94°C, 45 s at 55°C, and 1 min at 72°C; 20cycles of 30 s
+at 94°C, 45 s at 57°C, and 1 min at 72°C; and the final
+elongation of 5 min at 72°C. For phylogenetic analysis, a
+PCR was also performed using previously described primers [4,5]. The amplified gene was purified using an agarose
+gel DNA extraction kit (INtRON, Seongnam, Korea) and
+further cloned into pGEM-T vector (Promega, Madison,
+WI, USA) according to the manufacturer's instructions.
+Automated nucleotide sequencing of the VP60 gene insert
+was performed using an ABI 3130XL genetic analyzer with
+the BigDye® Terminator cycle sequencing kit (Applied Biosystems, Foster City, CA, USA). The nucleotides at all positions were confirmed by three or more independent
+sequencing reactions in both directions. The published
+sequences of parapoxviruses were retrieved from GenBank
+for phylogenetic analyses (Table 1).
+The B2L and VIR gene sequences of the orf virus, Korean
+strain were aligned with those of parapoxvirus sequences
+obtained from GenBank using Bioedit software (Ibis Biosciences, Carlsbad, CA, USA). A phylogenetic analysis was
+conducted using the Bioedit software and Molecular Evolutionary Genetics Analysis (MEGA) 3.1 software, with
+bootstrap values calculated from 1000 replicates [10]. The
+phylogenetic algorithm used for the building of the tree
+was the neighbor-joining method.
+All clinical samples collected from the orf outbreak were
+positive using the previously described PCR method. The
+amplified PCR products were separated by electrophoresis
+and visualized by staining with ethidium bromide (EtBr).
+
+Page 2 of 5
+(page number not for citation purposes)
+
+Virology Journal 2009, 6:167
+
+http://www.virologyj.com/content/6/1/167
+
+Table 1: Korean orf virus sequence and published parapoxvirus sequences used in the phylogenetic analysis
+
+Published Sequences
+Description
+
+Country of origin
+
+Species of origin
+
+Reference
+
+Region of gene
+
+Accession Number
+
+ORF/2009-B2L
+ORF/2009-VIR
+Orf-sh
+Orf-ta
+Orf-mu
+Orf-va1
+Orf-ca1
+Orf-ca2
+NZ-2-1
+OV-IA82
+Taiping
+OV-SA00
+India 59/05
+Nantou
+Hoping
+India 67/04
+India 79/04
+PCPV-TQ
+BPSV-RS
+BPSV-BV
+1010/03 GR
+30/96GR
+176/95GR
+928/02GR
+661/95IT
+12129/00IT
+6126/02IT
+Orf-va2
+1710/03GR
+Orf-11-1
+Orf-11-2
+NZ-2-2
+NZ-2-2
+MRI-Scab
+Orf-ta
+Orf-mu
+Orf-sh
+155/95GR
+759/01GR
+7389/03IT
+13598/03IT
+513/03GR
+Hoping
+Natou
+Taiping
+GPDV
+
+Korea
+Korea
+USA
+USA
+USA
+USA
+USA
+USA
+New Zealand
+USA
+Taiwan
+USA
+India
+Taiwan
+Taiwan
+India
+India
+NA
+NA
+USA
+Greece
+Greece
+Greece
+Greece
+Italy
+Italy
+Italy
+USA
+Greece
+New Zealand
+New Zealand
+New Zealand
+New Zealand
+New Zealand
+USA
+USA
+USA
+Greece
+Greece
+Italy
+Italy
+Greece
+Taiwan
+Taiwan
+Taiwan
+Taiwan
+
+Goat
+Goat
+Sheep
+Takin
+Musk ox
+Goat
+Goat
+Sheep
+Sheep
+Sheep
+Goat
+Sheep
+Goat
+Goat
+Goat
+Sheep
+Sheep
+Cow
+Calf
+Calf
+Sheep
+Goat
+Sheep
+Sheep
+Sheep
+Sheep
+Sheep
+NA
+Goat
+Sheep
+Sheep
+Sheep
+Sheep
+Sheep
+Takin
+Ox musk
+Sheep
+Sheep
+Goat
+Sheep
+Sheep
+Goat
+Goat
+Goat
+Goat
+NA
+
+NAa
+NA
+Guo et al. (2004)
+Guo et al. (2004)
+Guo et al. (2004)
+Guo et al. (2003)
+Guo et al. (2003)
+Guo et al. (2003)
+[13]Sullivan et al. (1994)
+[14]Delhon et al. (2004)
+Chan et al. (2009)
+Delhon et al. (2004)
+Hosamani et al. (2006)
+Chan et al. (2007)
+NA
+Hosamani et al. (2006)
+Hosamani et al. (2006)
+Guo et al. (2004)
+Guo et al. (2004)
+Delhon et al. (2004)
+Kottaridi et al. (2006)
+Kottaridi et al. (2006)
+Kottaridi et al. (2006)
+Kottaridi et al. (2006)
+Kottaridi et al. (2006)
+Kottaridi et al (2006)
+Kottaridi et al. (2006)
+Guo et al. (2004)
+Kottaridi et al. (2006)
+McInnes et al. (1998)
+NA
+[15]Mercer et al. (2006)
+[16]McInnes et al. (1998)
+McInnes et al. (1998)
+Guo et al. (2004)
+Guo et al. (2004)
+Guo et al. (2004)
+Kottaridi et al. (2006)
+Kottaridi et al. (2006)
+Kottaridi et al. (2006)
+Kottaridi et al. (2006)
+Kottaridi et al. (2006)
+NA
+[17]Chan et al. (2007)
+Chan et al. (2007)
+Guo et al. (2003)
+
+B2L
+VIR
+B2L
+B2L
+B2L
+B2L
+B2L
+B2L, VIR
+B2L
+B2L
+B2L
+B2L, VIR
+B2L
+B2L
+B2L
+B2L
+B2L
+B2L
+B2L
+B2L, VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+VIR
+
+GQ328006
+GQ328007
+AY424970
+AY424971
+AY424969
+AY278209
+AY278208
+DQ184476
+U06671
+AY386263
+EU327506
+AY386264
+DQ263304
+DQ904351
+EU935106
+DQ263305
+DQ263306
+AY424972
+AY424973
+AY386265
+DQ275162
+DQ275161
+DQ275165
+DQ275168
+DQ275169
+DQ275170
+DQ275173
+AY278210
+DQ275166
+AJ222702
+AY292459
+DQ184476
+AF053969
+AJ222701
+AY424976
+AY424974
+AY424975
+DQ275163
+DQ275164
+DQ275172
+DQ275171
+DQ275167
+EU935104
+EU327507
+EU327508
+AF380126
+
+aNA
+
+indicates not available
+
+The size of amplified PCR product was 708 bp (data not
+shown). Keratinocytes in the stratum spinosum showed
+vacuolation and ballooning degeneration. Intracytoplasmic eosinophilic inclusion bodies were found characteristically in keratinocytes (Fig 1C). Negatively stained orf
+virus particles were examined by electron microscopy,
+which revealed the oval-shaped morphology of Parapoxvi-
+
+rus. The size of the observed virus particles was approximately 150-200 nm (Fig. 1D).
+Additional PCR reactions were performed to obtain the
+full-length B2L and partial VIR genes. The amplified PCR
+products were 1206 bp for the full-length B2L gene and
+552 bp for the partial VIR gene. The purified DNA was
+
+Page 3 of 5
+(page number not for citation purposes)
+
+Virology Journal 2009, 6:167
+
+http://www.virologyj.com/content/6/1/167
+
+(A)
+AY424970-B2L
+98
+
+AY424971-B2L
+AY424969-B2L
+AY278209-B2L
+AY278208-B2L
+
+100
+
+DQ184476-B2L
+U06671-B2L
+
+AY386263-B2L
+100
+71
+
+ORF/2009-B2L (Korea)
+
+Orf v irus
+
+EU327506-B2L
+AY386264-B2L
+
+100
+
+DQ263304-B2L
+DQ904351-B2L
+
+74
+
+100 EU935106-B2L
+
+DQ263305-B2L
+99
+
+DQ263306-B2L
+
+AY424972-B2L
+
+Ps e ud o c o wp o x
+
+AY424973-B2L
+100
+
+AY386265-B2L
+
+Bo v ine p a p ula r s to ma titis v irus
+
+0.02
+
+(B)
+80 DQ275162-VIRgene
+
+DQ275161-VIRgene
+AY386265-VIRgene
+72
+
+Bov ine papular stomatitis v irus
+
+87 DQ275165-VIRgene
+
+DQ275168-VIRgene
+98
+
+DQ275169-VIRgene
+DQ275170-VIRgene
+DQ275173-VIRgene
+
+AY278210-VIRgene
+DQ275166-VIRgene
+AJ222702-VIRgene
+
+100
+
+AY292459-VIRgene
+99 DQ184476-VIRgene
+
+AF053969-VIRgene
+AJ222701-VIRgene
+AY494975-VIRgene
+AY424974-VIRgene
+
+100
+
+AY424976-VIRgene
+91
+
+DQ275163-VIRgene
+DQ275164-VIRgene
+
+94
+
+DQ275171-VIRgene
+77
+
+DQ275172-VIRgene
+DQ275167-VIRgene
+
+100 EU935104-VIRgene
+
+EU327507-VIRgene
+ORF/2009-VIRgene
+
+86
+
+EU327508-VIRgene
+AF380126-VIRgene
+97
+
+AY386264-VIRgene
+
+0.005
+
+Phylogenetic
+Figure 2
+analysis of different parapoxviruses based on nucleotide sequences of B2L gene (A) and VIR gene (B)
+Phylogenetic analysis of different parapoxviruses based on nucleotide sequences of B2L gene (A) and VIR gene
+(B). The nucleotide sequences of diverse orf viruses were aligned using the Bioedit program and Mega 3 software. One thousand bootstrap replicates were subjected to nucleotide sequence distance and neighbor-joining methods, and the consensus
+phylogenetic tree is shown. All bootstrap values are displayed above the tree branches, and only bootstrap values >70% are
+shown.
+
+Page 4 of 5
+(page number not for citation purposes)
+
+Virology Journal 2009, 6:167
+
+http://www.virologyj.com/content/6/1/167
+
+sequenced for comparative analysis. The sequence comparison of the ORF/09/Korea strain demonstrated a high
+degree of identity among our Korean strain and other orf
+virus strains. In phylogenetic analysis based on the complete B2L gene, the ORF/09/Korea strain was closer to the
+Taiping isolate (EU327506) from Taiwan (Fig. 2A). The
+ORF/09/Korea strain and Taiping isolate showed 99.82%
+and 99.48% similarity at the nucleotide and amino acid
+levels, respectively. The deduced amino acid sequences of
+the complete B2L gene of the ORF/09/Korea strain and
+the other strains were aligned using Bioedit software.
+Unique amino acid substitutions were found at two positions (A/R250 D, I275 M).
+
+Authors' contributions
+
+In phylogenetic analysis based on the partial VIR gene, the
+ORF/09/Korea strain also was closer to the Taiping isolate
+(EU327508) from Taiwan (Fig. 2B). The ORF/09/Korea
+strain and Taiping isolate showed 97.8% and 97.6% similarity at the nucleotide and amino acid level, respectively.
+The deduced amino acid sequences of the partial VIR gene
+of the ORF/09/Korea strain and the other strains were
+aligned, and unique amino acid substitutions were found
+at two positions (N/D250 E, F275 S).
+
+2.
+
+Conclusion
+Orf infection is endemic in Korea, and no vaccination has
+been implemented to control this disease. An increase in
+the dairy goat population in Korea has been observed over
+the past several years. Clinical diagnosis and electron
+microscopy have been used routinely to identify orf
+viruses in Korea. Recently, PCR methods have been used
+to detect the viruses [11,12]. The dairy goat is not a native
+species in Korea and has been imported from abroad. Several causes of orf outbreaks exist, and the phylogenetic
+analysis may indicate a hypothetical origin of the viral
+strains involved.
+
+JKO*, YHJ, and OSL participated in the planning of the
+project. KKL and HRK performed the PCR and phylogenetic analysis. ISR and KHL collected the samples and performed electron microscopy and histopathological
+examination. All authors read and approved the final
+manuscript.
+
+Acknowledgements
+This study was supported by the National Veterinary Research and Quarantine Service, Ministry of Agriculture, Anyang, Republic of Korea.
+
+References
+1.
+
+3.
+4.
+
+5.
+
+6.
+7.
+8.
+
+9.
+
+10.
+11.
+
+Although only one case from dairy goats that showed clinical signs was used in the present study, the ORF/09/Korea
+strain was closest to the isolates (Taiping) from Taiwan,
+according to phylogenetic analysis based on the B2L and
+VIR genes. However, it is difficult to conclude the precise
+route by which the Korean orf virus strain was introduced
+into Korea based on molecular analysis alone. Also, at
+present, all ruminants from Taiwan have been prohibited
+from importation into Korea because of the outbreak of
+foot-and-mouth disease in Taiwan. Therefore, more epidemiological data concerning the distribution of orf
+viruses in Korea and neighboring countries are needed.
+Our continuing work to characterize more isolates in
+Korea and neighboring countries should prove valuable
+in that regard.
+
+Competing interests
+
+12.
+13.
+
+14.
+
+15.
+
+16.
+17.
+
+Robinson AJ, Balassu TC: Contagious pustular dermatitis (orf).
+Vet Bull 1981, 51:771-82.
+Haig DM, Thomson J, Mclnnes C, McCaughan C, Imlach W, Mercer
+A, Fleming S: Orf virus immuno-modulation and the host
+immune response. Vet Immunol Immunopathol 2002, 87:395-99.
+Haig DM, Mercer AA: Ovine diseases. Orf. Vet Res 1998,
+29:311-26.
+Hosamani M, Bhanuprakash V, Scagliarini A, Singh RK: Comparative
+sequence analysis of major envelope protein gene (B2L) of
+Indian orf viruses isolated from sheep and goats. Vet Microbiol
+2006, 116:317-24.
+Guo J, Zhang Z, Edwards JF, Ermel RW, Taylor C Jr, de la ConchaBermejillo A: Characterization of a North American orf virus
+isolated from a goat with persistent, proliferative dermatitis.
+Virus Res 2003, 93:169-79.
+Chan KW, Lin JW, Lee SH, Liao CJ, Tsai MC, Hsu WL, Wong ML, Shih
+HC: Identification and phylogenetic analysis of orf virus from
+goats in Taiwan. Virus Genes 2007, 35:705-12.
+Kottaridi C, Nomikou K, Teodori L, Savini G, Lelli R, Markoulatos P,
+Mangana O: Phylogenetic correlation of Greek and Italian orf
+virus isolates based on VIR gene. Vet Microbiol 2006, 116:310-16.
+Mondal B, Bera AK, Hosamani M, Tembhurne PA, Bandyopadhyay SK:
+Detection of Orf virus from an outbreak in goats and its
+genetic relation with other parapoxviruses. Vet Res Commun
+2006, 30:531-39.
+Zheng M, Liu Q, Jin N, Guo J, Huang X, Li H, Zhu W, Xiong Y: A
+duplex PCR assay for simultaneous detection and differentiation of capripoxvirus and orf virus. Mol Cell Probes 2007,
+21:276-81.
+Kumar S, Tamura K, Nei M: MEGA3: integrated software for
+molecular evolutionary genetics analysis and sequence alignment. Brief Bioinform 2004, 5:150-63.
+Inoshima Y, Morooka A, Sentsui H: Detection and diagnosis of
+parapoxvirus by the polymerase chain reaction. J Virol Methods
+2000, 84:201-208.
+Chan KW, Hsu WL, Wang CY, Yang CH, Lin FY, Chulakasian S,
+Wong ML: Differential diagnosis of orf viruses by a single-step
+PCR. J Virol Methods 2009, 160:85-9.
+Sullivan JT, Mercer AA, Fleming SB, Robinson AJ: Identification and
+characterization of an orf virus homologue of the vaccinia
+virus gene encoding the major envelope antigen p37K. Virol
+1994, 202:968-73.
+Delhon G, Tulman ER, Afonso CL, Lu Z, de la Concha-Bermejillo A,
+Lehmkuhl HD, Piccone ME, Kutish GF, Rock DL: Genomes of the
+parapoxviruses ORF virus and bovine papular stomatitis
+virus. J Virol 2004, 78:168-77.
+Mercer AA, Ueda N, Friederichs SM, Hofmann K, Fraser KM, Bateman T, Fleming SB: Comparative analysis of genome sequences
+of three isolates of Orf virus reveals unexpected sequence
+variation. Virus Res 2006, 116:146-58.
+McInnes CJ, Wood AR, Mercer AA: Orf virus encodes a homolog
+of the vaccinia virus interferon-resistance gene E3L. Virus
+Genes 1998, 17:107-15.
+Chan KW, Yang CH, Lin JW, Wang HC, Lin FY, Kuo ST, Wong ML,
+Hsu WL: Phylogenetic analysis of parapoxviruses and the Cterminal heterogeneity of viral ATPase proteins. Gene 2009,
+432:44-53.
+
+The authors declare that they have no competing interests.
+
+Page 5 of 5
+(page number not for citation purposes)
+
+

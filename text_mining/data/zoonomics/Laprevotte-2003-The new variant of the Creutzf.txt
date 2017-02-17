@@ -1,0 +1,393 @@
+BMC Public Health
+
+BioMed Central
+
+Open Access
+
+Debate
+
+The new variant of the Creutzfeldt-Jakob disease accounts for no
+relative increase of the Creutzfeldt-Jakob disease mortality rate in
+the United Kingdom; this fits ill with the new variant being the
+consequence of consumption of food infected with the agent of
+Bovine Spongiform Encephalopathy
+Ivan Laprevotte* and Alain Hénaut
+Address: Laboratoire Génome et Informatique, UMR CNRS 8116, Tour Evry 2, 523 Place des Terrasses, 91034 Evry Cedex, France
+Email: Ivan Laprevotte* - laprevot@genopole.cnrs.fr; Alain Hénaut - henaut@genopole.cnrs.fr
+* Corresponding author
+
+Published: 06 August 2003
+BMC Public Health 2003, 3:25
+
+Received: 25 April 2003
+Accepted: 06 August 2003
+
+This article is available from: http://www.biomedcentral.com/1471-2458/3/25
+© 2003 Laprevotte and Hénaut; licensee BioMed Central Ltd. This is an Open Access article: verbatim copying and redistribution of this article are permitted in all media for any purpose, provided this notice is preserved along with the article's original URL.
+
+Abstract
+Background: A new variant of Creutzfeldt-Jakob disease was described in the United Kingdom.
+It is often claimed that it is caused by consumption of food infected with the agent of bovine
+spongiform encephalopathy. However, this remains open to question because the number of cases
+of the variant is, at the present time, less than would be expected from a major food-borne source.
+Discussion: The EUROCJD cooperative study presents currently available epidemiological data of
+Creutzfeldt-Jakob disease and its new variant, for nine European countries plus Australia and
+Canada. Unexpectedly, for the United Kingdom where all but a few cases of the new variant have
+been reported, these cases have to be included in the incidence curve of the sporadic forms of the
+disease in order to obtain the best fit with the median curve from all the countries. This variant
+could be merely a rare clinical phenotype within the sporadic disease. The published clinical and
+experimental data which suggest that it is linked with bovine spongiform encephalopathy, lead us
+to propose that this link could be a common etiological origin other than consumption of bovine
+infected food. In any case, public health recommendations hold and further investigation is
+required.
+Summary: The lack of a relative increase of the Creutzfeldt-Jakob-disease mortality rate in the
+United Kingdom, does not fit well with the new variant being the consequence of consumption of
+food infected with the agent of bovine spongiform encephalopthy.
+
+Background
+A new variant (nvCJD) of Creutzfeldt-Jakob disease (CJD)
+involving ten initial cases [1], was clinically described in
+the United Kingdom (UK) in 1996, shortly after the epizootic of bovine spongiform encephalopathy (BSE) in the
+UK. The isoform of the prion protein from this new variant has physicochemical properties, distinct from other
+
+strains of CJD, that resemble what is found in BSE [2]. The
+results of experimental transmission to mice are consistent with the BSE prion being the source of this new disease [3]. Altogether, these results led many people to
+claim that BSE caused variant CJD [4], assuming that
+nvCJD is caused by consumption of BSE-infected food.
+
+Page 1 of 5
+(page number not for citation purposes)
+
+BMC Public Health 2003, 3
+
+However, it appears that this link between the BSE prion
+and the nvCJD remains open to question [5–7]. The shape
+of the epizoic curve of BSE in the UK [4] suggests a major
+food-borne infection and it is presumed that the general
+British population has been exposed to the BSE prion.
+However, the nvCJD is to date a rare disease that is predominantly found in young people. The current shape of
+the epidemic curves has suggested that nvCJD is not
+caused by consumption of BSE infected food [5]. However, human exposure to BSE could depend on a range of
+unknown variables, so that extrapolation from conventional food-borne epidemics to nvCJD could appear to be
+somewhat simplistic [6]. A so-called back-calculation
+analysis (assuming a mean incubation period well
+beyond the human life-span) showed that these curves are
+compatible with this hypothetic food-borne infection [8].
+The aim of this paper is to continue the debate on this
+issue as has been suggested [5], in the hope of stimulating
+new ideas that could fit the whole of the epidemiological,
+clinical and experimental data that are now available.
+The EUROCJD project started in 1993 http://
+www.eurocjd.ed.ac.uk/sporadic.htm, and compares data
+from national registries in Australia, Austria, Canada,
+France
+http://www.invs.sante.fr/publications/mcj/
+donnees_mcj.html, Germany, Italy, the Netherlands, Slovakia, Spain, Switzerland, and the UK http://
+www.cjd.ed.ac.uk/figures.htm. We perform here an
+exhaustive analysis of the data now available online from
+this project. By no means did the nvCJD cases lead to an
+increased mortality rate from CJD in the UK as compared
+with the other listed countries. The hypothesis that the
+emergence of the nvCJD is the consequence of eating BSEinfected meat does not fit well with the data from the
+countries covered by the project. However, the two illnesses could have a common etiological origin.
+
+Discussion
+Since 1995, apart from six cases in France http://
+www.invs.sante.fr/publications/mcj/donnees_mcj.html,
+one in Ireland, one still alive in Italy [9], one in the USA
+[10], one in Canada http://www.eurocjd.ed.ac.uk/
+vCJD.htm, and one in Hong Kong, the new variant of CJD
+has been reported only in the UK. It could be expected
+that, together with the familiar sporadic CJD, the resultant
+epidemiological data would show a significant increase in
+the UK as compared with the other countries included in
+the EUROCJD cooperative study. However (Table [see
+Additional file 1: Table.xls]), taking into account the
+respective population sizes, the number of cases in the UK
+(nvCJD included), does not differ from that in the other
+countries. For Canada, only cases classified as "definite"
+were listed and the study was retrospective through 1997,
+so that the values were lowered (since 1998, the mortality
+rate is 0.73 to 1.04 and fits what is found in the other
+
+http://www.biomedcentral.com/1471-2458/3/25
+
+countries studied); for Slovakia, the number of cases is too
+low for a comparison to be done (1 to 3 cases for a mortality rate of 0.20 to 0.60). In order to focus on the countries that were comparatively studied since 1993, only the
+data of the nine other countries included in the EUROCJD
+project are presented in the table [see Additional file:
+Table.xls] and in the figure. As can be seen in the figure,
+the curve corresponding to UK CJD-plus-nvCJD cases
+tightly fits the median curve from the nine countries taken
+together. If only sporadic CJD is taken into account (broken line), the UK data are visibly lower in that they have
+remained stable since 1996 in contrast to the other countries where the values tend to increase. This increase
+accounts for the rate of growth of the median curve, which
+is consistent with the view that improved ascertainment of
+previously misdiagnosed diseases has occurred (but actual
+increases of some values cannot be excluded). Differences
+in ascertainment are possible between different countries,
+but, as a whole, the curves are concordant. An exhaustive
+examination of the data shows that, for some countries,
+the incidence of CJD can abruptly increase about two-fold
+or decrease roughly by a factor of two. But, in contrast
+with the UK, these modifications last only one year. For
+instance, the absolute number of cases of sporadic CJD in
+Australia was 17 in 1993, 11 in 1994, and 19 in 1995; it
+was also 27 in 2000 and 14 in 2001. For the Netherlands,
+the number of cases was 18 in 1994 and 8 in 1995; it was
+19 in 1999 and 11 in 2000. In Switzerland, there were 10
+cases in 2000 and 18 in 2001. Poisson distributions do
+not account for these discrepancies [11] which rather suggest a clustered distribution of some cases [12]; such a
+clustering suggests that CJD could be the sum of clinical
+phenotypes with possibly different local etiologies (see
+below). Currently, we are not aware of a clustering in the
+UK over the past ten years. In any case, this pattern is difficult to prove for such a rare disease.
+We have done an additional analysis of the countries in
+the NEUROCJD system (Belgium, Denmark, Finland,
+Greece, Iceland, Ireland, Israel, Norway, Portugal and
+Sweden), concerning definite and probable cases (deaths)
+of sporadic CJD http://www.eurocjd.ed.ac.uk/sporadic
+neuro.htm. This comparative study began in 1997. If all
+the values are taken into account (Iceland excluded, with
+only one case in 1997 for a population of 272000), the
+annual median values are successively 1.02, 0.58, 0.66,
+0.81 and 1.24 from 1997 to 2001. It is more appropriate
+to focus on the four countries that have a population
+greater than Switzerland and a number of cases that permits to obtain reliable annual mortality rates: Belgium,
+Greece, Portugal and Sweden. The median is then successively 0.8, 0.9, 0.97, 1.16 and 1.27. These increasing values suggest an improved ascertainment of previously
+misdiagnosed diseases as seemed to be the case for the
+countries included in the EUROCJD project, from 1993 to
+
+Page 2 of 5
+(page number not for citation purposes)
+
+BMC Public Health 2003, 3
+
+http://www.biomedcentral.com/1471-2458/3/25
+
+3,00
+
+Ratio per million
+
+2,50
+
+2,00
+Median
+Min
+Max
+UK
+UK without nvCJD
+
+1,50
+
+1,00
+
+0,50
+
+1993 1994 1995 1996 1997 1998 1999 2000 2001
+
+Figure mortality
+Annual
+1
+ratio (9 countries)
+Annual mortality ratio (9 countries). Annual mortality ratios per million (sporadic CJD + nvCJD) for the UK and eight
+other countries included in the EUROCJD project (see text). Two curves correspond to the UK data, the nvCJD cases being
+excluded from one of them (broken line). The three other curves summarize the data from the nine countries together: for
+each year, three values out of the nine observed, are plotted corresponding to the curves Max, for the maximum number, Min
+for the minimum value and Median (fifth value or, for 1993, the average of fourth and fifth). The last year indicated is 2001 (statistics as at 31 December 2002, 6 March 2003 for France and 3 March 2003 for the UK)
+
+1997. For the NEUROCJD system, the value obtained in
+2001 fits what is now obtained in the EUROCJD project,
+so that the same situation seems to exist in the whole
+Europe.
+Hence, currently available epidemiological data show that
+nvCJD accounts for no relative increase of the CJD mortality rate in the UK, which does not fit well with the idea
+that nvCJD is the consequence of consumption of BSEinfected food. The clinical and experimental peculiarities
+of nvCJD can give the impression that nvCJD is merely a
+clinical phenotype within CJD. One can imagine that CJD
+cases are the sum of clinical phenotypes the etiologies of
+which can differ from one case to another; the relative
+
+proportions of these phenotypes can also fluctuate with
+time. Some of these variants could have been previously
+misdiagnosed [5], or could be indeed a new disease [6]
+(the only two cases of nvCJD in the USA and Canada have
+both lived in the UK, which argues in favour of the latter
+hypothesis http://www.who.int/mediacentre/factsheets/
+fs180/en/). The sum of all the cases could be rather constant, perhaps with some fluctuations that could only be
+ascertained by a long range and exhaustive study. In order
+to account for the clinical and experimental data which
+suggest a link between nvCJD and BSE, one could hypothesize a common factor that has been operating independently for BSE and nvCJD. For instance (and among
+additional possible etiologies), one can imagine that a
+
+Page 3 of 5
+(page number not for citation purposes)
+
+BMC Public Health 2003, 3
+
+rare subtype of food-borne-sheep-derived scrapie agent
+that could have been the source of the epidemic of BSE in
+the UK [13], could have been independently the source of
+nvCJD for a few human beings, depending upon
+unknown and stringent variables. If it is true that CJD in
+due to diverse etiologies, this could explain, for instance,
+that a country as Australia which is not known to have
+scrapie and is at very low risk of BSE, has a mortality rate
+for sporadic CJD comparable to the other countries. Actually, a food-borne transmission of scrapie to man has
+never been proven on epidemiological grounds. If this
+was possible, discovering the BSE prion subtype in a
+scrapie sheep would not necessarily imply a contamination of the sheep by BSE. We are not aware that largescale
+ongoing studies have led to discover such a subtype at the
+present time. In any case, this debate is still open and
+other scenarios are possible indeed.
+From the current data it is not possible to infer what will
+happen in the years to come. The epidemic curve of
+nvCJD could eventually take a shape suggesting a foodborne infection possibly caused by BSE-contaminated
+food. Alternatively, the numbers of cases of nvCJD in the
+UK, that peaked in 2000 (15 deaths in 1999, 28 in 2000,
+20 in 2001, 17 in 2002), could continue to decrease. A
+recent study suggests that it is actually the case [14]. The
+delay of 8 years that separates the major epidemiological
+curve of BSE (that peaked in 1992) and the minor curve of
+nvCJD is usually taken as demonstrating that BSE has
+caused nvCJD. One could also hypothesize that a major
+contamination of the bovines in the UK due to waves of
+recycling infected cattle waste in meat and bonemeal, has
+shorten the incubation for BSE. Concerning prion diseases, public health recommendations hold, but if public
+safety is rightly the prime consideration, the debate has to
+remain open in order to elucidate the real cause(s) of
+these diseases. We have to be concerned that a speculation
+could eventually be accepted as a demonstrated fact and
+thus close an important debate which still possibly
+requires further investigation for a long time.
+
+http://www.biomedcentral.com/1471-2458/3/25
+
+Competing interests
+None declared.
+
+Authors' contributions
+The authors jointly conceived of the idea for this study. A
+H hypothesized from the epidemic curves, that nvCJD is
+merely a clinical phenotype within the sporadic disease.
+This idea was completed by I L, namely that BSE and
+nvCJD could have a common etiological origin.
+
+Additional material
+Additional File 1
+Annual mortality ratio per million (CJD + nvCJD). Complete statistics for
+the UK and eight other countries included in the EUROCJD project (see
+text and figure legend). These are the data recapitulated in the figure
+Click here for file
+[http://www.biomedcentral.com/content/supplementary/14712458-3-25-S1.xls]
+
+Acknowledgments
+We are grateful to A. Grossmann, D. Karibian, J-L. Risler and A. Riva for a
+critical reading of the manuscript. We also thank the two reviewers for
+their comments
+
+References
+1.
+
+2.
+3.
+
+4.
+5.
+6.
+7.
+
+Summary
+A new variant of CJD was clinically distinguished from
+CJD shortly after the epidemic of BSE in the UK. With the
+help of biochemical and experimental data, this led many
+people to claim that this variant was caused by consumption of BSE-infected food. However, nvCJD accounts for
+no relative increase of the CJD mortality rate in the UK, so
+that nvCJD could be merely a subtype of CJD. We hypothesize that CJD could be a set of clinical phenotypes and
+that the new variant could be one of these phenotypes
+sharing its etiology with BSE, without being caused by
+consumption of BSE-infected food. In any case, no definite conclusion can be made at the present time and this
+issue deserves further investigation.
+
+8.
+9.
+10.
+11.
+12.
+
+13.
+
+Will RG, Ironside JW, Zeidler M, Cousens SN, Estibeiro K, Alperovitch A, Paser S, Pochiari M, Hofman A and Smith PG: A new variant
+of Creutzfeldt-Jakob disease in the UK Lancet 1996,
+347:921-925.
+Collinge J, Sidle KCL, Meads J, Ironside J and Hill AF: Molecular
+analysis of prion strain variation and the aetiology of 'new
+variant' CJD Nature 1996, 383:685-690.
+Bruce ME, Will RG, Ironside JW, McConnell I, Drummond D, Suttle
+A, McCardle L, Chee A, Hope J, Birkett C, Cousens S, Fraser H and
+Bostock CJ: Transmissions to mice indicate that 'new variant'
+CJD is caused by the BSE agent Nature 1997, 389:498-501.
+Brown P: Bovine spongiform encephalopathy and variant
+Creutzfeldt-Jakob disease BMJ 2001, 322:841-844.
+Venters GA: New variant Creutzfeldt-Jakob disease: the epidemic that never was BMJ 2001, 323:858-861.
+Will RG, Knight RSG, Ward HJT and Ironside JW: New variant
+Creutzfeldt-Jakob disease: the critique that never was BMJ
+2002, 325:102.
+Reuber M: Creutzfeldt's patient did not have CreutzfeldtJakob disease BMJ 2002, 325:102.
+Huillard d'Aignaux JN, Cousens SN and Smith PG: Predictability of
+the UK variant Creutzfeldt-Jakob disease epidemic Science
+2001, 294:1729-1731.
+La Bella V, Collinge J, Pocchiari M and Piccoli F: Variant Creutzfeldt-Jakob disease in an Italian woman Lancet 2002,
+360:997-998.
+Probable variant Creutzfeldt-Jakob disease in a U.S. resident
+– Florida, 2002 MMWR Morb Mortal Wkly Rep 2002, 51:927-929.
+Glatzel M, Rogivue C, Ghani A, Streffer JR, Amsler L and Aguzzi A:
+Incidence of Creutzfeldt-Jakob disease in Switzerland Lancet
+2002, 360:139-141.
+D'Aignaux JH, Cousens SN, Delasnerie-Laupretre N, Brandel JP, Salomon D, Laplanche JL, Hauw JJ and Alperovitch A: Analysis of the
+geographical distribution of sporadic Creutzfeldt-Jakob disease in France between 1992 and 1998 Int J Epidemiol 2002,
+31:490-495.
+Taylor DM: Current perspectives on bovine spongiform
+encephalopathy and variant Creutzfeldt-Jakob disease Clinical
+Microbiology & Infection 2002, 8:332-339.
+
+Page 4 of 5
+(page number not for citation purposes)
+
+BMC Public Health 2003, 3
+
+14.
+
+http://www.biomedcentral.com/1471-2458/3/25
+
+Andrews NJ, Farrington CP, Ward HJT, Cousens SN, Smith PG,
+Molesworth AM, Knight RSG, Ironside JW and Will RG: Deaths
+from variant Creutzfeldt-Jakob disease in the UK Lancet 2003,
+361:751-752.
+
+Pre-publication history
+The pre-publication history for this paper can be accessed
+here:
+http://www.biomedcentral.com/1471-2458/3/25/prepub
+
+Publish with Bio Med Central and every
+scientist can read your work free of charge
+"BioMed Central will be the most significant development for
+disseminating the results of biomedical researc h in our lifetime."
+Sir Paul Nurse, Cancer Research UK
+
+Your research papers will be:
+available free of charge to the entire biomedical community
+peer reviewed and published immediately upon acceptance
+cited in PubMed and archived on PubMed Central
+yours — you keep the copyright
+
+BioMedcentral
+
+Submit your manuscript here:
+http://www.biomedcentral.com/info/publishing_adv.asp
+
+Page 5 of 5
+(page number not for citation purposes)
+
+
