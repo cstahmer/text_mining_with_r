@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+   <!ENTITY % TEI.verse 'INCLUDE'>
+   <!ENTITY % TEI.linking 'INCLUDE'>
+   <!ENTITY % TEI.figures 'INCLUDE'>
+   <!ENTITY % TEI.analysis 'INCLUDE'>
+   <!ENTITY % TEI.XML 'INCLUDE'>
+   <!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+   %ISOlat1;
+   <!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+   %ISOlat2;
+   <!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+   %ISOnum;
+   <!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+   %ISOpub;
+   <!-- The following entities have been added by Gerald Egan on 27 September 2004 -->
+   <!-- The files 'urls.ent' and 'figures.ent' contain entity declarations -->
+   <!-- for all external entities needed by this document -->
+   <!NOTATION jpeg PUBLIC
+   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN'>
+   <!NOTATION gif PUBLIC
+   '-//TEI//NOTATION
+   Compuserve Graphics Interchange Format//EN'>
+   <!NOTATION tiff PUBLIC
+   '-//TEI//NOTATION Aldus Tagged Image File Format//EN'>
+   <!NOTATION png PUBLIC
+   '-//TEI//NOTATION IETF RFC2083 Portable Network Graphics//EN'>
+   <!NOTATION HTML SYSTEM "text/html">
+   <!-- The following elements were added by Carl Stahmer  on 19 June 2007 -->
+   <!-- The TEI P4 Documentation at the below URL's States that these elements -->
+   <!-- should be part of the base tei declaration, but OXYGEN's validation engine -->
+   <!-- stated that they wer undeclared.  These declarations match the online TEI P4 -->
+   <!-- documentation.  See:  -->
+   <!-- http://www.tei-c.org/P4X/ref-DAMAGE.html -->
+   <!-- http://www.tei-c.org/P4X/ref-CERTAIN.html -->
+   <!ELEMENT damage (#PCDATA)>
+   <!ATTLIST damage
+   id CDATA #IMPLIED>
+   <!ELEMENT certainty (#PCDATA)>
+   <!ATTLIST certainty
+   target CDATA #IMPLIED
+   locus CDATA #IMPLIED
+   degree CDATA #IMPLIED
+   >
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" type="main" rend="italic">A newe Ballad, composed in commendation of the Societie,/ or Companie of the Porters.</title>
+            <author>Brewer, Tho.</author>
+            <sponsor>University of California - Santa Barbara</sponsor>
+            <sponsor>The Early Modern Center</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Patricia Fumerton</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1605</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Early Modern Center, University of California Santa Barbara</publisher>
+            <pubPlace>Santa Barbara, CA</pubPlace>
+            <date>08/07/2007</date>
+            <idno type="EMC">20005</idno>
+            <availability>
+               <p> The University of California makes a claim of copyright only to original
+                   contributions made by Early Modern Center participants and other members of
+                   the university community. The University of California makes no claim of
+                   copyright to the original text. Permission is granted to download, transmit
+                   or otherwise reproduce, distribute or display the contributions to this work
+                   claimed by The University of California for non-profit educational purposes,
+                   provided that this header is included in its entirety. For inquiries about
+                   commercial uses, please contact:
+                  <address>
+                     <addrLine>Patricia Fumerton</addrLine>
+                     <addrLine>Early Modern Center - English Department</addrLine>
+                     <addrLine>University of California</addrLine>
+                     <addrLine>Santa Barbara, CA 93105</addrLine>
+                     <addrLine>United States of America</addrLine>
+                     <addrLine>EMail: pfumer@english.ucsb.edu</addrLine>
+                  </address>
+               </p>
+            </availability>
+            <idno type="Pepys">1.196</idno>
+            <idno type="ESTC">S1827</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Tune-Total">1</note>
+            <note type="Tune-1">In Edenbrugh, behold</note>
+            <note type="Tune_Modern-1">In Edinburgh, Behold</note>
+            <note type="First_Lines">THrise blessed is that Land/ where King and Rulers bee,</note>
+            <note type="Notes">original ballad text is pasted sideways, with top of text to the right, folded; and with bottom of text to the left, pasted to page 196; captions aobve the three figures in the woodcut (but separate from the woodcut) read: 'At the first went we, as here you see.'; 'But since our Corporation, on this fashion.'; 'And to our Hall, thus we goe all.'</note>
+            <note type="Source">Pepys 1.196</note>
+            <note type="References">STC 3721 T. Creed, 1605; Rollins (2) 373 (June 15, 1605, III, 292, Tho. Creede).</note>
+            <note type="Woodblock" n="1">Woodblock 1: below title, above three columns and cast fleurons: Three men stand on hilly terrain.  The man of the left stands with his weight on his right leg, his right hand on his hip, and his left leg thrust out and sitting on a rock.  In his left hand he holds a large empty basket that appears to be attached to a strap that crosses his chest from his right shoulder to his left hip.  He wears a bell-shaped hat and a collared coat that reaches his knees and is belted at the waist.  A ribbon or sash extends from his left shoulder to his right hip.  Above the man on the left a caption reads: 'At the first went we, as here you see.'  The man in the center is similarly dressed but appears to be wearing a cap rather than a hat.  His right leg is forward and he appears to be walking.  Both arms are raised above his head carrying a large basket in which appear to be dead birds.  Above the second man a caption reads: 'But since our Corporation, on this fashion.'  The man on the far right is better dressed, wears an overcoat or cape and a brimmed hat. He wears an elaborate ruff at the neck and a necklace.  He has a mustache and looks at the ground.  His arms are by his side and he appears to be walking with his left foot in front of him.  Above the third man the caption reads: 'And to our Hall, thus we goe all.': 180 x 264</note>
+         </notesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Pepys Library</author>
+                     <title>The Pepys ballads : facsimile volume</title>
+                     <respStmt>
+                        <resp>Editor</resp>
+                        <name>W.G. Day</name>
+                     </respStmt>
+                     <imprint>
+                        <publisher>D.S. Brewer</publisher>
+                        <pubPlace>Cambridge [England]</pubPlace>
+                        <date>1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <bibl>
+                  <note type="Reference">
+                  Information in this section of the Source Description
+                  refers to the original ballad manuscript.
+                  </note>
+                  <biblScope type="vol: p">1: 196</biblScope>
+                  <title n="1" type="main" rend="italic">A newe Ballad, composed in commendation of the Societie,/ or Companie of the Porters.</title>
+                  <title n="1" type="alt" rend="italic">A newe Ballad, composed in commendation of the Societie,or Companie of the Porters.	</title>
+                  <title n="1" type="descriptive" rend="italic">A New Ballad, Composed in Commendation of the Society, or Companie of the Porters.	</title>
+                  <author>Brewer, Tho.</author>
+                  <extent id="p.1">single sheet folio, folded, ?370 x 264</extent>
+                  <damage id="1">cropped top and bottom edges [i.e. top and bottom of ballad], creased, holed, uneven inking</damage>
+                  <note type="Ornamentation">cast fleurons</note>
+                  <respStmt>
+                     <resp>Printer</resp>
+                     <name id="N1">Thomas Creed</name>
+                     <certainty target="N1" locus="suppliedContent" degree="1"/>
+                  </respStmt>
+                  <imprint>
+                     <date value="1605" certainty="exact">1605</date>
+                     <pubPlace>Imprinted at London by Thomas Creed, and are to be solde at the signe of the Eagle and childe, in the olde Chaunge, 1605.</pubPlace>
+                     <publisher/>
+                  </imprint>
+                  <note type="ImprintSource">Weinstein: imprint and licensing info</note>
+                  <note type="ImprintNotes">Weinstein lists I:196 under Thomas Creed. The imprint indicates that he was the printer, but since publisher and printer are ambiguous terms in the period, and since Thomas Creed is the closest thing we have to a publisher, I have chosen to list this ballad under his name. BBTI confirms that a Thomas Creede active ca. 1605.</note>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the guidelines specified for TEI.</p>
+            <p>XML Generated Automatically  at 8/7/2007 11:09:17 AM Using EMC</p>
+            <p>XBallad Parsing Engine developed by Carl Stahmer.</p>
+            <p>TEI Template developed by Gerald Egan and Modified by Carl Stahmer</p>
+            <p>All apostrophes are encoded as &amp;apos;.</p>
+            <p>Any dashs occurring in line breaks have been removed;</p>
+            <p>All dashs are encoded as &amp;dash; and all em dashes as &amp;mdash;.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="PEPYSCATEGORY">
+               <bibl>Taxonomy used by Pepys to Organize Ballads in Albums</bibl>
+               <category id="pc.1">
+                  <catDesc>A Small Promiscuous Supplement</catDesc>
+               </category>
+               <category id="pc.2">
+                  <catDesc>Devotion &amp; Morality</catDesc>
+               </category>
+               <category id="pc.3">
+                  <catDesc>Drinking &amp; Good Fellowship</catDesc>
+               </category>
+               <category id="pc.4">
+                  <catDesc>History - True &amp; Fabulous</catDesc>
+               </category>
+               <category id="pc.5">
+                  <catDesc>Humour, Frollicks &amp;c</catDesc>
+               </category>
+               <category id="pc.6">
+                  <catDesc>Love Pleasant</catDesc>
+               </category>
+               <category id="pc.7">
+                  <catDesc>Love Pleasant and Unfortunate</catDesc>
+               </category>
+               <category id="pc.8">
+                  <catDesc>Love Unfortunate</catDesc>
+               </category>
+               <category id="pc.9">
+                  <catDesc>Marriage</catDesc>
+               </category>
+               <category id="pc.10">
+                  <catDesc>Sea</catDesc>
+               </category>
+               <category id="pc.11">
+                  <catDesc>State &amp; Times</catDesc>
+               </category>
+               <category id="pc.12">
+                  <catDesc>Tragedy</catDesc>
+               </category>
+               <category id="pc.13">
+                  <catDesc>Various Subjects</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="EMCKEYWORDS">
+               <bibl>Early Modern Center Ballad Project Keyword Taxonomy</bibl>
+               <category id="emc.1">
+                  <catDesc>advice</catDesc>
+               </category>
+               <category id="emc.2">
+                  <catDesc>affliction/health</catDesc>
+               </category>
+               <category id="emc.3">
+                  <catDesc>alcohol</catDesc>
+               </category>
+               <category id="emc.4">
+                  <catDesc>animals/nature</catDesc>
+               </category>
+               <category id="emc.5">
+                  <catDesc>appearance</catDesc>
+               </category>
+               <category id="emc.6">
+                  <catDesc>Bible/biblical figures</catDesc>
+               </category>
+               <category id="emc.7">
+                  <catDesc>buildings/architecture</catDesc>
+               </category>
+               <category id="emc.8">
+                  <catDesc>catastrophe</catDesc>
+               </category>
+               <category id="emc.9">
+                  <catDesc>children</catDesc>
+               </category>
+               <category id="emc.10">
+                  <catDesc>class</catDesc>
+               </category>
+               <category id="emc.11">
+                  <catDesc>clothing/fashion</catDesc>
+               </category>
+               <category id="emc.12">
+                  <catDesc>country/nation</catDesc>
+               </category>
+               <category id="emc.13">
+                  <catDesc>crime</catDesc>
+               </category>
+               <category id="emc.14">
+                  <catDesc>death</catDesc>
+               </category>
+               <category id="emc.15">
+                  <catDesc>economics/trade</catDesc>
+               </category>
+               <category id="emc.16">
+                  <catDesc>entertainment</catDesc>
+               </category>
+               <category id="emc.17">
+                  <catDesc>family/procreation</catDesc>
+               </category>
+               <category id="emc.18">
+                  <catDesc>folklore</catDesc>
+               </category>
+               <category id="emc.19">
+                  <catDesc>gender</catDesc>
+               </category>
+               <category id="emc.20">
+                  <catDesc>historical figures &amp; events</catDesc>
+               </category>
+               <category id="emc.21">
+                  <catDesc>holidays/seasons</catDesc>
+               </category>
+               <category id="emc.22">
+                  <catDesc>infidelity</catDesc>
+               </category>
+               <category id="emc.23">
+                  <catDesc>law</catDesc>
+               </category>
+               <category id="emc.24">
+                  <catDesc>London</catDesc>
+               </category>
+               <category id="emc.25">
+                  <catDesc>love</catDesc>
+               </category>
+               <category id="emc.26">
+                  <catDesc>maritime</catDesc>
+               </category>
+               <category id="emc.27">
+                  <catDesc>marriage</catDesc>
+               </category>
+               <category id="emc.28">
+                  <catDesc>military/war</catDesc>
+               </category>
+               <category id="emc.29">
+                  <catDesc>monstrosity</catDesc>
+               </category>
+               <category id="emc.30">
+                  <catDesc>mythology/Classical world</catDesc>
+               </category>
+               <category id="emc.31">
+                  <catDesc>news</catDesc>
+               </category>
+               <category id="emc.32">
+                  <catDesc>nobility/court</catDesc>
+               </category>
+               <category id="emc.33">
+                  <catDesc>politics/government</catDesc>
+               </category>
+               <category id="emc.34">
+                  <catDesc>punishment</catDesc>
+               </category>
+               <category id="emc.35">
+                  <catDesc>religious concepts</catDesc>
+               </category>
+               <category id="emc.36">
+                  <catDesc>religious figures</catDesc>
+               </category>
+               <category id="emc.37">
+                  <catDesc>religious types &amp; sects</catDesc>
+               </category>
+               <category id="emc.38">
+                  <catDesc>royalty</catDesc>
+               </category>
+               <category id="emc.39">
+                  <catDesc>rural life</catDesc>
+               </category>
+               <category id="emc.40">
+                  <catDesc>servitude</catDesc>
+               </category>
+               <category id="emc.41">
+                  <catDesc>sex/sexuality</catDesc>
+               </category>
+               <category id="emc.42">
+                  <catDesc>supernatural/magic</catDesc>
+               </category>
+               <category id="emc.43">
+                  <catDesc>The New World</catDesc>
+               </category>
+               <category id="emc.44">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category id="emc.45">
+                  <catDesc>trickery/deceit</catDesc>
+               </category>
+               <category id="emc.46">
+                  <catDesc>urban life</catDesc>
+               </category>
+               <category id="emc.47">
+                  <catDesc>vice</catDesc>
+               </category>
+               <category id="emc.48">
+                  <catDesc>violence</catDesc>
+               </category>
+               <category id="emc.49">
+                  <catDesc>virtue</catDesc>
+               </category>
+               <category id="emc.50">
+                  <catDesc>vulgarities/crass humor</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="LOCSH">
+               <bibl>Library of Congress Subject Heading Taxonomy</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date value="8/7/2007">8/7/2007</date>
+            <name type="place">Santa Barbara, California, United States of America</name>
+         </creation>
+         <textClass>
+            <keywords scheme="PEPYSCATEGORY">
+               <list>
+                  <item>State &amp; Times</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date value="8/7/2007">8/7/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>metadata fixed with imprint info, entered ESTC ID S1827</item>
+         </change>
+         <change>
+            <date value="08/02/2007">08/02/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Eugene Hart</name>
+            </respStmt>
+            <item>Ballad Checked - ESTC S1827</item>
+         </change>
+         <change>
+            <date value="2006">2006</date>
+            <respStmt>
+               <resp>Transcriber</resp>
+               <name>Pavneet Aulakh</name>
+            </respStmt>
+            <item>Ballad Transcribed</item>
+         </change>
+         <change>
+            <date value="8/1/2004">8/1/2004</date>
+            <respStmt>
+               <resp>Bibliographer</resp>
+               <name>Maggie Sloan</name>
+            </respStmt>
+            <item>Bibliographic SQL Database Record Created</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="ballad">
+            <div type="part" n="1" >
+               <head>
+                  <title>
+                     <seg n="1" rend="left"><hi rend="italic">A newe Ballad, composed in commendation of the Societie,</hi> </seg>
+                     <seg n="2" rend="left"><hi rend="italic">or Companie of the Porters.      TO the tune of, <hi rend="bold">In Edenbrugh, behold</hi>  </hi><hi rend="bold">.</hi> </seg>
+                     <seg n="3" rend="left"><hi rend="italic">At the first went we, as here you see. But since our Corporation, on this fashion. And to our Hall, thus we goe all.</hi> </seg>
+                  </title>
+               </head>
+               <div type="col" n ="1.1" >
+                  <lg>
+                     <l n="1" rend="left"><hi rend="italic">T</hi>Hrise blessed is that Land</l>
+                     <l n="2" rend="left">where King and Rulers bee,</l>
+                     <l n="3" rend="left">and men of great Command</l>
+                     <l n="4" rend="left">that carefull are to see,</l>
+                     <l n="5" rend="left">that carefull are to see,</l>
+                     <l n="6" rend="left">the Commons good mantainde</l>
+                     <l n="7" rend="left">by friendly unitie,</l>
+                     <l n="8" rend="left">the proppe of any land.</l>
+                  </lg>
+                  <lg>
+                     <l n="9" rend="indent">Then blessed is this Land</l>
+                     <l n="10" rend="left">by our dread soveraignes raigne,</l>
+                     <l n="11" rend="left">whose prudence in command,</l>
+                     <l n="12" rend="left">doth all estates maintaine:</l>
+                     <l n="13" rend="left">[?] to comfort all</l>
+                     <l n="14" rend="left">is unto all extended</l>
+                     <l n="15" rend="left">rich, poore, both great and small,</l>
+                     <l n="16" rend="left">are by his care defended.</l>
+                  </lg>
+                  <lg>
+                     <l n="17" rend="indent">As plainly doth appeare,</l>
+                     <l n="18" rend="left">by that was lately done,</l>
+                     <l n="19" rend="left">for them that burthens beare,</l>
+                     <l n="20" rend="left">and doe on businesse runne:</l>
+                     <l n="21" rend="left">the Porters of this Cittie,</l>
+                     <l n="22" rend="left">some being men of Trade,</l>
+                     <l n="23" rend="left">but now the more, the more the pitty</l>
+                     <l n="24" rend="left">by crosses are decayde.</l>
+                  </lg>
+                  <lg>
+                     <l n="25" rend="indent">Yet bearing honest mindes,</l>
+                     <l n="26" rend="left">their charge for to maintaine,</l>
+                     <l n="27" rend="left">as Gods command them bindes,</l>
+                     <l n="28" rend="left">with travell and with paine:</l>
+                     <l n="29" rend="left">they all have wisely joyned,</l>
+                     <l n="30" rend="left">for that they have effected,</l>
+                     <l n="31" rend="left">their company to binde</l>
+                     <l n="32" rend="left">and make it more respected.</l>
+                  </lg>
+                  <lg>
+                     <l n="33" rend="indent">Now they that were before</l>
+                     <l n="34" rend="left">of meanest estimation,</l>
+                     <l n="35" rend="left">by suite have salvde that sore,</l>
+                     <l n="36" rend="left">and gainde a Corporation:</l>
+                     <l n="37" rend="left">excludes, and shuts out many</l>
+                     <l n="38" rend="left">that were of base esteeme,</l>
+                     <l n="39" rend="left">and will not suffer any</l>
+                     <l n="40" rend="left">such person bide with them.</l>
+                  </lg>
+                  <lg>
+                     <l n="41" rend="indent">But such as well are knowen,</l>
+                     <l n="42" rend="left">and honest Acts imbrace:</l>
+                     <l n="43" rend="left">among them theile have none</l>
+                     <l n="44" rend="left">(as neare as they can finde)</l>
+                     <l n="45" rend="left">but such as well are knowen</l>
+                     <l n="46" rend="left">to beare an honest minde.</l>
+                  </lg>
+                  <lg>
+                     <l n="47" rend="indent">For now unto their hall</l>
+                     <l n="48" rend="left">they pay their quarteridge downe,</l>
+                     <l n="49" rend="left">attending maisters call,</l>
+                     <l n="50" rend="left">and fearing maisters frowne,</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.2" >
+                  <lg>
+                     <l n="51" rend="left">there seeking for redresse</l>
+                     <l n="52" rend="left">and right if they have wrong,</l>
+                     <l n="53" rend="left">there, they that doe trangresse</l>
+                     <l n="54" rend="left">have that to them doth long.</l>
+                  </lg>
+                  <lg>
+                     <l n="55" rend="indent">If there be any one</l>
+                     <l n="56" rend="left">of them, a burthen takes,</l>
+                     <l n="57" rend="left">and with the same be gone:</l>
+                     <l n="58" rend="left">their hall, the owner makes</l>
+                     <l n="59" rend="left">sufficient satisfaction</l>
+                     <l n="60" rend="left">for that, that he hath left:</l>
+                     <l n="61" rend="left">the theefe without redemption,</l>
+                     <l n="62" rend="left">out of their numbers crost.</l>
+                  </lg>
+                  <lg>
+                     <l n="63" rend="indent">It is a better order</l>
+                     <l n="64" rend="left">then that they had before,</l>
+                     <l n="65" rend="left">when as the malefactor</l>
+                     <l n="66" rend="left">was on a coultstaffe bore:</l>
+                     <l n="67" rend="left">for th'owner tis much better,</l>
+                     <l n="68" rend="left">but for th'offender worse,</l>
+                     <l n="69" rend="left">to taste this newe made order,</l>
+                     <l n="70" rend="left">then ride a wooden horse.</l>
+                  </lg>
+                  <lg>
+                     <l n="71" rend="indent">That shame was soone slipt over,</l>
+                     <l n="72" rend="left">soone in oblivion drownde,</l>
+                     <l n="73" rend="left">and then againe, another</l>
+                     <l n="74" rend="left">would in like fault be found:</l>
+                     <l n="75" rend="left">not caring for their credit,</l>
+                     <l n="76" rend="left">and trust another time,</l>
+                     <l n="77" rend="left">this orders therefore as a bit</l>
+                     <l n="78" rend="left">to hold them from that crime.</l>
+                  </lg>
+                  <lg>
+                     <l n="79" rend="indent">They that are rash, and rude,</l>
+                     <l n="80" rend="left">and obstinately runne</l>
+                     <l n="81" rend="left">as their owne willes conclude,</l>
+                     <l n="82" rend="left">and cannot well be wonne</l>
+                     <l n="83" rend="left">to condescend, and stand</l>
+                     <l n="84" rend="left">to orders they have made,</l>
+                     <l n="85" rend="left">by the Rulers out of hand,</l>
+                     <l n="86" rend="left">have fines uppon them laide.</l>
+                  </lg>
+                  <lg>
+                     <l n="87" rend="indent">All jarres and braules are bard</l>
+                     <l n="88" rend="left">that mongst them might arise,</l>
+                     <l n="89" rend="left">first commer, first is servde,</l>
+                     <l n="90" rend="left">where as a burthen lyes,</l>
+                     <l n="91" rend="left">if one be ready there</l>
+                     <l n="92" rend="left">he must his profite take:</l>
+                     <l n="93" rend="left">all other must forbeare</l>
+                     <l n="94" rend="left">and no resistance make.</l>
+                  </lg>
+                  <lg>
+                     <l n="95" rend="indent">Such as have long bin knowen</l>
+                     <l n="96" rend="left">to use this bearing trade,</l>
+                     <l n="97" rend="left">and into yeares are growen,</l>
+                     <l n="98" rend="left">(so that their strengths decayde)</l>
+                     <l n="99" rend="left">they can no longer labour</l>
+                     <l n="100" rend="left">as they have done before,</l>
+                     <l n="101" rend="left">the Companie doth succour</l>
+                     <l n="102" rend="left">and maintaine evermore.</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.3" >
+                  <lg>
+                     <l n="103" rend="indent">These and a many moe</l>
+                     <l n="104" rend="left">good orders they have, sure,</l>
+                     <l n="105" rend="left">to make rude fellowes know</l>
+                     <l n="106" rend="left">their stoutnesse, doth procure</l>
+                     <l n="107" rend="left">but their owne detriment</l>
+                     <l n="108" rend="left">and losse, if they could see't:</l>
+                     <l n="109" rend="left">and likewise so augment</l>
+                     <l n="110" rend="left">their generall good, there meete.</l>
+                  </lg>
+                  <lg>
+                     <l n="111" rend="indent">For great is the number</l>
+                     <l n="112" rend="left">of this Societie:</l>
+                     <l n="113" rend="left">and many without order</l>
+                     <l n="114" rend="left">can never settled bee,</l>
+                     <l n="115" rend="left">but things will be amisse,</l>
+                     <l n="116" rend="left">as oft it hath bin knowen,</l>
+                     <l n="117" rend="left">the number of them is,</l>
+                     <l n="118" rend="left">a thousand fortie one.</l>
+                  </lg>
+                  <lg>
+                     <l n="119" rend="indent">They all mette together,</l>
+                     <l n="120" rend="left">most hansomely arayde,</l>
+                     <l n="121" rend="left">at <hi rend="italic"><hi rend="bold">Christ church</hi></hi> , to heare there</l>
+                     <l n="122" rend="left">a sermon, for them made.</l>
+                     <l n="123" rend="left">There markes of Admittaince</l>
+                     <l n="124" rend="left">made out of tinne, they bare</l>
+                     <l n="125" rend="left">about their neckes in ribbons:</l>
+                     <l n="126" rend="left">the chiefe, of silver weare.</l>
+                  </lg>
+                  <lg>
+                     <l n="127" rend="indent">To have seene them so, you'd wonder,</l>
+                     <l n="128" rend="left">so many should maintaine</l>
+                     <l n="129" rend="left">themselves, by such a labour,</l>
+                     <l n="130" rend="left">but that, thats got with paine,</l>
+                     <l n="131" rend="left">God doth increase and blesse:</l>
+                     <l n="132" rend="left">for good himselfe hath sed,</l>
+                     <l n="133" rend="left">with paine and wearinesse,</l>
+                     <l n="134" rend="left">we all should get our bread.</l>
+                  </lg>
+                  <lg>
+                     <l n="135" rend="left">Thus therefore I conclude,</l>
+                     <l n="136" rend="left">more happie men are they,</l>
+                     <l n="137" rend="left">then many that delude</l>
+                     <l n="138" rend="left">the world, and beare away</l>
+                     <l n="139" rend="left">the sweete of poore mens labour</l>
+                     <l n="140" rend="left">their chests to cram and stuffe,</l>
+                     <l n="141" rend="left">nor caring for Gods favour,</l>
+                     <l n="142" rend="left">so they have golde enough.</l>
+                  </lg>
+                  <lg>
+                     <l n="143" rend="left">Our royall King and Queene</l>
+                     <l n="144" rend="left">thou King of Kings defend,</l>
+                     <l n="145" rend="left">as thou to them hast beene</l>
+                     <l n="146" rend="left">most mercifull and kinde:</l>
+                     <l n="147" rend="left">thy love to them increase,</l>
+                     <l n="148" rend="left">blesse all they undertake:</l>
+                     <l n="149" rend="left">His Counsels counsell, blesse,</l>
+                     <l n="150" rend="left">Even for thy deare sons sake.</l>
+                  </lg>
+               </div>
+         </div>
+            <closer>
+                  <seg n="1" rend="left"><hi rend="bold"><hi rend="italic">FINIS.  Tho. Brewer.</hi></hi> </seg>
+                  <seg n="2" rend="left"><hi rend="italic">Imprinted at London by <hi rend="bold">Thomas Creed</hi> , and are to be solde at the signe <hi rend="bold">of the Eagle and childe, in the olde Chaunge.  1605.</hi>  </hi></seg>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI.2>

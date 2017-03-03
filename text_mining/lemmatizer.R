@@ -67,7 +67,7 @@ library(XML)
 setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
 
 # set the file path
-filePath.str = "data/plainText/emerson.txt"
+filePath.str = "data/plainText/melvyl.txt"
 
 ###################################
 #      function declarations      #
@@ -83,7 +83,7 @@ lemmatize <- function(wordlist) {
     xml     <- xmlInternalTreeParse(content)
     return(xmlValue(xml["//lemma"][[1]]))    
   }
-  url <- "http://devadorner.northwestern.edu/maserver/lemmatizer"
+  url <- "http://ebba.ds.library.ucdavis.edu:8080/maserver/lemmatizer"
   return(sapply(wordlist,get.lemma,url=url))
 }
 
@@ -100,8 +100,8 @@ function_show_vector <- function(var_vec_to_show_vector) {
 ###################################
 
 # Do a test run
-words <- c("is","am","was","are")
-lemmatize(words)
+#words <- c("is","am","was","are")
+#lemmatize(words)
 
 # Now do a real run
 

@@ -65,7 +65,10 @@ setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
 # define the input directory for the texts to
 # be analyzed
-var_inputDir_character <- "/Users/cstahmer/SpiderOak Hive/writing/close_reading_ballads/runscript"
+var_inputDir_character <- "/Users/cstahmer/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainText"
+
+# file path to write output csv files
+var_output_write_path <- "/Users/cstahmer/Desktop/"
 
 ###################################
 #      function declarations      #
@@ -117,13 +120,8 @@ for (var_document_integer in 1:var_numcols_int) {
   # Sort the results Matrix
   var_sorted_matrix <- var_singleDocNonNumeric_matrix[sort.list(var_singleDocNonNumeric_matrix[,1]), decreasing=TRUE]
   
-  # Subset the whole matrix so that we only 
-  # inspect the top entries
-  #varTopTerms <- var_sorted_matrix[5:10,1]
-  
+  # Write CSV in R
+  # write.csv(var_sorted_matrix, file = "/Users/cstahmer/SpiderOak Hive/writing/close_reading_ballads/tfidf2.csv")
+  var_write_path <- paste(var_output_write_path, "tfidf.", colnames(var_singleDoc_matrix)[1], ".csv", sep = "")
+  write.csv(var_sorted_matrix, file = var_write_path)
 }
-
-#print(varTopTerms)
-
-# Write CSV in R
-# write.csv(var_sorted_matrix, file = "/Users/cstahmer/SpiderOak Hive/writing/close_reading_ballads/tfidf.csv")

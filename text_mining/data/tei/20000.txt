@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+   <!ENTITY % TEI.verse 'INCLUDE'>
+   <!ENTITY % TEI.linking 'INCLUDE'>
+   <!ENTITY % TEI.figures 'INCLUDE'>
+   <!ENTITY % TEI.analysis 'INCLUDE'>
+   <!ENTITY % TEI.XML 'INCLUDE'>
+   <!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+   %ISOlat1;
+   <!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+   %ISOlat2;
+   <!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+   %ISOnum;
+   <!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+   %ISOpub;
+   <!-- The following entities have been added by Gerald Egan on 27 September 2004 -->
+   <!-- The files 'urls.ent' and 'figures.ent' contain entity declarations -->
+   <!-- for all external entities needed by this document -->
+   <!NOTATION jpeg PUBLIC
+   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN'>
+   <!NOTATION gif PUBLIC
+   '-//TEI//NOTATION
+   Compuserve Graphics Interchange Format//EN'>
+   <!NOTATION tiff PUBLIC
+   '-//TEI//NOTATION Aldus Tagged Image File Format//EN'>
+   <!NOTATION png PUBLIC
+   '-//TEI//NOTATION IETF RFC2083 Portable Network Graphics//EN'>
+   <!NOTATION HTML SYSTEM "text/html">
+   <!-- The following elements were added by Carl Stahmer  on 19 June 2007 -->
+   <!-- The TEI P4 Documentation at the below URL's States that these elements -->
+   <!-- should be part of the base tei declaration, but OXYGEN's validation engine -->
+   <!-- stated that they wer undeclared.  These declarations match the online TEI P4 -->
+   <!-- documentation.  See:  -->
+   <!-- http://www.tei-c.org/P4X/ref-DAMAGE.html -->
+   <!-- http://www.tei-c.org/P4X/ref-CERTAIN.html -->
+   <!ELEMENT damage (#PCDATA)>
+   <!ATTLIST damage
+   id CDATA #IMPLIED>
+   <!ELEMENT certainty (#PCDATA)>
+   <!ATTLIST certainty
+   target CDATA #IMPLIED
+   locus CDATA #IMPLIED
+   degree CDATA #IMPLIED
+   >
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" type="main" rend="italic">High and Illustrious King of Bohemia,/ which God hath bestowed vpon them in their Royall Issue,/ rejoycing to all that wish their Happines.</title>
+            <author/>
+            <sponsor>University of California - Santa Barbara</sponsor>
+            <sponsor>The Early Modern Center</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Patricia Fumerton</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1622</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Early Modern Center, University of California Santa Barbara</publisher>
+            <pubPlace>Santa Barbara, CA</pubPlace>
+            <date>08/06/2007</date>
+            <idno type="EMC">20000</idno>
+            <availability>
+               <p> The University of California makes a claim of copyright only to original
+                   contributions made by Early Modern Center participants and other members of
+                   the university community. The University of California makes no claim of
+                   copyright to the original text. Permission is granted to download, transmit
+                   or otherwise reproduce, distribute or display the contributions to this work
+                   claimed by The University of California for non-profit educational purposes,
+                   provided that this header is included in its entirety. For inquiries about
+                   commercial uses, please contact:
+                  <address>
+                     <addrLine>Patricia Fumerton</addrLine>
+                     <addrLine>Early Modern Center - English Department</addrLine>
+                     <addrLine>University of California</addrLine>
+                     <addrLine>Santa Barbara, CA 93105</addrLine>
+                     <addrLine>United States of America</addrLine>
+                     <addrLine>EMail: pfumer@english.ucsb.edu</addrLine>
+                  </address>
+               </p>
+            </availability>
+            <idno type="Pepys">1.104</idno>
+            <idno type="ESTC">S126160</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Tune-Total">1</note>
+            <note type="First_Lines">THen (spight of all that doe their State molest)/ They in their Princely Children are much blest.</note>
+            <note type="Notes">right edge of title cropped: &amp;lt;?&amp;gt;High and Illustrious King of Bohemia,/ [wh]ich God hath bestowed vpon them in their Royall Issue,/ [rej]oycing to all that with their Happines.;  extra stanza: 12 stanzas and 1 couplet; [woodcut caption: Yea, thou shalt see thy Childrens Chil-/dren, and Peace vpon Israell./ Psalm./ 128] [woodcut adjacent type identifying characters: Ludouica Hollandina. Maurice. Elizabeth. ELIZABETH, Regina]</note>
+            <note type="Source">Pepys 1.104</note>
+            <note type="References">Rollins (1) 1:214-217; STC 11360.5 E. All-de for H. Gosson [1622?].</note>
+            <note type="Woodblock" n="1">Woodblock 1: first sheet folio, under title and tune, centered above columns 1 and 2 and rules: {woodcut caption: Yea, thou shalt see thy Childrens Chil-/dren, and Peace vpon Israell./ Psalm./ 128} {woodcut adjacent type identifying characters: Ludouica Hollandina. Maurice. Elizabeth. ELIZABETH, Regina}.  The cut depicts a queen, labeled ELIZABETH Regina (presumably of Bohemia), and three children (labeled Ludouica Hollandina. Maurice. Elizabeth). The queen faces to the left of the cut, towards the children who stand to her right. She is smiling, her hair is pulled back under an elaborate crown. She wears a layered ruff and a patterned dress, cuffs and cloak. She holds a feather fan in her left hand, and an unclear object in her right hand. Next to her, the oldest child, Elizabeth, is a young girl.  She also smiles and faces to the left of the cut, mirroring Elizabeth Regina. Her hair is pulled back and decorated with a plume or feather. She holds a fan in her right hand and pulls a piece of fabric or hankerchief out of a pocket with her left hand. She wears a heavily decorated dress with a stiff collar. The next child, Maurice, has short curled hair or wears a child's bonnet. He faces Elizabeth and Elizabeth Regina, toward the right of the cut. He wears a small ruff and a fancy dress with a coat and open skirt with decorated underskirt. The final child, furthest to the left of the cut, is a standing infant or todler, Ludouica Hollandina. Her face is framed by a pointed bonnet, and she wears a long dress with an apron and scarf or cloak. She faces forward. Behind these characters in the background are buildings: a church, a windmill, a house, some towers.  An angel flies above them in the upper left of the cut/: 12 x 4</note>
+         </notesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Pepys Library</author>
+                     <title>The Pepys ballads : facsimile volume</title>
+                     <respStmt>
+                        <resp>Editor</resp>
+                        <name>W.G. Day</name>
+                     </respStmt>
+                     <imprint>
+                        <publisher>D.S. Brewer</publisher>
+                        <pubPlace>Cambridge [England]</pubPlace>
+                        <date>1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <bibl>
+                  <note type="Reference">
+                  Information in this section of the Source Description
+                  refers to the original ballad manuscript.
+                  </note>
+                  <biblScope type="vol: p">1: 104</biblScope>
+                  <title n="1" type="main" rend="italic">High and Illustrious King of Bohemia,/ which God hath bestowed vpon them in their Royall Issue,/ rejoycing to all that wish their Happines.</title>
+                  <title n="1" type="alt" rend="italic">High and Illustrious King of Bohemia, [wh]ich God hath bestowed upon them in their Royall Issue,[re]joycing to all that wish their Happines.</title>
+                  <title n="1" type="descriptive" rend="italic">High and Illustrious King of Bohemia, Which God Hath Bestowed Upon Them in Their Royal Issue, Rejoycing to All that Wish Their Happiness.</title>
+                  <author/>
+                  <extent id="p.1">1/2 sheet folio, 281 x 170</extent>
+                  <damage id="1">cropped left and right edges, creased, uneven inking</damage>
+                  <note type="Ornamentation">horizontal and vertical rules</note>
+                  <respStmt>
+                     <resp>Printer</resp>
+                     <name id="N1">Edw: All-de [Edward Allde]</name>
+                     <certainty target="N1" locus="suppliedContent" degree="1"/>
+                  </respStmt>
+                  <imprint>
+                     <date value="1622" certainty="approx">1622</date>
+                     <pubPlace>Printed at London by Edw: All-de, for Henry Gosson.</pubPlace>
+                     <publisher><orig reg="Gosson, Henry">Henry Gosson</orig></publisher>
+                  </imprint>
+                  <note type="ImprintSource">Weinstein: STC</note>
+                  <note type="ImprintNotes">Full name indicated on facsimile. </note>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the guidelines specified for TEI.</p>
+            <p>XML Generated Automatically  at 8/6/2007 12:00:52 PM Using EMC</p>
+            <p>XBallad Parsing Engine developed by Carl Stahmer.</p>
+            <p>TEI Template developed by Gerald Egan and Modified by Carl Stahmer</p>
+            <p>All apostrophes are encoded as &amp;apos;.</p>
+            <p>Any dashs occurring in line breaks have been removed;</p>
+            <p>All dashs are encoded as &amp;dash; and all em dashes as &amp;mdash;.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="PEPYSCATEGORY">
+               <bibl>Taxonomy used by Pepys to Organize Ballads in Albums</bibl>
+               <category id="pc.1">
+                  <catDesc>A Small Promiscuous Supplement</catDesc>
+               </category>
+               <category id="pc.2">
+                  <catDesc>Devotion &amp; Morality</catDesc>
+               </category>
+               <category id="pc.3">
+                  <catDesc>Drinking &amp; Good Fellowship</catDesc>
+               </category>
+               <category id="pc.4">
+                  <catDesc>History - True &amp; Fabulous</catDesc>
+               </category>
+               <category id="pc.5">
+                  <catDesc>Humour, Frollicks &amp;c</catDesc>
+               </category>
+               <category id="pc.6">
+                  <catDesc>Love Pleasant</catDesc>
+               </category>
+               <category id="pc.7">
+                  <catDesc>Love Pleasant and Unfortunate</catDesc>
+               </category>
+               <category id="pc.8">
+                  <catDesc>Love Unfortunate</catDesc>
+               </category>
+               <category id="pc.9">
+                  <catDesc>Marriage</catDesc>
+               </category>
+               <category id="pc.10">
+                  <catDesc>Sea</catDesc>
+               </category>
+               <category id="pc.11">
+                  <catDesc>State &amp; Times</catDesc>
+               </category>
+               <category id="pc.12">
+                  <catDesc>Tragedy</catDesc>
+               </category>
+               <category id="pc.13">
+                  <catDesc>Various Subjects</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="EMCKEYWORDS">
+               <bibl>Early Modern Center Ballad Project Keyword Taxonomy</bibl>
+               <category id="emc.1">
+                  <catDesc>advice</catDesc>
+               </category>
+               <category id="emc.2">
+                  <catDesc>affliction/health</catDesc>
+               </category>
+               <category id="emc.3">
+                  <catDesc>alcohol</catDesc>
+               </category>
+               <category id="emc.4">
+                  <catDesc>animals/nature</catDesc>
+               </category>
+               <category id="emc.5">
+                  <catDesc>appearance</catDesc>
+               </category>
+               <category id="emc.6">
+                  <catDesc>Bible/biblical figures</catDesc>
+               </category>
+               <category id="emc.7">
+                  <catDesc>buildings/architecture</catDesc>
+               </category>
+               <category id="emc.8">
+                  <catDesc>catastrophe</catDesc>
+               </category>
+               <category id="emc.9">
+                  <catDesc>children</catDesc>
+               </category>
+               <category id="emc.10">
+                  <catDesc>class</catDesc>
+               </category>
+               <category id="emc.11">
+                  <catDesc>clothing/fashion</catDesc>
+               </category>
+               <category id="emc.12">
+                  <catDesc>country/nation</catDesc>
+               </category>
+               <category id="emc.13">
+                  <catDesc>crime</catDesc>
+               </category>
+               <category id="emc.14">
+                  <catDesc>death</catDesc>
+               </category>
+               <category id="emc.15">
+                  <catDesc>economics/trade</catDesc>
+               </category>
+               <category id="emc.16">
+                  <catDesc>entertainment</catDesc>
+               </category>
+               <category id="emc.17">
+                  <catDesc>family/procreation</catDesc>
+               </category>
+               <category id="emc.18">
+                  <catDesc>folklore</catDesc>
+               </category>
+               <category id="emc.19">
+                  <catDesc>gender</catDesc>
+               </category>
+               <category id="emc.20">
+                  <catDesc>historical figures &amp; events</catDesc>
+               </category>
+               <category id="emc.21">
+                  <catDesc>holidays/seasons</catDesc>
+               </category>
+               <category id="emc.22">
+                  <catDesc>infidelity</catDesc>
+               </category>
+               <category id="emc.23">
+                  <catDesc>law</catDesc>
+               </category>
+               <category id="emc.24">
+                  <catDesc>London</catDesc>
+               </category>
+               <category id="emc.25">
+                  <catDesc>love</catDesc>
+               </category>
+               <category id="emc.26">
+                  <catDesc>maritime</catDesc>
+               </category>
+               <category id="emc.27">
+                  <catDesc>marriage</catDesc>
+               </category>
+               <category id="emc.28">
+                  <catDesc>military/war</catDesc>
+               </category>
+               <category id="emc.29">
+                  <catDesc>monstrosity</catDesc>
+               </category>
+               <category id="emc.30">
+                  <catDesc>mythology/Classical world</catDesc>
+               </category>
+               <category id="emc.31">
+                  <catDesc>news</catDesc>
+               </category>
+               <category id="emc.32">
+                  <catDesc>nobility/court</catDesc>
+               </category>
+               <category id="emc.33">
+                  <catDesc>politics/government</catDesc>
+               </category>
+               <category id="emc.34">
+                  <catDesc>punishment</catDesc>
+               </category>
+               <category id="emc.35">
+                  <catDesc>religious concepts</catDesc>
+               </category>
+               <category id="emc.36">
+                  <catDesc>religious figures</catDesc>
+               </category>
+               <category id="emc.37">
+                  <catDesc>religious types &amp; sects</catDesc>
+               </category>
+               <category id="emc.38">
+                  <catDesc>royalty</catDesc>
+               </category>
+               <category id="emc.39">
+                  <catDesc>rural life</catDesc>
+               </category>
+               <category id="emc.40">
+                  <catDesc>servitude</catDesc>
+               </category>
+               <category id="emc.41">
+                  <catDesc>sex/sexuality</catDesc>
+               </category>
+               <category id="emc.42">
+                  <catDesc>supernatural/magic</catDesc>
+               </category>
+               <category id="emc.43">
+                  <catDesc>The New World</catDesc>
+               </category>
+               <category id="emc.44">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category id="emc.45">
+                  <catDesc>trickery/deceit</catDesc>
+               </category>
+               <category id="emc.46">
+                  <catDesc>urban life</catDesc>
+               </category>
+               <category id="emc.47">
+                  <catDesc>vice</catDesc>
+               </category>
+               <category id="emc.48">
+                  <catDesc>violence</catDesc>
+               </category>
+               <category id="emc.49">
+                  <catDesc>virtue</catDesc>
+               </category>
+               <category id="emc.50">
+                  <catDesc>vulgarities/crass humor</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="LOCSH">
+               <bibl>Library of Congress Subject Heading Taxonomy</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date value="8/6/2007">8/6/2007</date>
+            <name type="place">Santa Barbara, California, United States of America</name>
+         </creation>
+         <textClass>
+            <keywords scheme="PEPYSCATEGORY">
+               <list>
+                  <item>History - True &amp; Fabulous</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date value="8/6/2007">8/6/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>metadata checked, imprint reloaded</item>
+         </change>
+         <change>
+            <date value="7/18/2007">7/18/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Gordon Batchelor</name>
+            </respStmt>
+            <item>xml created</item>
+         </change>
+         <change>
+            <date value="6/26/2006">6/26/2006</date>
+            <respStmt>
+               <resp>Transcriber</resp>
+               <name>Unknown</name>
+            </respStmt>
+            <item>original transcription</item>
+         </change>
+         <change>
+            <date value="2006">2006</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>transcription checked</item>
+         </change>
+         <change>
+            <date value="7/13/2004">7/13/2004</date>
+            <respStmt>
+               <resp>Bibliographer</resp>
+               <name>Simone Chess</name>
+            </respStmt>
+            <item>Bibliographic SQL Database Record Created</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="ballad">
+            <div type="part" n="1" >
+               <head>
+                  <title>
+                     <seg n="1" rend="left">T:<hi rend="italic">High and Illustrious King of Bohemia,</hi> </seg>
+                     <seg n="2" rend="left"><hi rend="italic">[wh]ich God hath bestowed upon them in their Royall Issue,</hi> </seg>
+                     <seg n="3" rend="left"><hi rend="italic">[re]joycing to all that wish their Happines.</hi> </seg>
+                  </title>
+               </head>
+               <div type="col" n ="1.1" >
+                  <lg>
+                     <l n="1" rend="left"><hi rend="italic">THen (spight of all that doe their State molest)</hi></l>
+                     <l n="2" rend="indent"><hi rend="italic">They in their Princely Children are much blest.</hi></l>
+                     <l n="3" rend="left"><hi rend="italic">This King and Queene, who list's their Actions try,</hi></l>
+                     <l n="4" rend="left"><hi rend="italic">Shall finde them paternes of true Constancy.</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="5" rend="left"><hi rend="italic">And that they still with Noble fortitude,</hi></l>
+                     <l n="6" rend="left"><hi rend="italic">And courage, all Adversities subdude.</hi></l>
+                     <l n="7" rend="left"><hi rend="italic">Their Patience every other vertue Crownes,</hi></l>
+                     <l n="8" rend="left"><hi rend="italic">It hath made Fortune weary of her frownes.</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="9" rend="left"><hi rend="italic">Shee sees their Courage can no way be shaken,</hi></l>
+                     <l n="10" rend="left"><hi rend="italic">And that her labour's lost, which she hath taken,</hi></l>
+                     <l n="11" rend="left"><hi rend="italic">Shee therefore 'gins to turne her fickle wheele,</hi></l>
+                     <l n="12" rend="left"><hi rend="italic">To make <hi rend="bold">Bohemia's</hi> foes her flatt'ry feele.</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="13" rend="left"><hi rend="italic">'Tis not great Armies, Cannons, Roring Drums,</hi></l>
+                     <l n="14" rend="left"><hi rend="italic">But a good Cause and Courage overcomes.</hi></l>
+                     <l n="15" rend="left"><hi rend="italic">The meanes to Victory, and faire Renowne,</hi></l>
+                     <l n="16" rend="left"><hi rend="italic">Is to let Fortitude keepe Terrour downe:</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="17" rend="left"><hi rend="italic">And patience in all Chances is a thing,</hi></l>
+                     <l n="18" rend="left"><hi rend="italic">Which noble Actions to perfection bring.</hi></l>
+                     <l n="19" rend="left"><hi rend="italic">And how can they be any way dismay'd,</hi></l>
+                     <l n="20" rend="left"><hi rend="italic">That still are guarded by th'Almighties Ayde?</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="21" rend="left"><hi rend="italic">For those that will but note from first to last,</hi></l>
+                     <l n="22" rend="left"><hi rend="italic">The dangers and the perils they have past,</hi></l>
+                     <l n="23" rend="left"><hi rend="italic">And how they still have bin preseru'd from those,</hi></l>
+                     <l n="24" rend="left"><hi rend="italic">That to subvert them, round did them inclose:</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="25" rend="left"><hi rend="italic">Note but these thinges, and men will understand,</hi></l>
+                     <l n="26" rend="left"><hi rend="italic">They have bin still protected with Gods hand.</hi></l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.2" >
+                  <lg>
+                     <l n="27" rend="left"><hi rend="italic">Let no rash Censures, or sad Malecontents,</hi></l>
+                     <l n="28" rend="left"><hi rend="italic">Measure mans worth according to th'events,</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="29" rend="left"><hi rend="italic">For he that Heav'n and earthly Kingdomes swayes,</hi></l>
+                     <l n="30" rend="left"><hi rend="italic">Doth measure mens proceedings otherwayes.</hi></l>
+                     <l n="31" rend="left"><hi rend="italic">Illustrious <hi rend="bold">Mansfield,</hi> God still guide thy Sword,</hi></l>
+                     <l n="32" rend="left"><hi rend="italic">Against th'opposers of his Sacred word:</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="33" rend="left"><hi rend="italic">Thou art approved and thy truth is seene,</hi></l>
+                     <l n="34" rend="left"><hi rend="italic">In serving of this Royall King and Queene,</hi></l>
+                     <l n="35" rend="left"><hi rend="italic">As thou hast done, brave Generall so proceed,</hi></l>
+                     <l n="36" rend="left"><hi rend="italic">And God with Glory, then will Crowne thy meede.</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="37" rend="left"><hi rend="italic">And stout Renown'd, belov'd, Right noble <hi rend="bold">Vere,</hi> </hi></l>
+                     <l n="38" rend="left"><hi rend="italic">Thy Valour to the Heav'ns thy Fame shall reare;</hi></l>
+                     <l n="39" rend="left"><hi rend="italic">Thou (with much danger) hast opposde the hate,</hi></l>
+                     <l n="40" rend="left"><hi rend="italic">Of the fierce foes to the <hi rend="bold">Palatinate.</hi> </hi></l>
+                  </lg>
+                  <lg>
+                     <l n="41" rend="left"><hi rend="italic">Tryumphant Victory sit on thy Helme,</hi></l>
+                     <l n="42" rend="left"><hi rend="italic">Which may thine Enemies all overwhelme;</hi></l>
+                     <l n="43" rend="left"><hi rend="italic">Thy friends and foes Report where ere they goe,</hi></l>
+                     <l n="44" rend="left"><hi rend="italic">Thou art a Constant friend, a Noble foe.</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="45" rend="left"><hi rend="italic">Thus I commend to Gods Almighty Grace,</hi></l>
+                     <l n="46" rend="left"><hi rend="italic">The King, the Queene, and all their Princely Race;</hi></l>
+                     <l n="47" rend="left"><hi rend="italic">Their faithfull Subjects, and their constant Friends,</hi></l>
+                     <l n="48" rend="left"><hi rend="italic">Whose wishes or whose power their good intends.</hi></l>
+                  </lg>
+                  <lg>
+                     <l n="49" rend="left"><hi rend="italic">Live all belov'd, and whensoe're you dye,</hi></l>
+                     <l n="50" rend="left"><hi rend="italic">Ascend and put on Immortality.</hi></l>
+                  </lg>
+               </div>
+               <closer>
+                     <seg n="1" rend="left"><hi rend="italic">FINIS.</hi> </seg>
+               </closer>
+         </div>
+            <closer>
+                  <seg n="1" rend="left"><hi rend="italic">Printed at London by <hi rend="bold">Edw: All[---]de, for Henry Gosson.</hi> </hi></seg>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI.2>

@@ -88,7 +88,7 @@ var_lowercase_vector <- tolower(var_textBlob_character)
 var_unStopped_vector <- removeWords(var_lowercase_vector, stopwords('english'))
 
 # use the below line to remove any other tokens
-var_unStopped_vector <- removeWords(var_unStopped_vector, "s")
+var_unStopped_vector <- removeWords(var_unStopped_vector, "sam")
 
 # convert to a list of words
 var_words_list <- strsplit(var_unStopped_vector, "\\W")

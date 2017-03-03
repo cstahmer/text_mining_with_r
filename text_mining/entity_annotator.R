@@ -72,7 +72,7 @@ library(stats)
 ###################################
 
 # set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainText")
+setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
 
 # set the entity type you want to extract.  Legal
 # values are: 
@@ -86,7 +86,8 @@ setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainText")
 var_entityType_string = "person"
 
 # set the file path
-var_filePath_string = "melville.txt"
+#var_filePath_string = "data/plainText/melville.txt"
+var_filePath_character = "data/plainText/emerson.txt"
 
 ###################################
 #      function declarations      #
@@ -141,7 +142,7 @@ function_checkForEntities <- function(obj_doc, var_kind_character) {
 # the resulting vector will have as many elements as
 # lines in the file with the contents of each line
 # contained in a character vector.
-var_readLinesRaw_vector <- readLines(var_filePath_string)
+var_readLinesRaw_vector <- readLines(var_filePath_character)
 
 # collapse the vector of lines into a single character 
 # vector

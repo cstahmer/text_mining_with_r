@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+   <!ENTITY % TEI.verse 'INCLUDE'>
+   <!ENTITY % TEI.linking 'INCLUDE'>
+   <!ENTITY % TEI.figures 'INCLUDE'>
+   <!ENTITY % TEI.analysis 'INCLUDE'>
+   <!ENTITY % TEI.XML 'INCLUDE'>
+   <!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+   %ISOlat1;
+   <!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+   %ISOlat2;
+   <!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+   %ISOnum;
+   <!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+   %ISOpub;
+   <!-- The following entities have been added by Gerald Egan on 27 September 2004 -->
+   <!-- The files 'urls.ent' and 'figures.ent' contain entity declarations -->
+   <!-- for all external entities needed by this document -->
+   <!NOTATION jpeg PUBLIC
+   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN'>
+   <!NOTATION gif PUBLIC
+   '-//TEI//NOTATION
+   Compuserve Graphics Interchange Format//EN'>
+   <!NOTATION tiff PUBLIC
+   '-//TEI//NOTATION Aldus Tagged Image File Format//EN'>
+   <!NOTATION png PUBLIC
+   '-//TEI//NOTATION IETF RFC2083 Portable Network Graphics//EN'>
+   <!NOTATION HTML SYSTEM "text/html">
+   <!-- The following elements were added by Carl Stahmer  on 19 June 2007 -->
+   <!-- The TEI P4 Documentation at the below URL's States that these elements -->
+   <!-- should be part of the base tei declaration, but OXYGEN's validation engine -->
+   <!-- stated that they wer undeclared.  These declarations match the online TEI P4 -->
+   <!-- documentation.  See:  -->
+   <!-- http://www.tei-c.org/P4X/ref-DAMAGE.html -->
+   <!-- http://www.tei-c.org/P4X/ref-CERTAIN.html -->
+   <!ELEMENT damage (#PCDATA)>
+   <!ATTLIST damage
+   id CDATA #IMPLIED>
+   <!ELEMENT certainty (#PCDATA)>
+   <!ATTLIST certainty
+   target CDATA #IMPLIED
+   locus CDATA #IMPLIED
+   degree CDATA #IMPLIED
+   >
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" type="main" rend="italic">A new Ballad intituled, the stout Cripple of Cornwall, wherein is shewed/ his dissolute life and deserued death.</title>
+            <author/>
+            <sponsor>University of California - Santa Barbara</sponsor>
+            <sponsor>The Early Modern Center</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Patricia Fumerton</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1624</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Early Modern Center, University of California Santa Barbara</publisher>
+            <pubPlace>Santa Barbara, CA</pubPlace>
+            <date>08/06/2007</date>
+            <idno type="EMC">20003</idno>
+            <availability>
+               <p> The University of California makes a claim of copyright only to original
+                   contributions made by Early Modern Center participants and other members of
+                   the university community. The University of California makes no claim of
+                   copyright to the original text. Permission is granted to download, transmit
+                   or otherwise reproduce, distribute or display the contributions to this work
+                   claimed by The University of California for non-profit educational purposes,
+                   provided that this header is included in its entirety. For inquiries about
+                   commercial uses, please contact:
+                  <address>
+                     <addrLine>Patricia Fumerton</addrLine>
+                     <addrLine>Early Modern Center - English Department</addrLine>
+                     <addrLine>University of California</addrLine>
+                     <addrLine>Santa Barbara, CA 93105</addrLine>
+                     <addrLine>United States of America</addrLine>
+                     <addrLine>EMail: pfumer@english.ucsb.edu</addrLine>
+                  </address>
+               </p>
+            </availability>
+            <idno type="Pepys">1.136</idno>
+            <idno type="ESTC">S3276</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Tune-Total">1</note>
+            <note type="Tune-1">the blind beggar</note>
+            <note type="Tune_Modern-1">The Blind Beggar</note>
+            <note type="First_Lines">OF a stout Cripple that kept the high way,/ and beg'd for his liuing all time of the day,</note>
+            <note type="Notes">another edition at columns 3-4 of 1.512-513.</note>
+            <note type="Source">Pepys 1.136</note>
+            <note type="References">STC 5772.5 for J. W[right, c.1624]; Rollins (2) 427 (Dec. 14, 1624, IV, 132).</note>
+         </notesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Pepys Library</author>
+                     <title>The Pepys ballads : facsimile volume</title>
+                     <respStmt>
+                        <resp>Editor</resp>
+                        <name>W.G. Day</name>
+                     </respStmt>
+                     <imprint>
+                        <publisher>D.S. Brewer</publisher>
+                        <pubPlace>Cambridge [England]</pubPlace>
+                        <date>1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <bibl>
+                  <note type="Reference">
+                  Information in this section of the Source Description
+                  refers to the original ballad manuscript.
+                  </note>
+                  <biblScope type="vol: p">1: 136</biblScope>
+                  <title n="1" type="main" rend="italic">A new Ballad intituled, the stout Cripple of Cornwall, wherein is shewed/ his dissolute life and deserued death.</title>
+                  <title n="1" type="alt" rend="italic">A new Ballad intituled, the stout Cripple of Cornwall, wherein is shewed his dissolute life and deserved death.</title>
+                  <title n="1" type="descriptive" rend="italic">A New Ballad Entitled, The Stout Cripple of Cornwall, Wherein Is Showed His Dissolute Life and Deserved Death.</title>
+                  <author/>
+                  <extent id="p.1">1/2 sheet folio, 273 x 161</extent>
+                  <damage id="1">cropped top edge, uneven inking</damage>
+                  <note type="Ornamentation">cast fleurons</note>
+                  <respStmt>
+                     <resp>Printer</resp>
+                     <name id="N1"> </name>
+                     <certainty target="N1" locus="suppliedContent" degree="0"/>
+                  </respStmt>
+                  <imprint>
+                     <date value="1624" certainty="exact">1624</date>
+                     <pubPlace>London, Printed for I. W.</pubPlace>
+                     <publisher><orig reg="Wright, John">I. W. </orig></publisher>
+                  </imprint>
+                  <note type="ImprintSource">Weinstein: STC</note>
+                  <note type="ImprintNotes">License info. is for RB copy, registered to ballad partners from the John Wright era. Thererfore this &quot;J. W.&quot; seems more likely John Wright than John White.</note>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the guidelines specified for TEI.</p>
+            <p>XML Generated Automatically  at 8/6/2007 12:11:13 PM Using EMC</p>
+            <p>XBallad Parsing Engine developed by Carl Stahmer.</p>
+            <p>TEI Template developed by Gerald Egan and Modified by Carl Stahmer</p>
+            <p>All apostrophes are encoded as &amp;apos;.</p>
+            <p>Any dashs occurring in line breaks have been removed;</p>
+            <p>All dashs are encoded as &amp;dash; and all em dashes as &amp;mdash;.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="PEPYSCATEGORY">
+               <bibl>Taxonomy used by Pepys to Organize Ballads in Albums</bibl>
+               <category id="pc.1">
+                  <catDesc>A Small Promiscuous Supplement</catDesc>
+               </category>
+               <category id="pc.2">
+                  <catDesc>Devotion &amp; Morality</catDesc>
+               </category>
+               <category id="pc.3">
+                  <catDesc>Drinking &amp; Good Fellowship</catDesc>
+               </category>
+               <category id="pc.4">
+                  <catDesc>History - True &amp; Fabulous</catDesc>
+               </category>
+               <category id="pc.5">
+                  <catDesc>Humour, Frollicks &amp;c</catDesc>
+               </category>
+               <category id="pc.6">
+                  <catDesc>Love Pleasant</catDesc>
+               </category>
+               <category id="pc.7">
+                  <catDesc>Love Pleasant and Unfortunate</catDesc>
+               </category>
+               <category id="pc.8">
+                  <catDesc>Love Unfortunate</catDesc>
+               </category>
+               <category id="pc.9">
+                  <catDesc>Marriage</catDesc>
+               </category>
+               <category id="pc.10">
+                  <catDesc>Sea</catDesc>
+               </category>
+               <category id="pc.11">
+                  <catDesc>State &amp; Times</catDesc>
+               </category>
+               <category id="pc.12">
+                  <catDesc>Tragedy</catDesc>
+               </category>
+               <category id="pc.13">
+                  <catDesc>Various Subjects</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="EMCKEYWORDS">
+               <bibl>Early Modern Center Ballad Project Keyword Taxonomy</bibl>
+               <category id="emc.1">
+                  <catDesc>advice</catDesc>
+               </category>
+               <category id="emc.2">
+                  <catDesc>affliction/health</catDesc>
+               </category>
+               <category id="emc.3">
+                  <catDesc>alcohol</catDesc>
+               </category>
+               <category id="emc.4">
+                  <catDesc>animals/nature</catDesc>
+               </category>
+               <category id="emc.5">
+                  <catDesc>appearance</catDesc>
+               </category>
+               <category id="emc.6">
+                  <catDesc>Bible/biblical figures</catDesc>
+               </category>
+               <category id="emc.7">
+                  <catDesc>buildings/architecture</catDesc>
+               </category>
+               <category id="emc.8">
+                  <catDesc>catastrophe</catDesc>
+               </category>
+               <category id="emc.9">
+                  <catDesc>children</catDesc>
+               </category>
+               <category id="emc.10">
+                  <catDesc>class</catDesc>
+               </category>
+               <category id="emc.11">
+                  <catDesc>clothing/fashion</catDesc>
+               </category>
+               <category id="emc.12">
+                  <catDesc>country/nation</catDesc>
+               </category>
+               <category id="emc.13">
+                  <catDesc>crime</catDesc>
+               </category>
+               <category id="emc.14">
+                  <catDesc>death</catDesc>
+               </category>
+               <category id="emc.15">
+                  <catDesc>economics/trade</catDesc>
+               </category>
+               <category id="emc.16">
+                  <catDesc>entertainment</catDesc>
+               </category>
+               <category id="emc.17">
+                  <catDesc>family/procreation</catDesc>
+               </category>
+               <category id="emc.18">
+                  <catDesc>folklore</catDesc>
+               </category>
+               <category id="emc.19">
+                  <catDesc>gender</catDesc>
+               </category>
+               <category id="emc.20">
+                  <catDesc>historical figures &amp; events</catDesc>
+               </category>
+               <category id="emc.21">
+                  <catDesc>holidays/seasons</catDesc>
+               </category>
+               <category id="emc.22">
+                  <catDesc>infidelity</catDesc>
+               </category>
+               <category id="emc.23">
+                  <catDesc>law</catDesc>
+               </category>
+               <category id="emc.24">
+                  <catDesc>London</catDesc>
+               </category>
+               <category id="emc.25">
+                  <catDesc>love</catDesc>
+               </category>
+               <category id="emc.26">
+                  <catDesc>maritime</catDesc>
+               </category>
+               <category id="emc.27">
+                  <catDesc>marriage</catDesc>
+               </category>
+               <category id="emc.28">
+                  <catDesc>military/war</catDesc>
+               </category>
+               <category id="emc.29">
+                  <catDesc>monstrosity</catDesc>
+               </category>
+               <category id="emc.30">
+                  <catDesc>mythology/Classical world</catDesc>
+               </category>
+               <category id="emc.31">
+                  <catDesc>news</catDesc>
+               </category>
+               <category id="emc.32">
+                  <catDesc>nobility/court</catDesc>
+               </category>
+               <category id="emc.33">
+                  <catDesc>politics/government</catDesc>
+               </category>
+               <category id="emc.34">
+                  <catDesc>punishment</catDesc>
+               </category>
+               <category id="emc.35">
+                  <catDesc>religious concepts</catDesc>
+               </category>
+               <category id="emc.36">
+                  <catDesc>religious figures</catDesc>
+               </category>
+               <category id="emc.37">
+                  <catDesc>religious types &amp; sects</catDesc>
+               </category>
+               <category id="emc.38">
+                  <catDesc>royalty</catDesc>
+               </category>
+               <category id="emc.39">
+                  <catDesc>rural life</catDesc>
+               </category>
+               <category id="emc.40">
+                  <catDesc>servitude</catDesc>
+               </category>
+               <category id="emc.41">
+                  <catDesc>sex/sexuality</catDesc>
+               </category>
+               <category id="emc.42">
+                  <catDesc>supernatural/magic</catDesc>
+               </category>
+               <category id="emc.43">
+                  <catDesc>The New World</catDesc>
+               </category>
+               <category id="emc.44">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category id="emc.45">
+                  <catDesc>trickery/deceit</catDesc>
+               </category>
+               <category id="emc.46">
+                  <catDesc>urban life</catDesc>
+               </category>
+               <category id="emc.47">
+                  <catDesc>vice</catDesc>
+               </category>
+               <category id="emc.48">
+                  <catDesc>violence</catDesc>
+               </category>
+               <category id="emc.49">
+                  <catDesc>virtue</catDesc>
+               </category>
+               <category id="emc.50">
+                  <catDesc>vulgarities/crass humor</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="LOCSH">
+               <bibl>Library of Congress Subject Heading Taxonomy</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date value="8/6/2007">8/6/2007</date>
+            <name type="place">Santa Barbara, California, United States of America</name>
+         </creation>
+         <textClass>
+            <keywords scheme="PEPYSCATEGORY">
+               <list>
+                  <item>Tragedy</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date value="8/6/2007">8/6/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>metadata updated, ESTC ID S3276 found in catalog</item>
+         </change>
+         <change>
+            <date value="7/27/2007">7/27/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Gordon Batchelor</name>
+            </respStmt>
+            <item>xml created</item>
+         </change>
+         <change>
+            <date value="1/14/2005">1/14/2005</date>
+            <respStmt>
+               <resp>Transcriber</resp>
+               <name>Apri Medina</name>
+            </respStmt>
+            <item>original transcription</item>
+         </change>
+         <change>
+            <date value="8/1/2004">8/1/2004</date>
+            <respStmt>
+               <resp>Bibliographer</resp>
+               <name>Maggie Sloan</name>
+            </respStmt>
+            <item>Bibliographic SQL Database Record Created</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="ballad">
+            <div type="part" n="1" >
+               <head>
+                  <title>
+                     <seg n="1" rend="left">T:<hi rend="italic">A new Ballad intituled, the stout Cripple of Cornwall, wherein is shewed</hi> </seg>
+                     <seg n="2" rend="left"><hi rend="italic">his dissolute life and deserved death. To the tune of, <hi rend="bold">the blind Begger</hi> .</hi> </seg>
+                  </title>
+               </head>
+               <div type="col" n ="1.1" >
+                  <lg>
+                     <l n="1" rend="left"><hi rend="italic">O</hi> F a stout Cripple that kept the high way,</l>
+                     <l n="2" rend="left">and beg'd for his living all time of the day,</l>
+                     <l n="3" rend="left">A story Ile tell you that pleasant shall be,</l>
+                     <l n="4" rend="left">the Cripple of Cornwall sir-named was he.</l>
+                  </lg>
+                  <lg>
+                     <l n="5" rend="left">He crept on his hands and his knees up and down,</l>
+                     <l n="6" rend="left">in a torne Jacket and ragged patcht Gowne:</l>
+                     <l n="7" rend="left">For he had never a legge to the knee,</l>
+                     <l n="8" rend="left">the Cripple of Cornwall sir [-] named was hee.</l>
+                  </lg>
+                  <lg>
+                     <l n="9" rend="left">He was of stomacke couragious and stout,</l>
+                     <l n="10" rend="left">for he had no cause to complaine of the Gout:</l>
+                     <l n="11" rend="left">To goe upon stilts most cunning was hee,</l>
+                     <l n="12" rend="left">with a staffe on his necke gallant and free.</l>
+                  </lg>
+                  <lg>
+                     <l n="13" rend="left">Yea, no good fellowship would he forsake,</l>
+                     <l n="14" rend="left">were it in secret a purse for to take:</l>
+                     <l n="15" rend="left">His helpe was as good as any might be,</l>
+                     <l n="16" rend="left">the Cripple of Cornwall sir-named was he.</l>
+                  </lg>
+                  <lg>
+                     <l n="17" rend="left">When he upon any such service did goe,</l>
+                     <l n="18" rend="left">the craftie young Cripple provided it so:</l>
+                     <l n="19" rend="left">His tooles he kept close in an old hollow Tree,</l>
+                     <l n="20" rend="left">that stood from the Citie a mile two or three.</l>
+                  </lg>
+                  <lg>
+                     <l n="21" rend="left">Thus all the day long he begd for reliefe,</l>
+                     <l n="22" rend="left">and late in the night he plaid the false Theefe:</l>
+                     <l n="23" rend="left">And seven yeares together this custome kept he,</l>
+                     <l n="24" rend="left">and no man knew him such a person to be.</l>
+                  </lg>
+                  <lg>
+                     <l n="25" rend="left">There were few Grasiers went on the way,</l>
+                     <l n="26" rend="left">but unto the Cripple for passage did pay,</l>
+                     <l n="27" rend="left">And every brave Merchant that he did descry,</l>
+                     <l n="28" rend="left">he emptied their purses ere they passed by.</l>
+                  </lg>
+                  <lg>
+                     <l n="29" rend="left">The gallant Lord <hi rend="italic">Courtney</hi> both valiant and bold,</l>
+                     <l n="30" rend="left">rode forth with great plentie of silver and Gold:</l>
+                     <l n="31" rend="left">At <hi rend="italic">Exeter</hi> there a purchase to pay.</l>
+                     <l n="32" rend="left">but that the false Cripple his journey did stay.</l>
+                  </lg>
+                  <lg>
+                     <l n="33" rend="left">For why the false Cripple heard tydings of late,</l>
+                     <l n="34" rend="left">as he lay for almes at this Noblemans gate:</l>
+                     <l n="35" rend="left">What day and what houre his journey should be,</l>
+                     <l n="36" rend="left">this is (quoth the Cripple) a bootie for me.</l>
+                  </lg>
+                  <lg>
+                     <l n="37" rend="left">Then to his Companions the matter he moned,</l>
+                     <l n="38" rend="left">which their like actions beforetime had proned:</l>
+                     <l n="39" rend="left">They make themselves ready &amp; deeply they sweare</l>
+                     <l n="40" rend="left">this mony's their owne before they come there.</l>
+                  </lg>
+                  <lg>
+                     <l n="41" rend="left">Upon his two stilts the Cripple doth mount,</l>
+                     <l n="42" rend="left">to have his best share he makes his account:</l>
+                     <l n="43" rend="left">All clothed in Canvas downe to the ground,</l>
+                     <l n="44" rend="left">he takes up his standing his mates with him round</l>
+                  </lg>
+                  <lg>
+                     <l n="45" rend="left">Then comes the L.<hi rend="italic">Courtney</hi> with halfe a scoremen</l>
+                     <l n="46" rend="left">that little suspecting these theeves in their den:</l>
+                     <l n="47" rend="left">And they perceiving them come to their hand,</l>
+                     <l n="48" rend="left">in a darke evening they bid him to stand.</l>
+                  </lg>
+                  <lg>
+                     <l n="49" rend="left">Deliver thy purse quoth the Cripple with speed,</l>
+                     <l n="50" rend="left">for we be good fellowes and thereof have need:</l>
+                     <l n="51" rend="left">Not so, quoth Lord <hi rend="italic">Courtney</hi> , but this I tell thee,</l>
+                     <l n="52" rend="left">win it, and weare it, else get none of me.</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.2" >
+                  <lg>
+                     <l n="53" rend="left">With that the Lord <hi rend="italic">Courtney</hi> stood in his defence,</l>
+                     <l n="54" rend="left">and so did his servants, but ere they went [hence]</l>
+                     <l n="55" rend="left">Two of the true men were slaine in the fight,</l>
+                     <l n="56" rend="left">and foure of the theeves were put to their flight</l>
+                  </lg>
+                  <lg>
+                     <l n="57" rend="left">And while for their safegard they ran thus away,</l>
+                     <l n="58" rend="left">the jolly bold Cripple did hold the rest play:</l>
+                     <l n="59" rend="left">And with his pike-staffe he wounded them so,</l>
+                     <l n="60" rend="left">as they were unable to runne or to goe.</l>
+                  </lg>
+                  <lg>
+                     <l n="61" rend="left">With fight the L. <hi rend="italic">Courtney</hi> was driven out of breath</l>
+                     <l n="62" rend="left">and most of his servants wounded to death:</l>
+                     <l n="63" rend="left">Then came other horsemen riding so fast,</l>
+                     <l n="64" rend="left">the Cripple was forced to flie at the last,</l>
+                  </lg>
+                  <lg>
+                     <l n="65" rend="left">And over a River that ran there beside,</l>
+                     <l n="66" rend="left">which was very deepe and eighteene foot wide:</l>
+                     <l n="67" rend="left">With his long staffe and his stilts leaped hee,</l>
+                     <l n="68" rend="left">and shifted himselfe in an old hollow Tree.</l>
+                  </lg>
+                  <lg>
+                     <l n="69" rend="left">Then thorow the Country was hue and cry made,</l>
+                     <l n="70" rend="left">to have these theeves apprehended and stayde:</l>
+                     <l n="71" rend="left">The Cripple he creeps on his hands and his knees,</l>
+                     <l n="72" rend="left">and on the high way great posting he sees.</l>
+                  </lg>
+                  <lg>
+                     <l n="73" rend="left">And as they came riding he begging doth say,</l>
+                     <l n="74" rend="left">O give me one penny, good Master, I pray:</l>
+                     <l n="75" rend="left">And thus unto <hi rend="italic">Exeter</hi> creepes he along,</l>
+                     <l n="76" rend="left">no man suspecting that he had done wrong.</l>
+                  </lg>
+                  <lg>
+                     <l n="77" rend="left">Anon the Lord <hi rend="italic">Courtney</hi>  he spyde in the street</l>
+                     <l n="78" rend="left">he comes unto him and kisses his feet:</l>
+                     <l n="79" rend="left">Saying, God save your honor &amp; keepe you from il,</l>
+                     <l n="80" rend="left">and from the hands of your enemies still.</l>
+                  </lg>
+                  <lg>
+                     <l n="81" rend="left">Amen qouth L. <hi rend="italic">Courtney</hi> , and therewith flung downe</l>
+                     <l n="82" rend="left">unto the poore Cripple an English Crowne:</l>
+                     <l n="83" rend="left">Away went the Cripple and thus he did thinke,</l>
+                     <l n="84" rend="left"><hi rend="italic">500</hi> . pounds more would make me to drinke.</l>
+                  </lg>
+                  <lg>
+                     <l n="85" rend="left">In vaine that hue and cry it was made,</l>
+                     <l n="86" rend="left">they found none of them though the Countrey was layd:</l>
+                     <l n="87" rend="left">But this grieved the Cripple both night and day,</l>
+                     <l n="88" rend="left">that he so unluckily mist of his pray.</l>
+                  </lg>
+                  <lg>
+                     <l n="89" rend="left">Nine hundred pounds this Cripple had got,</l>
+                     <l n="90" rend="left">by begging and robbing so good was his lot,</l>
+                     <l n="91" rend="left">A thousand pound he would make it he said,</l>
+                     <l n="92" rend="left">and then hee would quite give over his trade.</l>
+                  </lg>
+                  <lg>
+                     <l n="93" rend="left">But as he strived his minde to fulfill,</l>
+                     <l n="94" rend="left">in following his actions so lewd and so ill,</l>
+                     <l n="95" rend="left">At last he was taken the law to suffice,</l>
+                     <l n="96" rend="left">condemned and hanged at <hi rend="italic">Exeter</hi> [sise].</l>
+                  </lg>
+                  <lg>
+                     <l n="97" rend="left">Which made all men amazed to see,</l>
+                     <l n="98" rend="left">that such an impotent person as hee,</l>
+                     <l n="99" rend="left">Should venture himselfe to such actions as they,</l>
+                     <l n="100" rend="left">to rob in such sort upon the high way.</l>
+                     <l n="101" rend="indent"></l>
+                  </lg>
+               </div>
+               <closer>
+                     <seg n="1" rend="left">F I N I S.</seg>
+               </closer>
+         </div>
+            <closer>
+                  <seg n="1" rend="left"><hi rend="bold"><hi rend="italic">London, Printed for J</hi></hi> <hi rend="italic">.W.</hi> </seg>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI.2>

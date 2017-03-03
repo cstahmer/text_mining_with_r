@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+   <!ENTITY % TEI.verse 'INCLUDE'>
+   <!ENTITY % TEI.linking 'INCLUDE'>
+   <!ENTITY % TEI.figures 'INCLUDE'>
+   <!ENTITY % TEI.analysis 'INCLUDE'>
+   <!ENTITY % TEI.XML 'INCLUDE'>
+   <!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+   %ISOlat1;
+   <!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+   %ISOlat2;
+   <!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+   %ISOnum;
+   <!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+   %ISOpub;
+   <!-- The following entities have been added by Gerald Egan on 27 September 2004 -->
+   <!-- The files 'urls.ent' and 'figures.ent' contain entity declarations -->
+   <!-- for all external entities needed by this document -->
+   <!NOTATION jpeg PUBLIC
+   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN'>
+   <!NOTATION gif PUBLIC
+   '-//TEI//NOTATION
+   Compuserve Graphics Interchange Format//EN'>
+   <!NOTATION tiff PUBLIC
+   '-//TEI//NOTATION Aldus Tagged Image File Format//EN'>
+   <!NOTATION png PUBLIC
+   '-//TEI//NOTATION IETF RFC2083 Portable Network Graphics//EN'>
+   <!NOTATION HTML SYSTEM "text/html">
+   <!-- The following elements were added by Carl Stahmer  on 19 June 2007 -->
+   <!-- The TEI P4 Documentation at the below URL's States that these elements -->
+   <!-- should be part of the base tei declaration, but OXYGEN's validation engine -->
+   <!-- stated that they wer undeclared.  These declarations match the online TEI P4 -->
+   <!-- documentation.  See:  -->
+   <!-- http://www.tei-c.org/P4X/ref-DAMAGE.html -->
+   <!-- http://www.tei-c.org/P4X/ref-CERTAIN.html -->
+   <!ELEMENT damage (#PCDATA)>
+   <!ATTLIST damage
+   id CDATA #IMPLIED>
+   <!ELEMENT certainty (#PCDATA)>
+   <!ATTLIST certainty
+   target CDATA #IMPLIED
+   locus CDATA #IMPLIED
+   degree CDATA #IMPLIED
+   >
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" type="main" rend="italic">A pleasant Countrey Maying Song.</title>
+            <author/>
+            <sponsor>University of California - Santa Barbara</sponsor>
+            <sponsor>The Early Modern Center</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Patricia Fumerton</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1625</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Early Modern Center, University of California Santa Barbara</publisher>
+            <pubPlace>Santa Barbara, CA</pubPlace>
+            <date>08/08/2007</date>
+            <idno type="EMC">20010</idno>
+            <availability>
+               <p> The University of California makes a claim of copyright only to original
+                   contributions made by Early Modern Center participants and other members of
+                   the university community. The University of California makes no claim of
+                   copyright to the original text. Permission is granted to download, transmit
+                   or otherwise reproduce, distribute or display the contributions to this work
+                   claimed by The University of California for non-profit educational purposes,
+                   provided that this header is included in its entirety. For inquiries about
+                   commercial uses, please contact:
+                  <address>
+                     <addrLine>Patricia Fumerton</addrLine>
+                     <addrLine>Early Modern Center - English Department</addrLine>
+                     <addrLine>University of California</addrLine>
+                     <addrLine>Santa Barbara, CA 93105</addrLine>
+                     <addrLine>United States of America</addrLine>
+                     <addrLine>EMail: pfumer@english.ucsb.edu</addrLine>
+                  </address>
+               </p>
+            </availability>
+            <idno type="Pepys">1.337</idno>
+            <idno type="ESTC">S5327</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Tune-Total">1</note>
+            <note type="Tune-1">The Popes Machina</note>
+            <note type="Tune_Modern-1">The Pope's Machina</note>
+            <note type="First_Lines">IN this merry Maying time,/ Now comes in the Summer prime. </note>
+            <note type="Source">Pepys 1.337</note>
+            <note type="References">Rollins (1) II:8-11; STC 22919.7 for T. L[angley? c.1625]; Rollins (2) ?1694 (June 20, 1629, IV, 216, Fran. Coles &amp;amp; partners).</note>
+         </notesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Pepys Library</author>
+                     <title>The Pepys ballads : facsimile volume</title>
+                     <respStmt>
+                        <resp>Editor</resp>
+                        <name>W.G. Day</name>
+                     </respStmt>
+                     <imprint>
+                        <publisher>D.S. Brewer</publisher>
+                        <pubPlace>Cambridge [England]</pubPlace>
+                        <date>1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <bibl>
+                  <note type="Reference">
+                  Information in this section of the Source Description
+                  refers to the original ballad manuscript.
+                  </note>
+                  <biblScope type="vol: p">1: 337</biblScope>
+                  <title n="1" type="main" rend="italic">A pleasant Countrey Maying Song.</title>
+                  <title n="1" type="alt" rend="italic">A pleasant Countrey Maying Song.</title>
+                  <title n="1" type="descriptive" rend="italic">A Pleasant Country Maying Song.</title>
+                  <author/>
+                  <extent id="p.1">1/2 sheet folio, 254 x 134</extent>
+                  <damage id="1">cropped left, right and top edges, uneven inking</damage>
+                  <note type="Ornamentation">vertical rule and cast fleurons</note>
+                  <imprint>
+                     <date value="1625" certainty="approx">1625</date>
+                     <pubPlace>Printed at London for T.L. </pubPlace>
+                     <publisher><orig reg="Langley, Thomas">T. L.</orig></publisher>
+                  </imprint>
+                  <note type="ImprintSource">Weinstein: STC</note>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the guidelines specified for TEI.</p>
+            <p>XML Generated Automatically  at 8/8/2007 1:25:39 PM Using EMC</p>
+            <p>XBallad Parsing Engine developed by Carl Stahmer.</p>
+            <p>TEI Template developed by Gerald Egan and Modified by Carl Stahmer</p>
+            <p>All apostrophes are encoded as &amp;apos;.</p>
+            <p>Any dashs occurring in line breaks have been removed;</p>
+            <p>All dashs are encoded as &amp;dash; and all em dashes as &amp;mdash;.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="PEPYSCATEGORY">
+               <bibl>Taxonomy used by Pepys to Organize Ballads in Albums</bibl>
+               <category id="pc.1">
+                  <catDesc>A Small Promiscuous Supplement</catDesc>
+               </category>
+               <category id="pc.2">
+                  <catDesc>Devotion &amp; Morality</catDesc>
+               </category>
+               <category id="pc.3">
+                  <catDesc>Drinking &amp; Good Fellowship</catDesc>
+               </category>
+               <category id="pc.4">
+                  <catDesc>History - True &amp; Fabulous</catDesc>
+               </category>
+               <category id="pc.5">
+                  <catDesc>Humour, Frollicks &amp;c</catDesc>
+               </category>
+               <category id="pc.6">
+                  <catDesc>Love Pleasant</catDesc>
+               </category>
+               <category id="pc.7">
+                  <catDesc>Love Pleasant and Unfortunate</catDesc>
+               </category>
+               <category id="pc.8">
+                  <catDesc>Love Unfortunate</catDesc>
+               </category>
+               <category id="pc.9">
+                  <catDesc>Marriage</catDesc>
+               </category>
+               <category id="pc.10">
+                  <catDesc>Sea</catDesc>
+               </category>
+               <category id="pc.11">
+                  <catDesc>State &amp; Times</catDesc>
+               </category>
+               <category id="pc.12">
+                  <catDesc>Tragedy</catDesc>
+               </category>
+               <category id="pc.13">
+                  <catDesc>Various Subjects</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="EMCKEYWORDS">
+               <bibl>Early Modern Center Ballad Project Keyword Taxonomy</bibl>
+               <category id="emc.1">
+                  <catDesc>advice</catDesc>
+               </category>
+               <category id="emc.2">
+                  <catDesc>affliction/health</catDesc>
+               </category>
+               <category id="emc.3">
+                  <catDesc>alcohol</catDesc>
+               </category>
+               <category id="emc.4">
+                  <catDesc>animals/nature</catDesc>
+               </category>
+               <category id="emc.5">
+                  <catDesc>appearance</catDesc>
+               </category>
+               <category id="emc.6">
+                  <catDesc>Bible/biblical figures</catDesc>
+               </category>
+               <category id="emc.7">
+                  <catDesc>buildings/architecture</catDesc>
+               </category>
+               <category id="emc.8">
+                  <catDesc>catastrophe</catDesc>
+               </category>
+               <category id="emc.9">
+                  <catDesc>children</catDesc>
+               </category>
+               <category id="emc.10">
+                  <catDesc>class</catDesc>
+               </category>
+               <category id="emc.11">
+                  <catDesc>clothing/fashion</catDesc>
+               </category>
+               <category id="emc.12">
+                  <catDesc>country/nation</catDesc>
+               </category>
+               <category id="emc.13">
+                  <catDesc>crime</catDesc>
+               </category>
+               <category id="emc.14">
+                  <catDesc>death</catDesc>
+               </category>
+               <category id="emc.15">
+                  <catDesc>economics/trade</catDesc>
+               </category>
+               <category id="emc.16">
+                  <catDesc>entertainment</catDesc>
+               </category>
+               <category id="emc.17">
+                  <catDesc>family/procreation</catDesc>
+               </category>
+               <category id="emc.18">
+                  <catDesc>folklore</catDesc>
+               </category>
+               <category id="emc.19">
+                  <catDesc>gender</catDesc>
+               </category>
+               <category id="emc.20">
+                  <catDesc>historical figures &amp; events</catDesc>
+               </category>
+               <category id="emc.21">
+                  <catDesc>holidays/seasons</catDesc>
+               </category>
+               <category id="emc.22">
+                  <catDesc>infidelity</catDesc>
+               </category>
+               <category id="emc.23">
+                  <catDesc>law</catDesc>
+               </category>
+               <category id="emc.24">
+                  <catDesc>London</catDesc>
+               </category>
+               <category id="emc.25">
+                  <catDesc>love</catDesc>
+               </category>
+               <category id="emc.26">
+                  <catDesc>maritime</catDesc>
+               </category>
+               <category id="emc.27">
+                  <catDesc>marriage</catDesc>
+               </category>
+               <category id="emc.28">
+                  <catDesc>military/war</catDesc>
+               </category>
+               <category id="emc.29">
+                  <catDesc>monstrosity</catDesc>
+               </category>
+               <category id="emc.30">
+                  <catDesc>mythology/Classical world</catDesc>
+               </category>
+               <category id="emc.31">
+                  <catDesc>news</catDesc>
+               </category>
+               <category id="emc.32">
+                  <catDesc>nobility/court</catDesc>
+               </category>
+               <category id="emc.33">
+                  <catDesc>politics/government</catDesc>
+               </category>
+               <category id="emc.34">
+                  <catDesc>punishment</catDesc>
+               </category>
+               <category id="emc.35">
+                  <catDesc>religious concepts</catDesc>
+               </category>
+               <category id="emc.36">
+                  <catDesc>religious figures</catDesc>
+               </category>
+               <category id="emc.37">
+                  <catDesc>religious types &amp; sects</catDesc>
+               </category>
+               <category id="emc.38">
+                  <catDesc>royalty</catDesc>
+               </category>
+               <category id="emc.39">
+                  <catDesc>rural life</catDesc>
+               </category>
+               <category id="emc.40">
+                  <catDesc>servitude</catDesc>
+               </category>
+               <category id="emc.41">
+                  <catDesc>sex/sexuality</catDesc>
+               </category>
+               <category id="emc.42">
+                  <catDesc>supernatural/magic</catDesc>
+               </category>
+               <category id="emc.43">
+                  <catDesc>The New World</catDesc>
+               </category>
+               <category id="emc.44">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category id="emc.45">
+                  <catDesc>trickery/deceit</catDesc>
+               </category>
+               <category id="emc.46">
+                  <catDesc>urban life</catDesc>
+               </category>
+               <category id="emc.47">
+                  <catDesc>vice</catDesc>
+               </category>
+               <category id="emc.48">
+                  <catDesc>violence</catDesc>
+               </category>
+               <category id="emc.49">
+                  <catDesc>virtue</catDesc>
+               </category>
+               <category id="emc.50">
+                  <catDesc>vulgarities/crass humor</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="LOCSH">
+               <bibl>Library of Congress Subject Heading Taxonomy</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date value="8/8/2007">8/8/2007</date>
+            <name type="place">Santa Barbara, California, United States of America</name>
+         </creation>
+         <textClass>
+            <keywords scheme="PEPYSCATEGORY">
+               <list>
+                  <item>Love Pleasant</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date value="05/21/2008">05/21/2008</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Kris McAbee</name>
+            </respStmt>
+            <item>Made corrections to transcription</item>
+         </change>
+         <change>
+            <date value="8/8/2007">8/8/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>rechecked transcription in Word, fixed errors, filled in hard to read spots</item>
+         </change>
+         <change>
+            <date value="8/7/2007">8/7/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>metadata updated, estc id entered</item>
+         </change>
+         <change>
+            <date value="12/4/2006">12/4/2006</date>
+            <respStmt>
+               <resp>Transcriber</resp>
+               <name>Unknown</name>
+            </respStmt>
+            <item>original transcription</item>
+         </change>
+         <change>
+            <date value="07/26/2007">07/26/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Eugene Hart</name>
+            </respStmt>
+            <item>Ballad Checked, XML created, ESTC S5327</item>
+         </change>
+         <change>
+            <date value="7/22/2004">7/22/2004</date>
+            <respStmt>
+               <resp>Bibliographer</resp>
+               <name>Simone Chess</name>
+            </respStmt>
+            <item>Bibliographic SQL Database Record Created</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="ballad">
+            <div type="part" n="1" >
+               <head>
+                  <title>
+                     <seg n="1" rend="left"><hi rend="italic">A pleasant Countrey Maying Song.</hi> </seg>
+                     <seg n="2" rend="left"><hi rend="italic">To the tune of the Popes Machina.</hi> </seg>
+                  </title>
+               </head>
+               <div type="col" n ="1.1" >
+                  <lg>
+                     <l n="1" rend="left"><hi rend="italic">I</hi> N this merry Maying time,</l>
+                     <l n="2" rend="indent">Now comes in the Summer prime.</l>
+                     <l n="3" rend="left">Countrey Damsels fresh and gay,</l>
+                     <l n="4" rend="left">Walke abroade to gather May:</l>
+                  </lg>
+                  <lg>
+                     <l n="5" rend="left">In an evening make a match,</l>
+                     <l n="6" rend="left">In a morning bowes to fatch.</l>
+                     <l n="7" rend="indent">Well is she that first of all,</l>
+                     <l n="8" rend="indent">Can her lover soonest call,</l>
+                  </lg>
+                  <lg>
+                     <l n="9" rend="left">Meeting him without the towne,</l>
+                     <l n="10" rend="left">Where he gives his Love a gowne.</l>
+                     <l n="11" rend="indent">Tib was in a gowne of gray,</l>
+                     <l n="12" rend="indent">Tom he had her at a bay.</l>
+                  </lg>
+                  <lg>
+                     <l n="13" rend="left">Hand in hand they take their way,</l>
+                     <l n="14" rend="left">Catching many a rundelay,</l>
+                     <l n="15" rend="indent">Greeting her with a smile,</l>
+                     <l n="16" rend="indent">Kissing her at every stile.</l>
+                  </lg>
+                  <lg>
+                     <l n="17" rend="left">Then he leaves her to the Spring,</l>
+                     <l n="18" rend="left">Where the Primrose reigneth king.</l>
+                     <l n="19" rend="indent">Upon a bed of Violets blew,</l>
+                     <l n="20" rend="indent">Downe he throwes his Lover true.</l>
+                  </lg>
+                  <lg>
+                     <l n="21" rend="left">She puts finger in the eye,</l>
+                     <l n="22" rend="left">And checkes him for his qualitie.</l>
+                     <l n="23" rend="indent">She bids him to her mothers house,</l>
+                     <l n="24" rend="indent">To Cakes &amp; Creame &amp; Country souce.</l>
+                  </lg>
+                  <lg>
+                     <l n="25" rend="left">He must tell her all his mind,</l>
+                     <l n="26" rend="left">But she will sigh and stay behind.</l>
+                     <l n="27" rend="indent">Such a countrey play as this,</l>
+                     <l n="28" rend="indent">The maids of our town cannot mis.</l>
+                  </lg>
+                  <lg>
+                     <l n="29" rend="left">They will in a morning gay,</l>
+                     <l n="30" rend="left">Decke themselves and gather May.</l>
+                     <l n="31" rend="indent">Then they will goe crop the flowers,</l>
+                     <l n="32" rend="indent">Mongst the leaves and Country bowers.</l>
+                  </lg>
+                  <lg>
+                     <l n="33" rend="left">When our maidens meet together,</l>
+                     <l n="34" rend="left">There is praying for faire weather.</l>
+                     <l n="35" rend="indent">Glad are they to see the Sunne,</l>
+                     <l n="36" rend="left">That they may play when work is don.</l>
+                  </lg>
+                  <lg>
+                     <l n="37" rend="left">Some at Dancings make a show,</l>
+                     <l n="38" rend="left">If they can get leave to goe.</l>
+                     <l n="39" rend="indent">Young men will for maidens sakes,</l>
+                     <l n="40" rend="indent">Give them Sugar, Creame &amp; Cakes</l>
+                  </lg>
+                  <lg>
+                     <l n="41" rend="left">With a cup of dainty Wine,</l>
+                     <l n="42" rend="left">And it must be neate and fine.</l>
+                     <l n="43" rend="indent">Some of them for their good cheare,</l>
+                     <l n="44" rend="indent">Playes three quarters of a yeare.</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.2" >
+                  <lg>
+                     <l n="45" rend="left">Thou at the first I liked well,</l>
+                     <l n="46" rend="left">Cakes and Creame do make me swell.</l>
+                     <l n="47" rend="indent">This pretty maiden waxeth big</l>
+                     <l n="48" rend="indent">See what 'tis to play the Rig</l>
+                  </lg>
+                  <lg>
+                     <l n="49" rend="left">Up she deckes her white and cleene,</l>
+                     <l n="50" rend="left">To trace the medowes fresh and greene</l>
+                     <l n="51" rend="indent">Or to the good towne she will wend</l>
+                     <l n="52" rend="indent">Where she points to meet her [riend.</l>
+                  </lg>
+                  <lg>
+                     <l n="53" rend="left">Her gowne was tuckt above the knee,</l>
+                     <l n="54" rend="left">Her milkwhite smock that you may see.</l>
+                     <l n="55" rend="indent">Thus her amorus Love and she,</l>
+                     <l n="56" rend="indent">Sports from eight a clocke till three.</l>
+                  </lg>
+                  <lg>
+                     <l n="57" rend="left">All the while the Cuckow sings,</l>
+                     <l n="58" rend="left">Towards the evening home she slings,</l>
+                     <l n="59" rend="indent">And brings with her an Oaken bow,</l>
+                     <l n="60" rend="indent">With a Country Cake or two.</l>
+                  </lg>
+                  <lg>
+                     <l n="61" rend="left">Straight she tels a solemne tale,</l>
+                     <l n="62" rend="left">How she heard the Nightingale,</l>
+                     <l n="63" rend="indent">And how ech medow greenly springs:</l>
+                     <l n="64" rend="indent">But yet not how the Cuckow sings.</l>
+                  </lg>
+                  <lg>
+                     <l n="65" rend="left">In the merry Maying time,</l>
+                     <l n="66" rend="left">Love is in her chiefest prime.</l>
+                     <l n="67" rend="indent">What for Gentlemen and Clownes,</l>
+                     <l n="68" rend="indent">Our country maids can want no gownes.</l>
+                  </lg>
+                  <lg>
+                     <l n="69" rend="left">Sillibubs and dainty cheare,</l>
+                     <l n="70" rend="left">Yong men lacke not all the yeere.</l>
+                     <l n="71" rend="indent">All the maidens in the street.</l>
+                     <l n="72" rend="indent">With the bonny Yonkers meet.</l>
+                  </lg>
+                  <lg>
+                     <l n="73" rend="left">All the while the grasse is greene,</l>
+                     <l n="74" rend="left">And the Dasies grow betweene,</l>
+                     <l n="75" rend="indent">Dicke and Tom doe walk the fields,</l>
+                     <l n="76" rend="indent">Still to trip up maidens heeles.</l>
+                  </lg>
+                  <lg>
+                     <l n="77" rend="left">Thus the Robin and the Thrush,</l>
+                     <l n="78" rend="left">Musicke make in every bush.</l>
+                     <l n="79" rend="indent">While they charme their prety notes,</l>
+                     <l n="80" rend="indent">Young men hurle up maidens cotes.</l>
+                  </lg>
+                  <lg>
+                     <l n="81" rend="left">But 'cause I will do them no wrong,</l>
+                     <l n="82" rend="left">Here I end my Maying song,</l>
+                     <l n="83" rend="indent">And wish my friends take heed in time,</l>
+                     <l n="84" rend="indent">How they spend their Summers prime.</l>
+                  </lg>
+               </div>
+         </div>
+            <closer>
+                  <seg n="1" rend="left"><hi rend="italic">FINIS.</hi> </seg>
+                  <lb/>
+                  <seg n="2" rend="left"><hi rend="italic">Printed at London for T.L.</hi> </seg>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI.2>

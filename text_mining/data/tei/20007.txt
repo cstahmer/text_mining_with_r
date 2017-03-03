@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+   <!ENTITY % TEI.verse 'INCLUDE'>
+   <!ENTITY % TEI.linking 'INCLUDE'>
+   <!ENTITY % TEI.figures 'INCLUDE'>
+   <!ENTITY % TEI.analysis 'INCLUDE'>
+   <!ENTITY % TEI.XML 'INCLUDE'>
+   <!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+   %ISOlat1;
+   <!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+   %ISOlat2;
+   <!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+   %ISOnum;
+   <!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+   %ISOpub;
+   <!-- The following entities have been added by Gerald Egan on 27 September 2004 -->
+   <!-- The files 'urls.ent' and 'figures.ent' contain entity declarations -->
+   <!-- for all external entities needed by this document -->
+   <!NOTATION jpeg PUBLIC
+   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN'>
+   <!NOTATION gif PUBLIC
+   '-//TEI//NOTATION
+   Compuserve Graphics Interchange Format//EN'>
+   <!NOTATION tiff PUBLIC
+   '-//TEI//NOTATION Aldus Tagged Image File Format//EN'>
+   <!NOTATION png PUBLIC
+   '-//TEI//NOTATION IETF RFC2083 Portable Network Graphics//EN'>
+   <!NOTATION HTML SYSTEM "text/html">
+   <!-- The following elements were added by Carl Stahmer  on 19 June 2007 -->
+   <!-- The TEI P4 Documentation at the below URL's States that these elements -->
+   <!-- should be part of the base tei declaration, but OXYGEN's validation engine -->
+   <!-- stated that they wer undeclared.  These declarations match the online TEI P4 -->
+   <!-- documentation.  See:  -->
+   <!-- http://www.tei-c.org/P4X/ref-DAMAGE.html -->
+   <!-- http://www.tei-c.org/P4X/ref-CERTAIN.html -->
+   <!ELEMENT damage (#PCDATA)>
+   <!ATTLIST damage
+   id CDATA #IMPLIED>
+   <!ELEMENT certainty (#PCDATA)>
+   <!ATTLIST certainty
+   target CDATA #IMPLIED
+   locus CDATA #IMPLIED
+   degree CDATA #IMPLIED
+   >
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" type="main" rend="italic">An excellent Ballad of the Mercers sonne of Midhurst, and the Clothiers Daughter of/ Guilford.</title>
+            <author/>
+            <sponsor>University of California - Santa Barbara</sponsor>
+            <sponsor>The Early Modern Center</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Patricia Fumerton</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1630</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Early Modern Center, University of California Santa Barbara</publisher>
+            <pubPlace>Santa Barbara, CA</pubPlace>
+            <date>08/07/2007</date>
+            <idno type="EMC">20007</idno>
+            <availability>
+               <p> The University of California makes a claim of copyright only to original
+                   contributions made by Early Modern Center participants and other members of
+                   the university community. The University of California makes no claim of
+                   copyright to the original text. Permission is granted to download, transmit
+                   or otherwise reproduce, distribute or display the contributions to this work
+                   claimed by The University of California for non-profit educational purposes,
+                   provided that this header is included in its entirety. For inquiries about
+                   commercial uses, please contact:
+                  <address>
+                     <addrLine>Patricia Fumerton</addrLine>
+                     <addrLine>Early Modern Center - English Department</addrLine>
+                     <addrLine>University of California</addrLine>
+                     <addrLine>Santa Barbara, CA 93105</addrLine>
+                     <addrLine>United States of America</addrLine>
+                     <addrLine>EMail: pfumer@english.ucsb.edu</addrLine>
+                  </address>
+               </p>
+            </availability>
+            <idno type="Pepys">1.334</idno>
+            <idno type="ESTC">S5125</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Tune-Total">1</note>
+            <note type="Tune-1">Dainty thou come to me</note>
+            <note type="Tune_Modern-1">Dainty Thou Come to Me</note>
+            <note type="First_Lines">THere was a wealthy man,/ in Sussex he did dwell,</note>
+            <note type="Notes">references: STC 17915.5 for H. G[osson c. 1630] (STC considers this to be the first half of a sheet, the second half of which is to be found at 1.137; 1.334 ent. to ballad partners, 24 de.1624; 1.137 ass'd by M. Trundle to ballad partners, 1 jn. 1629</note>
+            <note type="Source">Pepys 1.334</note>
+            <note type="References">STC 17915.5 for H. G[osson c.1630]; Rollins (2) 1705 (Dec. 14, 1624, IV, 132).</note>
+         </notesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Pepys Library</author>
+                     <title>The Pepys ballads : facsimile volume</title>
+                     <respStmt>
+                        <resp>Editor</resp>
+                        <name>W.G. Day</name>
+                     </respStmt>
+                     <imprint>
+                        <publisher>D.S. Brewer</publisher>
+                        <pubPlace>Cambridge [England]</pubPlace>
+                        <date>1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <bibl>
+                  <note type="Reference">
+                  Information in this section of the Source Description
+                  refers to the original ballad manuscript.
+                  </note>
+                  <biblScope type="vol: p">1: 334</biblScope>
+                  <title n="1" type="main" rend="italic">An excellent Ballad of the Mercers sonne of Midhurst, and the Clothiers Daughter of/ Guilford.</title>
+                  <title n="1" type="alt" rend="italic">An excellent Ballad of the Mercers sonne of Midhurst, and the Clothiers Daughter of Guilford. </title>
+                  <title n="1" type="descriptive" rend="italic">An Excellent Ballad of the Mercers Son of Midhurst, and the Clothier's Daughter of Guilford. </title>
+                  <author/>
+                  <extent id="p.1">1/2 sheet folio, ?originally left part, 274 x 158</extent>
+                  <damage id="1">holed, uneven inking</damage>
+                  <note type="Ornamentation">cast fleurons</note>
+                  <imprint>
+                     <date value="1630" certainty="approx">1630</date>
+                     <pubPlace/>
+                     <publisher/>
+                  </imprint>
+                  <note type="ImprintSource">Weinstein: STC</note>
+                  <note type="ImprintNotes">no imprint</note>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the guidelines specified for TEI.</p>
+            <p>XML Generated Automatically  at 8/7/2007 12:18:38 PM Using EMC</p>
+            <p>XBallad Parsing Engine developed by Carl Stahmer.</p>
+            <p>TEI Template developed by Gerald Egan and Modified by Carl Stahmer</p>
+            <p>All apostrophes are encoded as &amp;apos;.</p>
+            <p>Any dashs occurring in line breaks have been removed;</p>
+            <p>All dashs are encoded as &amp;dash; and all em dashes as &amp;mdash;.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="PEPYSCATEGORY">
+               <bibl>Taxonomy used by Pepys to Organize Ballads in Albums</bibl>
+               <category id="pc.1">
+                  <catDesc>A Small Promiscuous Supplement</catDesc>
+               </category>
+               <category id="pc.2">
+                  <catDesc>Devotion &amp; Morality</catDesc>
+               </category>
+               <category id="pc.3">
+                  <catDesc>Drinking &amp; Good Fellowship</catDesc>
+               </category>
+               <category id="pc.4">
+                  <catDesc>History - True &amp; Fabulous</catDesc>
+               </category>
+               <category id="pc.5">
+                  <catDesc>Humour, Frollicks &amp;c</catDesc>
+               </category>
+               <category id="pc.6">
+                  <catDesc>Love Pleasant</catDesc>
+               </category>
+               <category id="pc.7">
+                  <catDesc>Love Pleasant and Unfortunate</catDesc>
+               </category>
+               <category id="pc.8">
+                  <catDesc>Love Unfortunate</catDesc>
+               </category>
+               <category id="pc.9">
+                  <catDesc>Marriage</catDesc>
+               </category>
+               <category id="pc.10">
+                  <catDesc>Sea</catDesc>
+               </category>
+               <category id="pc.11">
+                  <catDesc>State &amp; Times</catDesc>
+               </category>
+               <category id="pc.12">
+                  <catDesc>Tragedy</catDesc>
+               </category>
+               <category id="pc.13">
+                  <catDesc>Various Subjects</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="EMCKEYWORDS">
+               <bibl>Early Modern Center Ballad Project Keyword Taxonomy</bibl>
+               <category id="emc.1">
+                  <catDesc>advice</catDesc>
+               </category>
+               <category id="emc.2">
+                  <catDesc>affliction/health</catDesc>
+               </category>
+               <category id="emc.3">
+                  <catDesc>alcohol</catDesc>
+               </category>
+               <category id="emc.4">
+                  <catDesc>animals/nature</catDesc>
+               </category>
+               <category id="emc.5">
+                  <catDesc>appearance</catDesc>
+               </category>
+               <category id="emc.6">
+                  <catDesc>Bible/biblical figures</catDesc>
+               </category>
+               <category id="emc.7">
+                  <catDesc>buildings/architecture</catDesc>
+               </category>
+               <category id="emc.8">
+                  <catDesc>catastrophe</catDesc>
+               </category>
+               <category id="emc.9">
+                  <catDesc>children</catDesc>
+               </category>
+               <category id="emc.10">
+                  <catDesc>class</catDesc>
+               </category>
+               <category id="emc.11">
+                  <catDesc>clothing/fashion</catDesc>
+               </category>
+               <category id="emc.12">
+                  <catDesc>country/nation</catDesc>
+               </category>
+               <category id="emc.13">
+                  <catDesc>crime</catDesc>
+               </category>
+               <category id="emc.14">
+                  <catDesc>death</catDesc>
+               </category>
+               <category id="emc.15">
+                  <catDesc>economics/trade</catDesc>
+               </category>
+               <category id="emc.16">
+                  <catDesc>entertainment</catDesc>
+               </category>
+               <category id="emc.17">
+                  <catDesc>family/procreation</catDesc>
+               </category>
+               <category id="emc.18">
+                  <catDesc>folklore</catDesc>
+               </category>
+               <category id="emc.19">
+                  <catDesc>gender</catDesc>
+               </category>
+               <category id="emc.20">
+                  <catDesc>historical figures &amp; events</catDesc>
+               </category>
+               <category id="emc.21">
+                  <catDesc>holidays/seasons</catDesc>
+               </category>
+               <category id="emc.22">
+                  <catDesc>infidelity</catDesc>
+               </category>
+               <category id="emc.23">
+                  <catDesc>law</catDesc>
+               </category>
+               <category id="emc.24">
+                  <catDesc>London</catDesc>
+               </category>
+               <category id="emc.25">
+                  <catDesc>love</catDesc>
+               </category>
+               <category id="emc.26">
+                  <catDesc>maritime</catDesc>
+               </category>
+               <category id="emc.27">
+                  <catDesc>marriage</catDesc>
+               </category>
+               <category id="emc.28">
+                  <catDesc>military/war</catDesc>
+               </category>
+               <category id="emc.29">
+                  <catDesc>monstrosity</catDesc>
+               </category>
+               <category id="emc.30">
+                  <catDesc>mythology/Classical world</catDesc>
+               </category>
+               <category id="emc.31">
+                  <catDesc>news</catDesc>
+               </category>
+               <category id="emc.32">
+                  <catDesc>nobility/court</catDesc>
+               </category>
+               <category id="emc.33">
+                  <catDesc>politics/government</catDesc>
+               </category>
+               <category id="emc.34">
+                  <catDesc>punishment</catDesc>
+               </category>
+               <category id="emc.35">
+                  <catDesc>religious concepts</catDesc>
+               </category>
+               <category id="emc.36">
+                  <catDesc>religious figures</catDesc>
+               </category>
+               <category id="emc.37">
+                  <catDesc>religious types &amp; sects</catDesc>
+               </category>
+               <category id="emc.38">
+                  <catDesc>royalty</catDesc>
+               </category>
+               <category id="emc.39">
+                  <catDesc>rural life</catDesc>
+               </category>
+               <category id="emc.40">
+                  <catDesc>servitude</catDesc>
+               </category>
+               <category id="emc.41">
+                  <catDesc>sex/sexuality</catDesc>
+               </category>
+               <category id="emc.42">
+                  <catDesc>supernatural/magic</catDesc>
+               </category>
+               <category id="emc.43">
+                  <catDesc>The New World</catDesc>
+               </category>
+               <category id="emc.44">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category id="emc.45">
+                  <catDesc>trickery/deceit</catDesc>
+               </category>
+               <category id="emc.46">
+                  <catDesc>urban life</catDesc>
+               </category>
+               <category id="emc.47">
+                  <catDesc>vice</catDesc>
+               </category>
+               <category id="emc.48">
+                  <catDesc>violence</catDesc>
+               </category>
+               <category id="emc.49">
+                  <catDesc>virtue</catDesc>
+               </category>
+               <category id="emc.50">
+                  <catDesc>vulgarities/crass humor</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="LOCSH">
+               <bibl>Library of Congress Subject Heading Taxonomy</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date value="8/7/2007">8/7/2007</date>
+            <name type="place">Santa Barbara, California, United States of America</name>
+         </creation>
+         <textClass>
+            <keywords scheme="PEPYSCATEGORY">
+               <list>
+                  <item>Love Pleasant</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date value="6/15/2006">6/15/2006</date>
+            <respStmt>
+               <resp>Transcriber</resp>
+               <name>Unknown</name>
+            </respStmt>
+            <item>Original Transcription</item>
+         </change>
+         <change>
+            <date value="8/7/2007">8/7/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>metadata updated, ESTC data entered</item>
+         </change>
+         <change>
+            <date value="07/26/2007">07/26/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Eugene Hart</name>
+            </respStmt>
+            <item>Ballad Checked - ESTC S5125</item>
+         </change>
+         <change>
+            <date value="7/21/2004">7/21/2004</date>
+            <respStmt>
+               <resp>Bibliographer</resp>
+               <name>Simone Chess</name>
+            </respStmt>
+            <item>Bibliographic SQL Database Record Created</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="ballad">
+            <div type="part" n="1" >
+               <head>
+                  <title>
+                     <seg n="1" rend="left"><hi rend="italic">An excellent Ballad of the Mercers sonne of Midhurst, and the Clothiers Daughter of Guilford.    <hi rend="bold">To the tune of, Daintie come thou to me.</hi>  </hi></seg>
+                  </title>
+               </head>
+               <div type="col" n ="1.1" >
+                  <lg>
+                     <l n="1" rend="left"><hi rend="italic">T</hi> Here was a wealthy man,</l>
+                     <l n="2" rend="left">in <hi rend="italic">Sussex</hi> he did dwell,</l>
+                     <l n="3" rend="left">A Mercer by his trade,</l>
+                     <l n="4" rend="left">as many yet can tell:</l>
+                     <l n="5" rend="left">he had a youthfull sonne,</l>
+                     <l n="6" rend="left">whom fancie so did move,</l>
+                     <l n="7" rend="left">he cried night and day</l>
+                     <l n="8" rend="left">alacke I die for love.</l>
+                  </lg>
+                  <lg>
+                     <l n="9" rend="left">Alacke I die for love,</l>
+                     <l n="10" rend="left">beautie disdaineth me:</l>
+                     <l n="11" rend="left">the Clothiers daughter deare,</l>
+                     <l n="12" rend="left">workes my extremitie.</l>
+                     <l n="13" rend="left">She hath my heart in hold,</l>
+                     <l n="14" rend="left">that did most cruell prove:</l>
+                     <l n="15" rend="left">Thus cried he night and day,</l>
+                     <l n="16" rend="left">alacke I die for love.</l>
+                  </lg>
+                  <lg>
+                     <l n="17" rend="left">Alacke I die for love,</l>
+                     <l n="18" rend="left">fortune so sore doth frowne:</l>
+                     <l n="19" rend="left">The Jewell of my heart</l>
+                     <l n="20" rend="left">dwelleth in <hi rend="italic">Guilford</hi> Towne.</l>
+                     <l n="21" rend="left">Ther lyes the Lamp of life,</l>
+                     <l n="22" rend="left">for whom this paine I prove,</l>
+                     <l n="23" rend="left">Faire <hi rend="italic">Phillis</hi> pittie me,</l>
+                     <l n="24" rend="left">alcake I die for love.</l>
+                  </lg>
+                  <lg>
+                     <l n="25" rend="left">Alacke I die for love,</l>
+                     <l n="26" rend="left">and can no comfort finde:</l>
+                     <l n="27" rend="left">The Clothiers daughter deare</l>
+                     <l n="28" rend="left">beareth so high a minde.</l>
+                     <l n="29" rend="left">Sweet beauties paragon,</l>
+                     <l n="30" rend="left">faire <hi rend="italic">Venus</hi> silver dove:</l>
+                     <l n="31" rend="left">Sweet <hi rend="italic">Phillis</hi> pitty me,</l>
+                     <l n="32" rend="left">alacke I die for love.</l>
+                  </lg>
+                  <lg>
+                     <l n="33" rend="left">Alacke I die for love,</l>
+                     <l n="34" rend="left">while thou dost laugh and smile</l>
+                     <l n="35" rend="left">Let not thy pleasure be</l>
+                     <l n="36" rend="left">true love for to beguile:</l>
+                     <l n="37" rend="left">My life lyes in thy hands,</l>
+                     <l n="38" rend="left">then as it doth behove</l>
+                     <l n="39" rend="left">Slay not the Mercers sonne,</l>
+                     <l n="40" rend="left">alacke I die for love.</l>
+                  </lg>
+                  <lg>
+                     <l n="41" rend="left">If that my beautie bright</l>
+                     <l n="42" rend="left">doth grieve thy sight quoth she,</l>
+                     <l n="43" rend="left">Then let the Mercers sonne,</l>
+                     <l n="44" rend="left">turne still his face from me.</l>
+                     <l n="45" rend="left">I doe no man disdaine,</l>
+                     <l n="46" rend="left">nor can I cruell prove,</l>
+                     <l n="47" rend="left">My tongue must still say nay,</l>
+                     <l n="48" rend="left">where my heart cannot love.</l>
+                  </lg>
+                  <lg>
+                     <l n="49" rend="left">Where my heart cannot love,</l>
+                     <l n="50" rend="left">lovers oft I must shun:</l>
+                     <l n="51" rend="left">The Clothiers daughter thus</l>
+                     <l n="52" rend="left">answers the Mercers sonne.</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.2" >
+                  <lg>
+                     <l n="53" rend="left">I beare no loftie minde,</l>
+                     <l n="54" rend="left">yet pittie cannot move</l>
+                     <l n="55" rend="left">My minde to fancie him,</l>
+                     <l n="56" rend="left">where my heart cannot love.</l>
+                  </lg>
+                  <lg>
+                     <l n="57" rend="left">Where my heart cannot love,</l>
+                     <l n="58" rend="left">I must his suit denie,</l>
+                     <l n="59" rend="left">For though I laugh and smile,</l>
+                     <l n="60" rend="left">yet falshood I defie.</l>
+                     <l n="61" rend="left">Thou art too fond a man</l>
+                     <l n="62" rend="left">lifes danger thus to prove,</l>
+                     <l n="63" rend="left">Ile not wed good friend <hi rend="italic">John</hi> ,</l>
+                     <l n="64" rend="left">where my heart cannot love.</l>
+                  </lg>
+                  <lg>
+                     <l n="65" rend="left">What good can there befall</l>
+                     <l n="66" rend="left">to that now married wife,</l>
+                     <l n="67" rend="left">Where goods &amp; wealth is small?</l>
+                     <l n="68" rend="left">want causeth daily strife:</l>
+                     <l n="69" rend="left">But where is wealth at will,</l>
+                     <l n="70" rend="left">experience plaine doth prove,</l>
+                     <l n="71" rend="left">Though love at first be small</l>
+                     <l n="72" rend="left">yet goods increaseth love:</l>
+                  </lg>
+                  <lg>
+                     <l n="73" rend="left">Yet goods increaseth love,</l>
+                     <l n="74" rend="left">and I will never wed,</l>
+                     <l n="75" rend="left">But where a key of gold</l>
+                     <l n="76" rend="left">open the doores to bed.</l>
+                     <l n="77" rend="left">For she may merry be,</l>
+                     <l n="78" rend="left">what chance soever hap,</l>
+                     <l n="79" rend="left">Where bags of money come</l>
+                     <l n="80" rend="left">tumbling within her lap.</l>
+                  </lg>
+                  <lg>
+                     <l n="81" rend="left">Tumbling within her lap,</l>
+                     <l n="82" rend="left">while she her gold doth tell,</l>
+                     <l n="83" rend="left">With such a husband, Sir,</l>
+                     <l n="84" rend="left">I doe delight to dwell.</l>
+                     <l n="85" rend="left">Were he young, were he old,</l>
+                     <l n="86" rend="left">deformed, or faire in show,</l>
+                     <l n="87" rend="left">My pleasure still should be</l>
+                     <l n="88" rend="left">where treasure still doth flow.</l>
+                  </lg>
+                  <lg>
+                     <l n="89" rend="left">Where treasure still doth flow,</l>
+                     <l n="90" rend="left">is that our mind quoth he?</l>
+                     <l n="91" rend="left">My father will bestow</l>
+                     <l n="92" rend="left">as much as comes to thee,</l>
+                     <l n="93" rend="left">Hadst thou five hundred pounds,</l>
+                     <l n="94" rend="left">five hundred pound beside,</l>
+                     <l n="95" rend="left">My father will afford,</l>
+                     <l n="96" rend="left">if thou wilt be my bride.</l>
+                  </lg>
+                  <lg>
+                     <l n="97" rend="left">If thou wilt be my bride,</l>
+                     <l n="98" rend="left">thus much I understand,</l>
+                     <l n="99" rend="left">My Father will give me</l>
+                     <l n="100" rend="left">his house and eke his Land.</l>
+                     <l n="101" rend="left">So that while he doe live,</l>
+                     <l n="102" rend="left">with us he may remaine:</l>
+                     <l n="103" rend="left">What sayes my hearts delight,</l>
+                     <l n="104" rend="left">this is a bargaine plaine.</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.3" >
+                  <lg>
+                     <l n="105" rend="left">This is a bargaine plaine,</l>
+                     <l n="106" rend="left">quoth she, I am content,</l>
+                     <l n="107" rend="left">So he performe this thing,</l>
+                     <l n="108" rend="left">I give thee my consent,</l>
+                     <l n="109" rend="left">And I will merry be,</l>
+                     <l n="110" rend="left">my minde shall not remove</l>
+                     <l n="111" rend="left">Thou shalt be my sweet heart,</l>
+                     <l n="112" rend="left">Ile be thine owne true love.</l>
+                  </lg>
+                  <lg>
+                     <l n="113" rend="left">Ile be thine owne true love,</l>
+                     <l n="114" rend="left">then use no more delay,</l>
+                     <l n="115" rend="left">I greatly long to see</l>
+                     <l n="116" rend="left">our happy marriage day,</l>
+                     <l n="117" rend="left">To <hi rend="italic">Midhurst</hi> all in haste</l>
+                     <l n="118" rend="left">goeth the Mercers sonne,</l>
+                     <l n="119" rend="left">He told his father deare,</l>
+                     <l n="120" rend="left">his true love he hath won.</l>
+                  </lg>
+                  <lg>
+                     <l n="121" rend="left">The old man hearing this,</l>
+                     <l n="122" rend="left">conveyed out of hand,</l>
+                     <l n="123" rend="left">Assurance to his sonne,</l>
+                     <l n="124" rend="left">of all his house and land:</l>
+                     <l n="125" rend="left">When he had done this deed,</l>
+                     <l n="126" rend="left">he wept full bitterly,</l>
+                     <l n="127" rend="left">Saying, my owne deare sonne</l>
+                     <l n="128" rend="left">thou must be good to me.</l>
+                  </lg>
+                  <lg>
+                     <l n="129" rend="left">Well worth two hundred pound</l>
+                     <l n="130" rend="left">this morning I was knowne,</l>
+                     <l n="131" rend="left">But the clothes to my backe,</l>
+                     <l n="132" rend="left">nothing now is mine owne,</l>
+                     <l n="133" rend="left">And all this I have done</l>
+                     <l n="134" rend="left">deare sonne to pleasure thee,</l>
+                     <l n="135" rend="left">Think on thy fathers love,</l>
+                     <l n="136" rend="left">and deale thou well with me.</l>
+                  </lg>
+                  <lg>
+                     <l n="137" rend="left">Dear father, (quoth the sonne)</l>
+                     <l n="138" rend="left">if I doe not doe so,</l>
+                     <l n="139" rend="left">God powre upon my head</l>
+                     <l n="140" rend="left">hot vengeance, griefe and woe.</l>
+                     <l n="141" rend="left">The young man wedded was</l>
+                     <l n="142" rend="left">to his fair lovely bride,</l>
+                     <l n="143" rend="left">But wondrous griefe and care</l>
+                     <l n="144" rend="left">thereof there did betide.</l>
+                  </lg>
+                  <lg>
+                     <l n="145" rend="left">As after you shall heare,</l>
+                     <l n="146" rend="left">in the old mans complaint,</l>
+                     <l n="147" rend="left">A tale of greater griefe,</l>
+                     <l n="148" rend="left">cannot your hearts attaint:</l>
+                     <l n="149" rend="left">A warning by this thing,</l>
+                     <l n="150" rend="left">all men shall understand,</l>
+                     <l n="151" rend="left">Lest they doe come to live</l>
+                     <l n="152" rend="left">under their childrens hand.</l>
+                  </lg>
+               </div>
+         </div>
+            <closer>
+                  <seg n="1" rend="left"><hi rend="bold"><hi rend="italic">Finis.</hi></hi> </seg>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI.2>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+   <!ENTITY % TEI.verse 'INCLUDE'>
+   <!ENTITY % TEI.linking 'INCLUDE'>
+   <!ENTITY % TEI.figures 'INCLUDE'>
+   <!ENTITY % TEI.analysis 'INCLUDE'>
+   <!ENTITY % TEI.XML 'INCLUDE'>
+   <!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+   %ISOlat1;
+   <!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+   %ISOlat2;
+   <!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+   %ISOnum;
+   <!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+   %ISOpub;
+   <!-- The following entities have been added by Gerald Egan on 27 September 2004 -->
+   <!-- The files 'urls.ent' and 'figures.ent' contain entity declarations -->
+   <!-- for all external entities needed by this document -->
+   <!NOTATION jpeg PUBLIC
+   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN'>
+   <!NOTATION gif PUBLIC
+   '-//TEI//NOTATION
+   Compuserve Graphics Interchange Format//EN'>
+   <!NOTATION tiff PUBLIC
+   '-//TEI//NOTATION Aldus Tagged Image File Format//EN'>
+   <!NOTATION png PUBLIC
+   '-//TEI//NOTATION IETF RFC2083 Portable Network Graphics//EN'>
+   <!NOTATION HTML SYSTEM "text/html">
+   <!-- The following elements were added by Carl Stahmer  on 19 June 2007 -->
+   <!-- The TEI P4 Documentation at the below URL's States that these elements -->
+   <!-- should be part of the base tei declaration, but OXYGEN's validation engine -->
+   <!-- stated that they wer undeclared.  These declarations match the online TEI P4 -->
+   <!-- documentation.  See:  -->
+   <!-- http://www.tei-c.org/P4X/ref-DAMAGE.html -->
+   <!-- http://www.tei-c.org/P4X/ref-CERTAIN.html -->
+   <!ELEMENT damage (#PCDATA)>
+   <!ATTLIST damage
+   id CDATA #IMPLIED>
+   <!ELEMENT certainty (#PCDATA)>
+   <!ATTLIST certainty
+   target CDATA #IMPLIED
+   locus CDATA #IMPLIED
+   degree CDATA #IMPLIED
+   >
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" type="main" rend="italic">The sorrowfull complaint of Susan Higges, a lusty Countrey Wench, dwelling in Risborrow in Buc- / kinghamshire, who for twenty yeeres, most gallantly maintained her selfe by Robberies on the / high-way side, and such like practices. And lastly, how she was executed at Brickhill, at the Assises, / for a murther by her committed vpon Messeldon Heath.</title>
+            <author/>
+            <sponsor>University of California - Santa Barbara</sponsor>
+            <sponsor>The Early Modern Center</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Patricia Fumerton</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1630</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Early Modern Center, University of California Santa Barbara</publisher>
+            <pubPlace>Santa Barbara, CA</pubPlace>
+            <date>07/30/2008</date>
+            <idno type="EMC">20002</idno>
+            <availability>
+               <p> The University of California makes a claim of copyright only to original
+                   contributions made by Early Modern Center participants and other members of
+                   the university community. The University of California makes no claim of
+                   copyright to the original text. Permission is granted to download, transmit
+                   or otherwise reproduce, distribute or display the contributions to this work
+                   claimed by The University of California for non-profit educational purposes,
+                   provided that this header is included in its entirety. For inquiries about
+                   commercial uses, please contact:
+                  <address>
+                     <addrLine>Patricia Fumerton</addrLine>
+                     <addrLine>Early Modern Center - English Department</addrLine>
+                     <addrLine>University of California</addrLine>
+                     <addrLine>Santa Barbara, CA 93105</addrLine>
+                     <addrLine>United States of America</addrLine>
+                     <addrLine>EMail: pfumer@english.ucsb.edu</addrLine>
+                  </address>
+               </p>
+            </availability>
+            <idno type="Pepys">1.113</idno>
+            <idno type="ESTC">S126167</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Tune-Total">1</note>
+            <note type="Tune-1">Lusty Gallant</note>
+            <note type="Tune_Simpson-1">Lusty Gallant</note>
+            <note type="Tune_Modern-1">Lusty Gallant</note>
+            <note type="First_Lines">TO mourne for my offences, / and former passed sinnes,</note>
+            <note type="Notes">A Caption is contained in the frame around the woodcut: + O WORMES MEATE: / O FROATH.  O VANITIE / WHY ART THOU / SO INSOLENT.  </note>
+            <note type="Source">Pepys 1.113</note>
+            <note type="References">STC 13440b.5 for H. G[osson, c.1630?]</note>
+            <note type="Woodblock" n="1">Woodblock 1: over column 1: On the right of the woodcut, a wealthy man sits on a rearing stallion.  He is dressed lavishly in a doublet, slops, hose, tall boots, and a tall hat with several plumes.   With his right hand he holds the reins of his horse; he has his left hand on his hip.  A scabbard hangs from his left hip.  His horse is also dressed in ornate trappings, richly caparisoned, with several plumes.  Beneath the horse lies a pile of indeterminate objects (worldly possessions?  bones?).  To the left of the woodcut stands a poor man.  He is dressed in a torn and ragged tunic, with his left shoulder bare.  He wears no shoes and holds his right arm across his body, with his left arm extended.  In the foreground of the picture a skeleton lies stretched on the ground.  A Caption is contained in the frame around the picture: + O WORMES MEATE: / O FROATH.  O VANITIE / WHY ART THOU / SO INSOLENT.  : 57 x 54</note>
+         </notesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Pepys Library</author>
+                     <title>The Pepys ballads : facsimile volume</title>
+                     <respStmt>
+                        <resp>Editor</resp>
+                        <name>W.G. Day</name>
+                     </respStmt>
+                     <imprint>
+                        <publisher>D.S. Brewer</publisher>
+                        <pubPlace>Cambridge [England]</pubPlace>
+                        <date>1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <bibl>
+                  <note type="Reference">
+                  Information in this section of the Source Description
+                  refers to the original ballad manuscript.
+                  </note>
+                  <biblScope type="vol: p">1: 113</biblScope>
+                  <title n="1" type="main" rend="italic">The sorrowfull complaint of Susan Higges, a lusty Countrey Wench, dwelling in Risborrow in Buc- / kinghamshire, who for twenty yeeres, most gallantly maintained her selfe by Robberies on the / high-way side, and such like practices. And lastly, how she was executed at Brickhill, at the Assises, / for a murther by her committed vpon Messeldon Heath.</title>
+                  <title n="1" type="alt" rend="italic">The sorrowful complaint of Susan Higges, a lusty Countrey Wench, dwelling in Risborrow in Buc-
+kinghamshire, who for twenty yeeres, most gallantly maintained her selfe by Robberies on the high-way side, and such like practises. And lastly, how she was executed at Brickhill, at the Assises, for a murther by her committed upon Messeldon Heath. </title>
+                  <title n="1" type="descriptive" rend="italic">The Sorrowful Complaint of Susan Higges, a Lusty Country Wench, Dwelling in Risborrow in Buckinghamshire, Who for Twenty Years, Most Gallantly Maintained Her Self by Robberies on the Highway Side, and Such Like Practices. And Lastly, How She Was Executed at Brickhill, at the Assizes, for a Murder by Her Committed Upon Messeldon Heath.</title>
+                  <author/>
+                  <extent id="p.1">1/2 sheet folio, 260 x 173</extent>
+                  <damage id="1">cropped top and bottom edges, creased, uneven inking</damage>
+                  <note type="Ornamentation">cast fleurons</note>
+                  <imprint>
+                     <date value="1630" certainty="approx">1630</date>
+                     <pubPlace>Printed at London for H. G.</pubPlace>
+                     <publisher><orig reg="Gosson, Henry">H.G. [Henry Gosson]</orig></publisher>
+                  </imprint>
+                  <note type="ImprintSource">Weinstein: STC</note>
+                  <note type="ImprintNotes">Weinstein lists I:113 under H. G. [Henry Gosson]. Henry Gosson active ca. 1625. ESTC lists H. G[osson].</note>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the guidelines specified for TEI.</p>
+            <p>XML Generated Automatically  at 7/30/2008 12:52:50 PM Using EMC</p>
+            <p>XBallad Parsing Engine developed by Carl Stahmer.</p>
+            <p>TEI Template developed by Gerald Egan and Modified by Carl Stahmer</p>
+            <p>All apostrophes are encoded as &amp;apos;.</p>
+            <p>Any dashs occurring in line breaks have been removed;</p>
+            <p>All dashs are encoded as &amp;dash; and all em dashes as &amp;mdash;.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="PEPYSCATEGORY">
+               <bibl>Taxonomy used by Pepys to Organize Ballads in Albums</bibl>
+               <category id="pc.1">
+                  <catDesc>A Small Promiscuous Supplement</catDesc>
+               </category>
+               <category id="pc.2">
+                  <catDesc>Devotion &amp; Morality</catDesc>
+               </category>
+               <category id="pc.3">
+                  <catDesc>Drinking &amp; Good Fellowship</catDesc>
+               </category>
+               <category id="pc.4">
+                  <catDesc>History - True &amp; Fabulous</catDesc>
+               </category>
+               <category id="pc.5">
+                  <catDesc>Humour, Frollicks &amp;c</catDesc>
+               </category>
+               <category id="pc.6">
+                  <catDesc>Love Pleasant</catDesc>
+               </category>
+               <category id="pc.7">
+                  <catDesc>Love Pleasant and Unfortunate</catDesc>
+               </category>
+               <category id="pc.8">
+                  <catDesc>Love Unfortunate</catDesc>
+               </category>
+               <category id="pc.9">
+                  <catDesc>Marriage</catDesc>
+               </category>
+               <category id="pc.10">
+                  <catDesc>Sea</catDesc>
+               </category>
+               <category id="pc.11">
+                  <catDesc>State &amp; Times</catDesc>
+               </category>
+               <category id="pc.12">
+                  <catDesc>Tragedy</catDesc>
+               </category>
+               <category id="pc.13">
+                  <catDesc>Various Subjects</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="EMCKEYWORDS">
+               <bibl>Early Modern Center Ballad Project Keyword Taxonomy</bibl>
+               <category id="emc.1">
+                  <catDesc>advice</catDesc>
+               </category>
+               <category id="emc.2">
+                  <catDesc>affliction/health</catDesc>
+               </category>
+               <category id="emc.3">
+                  <catDesc>alcohol</catDesc>
+               </category>
+               <category id="emc.4">
+                  <catDesc>animals/nature</catDesc>
+               </category>
+               <category id="emc.5">
+                  <catDesc>appearance</catDesc>
+               </category>
+               <category id="emc.6">
+                  <catDesc>Bible/biblical figures</catDesc>
+               </category>
+               <category id="emc.7">
+                  <catDesc>buildings/architecture</catDesc>
+               </category>
+               <category id="emc.8">
+                  <catDesc>catastrophe</catDesc>
+               </category>
+               <category id="emc.9">
+                  <catDesc>children</catDesc>
+               </category>
+               <category id="emc.10">
+                  <catDesc>class</catDesc>
+               </category>
+               <category id="emc.11">
+                  <catDesc>clothing/fashion</catDesc>
+               </category>
+               <category id="emc.12">
+                  <catDesc>country/nation</catDesc>
+               </category>
+               <category id="emc.13">
+                  <catDesc>crime</catDesc>
+               </category>
+               <category id="emc.14">
+                  <catDesc>death</catDesc>
+               </category>
+               <category id="emc.15">
+                  <catDesc>economics/trade</catDesc>
+               </category>
+               <category id="emc.16">
+                  <catDesc>entertainment</catDesc>
+               </category>
+               <category id="emc.17">
+                  <catDesc>family/procreation</catDesc>
+               </category>
+               <category id="emc.18">
+                  <catDesc>folklore</catDesc>
+               </category>
+               <category id="emc.19">
+                  <catDesc>gender</catDesc>
+               </category>
+               <category id="emc.20">
+                  <catDesc>historical figures &amp; events</catDesc>
+               </category>
+               <category id="emc.21">
+                  <catDesc>holidays/seasons</catDesc>
+               </category>
+               <category id="emc.22">
+                  <catDesc>infidelity</catDesc>
+               </category>
+               <category id="emc.23">
+                  <catDesc>law</catDesc>
+               </category>
+               <category id="emc.24">
+                  <catDesc>London</catDesc>
+               </category>
+               <category id="emc.25">
+                  <catDesc>love</catDesc>
+               </category>
+               <category id="emc.26">
+                  <catDesc>maritime</catDesc>
+               </category>
+               <category id="emc.27">
+                  <catDesc>marriage</catDesc>
+               </category>
+               <category id="emc.28">
+                  <catDesc>military/war</catDesc>
+               </category>
+               <category id="emc.29">
+                  <catDesc>monstrosity</catDesc>
+               </category>
+               <category id="emc.30">
+                  <catDesc>mythology/Classical world</catDesc>
+               </category>
+               <category id="emc.31">
+                  <catDesc>news</catDesc>
+               </category>
+               <category id="emc.32">
+                  <catDesc>nobility/court</catDesc>
+               </category>
+               <category id="emc.33">
+                  <catDesc>politics/government</catDesc>
+               </category>
+               <category id="emc.34">
+                  <catDesc>punishment</catDesc>
+               </category>
+               <category id="emc.35">
+                  <catDesc>religious concepts</catDesc>
+               </category>
+               <category id="emc.36">
+                  <catDesc>religious figures</catDesc>
+               </category>
+               <category id="emc.37">
+                  <catDesc>religious types &amp; sects</catDesc>
+               </category>
+               <category id="emc.38">
+                  <catDesc>royalty</catDesc>
+               </category>
+               <category id="emc.39">
+                  <catDesc>rural life</catDesc>
+               </category>
+               <category id="emc.40">
+                  <catDesc>servitude</catDesc>
+               </category>
+               <category id="emc.41">
+                  <catDesc>sex/sexuality</catDesc>
+               </category>
+               <category id="emc.42">
+                  <catDesc>supernatural/magic</catDesc>
+               </category>
+               <category id="emc.43">
+                  <catDesc>The New World</catDesc>
+               </category>
+               <category id="emc.44">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category id="emc.45">
+                  <catDesc>trickery/deceit</catDesc>
+               </category>
+               <category id="emc.46">
+                  <catDesc>urban life</catDesc>
+               </category>
+               <category id="emc.47">
+                  <catDesc>vice</catDesc>
+               </category>
+               <category id="emc.48">
+                  <catDesc>violence</catDesc>
+               </category>
+               <category id="emc.49">
+                  <catDesc>virtue</catDesc>
+               </category>
+               <category id="emc.50">
+                  <catDesc>vulgarities/crass humor</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="LOCSH">
+               <bibl>Library of Congress Subject Heading Taxonomy</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date value="7/30/2008">7/30/2008</date>
+            <name type="place">Santa Barbara, California, United States of America</name>
+         </creation>
+         <textClass>
+            <keywords scheme="PEPYSCATEGORY">
+               <list>
+                  <item>Tragedy</item>
+               </list>
+            </keywords>
+            <keywords scheme="EMCKEYWORDS">
+               <list>
+                  <item>crime</item>
+                  <item>death</item>
+                  <item>gender</item>
+                  <item>punishment</item>
+               </list>
+            </keywords>
+            <keywords scheme="LOCSH">
+               <list>
+                  <item>Ballads, English 17th century</item>
+                  <item>Broadsides, England 17th century</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date value="07/30/08">07/30/08</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Rachel Mann</name>
+            </respStmt>
+            <item>Metadata updated, xml created</item>
+         </change>
+         <change>
+            <date value="Unknown">Unknown</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Unknown</name>
+            </respStmt>
+            <item>Ballad checked</item>
+         </change>
+         <change>
+            <date value="12/29/04">12/29/04</date>
+            <respStmt>
+               <resp>Transcriber</resp>
+               <name>Emily Crick</name>
+            </respStmt>
+            <item>Original Transcription</item>
+         </change>
+         <change>
+            <date value="7/13/2004">7/13/2004</date>
+            <respStmt>
+               <resp>Bibliographer</resp>
+               <name>Liberty Stanavage</name>
+            </respStmt>
+            <item>Bibliographic SQL Database Record Created</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="ballad">
+            <div type="part" n="1" >
+               <head>
+                  <title>
+                     <seg n="1" rend="left"><hi rend="italic">The sorrowful complaint of <hi rend="bold">Susan Higges</hi>, a lusty Countrey Wench, dwelling in <hi rend="bold">Risborrow</hi> in <hi rend="bold">Buc-</hi></hi></seg>
+                     <seg n="2" rend="left"><hi rend="bold"><hi rend="italic">kinghamshire</hi>, who for twenty yeeres, most gallantly maintained her selfe by Robberies on the </hi></seg>
+                     <seg n="3" rend="left"><hi rend="italic">high-way side, and such like practises. And lastly, how she was executed at <hi rend="bold">Brickhill</hi>, at the Assises, </hi></seg>
+                     <seg n="4" rend="left"><hi rend="italic">for a murther by her committed upon <hi rend="bold">Messeldon</hi> Heath. </hi></seg>
+                     <seg n="5" rend="left"><hi rend="italic">To the tune of Lusty Gallant.</hi></seg>
+                  </title>
+               </head>
+               <div type="col" n ="1.1" >
+                  <lg>
+                     <l n="1" rend="left"><hi rend="italic">T</hi>O mourne for my offences,</l>
+                     <l n="2" rend="indent">and former passed sinnes,</l>
+                     <l n="3" rend="left">This sad and dolefull story,</l>
+                     <l n="4" rend="indent">my heavy heart begins:</l>
+                     <l n="5" rend="left">Most wickedly I spent my time.</l>
+                     <l n="6" rend="indent">devoide of godly grace:</l>
+                     <l n="7" rend="left">A lewder Woman never liv'd,</l>
+                     <l n="8" rend="indent">I thinke in any place.</l>
+                  </lg>
+                  <lg>
+                     <l n="9" rend="left">Nare <hi rend="italic">Buckingham</hi> I dwelled,</l>
+                     <l n="10" rend="indent">and <hi rend="italic">Susan Higges</hi> by name,</l>
+                     <l n="11" rend="left">Well thought of by good Gentlemen</l>
+                     <l n="12" rend="indent">and Farmers of good fame:</l>
+                     <l n="13" rend="left">Where thus.for xx. yeares at least,</l>
+                     <l n="14" rend="indent">I liv'd in gallant sort:</l>
+                     <l n="15" rend="left">Which made the Country marvell much,</l>
+                     <l n="16" rend="indent">to here of my report.</l>
+                  </lg>
+                  <lg>
+                     <l n="17" rend="left">My state was not maintained,</l>
+                     <l n="18" rend="indent">(as you shall understand)</l>
+                     <l n="19" rend="left">By good and honest dealings,</l>
+                     <l n="20" rend="indent">nor labour of my hand:</l>
+                     <l n="21" rend="left">But by deceipt and couzening shifts</l>
+                     <l n="22" rend="indent">the end whereof, we see</l>
+                     <l n="23" rend="left">Hath ever beene repaide with shame</l>
+                     <l n="24" rend="indent">and ever like to be.</l>
+                  </lg>
+                  <lg>
+                     <l n="25" rend="left">My servants were young Countrey girles</l>
+                     <l n="26" rend="indent">brought up unto my mind,</l>
+                     <l n="27" rend="left">By nature faire and beautifull,</l>
+                     <l n="28" rend="indent">and of a gentle kinde:</l>
+                     <l n="29" rend="left">Who with their sweet intising eyes,</l>
+                     <l n="30" rend="indent">did many Youngsters move</l>
+                     <l n="31" rend="left">To come by night unto my house</l>
+                     <l n="32" rend="indent">in hope of further love.</l>
+                  </lg>
+                  <lg>
+                     <l n="33" rend="left">But still at their close meetings,</l>
+                     <l n="34" rend="indent">(as I the plot had late)</l>
+                     <l n="35" rend="left">I slept in still at unawares,</l>
+                     <l n="36" rend="indent">while they the wantons plaid.</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.2" >
+                  <lg>
+                     <l n="37" rend="left">And would in question bring their names,</l>
+                     <l n="38" rend="indent">except they did agree</l>
+                     <l n="39" rend="left">To give me money for this wrong,</l>
+                     <l n="40" rend="indent">done to my house and me.</l>
+                  </lg>
+                  <lg>
+                     <l n="41" rend="left">This was but petty couzenage,</l>
+                     <l n="42" rend="indent">to things that I have done:</l>
+                     <l n="43" rend="left">My weapon by the high-way side,</l>
+                     <l n="44" rend="indent">hath me much money wonne:</l>
+                     <l n="45" rend="left">In mens attyre I oft have rode,</l>
+                     <l n="46" rend="indent">upon a Gelding stout,</l>
+                     <l n="47" rend="left">And done great robberies valiantly,</l>
+                     <l n="48" rend="indent">the Countries round about.</l>
+                  </lg>
+                  <lg>
+                     <l n="49" rend="left">I had my Scarfes and Vizards,</l>
+                     <l n="50" rend="indent">my face for to disguise:</l>
+                     <l n="51" rend="left">Sometime a beard upon my chin,</l>
+                     <l n="52" rend="indent">to blinde the peoples eyes.</l>
+                     <l n="53" rend="left">My Turkie blade, and Pistols good,</l>
+                     <l n="54" rend="indent">my courage to maintaine:</l>
+                     <l n="55" rend="left">Thus took I many a Farmers purse</l>
+                     <l n="56" rend="indent">well cram'd with golden gaine.</l>
+                  </lg>
+                  <lg>
+                     <l n="57" rend="left">Great store of London Marchants</l>
+                     <l n="58" rend="indent">I boldly have bid Stand,</l>
+                     <l n="59" rend="left">And showed my selfe most bravely,</l>
+                     <l n="60" rend="indent">a Woman of my hand,</l>
+                     <l n="61" rend="left">You rulsling Roysters, every one</l>
+                     <l n="62" rend="indent">in my defence say then,</l>
+                     <l n="63" rend="left">Wee women still for gallant minds,</l>
+                     <l n="64" rend="indent">may well compare with men.</l>
+                  </lg>
+                  <lg>
+                     <l n="65" rend="left">But if so bee it chanced,</l>
+                     <l n="66" rend="indent">the Countries were beset,</l>
+                     <l n="67" rend="left">With hue and cryes and warrants</l>
+                     <l n="68" rend="indent">into my house I get:</l>
+                     <l n="69" rend="left">And I so being with my Maides,</l>
+                     <l n="70" rend="indent">would cloake the matter so,</l>
+                     <l n="71" rend="left">That no man could by any meanes,</l>
+                     <l n="72" rend="indent">the right offender know.</l>
+                  </lg>
+                  <lg>
+                     <l n="73" rend="left">Yet God that still most justly,</l>
+                     <l n="74" rend="indent">doth punish every vice,</l>
+                     <l n="75" rend="left">Did bring unto confusion</l>
+                     <l n="76" rend="indent">my fortunes in a trice:</l>
+                     <l n="77" rend="left">For by a murther all my sinnes</l>
+                     <l n="78" rend="indent">were strangly brought to light:</l>
+                     <l n="79" rend="left">And such desert I had by law,</l>
+                     <l n="80" rend="indent">as justice claim'd by right.</l>
+                  </lg>
+                  <lg>
+                     <l n="81" rend="left">Upon the Heath of <hi rend="italic">Misseldon,</hi></l>
+                     <l n="82" rend="indent">I met a woman there,</l>
+                     <l n="83" rend="left">And robd her, as from market,</l>
+                     <l n="84" rend="indent">home-wards she did repaire:</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.3" >
+                  <lg>
+                     <l n="85" rend="left">Which woman cald me by my name</l>
+                     <l n="86" rend="indent">and said, that she me knew:</l>
+                     <l n="87" rend="left">For which, even with her lifes deare bloud,</l>
+                     <l n="88" rend="indent">my hands I did imbrew.</l>
+                  </lg>
+                  <lg>
+                     <l n="89" rend="left">But after I had wounded,</l>
+                     <l n="90" rend="indent">this women unto death,</l>
+                     <l n="91" rend="left">And that her bleeding body,</l>
+                     <l n="92" rend="indent">was almost reft of breath:</l>
+                     <l n="93" rend="left">She gave a grone: and therewithall</l>
+                     <l n="94" rend="indent">did spit upon my face,</l>
+                     <l n="95" rend="left">Three drops of blood, that never could</l>
+                     <l n="96" rend="indent">be wiped from that place:</l>
+                  </lg>
+                  <lg>
+                     <l n="97" rend="left">For after I returned</l>
+                     <l n="98" rend="indent">unto my house againe,</l>
+                     <l n="99" rend="left">The more that I it washde,</l>
+                     <l n="100" rend="indent">it more appeared plaine:</l>
+                     <l n="101" rend="left">Each houre I thought that beasts, [&amp;] birds</l>
+                     <l n="102" rend="indent">this murther would reveale,</l>
+                     <l n="103" rend="left">Or that the ayre, so vile a deede,</l>
+                     <l n="104" rend="indent">no longer would conceale.</l>
+                  </lg>
+                  <lg>
+                     <l n="105" rend="left">So heavy at my conscience,</l>
+                     <l n="106" rend="indent">this wofull murther lay,</l>
+                     <l n="107" rend="left">That I was soone inforced,</l>
+                     <l n="108" rend="indent">the same for to beware,</l>
+                     <l n="109" rend="left">And to my servants made it known,</l>
+                     <l n="110" rend="indent">as God appointed me:</l>
+                     <l n="111" rend="left">For blood can never secret rest,</l>
+                     <l n="112" rend="indent">nor long unpunisht be.</l>
+                  </lg>
+                  <lg>
+                     <l n="113" rend="left">My servants to the Justices,</l>
+                     <l n="114" rend="indent">declar'd what I had said:</l>
+                     <l n="115" rend="left">For which I was attached,</l>
+                     <l n="116" rend="indent">and to the Jayle convaied,</l>
+                     <l n="117" rend="left">And at the Sises was condemnd,</l>
+                     <l n="118" rend="indent">and had my just desert:</l>
+                     <l n="119" rend="left">Even such a death let all them have,</l>
+                     <l n="120" rend="indent">that beare so false a heart.</l>
+                  </lg>
+                  <lg>
+                     <l n="121" rend="left">Be warned by this story,</l>
+                     <l n="122" rend="indent">you ru[s]sling Rosters all:</l>
+                     <l n="123" rend="left">The higher that you climbe in sinne</l>
+                     <l n="124" rend="indent">the greater is your fall:</l>
+                     <l n="125" rend="left">For now the world so wicked is,</l>
+                     <l n="126" rend="indent">in Maiden and in Wife</l>
+                     <l n="127" rend="left">That few, or none, can finde the way</l>
+                     <l n="128" rend="indent">to lead an honest life.</l>
+                  </lg>
+               </div>
+               <closer>
+                     <seg n="1" rend="left"><hi rend="bold"><hi rend="italic">FINIS.</hi></hi></seg>
+               </closer>
+         </div>
+            <closer>
+                  <seg n="1" rend="left"><hi rend="italic">Printed at London for <hi rend="bold">H.G.</hi></hi></seg>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI.2>

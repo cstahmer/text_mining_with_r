@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+   <!ENTITY % TEI.verse 'INCLUDE'>
+   <!ENTITY % TEI.linking 'INCLUDE'>
+   <!ENTITY % TEI.figures 'INCLUDE'>
+   <!ENTITY % TEI.analysis 'INCLUDE'>
+   <!ENTITY % TEI.XML 'INCLUDE'>
+   <!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+   %ISOlat1;
+   <!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+   %ISOlat2;
+   <!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+   %ISOnum;
+   <!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+   %ISOpub;
+   <!-- The following entities have been added by Gerald Egan on 27 September 2004 -->
+   <!-- The files 'urls.ent' and 'figures.ent' contain entity declarations -->
+   <!-- for all external entities needed by this document -->
+   <!NOTATION jpeg PUBLIC
+   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN'>
+   <!NOTATION gif PUBLIC
+   '-//TEI//NOTATION
+   Compuserve Graphics Interchange Format//EN'>
+   <!NOTATION tiff PUBLIC
+   '-//TEI//NOTATION Aldus Tagged Image File Format//EN'>
+   <!NOTATION png PUBLIC
+   '-//TEI//NOTATION IETF RFC2083 Portable Network Graphics//EN'>
+   <!NOTATION HTML SYSTEM "text/html">
+   <!-- The following elements were added by Carl Stahmer  on 19 June 2007 -->
+   <!-- The TEI P4 Documentation at the below URL's States that these elements -->
+   <!-- should be part of the base tei declaration, but OXYGEN's validation engine -->
+   <!-- stated that they wer undeclared.  These declarations match the online TEI P4 -->
+   <!-- documentation.  See:  -->
+   <!-- http://www.tei-c.org/P4X/ref-DAMAGE.html -->
+   <!-- http://www.tei-c.org/P4X/ref-CERTAIN.html -->
+   <!ELEMENT damage (#PCDATA)>
+   <!ATTLIST damage
+   id CDATA #IMPLIED>
+   <!ELEMENT certainty (#PCDATA)>
+   <!ATTLIST certainty
+   target CDATA #IMPLIED
+   locus CDATA #IMPLIED
+   degree CDATA #IMPLIED
+   >
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" type="main" rend="italic">A new Ballad intituled, The Old mans complaint against his wretched sonne, who to/ aduance his marriage, did vndoe himselfe.</title>
+            <author/>
+            <sponsor>University of California - Santa Barbara</sponsor>
+            <sponsor>The Early Modern Center</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Patricia Fumerton</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1630</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Early Modern Center, University of California Santa Barbara</publisher>
+            <pubPlace>Santa Barbara, CA</pubPlace>
+            <date>08/06/2007</date>
+            <idno type="EMC">20004</idno>
+            <availability>
+               <p> The University of California makes a claim of copyright only to original
+                   contributions made by Early Modern Center participants and other members of
+                   the university community. The University of California makes no claim of
+                   copyright to the original text. Permission is granted to download, transmit
+                   or otherwise reproduce, distribute or display the contributions to this work
+                   claimed by The University of California for non-profit educational purposes,
+                   provided that this header is included in its entirety. For inquiries about
+                   commercial uses, please contact:
+                  <address>
+                     <addrLine>Patricia Fumerton</addrLine>
+                     <addrLine>Early Modern Center - English Department</addrLine>
+                     <addrLine>University of California</addrLine>
+                     <addrLine>Santa Barbara, CA 93105</addrLine>
+                     <addrLine>United States of America</addrLine>
+                     <addrLine>EMail: pfumer@english.ucsb.edu</addrLine>
+                  </address>
+               </p>
+            </availability>
+            <idno type="Pepys">1.137</idno>
+            <idno type="ESTC">S5125</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Tune-Total">1</note>
+            <note type="Tune-1">Dainty Thou come to me</note>
+            <note type="Tune_Modern-1">Dainty Thou Come to Me</note>
+            <note type="First_Lines">ALl you that Fathers be,/ looke on my miserie,</note>
+            <note type="Source">Pepys 1.137</note>
+            <note type="References">STC 17915.5 for H. G[osson c.1630] (part one entered to ballad partners, 24 de. 1624; part two assigned by M. Trundle to ballad partners 1 Jn. 1622) {i.e. STC believe that I:137 is the second part of I:334}; Rollins (2) 2006 (June 1, 1629, IV, 213).</note>
+            <note type="Woodblock" n="1">Woodblock 1: centered above first column, below title: A bearded man wears an ornate doublet or jerkin and slops or pantaloons.  He wears a tall hat with a brim and a large, elaborate ruff.  Both hands are folded on his right hip, and he leans to the right with his weight on his left leg.: 74 x 36</note>
+            <note type="Woodblock" n="2">Woodblock 2: below title, centered above second column: An old woman stands facing forward, her right arm extended and in her right hand she holds an object.  She wears a full-skirted, ornate dress and a cord with tassles falls from her waist.  She wears ornate, puffed sleeves and her bodice is elaborately embroidered.  Her hair is pulled back into a bun or bonnet.: 83 x 43</note>
+            <note type="Woodblock" n="3">Woodblock 3: : A religious figure stands facing forward and looking to his left.  He wears an elaborate robe that hangs to the floor, and a short cape or skirt drapes from his shoulders.  He wears a kind of hat or cap typical of clergy.  His left hand is held in front of him and points to the right, and he holds his right hand by his hip.  In his right hand he holds a scroll or other roll of paper.  A row of buttons is visible on the right of his bodice, he has wide sleeves, and several decorative folds are visible in the skirt of his robe.: 72 x 29</note>
+         </notesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Pepys Library</author>
+                     <title>The Pepys ballads : facsimile volume</title>
+                     <respStmt>
+                        <resp>Editor</resp>
+                        <name>W.G. Day</name>
+                     </respStmt>
+                     <imprint>
+                        <publisher>D.S. Brewer</publisher>
+                        <pubPlace>Cambridge [England]</pubPlace>
+                        <date>1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <bibl>
+                  <note type="Reference">
+                  Information in this section of the Source Description
+                  refers to the original ballad manuscript.
+                  </note>
+                  <biblScope type="vol: p">1: 137</biblScope>
+                  <title n="1" type="main" rend="italic">A new Ballad intituled, The Old mans complaint against his wretched sonne, who to/ aduance his marriage, did vndoe himselfe.</title>
+                  <title n="1" type="alt" rend="italic">A new Ballad intituled, The Old mans complaint against his wretched sonne, who to advance his marriage, did undoe himselfe.</title>
+                  <title n="1" type="descriptive" rend="italic">A New Ballad Entitled, The Old Man's Complaint Against His Wretched Son, Who to Advance His Marriage, Did Undo Himself.</title>
+                  <author/>
+                  <extent id="p.1">1/2 sheet folio, ?originally right part, 277 x 157</extent>
+                  <damage id="1">cropped right edge, holed, uneven inking</damage>
+                  <respStmt>
+                     <resp>Printer</resp>
+                     <name id="N1"> </name>
+                     <certainty target="N1" locus="suppliedContent" degree="1"/>
+                  </respStmt>
+                  <imprint>
+                     <date value="1630" certainty="exact">1630</date>
+                     <pubPlace>Printed at London/ for H. G.</pubPlace>
+                     <publisher><orig reg="Gosson, Henry">H. G.</orig></publisher>
+                  </imprint>
+                  <note type="ImprintSource">Weinstein: STC, licensing info</note>
+                  <note type="ImprintNotes">Weinstein lists I:137 under Henry Gosson. BBTI confirms Henry Gosson active ca. 1609, as does Plomer. ESTC lists H. G. </note>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the guidelines specified for TEI.</p>
+            <p>XML Generated Automatically  at 8/6/2007 12:18:16 PM Using EMC</p>
+            <p>XBallad Parsing Engine developed by Carl Stahmer.</p>
+            <p>TEI Template developed by Gerald Egan and Modified by Carl Stahmer</p>
+            <p>All apostrophes are encoded as &amp;apos;.</p>
+            <p>Any dashs occurring in line breaks have been removed;</p>
+            <p>All dashs are encoded as &amp;dash; and all em dashes as &amp;mdash;.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="PEPYSCATEGORY">
+               <bibl>Taxonomy used by Pepys to Organize Ballads in Albums</bibl>
+               <category id="pc.1">
+                  <catDesc>A Small Promiscuous Supplement</catDesc>
+               </category>
+               <category id="pc.2">
+                  <catDesc>Devotion &amp; Morality</catDesc>
+               </category>
+               <category id="pc.3">
+                  <catDesc>Drinking &amp; Good Fellowship</catDesc>
+               </category>
+               <category id="pc.4">
+                  <catDesc>History - True &amp; Fabulous</catDesc>
+               </category>
+               <category id="pc.5">
+                  <catDesc>Humour, Frollicks &amp;c</catDesc>
+               </category>
+               <category id="pc.6">
+                  <catDesc>Love Pleasant</catDesc>
+               </category>
+               <category id="pc.7">
+                  <catDesc>Love Pleasant and Unfortunate</catDesc>
+               </category>
+               <category id="pc.8">
+                  <catDesc>Love Unfortunate</catDesc>
+               </category>
+               <category id="pc.9">
+                  <catDesc>Marriage</catDesc>
+               </category>
+               <category id="pc.10">
+                  <catDesc>Sea</catDesc>
+               </category>
+               <category id="pc.11">
+                  <catDesc>State &amp; Times</catDesc>
+               </category>
+               <category id="pc.12">
+                  <catDesc>Tragedy</catDesc>
+               </category>
+               <category id="pc.13">
+                  <catDesc>Various Subjects</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="EMCKEYWORDS">
+               <bibl>Early Modern Center Ballad Project Keyword Taxonomy</bibl>
+               <category id="emc.1">
+                  <catDesc>advice</catDesc>
+               </category>
+               <category id="emc.2">
+                  <catDesc>affliction/health</catDesc>
+               </category>
+               <category id="emc.3">
+                  <catDesc>alcohol</catDesc>
+               </category>
+               <category id="emc.4">
+                  <catDesc>animals/nature</catDesc>
+               </category>
+               <category id="emc.5">
+                  <catDesc>appearance</catDesc>
+               </category>
+               <category id="emc.6">
+                  <catDesc>Bible/biblical figures</catDesc>
+               </category>
+               <category id="emc.7">
+                  <catDesc>buildings/architecture</catDesc>
+               </category>
+               <category id="emc.8">
+                  <catDesc>catastrophe</catDesc>
+               </category>
+               <category id="emc.9">
+                  <catDesc>children</catDesc>
+               </category>
+               <category id="emc.10">
+                  <catDesc>class</catDesc>
+               </category>
+               <category id="emc.11">
+                  <catDesc>clothing/fashion</catDesc>
+               </category>
+               <category id="emc.12">
+                  <catDesc>country/nation</catDesc>
+               </category>
+               <category id="emc.13">
+                  <catDesc>crime</catDesc>
+               </category>
+               <category id="emc.14">
+                  <catDesc>death</catDesc>
+               </category>
+               <category id="emc.15">
+                  <catDesc>economics/trade</catDesc>
+               </category>
+               <category id="emc.16">
+                  <catDesc>entertainment</catDesc>
+               </category>
+               <category id="emc.17">
+                  <catDesc>family/procreation</catDesc>
+               </category>
+               <category id="emc.18">
+                  <catDesc>folklore</catDesc>
+               </category>
+               <category id="emc.19">
+                  <catDesc>gender</catDesc>
+               </category>
+               <category id="emc.20">
+                  <catDesc>historical figures &amp; events</catDesc>
+               </category>
+               <category id="emc.21">
+                  <catDesc>holidays/seasons</catDesc>
+               </category>
+               <category id="emc.22">
+                  <catDesc>infidelity</catDesc>
+               </category>
+               <category id="emc.23">
+                  <catDesc>law</catDesc>
+               </category>
+               <category id="emc.24">
+                  <catDesc>London</catDesc>
+               </category>
+               <category id="emc.25">
+                  <catDesc>love</catDesc>
+               </category>
+               <category id="emc.26">
+                  <catDesc>maritime</catDesc>
+               </category>
+               <category id="emc.27">
+                  <catDesc>marriage</catDesc>
+               </category>
+               <category id="emc.28">
+                  <catDesc>military/war</catDesc>
+               </category>
+               <category id="emc.29">
+                  <catDesc>monstrosity</catDesc>
+               </category>
+               <category id="emc.30">
+                  <catDesc>mythology/Classical world</catDesc>
+               </category>
+               <category id="emc.31">
+                  <catDesc>news</catDesc>
+               </category>
+               <category id="emc.32">
+                  <catDesc>nobility/court</catDesc>
+               </category>
+               <category id="emc.33">
+                  <catDesc>politics/government</catDesc>
+               </category>
+               <category id="emc.34">
+                  <catDesc>punishment</catDesc>
+               </category>
+               <category id="emc.35">
+                  <catDesc>religious concepts</catDesc>
+               </category>
+               <category id="emc.36">
+                  <catDesc>religious figures</catDesc>
+               </category>
+               <category id="emc.37">
+                  <catDesc>religious types &amp; sects</catDesc>
+               </category>
+               <category id="emc.38">
+                  <catDesc>royalty</catDesc>
+               </category>
+               <category id="emc.39">
+                  <catDesc>rural life</catDesc>
+               </category>
+               <category id="emc.40">
+                  <catDesc>servitude</catDesc>
+               </category>
+               <category id="emc.41">
+                  <catDesc>sex/sexuality</catDesc>
+               </category>
+               <category id="emc.42">
+                  <catDesc>supernatural/magic</catDesc>
+               </category>
+               <category id="emc.43">
+                  <catDesc>The New World</catDesc>
+               </category>
+               <category id="emc.44">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category id="emc.45">
+                  <catDesc>trickery/deceit</catDesc>
+               </category>
+               <category id="emc.46">
+                  <catDesc>urban life</catDesc>
+               </category>
+               <category id="emc.47">
+                  <catDesc>vice</catDesc>
+               </category>
+               <category id="emc.48">
+                  <catDesc>violence</catDesc>
+               </category>
+               <category id="emc.49">
+                  <catDesc>virtue</catDesc>
+               </category>
+               <category id="emc.50">
+                  <catDesc>vulgarities/crass humor</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="LOCSH">
+               <bibl>Library of Congress Subject Heading Taxonomy</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date value="8/6/2007">8/6/2007</date>
+            <name type="place">Santa Barbara, California, United States of America</name>
+         </creation>
+         <textClass>
+            <keywords scheme="PEPYSCATEGORY">
+               <list>
+                  <item>Tragedy</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date value="8/6/2007">8/6/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>metadata updated, ESTC ID S5125 entered</item>
+         </change>
+         <change>
+            <date value="7/27/2007">7/27/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Gordon Batchelor</name>
+            </respStmt>
+            <item>xml created</item>
+         </change>
+         <change>
+            <date value="1/14/2005">1/14/2005</date>
+            <respStmt>
+               <resp>Transcriber</resp>
+               <name>Apri Medina</name>
+            </respStmt>
+            <item>original transcription</item>
+         </change>
+         <change>
+            <date value="8/1/2004">8/1/2004</date>
+            <respStmt>
+               <resp>Bibliographer</resp>
+               <name>Maggie Sloan</name>
+            </respStmt>
+            <item>Bibliographic SQL Database Record Created</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="ballad">
+            <div type="part" n="1" >
+               <head>
+                  <title>
+                     <seg n="1" rend="left">T:<hi rend="italic">A new Ballad intituled, The Old mans complaint against his wretched sonne, who to advance his marriage, did undoe himselfe. <hi rend="bold">To the tune of, Dainty come thou to me.</hi>    </hi></seg>
+                  </title>
+               </head>
+               <div type="col" n ="1.1" >
+                  <lg>
+                     <l n="1" rend="left"><hi rend="italic">A</hi>Ll you that Fathers be,</l>
+                     <l n="2" rend="left">looke on my miserie,</l>
+                     <l n="3" rend="left">Let not affection fond</l>
+                     <l n="4" rend="left">worke your extremitie:</l>
+                     <l n="5" rend="left">For to advance my sonne</l>
+                     <l n="6" rend="left">in marriage wealthily</l>
+                     <l n="7" rend="left">I have my selfe undone,</l>
+                     <l n="8" rend="left">without alt remedie.</l>
+                     <l n="9" rend="left">I that was wont to live</l>
+                     <l n="10" rend="left">uncontrouled any way,</l>
+                     <l n="11" rend="left">With many checkes and taunts,</l>
+                     <l n="12" rend="left">I am grieved every day.</l>
+                     <l n="13" rend="left">Alacke and woe is me,</l>
+                     <l n="14" rend="left">I that might late command,</l>
+                     <l n="15" rend="left">Cannot have a bit of bread,</l>
+                     <l n="16" rend="left">but at my childrens hand,</l>
+                     <l n="17" rend="left">Whiles I was wont to sit</l>
+                     <l n="18" rend="left">chiefe at the Tables end,</l>
+                     <l n="19" rend="left">Now like a serving-slave,</l>
+                     <l n="20" rend="left">must I on them attend:</l>
+                     <l n="21" rend="left">I must not come in place,</l>
+                     <l n="22" rend="left">where their friends merry be</l>
+                     <l n="23" rend="left">Lest I should my sonne disgrace</l>
+                     <l n="24" rend="left">with my unreverencie:</l>
+                     <l n="25" rend="left">My coughing in the night,</l>
+                     <l n="26" rend="left">offends my daughter in law,</l>
+                     <l n="27" rend="left">My deafenesse and ill sight</l>
+                     <l n="28" rend="left">doth much disliking draw;</l>
+                     <l n="29" rend="left">Fye on this doting foole,</l>
+                     <l n="30" rend="left">this crooked churle quoth she.</l>
+                     <l n="31" rend="left">The chimney corner still</l>
+                     <l n="32" rend="left">must with me troubled be,</l>
+                     <l n="33" rend="left">I must rise from my chaire,</l>
+                     <l n="34" rend="left">to give my children place:</l>
+                     <l n="35" rend="left">I must speake servants faire,</l>
+                     <l n="36" rend="left">this is my wofull case.</l>
+                     <l n="37" rend="left">Unto their friends they tell,</l>
+                     <l n="38" rend="left">I must not say they lie,</l>
+                     <l n="39" rend="left">That [they] doe keepe me here:</l>
+                     <l n="40" rend="left">even [of meere] charitie.</l>
+                     <l n="41" rend="left">When I am sicke in bed,</l>
+                     <l n="42" rend="left">they will not come me [n]ye</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.2" >
+                  <lg>
+                     <l n="43" rend="left">Each day they wish me dead,</l>
+                     <l n="44" rend="left">yet say Ile never die.</l>
+                     <l n="45" rend="left">O Lord and't be thy will,</l>
+                     <l n="46" rend="left">looke on my wofull case,</l>
+                     <l n="47" rend="left">No honest man before,</l>
+                     <l n="48" rend="left">ever tooke such disgrace,</l>
+                     <l n="49" rend="left">This was the old mans plaint</l>
+                     <l n="50" rend="left">everie night and day.</l>
+                     <l n="51" rend="left">With woe he waxed faint,</l>
+                     <l n="52" rend="left">but marke what I shall say.</l>
+                     <l n="53" rend="left">This rich and daintie paire,</l>
+                     <l n="54" rend="left">the young man and his wife,</l>
+                     <l n="55" rend="left">Though clog'd with golden coine</l>
+                     <l n="56" rend="left">yet led a grievous life.</l>
+                     <l n="57" rend="left">Seven yeers they married were</l>
+                     <l n="58" rend="left">and yet in all this space</l>
+                     <l n="59" rend="left">God gave them nere and heire,</l>
+                     <l n="60" rend="left">their riches to imbrace.</l>
+                     <l n="61" rend="left">Thus did their sorrow breed,</l>
+                     <l n="62" rend="left">joy was from them exil'd:</l>
+                     <l n="63" rend="left">Quoth she a hundred pound</l>
+                     <l n="64" rend="left">would I give for a child:</l>
+                     <l n="65" rend="left">To have a jolly child:</l>
+                     <l n="66" rend="left">of mine owne body borne;</l>
+                     <l n="67" rend="left">Full oft I am revil'd,</l>
+                     <l n="68" rend="left">of this my barren wombe.</l>
+                     <l n="69" rend="left">Much Physicke did she take,</l>
+                     <l n="70" rend="left">to make a fruitfull soyle,</l>
+                     <l n="71" rend="left">And with excesse thereof</l>
+                     <l n="72" rend="left">her body she did spoile.</l>
+                     <l n="73" rend="left">Full of griefe full of paine,</l>
+                     <l n="74" rend="left">full of ach grew she then,</l>
+                     <l n="75" rend="left">That she cryed out amaine,</l>
+                     <l n="76" rend="left">seeke me forth cunning men,</l>
+                     <l n="77" rend="left">That I my health may have,</l>
+                     <l n="78" rend="left">I will no money spare,</l>
+                     <l n="79" rend="left">But that which she did crave,</l>
+                     <l n="80" rend="left">fell never to her share.</l>
+                     <l n="81" rend="left">Alacke, alacke, she said,</l>
+                     <l n="82" rend="left">what torments live I in,</l>
+                     <l n="83" rend="left">How well are they apayd,</l>
+                     <l n="84" rend="left">that any case can win.</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.3" >
+                  <lg>
+                     <l n="85" rend="left">So that I had my health,</l>
+                     <l n="86" rend="left">and from this paine were free,</l>
+                     <l n="87" rend="left">I would give all my wealth,</l>
+                     <l n="88" rend="left">that blessed joy to see.</l>
+                     <l n="89" rend="left">O that I had my health,</l>
+                     <l n="90" rend="left">though I were nere so poore,</l>
+                     <l n="91" rend="left">I car'd not though I went</l>
+                     <l n="92" rend="left">begging form doore to doore.</l>
+                     <l n="93" rend="left">Fye on that muck (quoth she)</l>
+                     <l n="94" rend="left">it cannot pleasure me,</l>
+                     <l n="95" rend="left">In this my wofull case</l>
+                     <l n="96" rend="left">and great extremitie.</l>
+                     <l n="97" rend="left">Thus liv'd she long in paine,</l>
+                     <l n="98" rend="left">all comfort from her fled,</l>
+                     <l n="99" rend="left">She strangled at the last</l>
+                     <l n="100" rend="left">her selfe within a bed.</l>
+                     <l n="101" rend="left">Her husband full of griefe,</l>
+                     <l n="102" rend="left">consuming wofully,</l>
+                     <l n="103" rend="left">His bodie pin'd away,</l>
+                     <l n="104" rend="left">suddenly he did die,</l>
+                     <l n="105" rend="left">Ere thirteene yeares were past,</l>
+                     <l n="106" rend="left">died he without a Will,</l>
+                     <l n="107" rend="left">And by this meanes at last,</l>
+                     <l n="108" rend="left">the old man living still.</l>
+                     <l n="109" rend="left">Enjoy'd his land againe</l>
+                     <l n="110" rend="left">after such miserie:</l>
+                     <l n="111" rend="left">Many yeares after that,</l>
+                     <l n="112" rend="left">lived he most happily,</l>
+                     <l n="113" rend="left">Farre richer than before,</l>
+                     <l n="114" rend="left">by this meanes was he knowne</l>
+                     <l n="115" rend="left">He helpt the sicke and sore,</l>
+                     <l n="116" rend="left">the poore man overthrowne:</l>
+                     <l n="117" rend="left">But this was all his song,</l>
+                     <l n="118" rend="left">let all men understand,</l>
+                     <l n="119" rend="left">Those Parents are accurst,</l>
+                     <l n="120" rend="left">live on their childrens hand.</l>
+                  </lg>
+               </div>
+               <closer>
+                     <seg n="1" rend="left"><hi rend="bold"><hi rend="italic">Finis.</hi></hi> </seg>
+               </closer>
+         </div>
+            <closer>
+                  <seg n="1" rend="left"><hi rend="bold"><hi rend="italic">Printed at London</hi></hi> </seg>
+                  <lb/>
+                  <seg n="2" rend="left"><hi rend="italic">for H.G.</hi> </seg>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI.2>

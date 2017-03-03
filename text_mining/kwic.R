@@ -64,10 +64,10 @@ library(qdap)
 setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
 # Define the input directory for the texts to be analyzed.
-var_inputDir_character <- "/Users/cstahmer/SpiderOak Hive/writing/close_reading_ballads/runscript"
+var_inputDir_character <- "data/cleanText/"
 
 # Define a word of interest that you want to plot.
-var_wordofinterest_str = "wife"
+var_wordofinterest_str = "ship"
 
 # Define the range before and after that you want to examine.
 var_range_int = 3

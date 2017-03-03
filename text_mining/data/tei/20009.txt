@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+   <!ENTITY % TEI.verse 'INCLUDE'>
+   <!ENTITY % TEI.linking 'INCLUDE'>
+   <!ENTITY % TEI.figures 'INCLUDE'>
+   <!ENTITY % TEI.analysis 'INCLUDE'>
+   <!ENTITY % TEI.XML 'INCLUDE'>
+   <!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+   %ISOlat1;
+   <!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+   %ISOlat2;
+   <!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+   %ISOnum;
+   <!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+   %ISOpub;
+   <!-- The following entities have been added by Gerald Egan on 27 September 2004 -->
+   <!-- The files 'urls.ent' and 'figures.ent' contain entity declarations -->
+   <!-- for all external entities needed by this document -->
+   <!NOTATION jpeg PUBLIC
+   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN'>
+   <!NOTATION gif PUBLIC
+   '-//TEI//NOTATION
+   Compuserve Graphics Interchange Format//EN'>
+   <!NOTATION tiff PUBLIC
+   '-//TEI//NOTATION Aldus Tagged Image File Format//EN'>
+   <!NOTATION png PUBLIC
+   '-//TEI//NOTATION IETF RFC2083 Portable Network Graphics//EN'>
+   <!NOTATION HTML SYSTEM "text/html">
+   <!-- The following elements were added by Carl Stahmer  on 19 June 2007 -->
+   <!-- The TEI P4 Documentation at the below URL's States that these elements -->
+   <!-- should be part of the base tei declaration, but OXYGEN's validation engine -->
+   <!-- stated that they wer undeclared.  These declarations match the online TEI P4 -->
+   <!-- documentation.  See:  -->
+   <!-- http://www.tei-c.org/P4X/ref-DAMAGE.html -->
+   <!-- http://www.tei-c.org/P4X/ref-CERTAIN.html -->
+   <!ELEMENT damage (#PCDATA)>
+   <!ATTLIST damage
+   id CDATA #IMPLIED>
+   <!ELEMENT certainty (#PCDATA)>
+   <!ATTLIST certainty
+   target CDATA #IMPLIED
+   locus CDATA #IMPLIED
+   degree CDATA #IMPLIED
+   >
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" type="main" rend="italic">A maruellous Medicine to cure a great paine,/ If a Mayden-head be lost to get it againe.</title>
+            <author/>
+            <sponsor>University of California - Santa Barbara</sponsor>
+            <sponsor>The Early Modern Center</sponsor>
+            <respStmt>
+               <resp>Director</resp>
+               <name>Patricia Fumerton</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1624</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Early Modern Center, University of California Santa Barbara</publisher>
+            <pubPlace>Santa Barbara, CA</pubPlace>
+            <date>08/08/2007</date>
+            <idno type="EMC">20009</idno>
+            <availability>
+               <p> The University of California makes a claim of copyright only to original
+                   contributions made by Early Modern Center participants and other members of
+                   the university community. The University of California makes no claim of
+                   copyright to the original text. Permission is granted to download, transmit
+                   or otherwise reproduce, distribute or display the contributions to this work
+                   claimed by The University of California for non-profit educational purposes,
+                   provided that this header is included in its entirety. For inquiries about
+                   commercial uses, please contact:
+                  <address>
+                     <addrLine>Patricia Fumerton</addrLine>
+                     <addrLine>Early Modern Center - English Department</addrLine>
+                     <addrLine>University of California</addrLine>
+                     <addrLine>Santa Barbara, CA 93105</addrLine>
+                     <addrLine>United States of America</addrLine>
+                     <addrLine>EMail: pfumer@english.ucsb.edu</addrLine>
+                  </address>
+               </p>
+            </availability>
+            <idno type="Pepys">1.336</idno>
+            <idno type="ESTC">S5214</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Tune-Total">1</note>
+            <note type="Tune-1">A Pleasant new tune</note>
+            <note type="Tune_Modern-1">A Pleasant New Tune</note>
+            <note type="First_Lines">ONce busie in study betwixt night and day,/ with choyse of inuentions I had in my minde,</note>
+            <note type="Refrain">to get by good order their Mayden-head againe. [with variations]</note>
+            <note type="Source">Pepys 1.336</note>
+            <note type="References">STC 17770.3 [W. Jones] for H. G[osson 1624]; Rollins (2) ?1697 (Dec. 14, 1624, IV, 132).</note>
+            <note type="Woodblock" n="1">Woodblock 1: under title and tune, above column 1: A noble or lord (presumably the scholar scientist) stands facing his left. He holds his (large) right hand in the air, and carried a rolled scroll (presumably the prescription) in his left hand. He wears a large hat, a small ruff, and a short sleeved black overcoat. He wears decorative wrist cuffs a short fancy tunic, hose, and black shoes.  he has pronounced eyebrows and a moustache.: 78 x 57</note>
+         </notesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Pepys Library</author>
+                     <title>The Pepys ballads : facsimile volume</title>
+                     <respStmt>
+                        <resp>Editor</resp>
+                        <name>W.G. Day</name>
+                     </respStmt>
+                     <imprint>
+                        <publisher>D.S. Brewer</publisher>
+                        <pubPlace>Cambridge [England]</pubPlace>
+                        <date>1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <bibl>
+                  <note type="Reference">
+                  Information in this section of the Source Description
+                  refers to the original ballad manuscript.
+                  </note>
+                  <biblScope type="vol: p">1: 336</biblScope>
+                  <title n="1" type="main" rend="italic">A maruellous Medicine to cure a great paine,/ If a Mayden-head be lost to get it againe.</title>
+                  <title n="1" type="alt" rend="italic">A marvellous Medicine to cure a great paine, If a Mayden-head be lost to get it againe.</title>
+                  <title n="1" type="descriptive" rend="italic">A Marvellous Medicine to Cure a Great Paine, if a Maidenhead Be Lost to Get It Again.</title>
+                  <author/>
+                  <extent id="p.1">1/2 sheet folio, 258 x 170</extent>
+                  <damage id="1">cropped left and right edges, creased, damaged surface, uneven inking </damage>
+                  <note type="Ornamentation">cast fleurons</note>
+                  <imprint>
+                     <date value="1624" certainty="approx">1624</date>
+                     <pubPlace>Printed at London for H.G.</pubPlace>
+                     <publisher><orig reg="Gosson, Henry">H. G.</orig></publisher>
+                  </imprint>
+                  <note type="ImprintSource">Weinstein: licensing info</note>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the guidelines specified for TEI.</p>
+            <p>XML Generated Automatically  at 8/8/2007 1:01:13 PM Using EMC</p>
+            <p>XBallad Parsing Engine developed by Carl Stahmer.</p>
+            <p>TEI Template developed by Gerald Egan and Modified by Carl Stahmer</p>
+            <p>All apostrophes are encoded as &amp;apos;.</p>
+            <p>Any dashs occurring in line breaks have been removed;</p>
+            <p>All dashs are encoded as &amp;dash; and all em dashes as &amp;mdash;.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="PEPYSCATEGORY">
+               <bibl>Taxonomy used by Pepys to Organize Ballads in Albums</bibl>
+               <category id="pc.1">
+                  <catDesc>A Small Promiscuous Supplement</catDesc>
+               </category>
+               <category id="pc.2">
+                  <catDesc>Devotion &amp; Morality</catDesc>
+               </category>
+               <category id="pc.3">
+                  <catDesc>Drinking &amp; Good Fellowship</catDesc>
+               </category>
+               <category id="pc.4">
+                  <catDesc>History - True &amp; Fabulous</catDesc>
+               </category>
+               <category id="pc.5">
+                  <catDesc>Humour, Frollicks &amp;c</catDesc>
+               </category>
+               <category id="pc.6">
+                  <catDesc>Love Pleasant</catDesc>
+               </category>
+               <category id="pc.7">
+                  <catDesc>Love Pleasant and Unfortunate</catDesc>
+               </category>
+               <category id="pc.8">
+                  <catDesc>Love Unfortunate</catDesc>
+               </category>
+               <category id="pc.9">
+                  <catDesc>Marriage</catDesc>
+               </category>
+               <category id="pc.10">
+                  <catDesc>Sea</catDesc>
+               </category>
+               <category id="pc.11">
+                  <catDesc>State &amp; Times</catDesc>
+               </category>
+               <category id="pc.12">
+                  <catDesc>Tragedy</catDesc>
+               </category>
+               <category id="pc.13">
+                  <catDesc>Various Subjects</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="EMCKEYWORDS">
+               <bibl>Early Modern Center Ballad Project Keyword Taxonomy</bibl>
+               <category id="emc.1">
+                  <catDesc>advice</catDesc>
+               </category>
+               <category id="emc.2">
+                  <catDesc>affliction/health</catDesc>
+               </category>
+               <category id="emc.3">
+                  <catDesc>alcohol</catDesc>
+               </category>
+               <category id="emc.4">
+                  <catDesc>animals/nature</catDesc>
+               </category>
+               <category id="emc.5">
+                  <catDesc>appearance</catDesc>
+               </category>
+               <category id="emc.6">
+                  <catDesc>Bible/biblical figures</catDesc>
+               </category>
+               <category id="emc.7">
+                  <catDesc>buildings/architecture</catDesc>
+               </category>
+               <category id="emc.8">
+                  <catDesc>catastrophe</catDesc>
+               </category>
+               <category id="emc.9">
+                  <catDesc>children</catDesc>
+               </category>
+               <category id="emc.10">
+                  <catDesc>class</catDesc>
+               </category>
+               <category id="emc.11">
+                  <catDesc>clothing/fashion</catDesc>
+               </category>
+               <category id="emc.12">
+                  <catDesc>country/nation</catDesc>
+               </category>
+               <category id="emc.13">
+                  <catDesc>crime</catDesc>
+               </category>
+               <category id="emc.14">
+                  <catDesc>death</catDesc>
+               </category>
+               <category id="emc.15">
+                  <catDesc>economics/trade</catDesc>
+               </category>
+               <category id="emc.16">
+                  <catDesc>entertainment</catDesc>
+               </category>
+               <category id="emc.17">
+                  <catDesc>family/procreation</catDesc>
+               </category>
+               <category id="emc.18">
+                  <catDesc>folklore</catDesc>
+               </category>
+               <category id="emc.19">
+                  <catDesc>gender</catDesc>
+               </category>
+               <category id="emc.20">
+                  <catDesc>historical figures &amp; events</catDesc>
+               </category>
+               <category id="emc.21">
+                  <catDesc>holidays/seasons</catDesc>
+               </category>
+               <category id="emc.22">
+                  <catDesc>infidelity</catDesc>
+               </category>
+               <category id="emc.23">
+                  <catDesc>law</catDesc>
+               </category>
+               <category id="emc.24">
+                  <catDesc>London</catDesc>
+               </category>
+               <category id="emc.25">
+                  <catDesc>love</catDesc>
+               </category>
+               <category id="emc.26">
+                  <catDesc>maritime</catDesc>
+               </category>
+               <category id="emc.27">
+                  <catDesc>marriage</catDesc>
+               </category>
+               <category id="emc.28">
+                  <catDesc>military/war</catDesc>
+               </category>
+               <category id="emc.29">
+                  <catDesc>monstrosity</catDesc>
+               </category>
+               <category id="emc.30">
+                  <catDesc>mythology/Classical world</catDesc>
+               </category>
+               <category id="emc.31">
+                  <catDesc>news</catDesc>
+               </category>
+               <category id="emc.32">
+                  <catDesc>nobility/court</catDesc>
+               </category>
+               <category id="emc.33">
+                  <catDesc>politics/government</catDesc>
+               </category>
+               <category id="emc.34">
+                  <catDesc>punishment</catDesc>
+               </category>
+               <category id="emc.35">
+                  <catDesc>religious concepts</catDesc>
+               </category>
+               <category id="emc.36">
+                  <catDesc>religious figures</catDesc>
+               </category>
+               <category id="emc.37">
+                  <catDesc>religious types &amp; sects</catDesc>
+               </category>
+               <category id="emc.38">
+                  <catDesc>royalty</catDesc>
+               </category>
+               <category id="emc.39">
+                  <catDesc>rural life</catDesc>
+               </category>
+               <category id="emc.40">
+                  <catDesc>servitude</catDesc>
+               </category>
+               <category id="emc.41">
+                  <catDesc>sex/sexuality</catDesc>
+               </category>
+               <category id="emc.42">
+                  <catDesc>supernatural/magic</catDesc>
+               </category>
+               <category id="emc.43">
+                  <catDesc>The New World</catDesc>
+               </category>
+               <category id="emc.44">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category id="emc.45">
+                  <catDesc>trickery/deceit</catDesc>
+               </category>
+               <category id="emc.46">
+                  <catDesc>urban life</catDesc>
+               </category>
+               <category id="emc.47">
+                  <catDesc>vice</catDesc>
+               </category>
+               <category id="emc.48">
+                  <catDesc>violence</catDesc>
+               </category>
+               <category id="emc.49">
+                  <catDesc>virtue</catDesc>
+               </category>
+               <category id="emc.50">
+                  <catDesc>vulgarities/crass humor</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy id="LOCSH">
+               <bibl>Library of Congress Subject Heading Taxonomy</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date value="8/8/2007">8/8/2007</date>
+            <name type="place">Santa Barbara, California, United States of America</name>
+         </creation>
+         <textClass>
+            <keywords scheme="PEPYSCATEGORY">
+               <list>
+                  <item>Love Pleasant</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date value="8/8/2007">8/8/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>re-checked transcription, found 3 errors, fixed in Word and in XML</item>
+         </change>
+         <change>
+            <date value="6/25/2005">6/25/2005</date>
+            <respStmt>
+               <resp>Transcriber</resp>
+               <name>Unknown</name>
+            </respStmt>
+            <item>original transcription</item>
+         </change>
+         <change>
+            <date value="2006">2006</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>transcription checked</item>
+         </change>
+         <change>
+            <date value="8/7/2007">8/7/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Jessica C. Murphy</name>
+            </respStmt>
+            <item>metadata updated, ESTC ID entered</item>
+         </change>
+         <change>
+            <date value="07/26/2007">07/26/2007</date>
+            <respStmt>
+               <resp>Checker</resp>
+               <name>Eugene Hart</name>
+            </respStmt>
+            <item>Ballad Checked, XML created, ESTC S5214</item>
+         </change>
+         <change>
+            <date value="7/22/2004">7/22/2004</date>
+            <respStmt>
+               <resp>Bibliographer</resp>
+               <name>Simone Chess</name>
+            </respStmt>
+            <item>Bibliographic SQL Database Record Created</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="ballad">
+            <div type="part" n="1" >
+               <head>
+                  <title>
+                     <seg n="1" rend="left"><hi rend="italic">A marvellous Medicine to cure a great paine,</hi> </seg>
+                     <seg n="2" rend="left"><hi rend="italic">If a Mayden-head be lost to get it againe.</hi> </seg>
+                     <seg n="3" rend="left"><hi rend="italic">To a pleasant new tune.</hi> </seg>
+                  </title>
+               </head>
+               <div type="col" n ="1.1" >
+                  <lg>
+                     <l n="1" rend="left"><hi rend="italic">O</hi> Nce busie in study betwixt night and day,</l>
+                     <l n="2" rend="left">with choyse of inventions I had in my minde,</l>
+                     <l n="3" rend="left">And many odde matters my minde did assay,</l>
+                     <l n="4" rend="left">but any to please me I could not well finde:</l>
+                     <l n="5" rend="left">Then suddenly casting the nose in the winde,</l>
+                     <l n="6" rend="left">I smelt out a Medicine both precious and plaine,</l>
+                     <l n="7" rend="left">How to help silly Maydens that had been somwhat kind</l>
+                     <l n="8" rend="left">to get by good order their Mayden-head againe.</l>
+                  </lg>
+                  <lg>
+                     <l n="9" rend="left">First the Mayde must be brought into a sleepe,</l>
+                     <l n="10" rend="left">for three houres together before she awake,</l>
+                     <l n="11" rend="left">And seven dayes after this dyet must keepe,</l>
+                     <l n="12" rend="left">with these kind of compounds the which shee must take,</l>
+                     <l n="13" rend="left">She must eate neyther rost-meate, sod, neyther bake,</l>
+                     <l n="14" rend="left">but all kinde of dainties shee must refraine,</l>
+                     <l n="15" rend="left">Save onely this medicine, the which if shee take,</l>
+                     <l n="16" rend="left">then it will restore her Mayden-head againe.</l>
+                  </lg>
+                  <lg>
+                     <l n="17" rend="left">The first day give her the slime of an Eele,</l>
+                     <l n="18" rend="left">blowne through a Bag-pipe with the wind of a bladder,</l>
+                     <l n="19" rend="left">With two or three turnings of a spinning wheele,</l>
+                     <l n="20" rend="left">boyld in an Egge-shell, and streind through a ladder:</l>
+                     <l n="21" rend="left">The tongue of an Urchin, the sting of an Adder,</l>
+                     <l n="22" rend="left">boyld in a blanket in a showre of raine,</l>
+                     <l n="23" rend="left">With seven notes of musicke to make her the gladder,</l>
+                     <l n="24" rend="left">and it will restore her mayden-head againe.</l>
+                  </lg>
+                  <lg>
+                     <l n="25" rend="left">The second day give her the peeping of a Mouse,</l>
+                     <l n="26" rend="left">with three drops of thunder that fals from the skie,</l>
+                     <l n="27" rend="left">And temper it with three leapes of a Louse,</l>
+                     <l n="28" rend="left">and put therein three skips of a Flye,</l>
+                     <l n="29" rend="left">With a gallon of water of a Widdowes eye,</l>
+                     <l n="30" rend="left">that weepes for her husband when death hath him slaine,</l>
+                     <l n="31" rend="left">Let her take this medicine and drinke by and by,</l>
+                     <l n="32" rend="left">and it will restore her mayden-head againe.</l>
+                  </lg>
+               </div>
+               <div type="col" n ="1.2" >
+                  <lg>
+                     <l n="33" rend="left">The third day give her the chattering of a Sparrow,</l>
+                     <l n="34" rend="left">rosted in Mitten of untan'd Leather,</l>
+                     <l n="35" rend="left">Give it her with the rumbling of a wheele-barrow,</l>
+                     <l n="36" rend="left">and baste it with three yards of a blacke Swans feather,</l>
+                     <l n="37" rend="left">The juyce of a Whetstone thereto put together,</l>
+                     <l n="38" rend="left">with the fart of a Fryer brought hither from <hi rend="italic">Spaine</hi></l>
+                     <l n="39" rend="left">Let her lay all these in an ell of Louse leather,</l>
+                     <l n="40" rend="left">and lay warme to her belly to helpe her great paine.</l>
+                  </lg>
+                  <lg>
+                     <l n="41" rend="left">The fourth day give her the song of a Swallow,</l>
+                     <l n="42" rend="left">well tempered with Marrow wrung out of a log,</l>
+                     <l n="43" rend="left">With three pound and better of Stock-fish tallow</l>
+                     <l n="44" rend="left">hard fryed in the left horne of a Butchers blue dog,</l>
+                     <l n="45" rend="left">With the gaggling of a Goose, &amp; the friskes of a Frog</l>
+                     <l n="46" rend="left">the bill of a shovell, or a Humble-bees braine:</l>
+                     <l n="47" rend="left">Give her this tasting, with the grunting of a Hog,</l>
+                     <l n="48" rend="left">and it will restore her mayden-head againe.</l>
+                  </lg>
+                  <lg>
+                     <l n="49" rend="left">The fift day give her betwixt eight a clocke and nine,</l>
+                     <l n="50" rend="left">some gruell of Grantum made for the nonce,</l>
+                     <l n="51" rend="left">The braines of a birdbolt powdred very fine,</l>
+                     <l n="52" rend="left">and beat in a Morter of Ginne-wrens bones,</l>
+                     <l n="53" rend="left">Boyld in a nut-shell betwixt two mill-stones:</l>
+                     <l n="54" rend="left">with the guts of a Gudgin before she be staine:</l>
+                     <l n="55" rend="left">Let her be sure to drinke all this at once,</l>
+                     <l n="56" rend="left">and it will restore her mayden-head againe.</l>
+                  </lg>
+                  <lg>
+                     <l n="57" rend="left">Now marke well the sixt day what must be her trade,</l>
+                     <l n="58" rend="left">she must have a Woodcocke, a Snipe, or a Quaile,</l>
+                     <l n="59" rend="left">Bak'd fine in an Oven before it be made,</l>
+                     <l n="60" rend="left">and mingle it with the blood of a Snaile,</l>
+                     <l n="61" rend="left">With foure or five Inches of a Jacke-an apes taile:</l>
+                     <l n="62" rend="left">what though for a while it put her to paine,</l>
+                     <l n="63" rend="left">Yet let her take it without any faile,</l>
+                     <l n="64" rend="left">and it will restore her mayden-head againe.</l>
+                  </lg>
+                  <lg>
+                     <l n="65" rend="left">The seventh day give her a pound of Maydes mothes,</l>
+                     <l n="66" rend="left">brayd in a basket of danger and blame,</l>
+                     <l n="67" rend="left">With conserves of Coleworts bound in a boxe,</l>
+                     <l n="68" rend="left">to comfort her stomacke with the sirrup of shame:</l>
+                     <l n="69" rend="left">Although she be past all hope of good name,</l>
+                     <l n="70" rend="left">and unto her honestie a very great staine.</l>
+                     <l n="71" rend="left">Let her take it to remedy the same,</l>
+                     <l n="72" rend="left">and it will restore her mayden-head againe.</l>
+                  </lg>
+                  <lg>
+                     <l n="73" rend="left">Loe these are our Medicines for Maydens each one,</l>
+                     <l n="74" rend="left">which in their Virginitie amisse somewhat fell,</l>
+                     <l n="75" rend="left">Pray you if ever you hear them make moane,</l>
+                     <l n="76" rend="left">and gladly would know the place where I dwell,</l>
+                     <l n="77" rend="left">At the signe of the Whip and the Eg-shell,</l>
+                     <l n="78" rend="left">neere Pancake ally on <hi rend="italic">Salisbury</hi> Plaine,</l>
+                     <l n="79" rend="left">There shall they finde remedy using this well</l>
+                     <l n="80" rend="left">or else never to recover their mayden-head againe.</l>
+                  </lg>
+               </div>
+         </div>
+            <closer>
+                  <seg n="1" rend="left"><hi rend="italic">Printed at London for H.G.</hi> </seg>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI.2>
