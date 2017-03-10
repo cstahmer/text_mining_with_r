@@ -1,0 +1,1121 @@
+﻿The Project Gutenberg EBook of Taboo, by James Branch Cabell
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+
+Title: Taboo
+       A Legend Retold from the Dirghic of Sævius Nicanor, with
+       Prolegomena, Notes, and a Preliminary Memoir
+
+Author: James Branch Cabell
+
+Release Date: November 22, 2005 [EBook #17134]
+
+Language: English
+
+
+*** START OF THIS PROJECT GUTENBERG EBOOK TABOO ***
+
+
+
+
+Produced by Suzanne Shell, Sankar Viswanathan, and the
+Online Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+
+
+
+
+                                _TABOO_
+
+              _A Legend Retold from the Dirghic of Sævius
+                   Nicanor, with Prolegomena, Notes,
+                       and a Preliminary Memoir_
+
+
+
+
+                                  By
+
+                          James Branch Cabell
+
+       *       *       *       *       *
+
+             _At melius fuerat non scribere, namque tacere
+              Tutum semper erit._
+
+       *       *       *       *       *
+
+
+
+                               NEW YORK
+
+                      ROBERT M. McBRIDE & COMPANY
+
+                                 1921
+
+             _This edition is limited to nine hundred and
+              twenty numbered copies, of which one hundred
+              copies have been signed by the author._
+
+                         _Copy Number  __893__
+
+
+                          Copyright, 1921, by
+
+                          JAMES BRANCH CABELL
+
+       *       *       *       *       *
+
+              Revised and reprinted, by permission of the
+              Editors, from THE LITERARY REVIEW
+
+
+
+
+CONTENTS.
+
+
+THE DEDICATION
+
+MEMOIR OF SAEVIUS NICANOR
+
+PROLEGOMENA
+
+THE LEGEND:
+  _How Horvendile Met Fate and Custom_
+  _How the Garbage-Man Came with Forks_
+  _How Thereupon Ensued a Legal Debate_
+  _How There Was Babbling in Philistia_
+  _How It Appeared to the Man in the Street_
+
+COLOPHON
+
+A POSTSCRIPT
+
+       *       *       *       *       *
+
+
+
+
+THE DEDICATION
+
+_Laudataque virtus crescit_
+
+       *       *       *       *       *
+
+    "Buttons, a farthing a pair!
+    Come, who could buy them of me?
+    They're round and sound and pretty,
+    And fit for girls of the city."
+
+
+
+
+TO JOHN S. SUMNER
+
+(_Agent of the New York Society for the Suppression of Vice_)
+
+
+For no short while my indebtedness to you has been such as to require
+some sort of public acknowledgment, which may now, I think, be
+tendered most appropriately by inscribing upon the dedication page of
+this small volume the name to which you are daily adding in
+significance.
+
+It is a tribute, however trivial, which serves at least to express my
+appreciation of your zeal in re-establishing what seemed to the less
+optimistic a lost cause. I may to-day confess without much
+embarrassment that after fifteen years of foiled endeavors my
+(various) publishers and I had virtually decided that the printing of
+my books was not likely ever to come under the head of a business
+venture, but was more properly describable as a rather costly form of
+dissipation. People here and there would praise, but until you,
+unsolicited, had volunteered to make me known to the general public,
+nobody seemed appreciably moved to purchase.
+
+One by one my books had "fallen dead" with disheartening monotony:
+then--through what motive it would savor of ingratitude to
+inquire,--you came to remedy all this in the manner of a philanthropic
+sorcerer, brandishing everywhither your vivifying wand, and the dead
+lived again. At once, they tell me, the patrons of bookstores began to
+ask, not only in whispers for the _Jurgen_ which you had everywhere so
+glowingly advertised, but with frank curiosity for "some of the
+fellow's other books."
+
+Whereon we of course began to "reprint," with, I rejoice to say,
+results which have been very generally acceptable. Barring a few
+complaints as to the exiguousness of my writing's salacity,--a
+salacity which even I confess you amiably exaggerated in attributing
+to my literary manner all qualities which the average reader most
+desires in novelists,--there has proved to be in point of fact, as my
+publishers and I had dubiously believed for years, a gratifying number
+of persons, living dispersedly about America, prepared to like my
+books when these books were brought to their attention. The difficulty
+had been that we did not know how to reach these widely scattered,
+congenial readers. But you--like Sir James Barrie's hero--"found a
+way."
+
+I cannot say, in candor, that your method of exegetical criticism has
+always and in every respect appealed to me. Its applicability, for one
+thing, seems so universal that it might, for aught I know, be
+employed to interpret the dicta of Ackermann and Macrobius, or even
+the canons of Doctors Matthews and Sherman herein cited, and thus open
+dire vistas wherein critic would prey on critic, and the most
+respectable would be locked in fratricidal strife. Moreover, I have
+applied your method to many of the Mother Goose rhymes with rather
+curious results.... But happily, I have here to confess to you, not
+any disputable literary standards I may harbor, but only my unarguable
+debt.
+
+In brief, your aid obtained for me overnight the hearing I had vainly
+sought for a long while; and of such thaumaturgy my appreciation will
+never be, I trust, inadequate. I therefore grasp at the first chance
+to express this appreciation in--as I have said,--a form which seems
+not quite inept.
+
+_Dumbarton Grange_
+_December, 1920._
+
+
+Of _The Mulberry Grove_ the following editions have been collated:
+
+(1) The _editio princeps_ of Mansard 1475. An excellent edition,
+having, says Garnier, "nearly all the authority of an MS." This
+edition served as the basis of all subsequent editions up to that of
+Tribebos, 1553, which then took the lead up to the time of Bülg, who
+judiciously reverted to that of Mansard.
+
+(2) Bülg, in 4 vols. Strasburg. 1786-89. And in 2 vols. Strasburg.
+1786. Both editions containing the Dirghic text with a Latin version,
+and the scholia and indices.
+
+(3) Musgrave, concerning whose edition Garnier is of opinion that,
+though it appeared later, yet it had been made use of by Bülg. 2 vols.
+Oxon. 1800. Reprinted, 3 vols. Oxon. 1809-10.
+
+(4) Vanderhoffen, with scholia, notes, and indices. 7 vols. London.
+1807-25. His notes reprinted separately. Leipsic. 1824.
+
+
+
+
+MEMOIR OF SÆVIUS NICANOR
+
+_Saevius Nicanor Marci libertus negabit_
+
+    "She went to the tailor's
+    To buy him a coat;
+    When she came back
+    He was riding the goat."
+
+
+Sævius Nicanor, one of the earliest of the Grammarians, says
+Suetonius, first acquired fame and reputation by his teaching; and,
+besides, made commentaries, the greater part of which, however, were
+said to have been borrowed. He also wrote a satire, in which he
+informs us that he was a free man, and had a double cognomen.
+
+It is reported that in consequence of some aspersion attached to the
+character of his writing, he retired into Sardinia, and, says
+Oriphyles, devoted the remainder of his days to the composition of
+sardonic[1] literature.
+
+[Footnote 1: Ackermann reads "Sardinian." It is not certain whether
+the adjective employed is [Greek: sardanios] or [Greek: sardanikos]. I
+suspect that Oriphyles here makes an intentional play upon the words.]
+
+He is quoted by Macrobius, whereas divers references to Nicanor in _La
+Haulte Histoire de Jurgen_ would seem to show that this writer was
+viewed with considerable esteem in mediæval times. Latterly his work
+has been virtually unknown.
+
+Robert Burton, for the rest, cites Sævius Nicanor in the 1620 edition
+of _The Anatomy of Melancholy_ (this passage was subsequently
+remodeled) in terms which have the unintended merit of conveying a
+very fair notion of the old Grammarian's literary ethics:--
+
+"As a good housewife out of divers fleeces weaves one piece of cloth
+(saith Sævius Nicanor), I have laboriously collected this Cento out of
+divers Writers, and that _sine injuria_, I have wronged no authors,
+but given every man his own; which Sosimenes so much commends in
+Nicanor, he stole not whole verses, pages, tracts, as some do
+nowadays, concealing their Authors' names, but still said this was
+Cleophantus', that Philistion's, that Mnesides', so said Julius
+Bassus, so Timaristus, thus far Ophelion: I cite and quote mine own
+Authors (which howsoever some illiterate scribblers account
+pedantical, as a cloak of ignorance and opposite to their affected
+fine style, I must and will use) _sumpsi, non surripui_, and what
+Varro _de re rustica_ speaks of bees, _minime malificæ quod nullius
+opus vellicantes faciunt deterius_, I can say of myself no less
+heartily than Sosimenes his laud of Nicanor."
+
+
+
+
+PROLEGOMENA
+
+_Nec caput habentia, nec caudam_
+
+    "I had a little husband, no bigger than my thumb,
+    I put him in my pint-pot, and there I bid him drum."
+
+
+Pre-eminently the most engaging feature of a topic which pure chance
+and impure idiocy have of late conspired to pull about in the public
+prints,--I mean the question of "indecency" in writing,--is the patent
+ease with which this topic may be disposed of. Since time's beginning,
+every age has had its literary taboos, selecting certain things--more
+or less arbitrarily, but usually some natural function--as the things
+which must not be written about. To violate any such taboo so long as
+it stays prevalent is to be "indecent": and that seems absolutely all
+there is to say concerning this topic, apart from furnishing some
+impressive historical illustration....
+
+The most striking instance which my far from exhaustive researches
+afford, sprang from the fact, perhaps not very generally known, that
+the natural function of eating, which nowadays may be discussed
+intrepidly anywhere, was once regarded by the Philistines, of at all
+events the Shephelah and the deme of Novogath, as being
+unmentionable. This ancient tenet of theirs, indeed, is with such
+clearness emphasized in a luckily preserved fragment from the Dirghic,
+or pre-Ciceronian Latin, of Sævius Nicanor that the readiest way to
+illustrate the chameleon-like traits of literary indecency appears to
+be to record, as hereinafter is recorded, what of this legend
+survives.
+
+Bülg and Vanderhoffen, be it said here, are agreed that it is to this
+legend Milton has referred in his _Areopagitica_, in a passage
+sufficiently quaint-seeming to us (for whom a more advanced
+civilization has secured the right of free speech) to warrant an
+abridged citation:--
+
+"What advantage is it to be a man, over it is to be a boy at school,
+if serious and elaborate writings, as if they were no more than the
+theme of a grammar lad under his pedagogue, must not be uttered
+without the cursory eyes of a temporizing and extemporizing licenser?
+whenas all the writer teaches, all he delivers, is but under the
+tuition, under the correction of his patriarchal licenser, to blot or
+alter what precisely accords not with the hide-bound humor which he
+calls his judgment? What is it but a servitude like that imposed by
+the Philistines?"
+
+
+
+
+THE LEGEND
+
+_Fit ex his consuetudo, inde natura_
+
+    "I love little pussy,
+     Her fur is so warm."
+
+
+
+
+I--How Horvendile Met Fate and Custom
+
+
+Now, at about the time that the Tyrant Pedagogos fell into disfavor
+with his people, avers old Nicanor (as the curious may verify by
+comparing Lib. X, Chap. 28 of his _Mulberry Grove_), passed through
+Philistia a clerk whom some called Horvendile, travelling by
+compulsion from he did not know where toward a goal which he could not
+divine. So this Horvendile said, "I will make a book of this
+journeying, for it seems to me a rather queer journeying."
+
+They answered him: "Very well, but if you have had dinner or supper by
+the way, do you make no mention of it in your book. For it is a law
+among us, for the protection of our youth, that eating[2] must never
+be spoken of in any of our writing."
+
+[Footnote 2: Such at least is the generally received rendering.
+Ackermann, following Bülg's probably spurious text, disputes that this
+is the exact meaning of the noun.]
+
+Horvendile considered this a curious enactment, but it seemed only one
+among the innumerable mad customs of Philistia. So he shrugged, and he
+made the book of his journeying, and of the things which he had seen
+and heard and loved and hated and had put by in the course of his
+passage among ageless and unfathomed mysteries.
+
+And in the book there was nowhere any word of eating.
+
+
+
+
+2--How the Garbage Man Came with Forks
+
+
+Now to the book which Horvendile had made comes presently a
+garbage-man, newly returned from foreign travel for his health's sake,
+whose name was John. And this scavenger cried, "Oh, horrible! for here
+is very shameless mention of a sword and a spear and a staff."
+
+"That now is true enough," says Horvendile, "but wherein lies the
+harm?"
+
+"Why, one has but to write 'a fork' here, in the place of each of
+these offensive weapons, and the reference to eating is plain."
+
+"That also is true, but it would be your writing and not my writing
+which would refer to eating."
+
+John said, "Abandoned one, it is the law of Philistia and the holy
+doctrine of St. Anthony Koprologos that if anybody chooses to
+understand any written word anywhere as meaning 'to eat,' the word
+henceforward has that meaning."
+
+"Then you of Philistia have very foolish laws."
+
+To which John the Scavenger sagely replied: "Ah, but if laws exist
+they ought to fairly and impartially and without favoritism be
+enforced until amended or repealed. Much of the unsettled condition
+prevailing in the country at the present time can be traced directly
+to a lack of law enforcement in many directions during past years."
+
+"Now I misdoubt if I understand you, Messire John, for your
+infinitives are split beyond comprehension. And when you talk about
+the non-enforcement of anything in many directions, even though these
+directions were during past years, I find it so confusing that the one
+thing of which I can be quite certain is that it was never you whom
+the law selected to pass upon and to amend all books."
+
+This Horvendile says foolishly, not knowing it is an axiom among the
+Philistines that literary expression is best controlled by somebody
+with no misleading tenderness toward it; and that it is this custom,
+as they proudly aver, which makes the literature of Philistia what it
+is.
+
+But John the Garbage-man said nothing at all, the while that he
+changed nouns to "fork" and "dish," and carefully annotated each verb
+in the book as meaning "to eat." Thereafter he carried off the book
+along with his garbage, and with--which was the bewildering part of
+it--self-evident and glowing self-esteem. And all that watched him
+spoke the Dirghic word of derision, which is "Tee-Hee."
+
+
+
+
+3--How Thereupon Ensued a Legal Debate
+
+
+Now Horvendile in his bewilderment consulted with a man of law. And
+the lawman answered a little peevishly, by reason of the fact that age
+had impaired his digestive organs, and he said, "But of course you are
+a lewd fellow if you have been suspected of writing about eating."
+
+"Sir," replies Horvendile, "I would have you consider that if your
+parents and your grandparents had not eaten, your race would have
+perished, and you would never have been born. I would have you
+consider that if you and your wife had not eaten, again your race
+would have perished, and neither of you would ever have lived to have
+the children for whose protection, as men tell me, you of Philistia
+avoid all mention of eating."
+
+"Yes, for the object of this most righteous law," declares the lawman,
+"is to protect those whose character is not so completely formed as to
+be proof against the effect of meat market reports and grocery
+advertisements and menu folders and other such provocatives to
+gluttony."
+
+"--Yet I would have you consider how little is to be gained by
+attempting to conceal even from the young the inevitability of this
+natural function, so long as dogs eat publicly in the streets, and the
+poultry regale themselves just as candidly, and the house-flies also.
+Instead, the knowledge that this function is not to be talked about
+induces furtive and misleading discussion among these children, and,
+though lack of proper instruction in the approved etiquette of eating,
+they often commit deplorable errors--"
+
+To which the man of law replied, still with a bewildering effect of
+talking very wisely and patiently: "Ah, but it does not matter at all
+whether or not the function of eating is practised and is inevitable
+to the nature and laws of our being. The law merely considers that any
+mention of eating is apt to inflame an improper and lewd appetite,
+particularly in the young, who are always ready to eat: and therefore
+any such mention is an obscene libel."
+
+
+
+
+4--How There Was Babbling in Philistia
+
+Now Horvendile, yet in bewilderment, lamented, and he fled from the
+man of law. Thereafter, in order to learn what manner of writing was
+most honored by the Philistines, this Horvendile goes into an academy
+where the faded old books of Philistia were stored, along with
+yesterday's other leavings.
+
+And as he perturbedly inspected these old books, one of the fifty
+mummies which were installed in this Academy of Starch and Fetters,
+with a hundred lackeys to attend them, spoke vexedly to Horvendile,
+saying, as it was the custom of these mummies to say, before this
+could be said to them, "I never heard of you before."
+
+"Ah, sir, it is not that which is troubling me," then answered
+Horvendile: "but rather, I am troubled because the book of my
+journeying has been suspected of encroachment upon gastronomy. Now I
+notice your most sacred volume here begins with a very remarkable myth
+about the fruit of a tree in the middle of a garden, and goes on to
+speak of the supper which Lot shared with two angels and with his
+daughters also, and of the cakes which Tamar served to Amnon, and to
+speak over and over again of eating--"
+
+"Of course," replies the mummy, yawning, because he had heard this
+silly sort of talking before.
+
+"I notice that your most honored poet, here where the dust is
+thickest, from the moment he began by writing about certain painted
+berries which mocked the appetite of Dame Venus, and about a repast
+from which luxurious Tarquin retired like a full-fed hound or a gorged
+hawk, speaks continually of eating. And I notice that everybody, but
+particularly the young person, is encouraged to read these books, and
+other ancient books which speak very explicitly indeed of eating--"
+
+"Of course," again replies the mummy (who had been for many years an
+exponent of dormitive literacy)--"of course, young persons ought to
+read them: for all these books are classics, and we who were more
+obviously the heirs of the ages, and the inheritors of European
+culture, used frequently to discuss these books in Paff's
+beer-cellar."
+
+"Well, but does the indecency of this word 'eating' evaporate out of
+it as the years pass, so that the word is hurtful only when very
+freshly written!"
+
+The mummy blinked so wisely that you would never have guessed that the
+brains and viscera of all these mummies had been removed when the
+embalmers, Time and Conformity, were preparing these fifty for the
+Academy of Starch and Fetters. "Young man, I doubt if the majority of
+us here in the academy are deeply interested in this question of
+eating, for reasons unnecessary to specify. But before estimating your
+literary pretensions, I must ask if you ever frequented Paff's
+beer-cellar?"
+
+Horvendile said, "No."
+
+Now this mummy was an amiable and cultured old relic, unshakably made
+sure of his high name for scholarship by the fact that he had written
+dozens of books which nobody else had even read. So he said,
+friendlily enough: "Then that would seem to settle your pretensions.
+To have talked twaddle in Paff's beer-cellar is the one real proof of
+literary merit, no matter what sort of twaddle you may have written in
+your book, or in many books, as I am here in this academy to attest.
+Moreover, I am old enough to remember when cookery-books were sold
+openly upon the newsstands, and in consequence I am very grateful to
+the garbage-man, who, in common with all other intelligent persons,
+has never dreamed of meddling with anything I wrote."
+
+"But, sir," says Horvendile, "do you esteem a scavenger, who does not
+pretend to specialize in anything save filth, to be the best possible
+judge of books?"
+
+"He may be an excellent critic if only he indeed belongs to the
+forthputting Philistine stock: that proviso is most important, though,
+for, as I recently declared, we have very dangerous standards
+domiciled in the midst of us, that are only too quickly raised--"
+
+Says Horvendile, with a shudder: "You speak ambiguously. But still, in
+criticizing books--"
+
+"Plainly, young man, you do not appreciate that the essential
+qualifications for a critic of Philistine literature are," said this
+mummy bewilderingly, "to have set off fireworks in July, to have
+played ball in a vacant lot, and to have repeated what Spartacus said
+to the gladiators."[3]
+
+[Footnote 3: It is a gratifying tribute to the permanence of æsthetic
+canons to record that Dr. Brander Matthews (connected with Columbia
+University) has, in an article upon "Alien Views of American
+Literature," contributed to the _New York Times_ of 14 November, 1920,
+accepted these three qualifications as the essential groundwork for a
+literary critic even to-day; although Dr. Matthews is inclined, as a
+concession to modernism, to add to the list an ability to recite
+Webster's Reply to Hayne. Since Dr. Matthews frankly states that he
+has been incited to this recital of a critic's needs by (in his happy
+wording) "the alien angle" of "standards domiciled in the midst of
+us," it is sincerely to be hoped that his requirements may be met
+forthwith.]
+
+"No, no, the essential thing is not quite that," observed an attendant
+lackey, a really clever writer, who wrote, indeed, far more
+intelligently than he thought. He was a professor of patriotism, and
+prior to being embalmed in the academy he had charge of the
+postgraduate work in atavism and superior sneering. "No, my test is
+not quite that, and if you venture to disagree with me about this or
+anything else you are a ruthless Hun and an impudent Jew. No, the
+garbage-man may very well be an excellent judge: for by my quite
+infallible test the one thing requisite for a critic of our great
+Philistine literature is an ability to induce within himself such an
+internal disturbance as resembles a profound murmur of ancestral
+voices--"
+
+"But, oh, dear me!" says Horvendile, embarrassed by such talk.
+
+"--And to experience a mysterious inflowing," continued the other, "of
+national experience--"
+
+"The function is of national experience undoubtedly," said Horvendile,
+"but still--"
+
+"--Whenever he meditates," concluded this lackey bewilderingly, "upon
+the name of Bradford and six other surnames.[4] At all events, I have
+turned wearily from your book, you bolshevistic German Jew--"
+
+[Footnote 4: Sævius Nicanor does not record the wonder-working
+surnames employed to produce this ancient, ante-Aristotlean [Greek:
+_katharsis_], and they are not certainly known. But, quite unaided, I
+believe, by old Nicanor's hint, Dr. Stuart Pratt Sherman (the
+accomplished editor of divers contributions to literature, and the
+author of several books) has discovered, through a series of
+interesting experiments in vivisection, that the one needful endowment
+for a critic of American letters is the power to induce within himself
+"a profound murmur of ancestral voices, and to experience a mysterious
+inflowing of national experience, in meditating on the names of Mark
+Twain, Whitman, Thoreau, Lincoln, Emerson, Franklin, and Bradford."
+Compare "Is There Anything To Be Said for Literary Tradition," in _The
+Bookman_ for October, 1920. Any candid consideration of Dr. Sherman's
+phraseology, here as elsewhere, cannot fail to suggest that he has
+happily re-discovered the long-lost critical abracadabra of
+Philistia.]
+
+"But I," says Horvendile feebly, "am not a German Jew."
+
+"Oh, yes, you are, and so is everybody else whose literary likings are
+not my likings. I repeat, then, that I have turned wearily from your
+book. Whether or not it treats of eating, its implication is clearly
+that the Philistia which has developed Bradford and six other
+appellations perfectly adapted to produce murmurings and inflowings in
+properly constituted persons,--and which Philistia, as I have
+elsewhere asserted, is to-day as always a revolting country whenever
+it condemns,--has had no civilised cultural atmosphere worth
+mentioning. So your book fails to connect itself vitally with our
+great tradition as to our literature, and I find nowhere in your book
+any ascending sun heralded by the lookouts."
+
+"No more do I," said Horvendile; "but I would have imagined you were
+more interested in lunar phenomena, and even so--"
+
+"Moreover," now declared another mummy (this was a Moor, called
+P.E.M., or the Peach,[5] who through some oversight had not been
+embalmed, but only pickled in vinegar, to the detriment of his
+disposition),--"moreover, I am not at all in sympathy with any protest
+whatever against the scavenger, for it might be taken as an excuse for
+what they are pleased to call art."
+
+[Footnote 5: Codman annotates this: "Synonyms, since P.E.M. is
+obviously _Persicum Esculentum Malum_--that is, the peach; 'which,'
+says Macrobius, 'although it rather belongs to the tribe of apples,
+Sævius reckons as a species of nut.'"]
+
+All groaned at this abominable word. And then another lackey cried,
+"You are a prosperous and affected pseudo-littérateur!" and all the
+mummies spoke sepulchrally the word of derision, which is "Tee-Hee":
+and many said also, "The scavenger has never meddled with us, and we
+never heard of you," and there was much other incoherent foolishness.
+
+But Horvendile had fled, bewildered by the ways of Philistia's adepts
+in starch and fetters, and bewildered in particular to note that a
+mummy, so generally esteemed a kindly and well-meaning fossil,
+appeared quite honestly to believe that all literature came out of
+the beer-cellar of Paff, or Pfaff, or had some similarly Teutonic
+sponsor; and that handball was the best training for literary
+criticism; and that the cookery-books of fifty years ago had something
+to do with Horvendile's account of his journeying, from he did not
+know where toward a goal which he could not divine, now being in the
+garbage pile. It troubled Horvendile because so many persons seemed to
+regard the old fellow half seriously.
+
+
+
+
+5--How It Appeared to the Man in the Street
+
+Still, Horvendile was not quite routed by these heaped follies. "For,
+after all," says Horvendile, in his own folly, "it is for the normal
+human being that books are made, and not for mummies and men of law
+and scavengers."
+
+So Horvendile went through a many streets that were thronged with
+persons travelling by compulsion from they did not know where toward a
+goal which they could not divine, and were not especially bothering
+about. And it was evening, and to this side and to that side the men
+and women of Philistia were dining. Everywhere maids were passing hot
+dishes, and forks were being thrust into these dishes, and each was
+eating according to his ability and condition. No matter how
+poverty-stricken the household, the housewife was serving her poor
+best to the goodman. For with luncheon so long past, all the really
+virile men of Philistia were famished, and stood ready to eat the
+moment, they had a dish uncovered.
+
+So it befell that Horvendile encountered a representative citizen, who
+was coming out of a representative restaurant with a representative
+wife.
+
+And the sight of this representative citizen was to Horvendile a tonic
+joy and a warming of the heart. For this man, and each of the
+thousands like him, as Horvendile reflected, had been within this hour
+sedately dining with his wife,--neither of them eating with the zest
+and vigor of their first youth, perhaps, but sharing amicably the more
+moderate refreshment which middle-age requires,--without being at any
+particular pains to conceal the fact from anybody. Here was then,
+after all, the strong and sure salvation of Philistia, in this quiet,
+unassuming common-sense, which dealt with the facts of life as facts,
+the while that the foolish laws, and the academical and stercoricolous
+nonsense of Philistia, reverberated as remotely and as unheeded as
+harmless summer thunder.
+
+"Sir," says elated Horvendile, "I perceive that you two have just been
+eating, and that emboldens me to ask you--"
+
+But at this point Horvendile found he had been knocked down, because
+the parents of the representative citizen had taught him from his
+earliest youth that any mention of eating was highly indecent in the
+presence of gentlewomen. And for Horvendile, recumbent upon the
+pavement, it was bewildering to note the glow of honest indignation in
+the face of the representative citizen, who waited there, in front of
+the restaurant he usually patronized....
+
+
+
+
+COLOPHON
+
+
+Here, rather vexatiously, the old manuscript breaks off. But what
+survives and has been cited of this fragment amply shows you, I think,
+that even in remote Philistia, whenever this question of "indecency"
+arose, everybody (including the accused) was apt to act very
+foolishly. It has attested too, I hope, the readiness with which you
+may read ambiguities into the most respectable of authors; as well as
+the readiness with which a fanatical training may lead you to imagine
+some underlying impropriety in all writing about any natural function,
+even though it be a function so time-hallowed and general as that to
+which this curious Dirghic legend refers.
+
+
+
+
+A POSTSCRIPT
+
+(_French of C.J.P. Garnier_)
+
+    The swine that died in Gadara two thousand years ago
+    Went mad in lofty places, with results that all men know--
+    Went mad in lofty places through long rooting in the dirt,
+    Which (even for swine) begets at last soul-satisfying hurt.
+
+    The swine in lofty places now are matter for no song
+    By any prudent singer, but--_how long, O Lord, how long?_
+
+
+_EXPLICIT_
+
+
+
+
+BOOKS _by_ MR. CABELL
+
+
+_Biography_:
+
+BEYOND LIFE
+FIGURES OF EARTH
+DOMNEI
+CHIVALRY
+JURGEN
+TABOO
+THE LINE OF LOVE
+GALLANTRY
+THE CERTAIN HOUR
+THE CORDS OF VANITY
+FROM THE HIDDEN WAY
+THE RIVET IN GRANDFATHER'S NECK
+THE EAGLE'S SHADOW
+THE CREAM OF THE JEST
+
+
+_Genealogy_:
+
+BRANCH OF ABINGDON
+BRANCHIANA
+THE MAJORS AND THEIR MARRIAGES
+
+
+
+
+
+
+
+
+
+End of the Project Gutenberg EBook of Taboo, by James Branch Cabell
+
+*** END OF THIS PROJECT GUTENBERG EBOOK TABOO ***
+
+***** This file should be named 17134-8.txt or 17134-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/1/7/1/3/17134/
+
+Produced by Suzanne Shell, Sankar Viswanathan, and the
+Online Distributed Proofreading Team at http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.net/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.net),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.net
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+*** END: FULL LICENSE ***

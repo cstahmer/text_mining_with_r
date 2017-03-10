@@ -1,0 +1,1822 @@
+﻿The Project Gutenberg EBook of The Jewel Merchants, by James Branch Cabell
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+
+Title: The Jewel Merchants
+       A Comedy in One Act
+
+Author: James Branch Cabell
+
+Posting Date: October 29, 2011 [EBook #9829]
+Release Date: February, 2006
+First Posted: October 22, 2003
+
+Language: English
+
+
+*** START OF THIS PROJECT GUTENBERG EBOOK THE JEWEL MERCHANTS ***
+
+
+
+
+Produced by Suzanne Shell, Clare Boothby and PG Distributed Proofreaders
+
+
+
+
+
+
+
+
+
+            _The Jewel Merchants_
+            _A Comedy in One Act_
+
+                      By
+
+             James Branch Cabell
+
+
+     _"Io non posso ritrar di tutti appieno:
+       pero chi si mi caccia il lungo tema,
+    che molte volte al fatto il dir vieti meno."_
+
+
+
+                   NEW YORK
+                     1921
+
+
+
+                      TO
+               LOUISE BURLEIGH
+
+     _This latest avatar of so many notions
+           which were originally hers._
+
+
+
+
+THE AUTHOR'S PROLOGUE
+
+Prudence urges me here to forestall detection, by conceding that this
+brief play has no pretension to "literary" quality. It is a piece in
+its inception designed for, and in its making swayed by, the requirements
+of the little theatre stage. The one virtue which anybody anywhere could
+claim for _The Jewel Merchants_ is the fact that it "acts" easily and
+rather effectively.
+
+And candor compels the admission forthwith that the presence of this
+anchoritic merit in the wilderness is hardly due to me. When circumstances
+and the Little Theatre League of Richmond combined to bully me into
+contriving the dramatization of a short story called _Balthazar's
+Daughter_, I docilely converted this tale into a one-act play of which
+you will find hereinafter no sentence. The comedy I wrote is now at one
+with the lost dramaturgy of Pollio and of Posidippus, and is even less
+likely ever to be resurrected for mortal auditors.
+
+It read, I still think, well enough: I am certain that, when we came to
+rehearse, the thing did not "act" at all, and that its dialogue, whatever
+its other graces, had the defect of being unspeakable. So at each
+rehearsal we--by which inclusive pronoun I would embrace the actors and
+the producing staff at large, and with especial (metaphorical) ardor Miss
+Louise Burleigh, who directed all--changed here a little, and there a
+little more; and shifted this bit, and deleted the other, and "tried out"
+everybody's suggestions generally, until we got at least the relief of
+witnessing at each rehearsal a different play. And steadily my manuscript
+was enriched with interlineations, to and beyond the verge of legibility,
+as steadily I substituted, for the speeches I had rewritten yesterday,
+the speeches which the actor (having perfectly in mind the gist but not
+the phrasing of what was meant) delivered naturally.
+
+This process made, at all events, for what we in particular wanted,
+which was a play that the League could stage for half an evening's
+entertainment; but it left existent not a shred of the rhetorical
+fripperies which I had in the beginning concocted, and it made of the
+actual first public performance a collaboration with almost as many
+contributing authors as though the production had been a musical comedy.
+
+And if only fate had gifted me with an exigent conscience and a turn for
+oratory, I would, I like to think, have publicly confessed, at that first
+public performance, to all those tributary clarifying rills to the play's
+progress: but, as it was, vainglory combined with an aversion to
+"speech-making" to compel a taciturn if smirking acceptance of the
+curtain-call with which an indulgent audience flustered the nominal author
+of _The Jewel Merchants_.... Now, in any case, it is due my collaborators
+to tell you that _The Jewel Merchants_ has amply fulfilled the purpose
+of its makers by being enacted to considerable applause,--and is a
+pleasure to add that this _succès d'estime_ was very little chargeable to
+anything which I contributed to the play.
+
+For another matter, I would here confess that _The Jewel Merchants_,
+in addition to its "literary" deficiencies, lacks moral fervor. It will,
+I trust, corrupt no reader irretrievably, to untraversable leagues beyond
+the last hope of redemption: but, even so, it is a frankly unethical
+performance. You must accept this resuscitated trio, if at all, very much
+as they actually went about Tuscany, in long ago discarded young flesh,
+when the one trait everywhere common to their milieu was the absence of
+any moral excitement over such-and-such an action's being or not being
+"wicked." This phenomenon of Renaissance life, as lived in Italy in
+particular, has elsewhere been discussed time and again, and I lack here
+the space, and the desire, either to explain or to apologize for the era's
+delinquencies. I would merely indicate that this point of conduct is the
+fulcrum of _The Jewel Merchants_.
+
+The play presents three persons, to any one of whom the committing of
+murder or theft or adultery or any other suchlike interdicted feat, is
+just the risking of the penalty provided against the breaking of that
+especial law if you have the vile luck to be caught at it: and this to
+them is all that "wickedness" can mean. We nowadays are encouraged to
+think differently: but such dear privileges do not entitle us to ignore
+the truth that had any of these three advanced a dissenting code of
+conduct, it would, in the time and locality, have been in radical
+irreverence of the best-thought-of tenets. There was no generally
+recognized criminality in crime, but only a perceptible risk. So must
+this trio thriftily adhere to the accepted customs of their era, and
+regard an infraction of the Decalogue (for an instance) very much as we
+today look on a violation of our prohibition enactments.
+
+In fact, we have accorded to the Eighteenth Amendment almost exactly the
+status then reserved for Omnipotence. You found yourself confronted by
+occasionally enforced if obviously unreasonable supernal statutory
+decrees, which every one broke now and then as a matter of convenience:
+and every now and then, also, somebody was caught and punished, either in
+this world or in the next, without his ill-fortune's involving any
+disgrace or particular reprehension. As has been finely said,
+righteousness and sinfulness were for the while "in strange and dreadful
+peace with each other. The wicked man did not dislike virtue, nor the good
+man vice: the villain could admire a saint, and the saint could excuse a
+villain, in things which we often shrink from repeating, and sometimes
+recoil from believing."
+
+Such was the sixteenth-century Tuscan view of "wickedness." I have
+endeavored to reproduce it without comment.
+
+So much of ink and paper and typography may be needed, I fear, to remind
+you, in a more exhortatory civilization, that Graciosa is really, by all
+the standards of her day, a well reared girl. To the prostitution of her
+body, whether with or without the assistance of an ecclesiastically
+acquired husband, she looks forward as unconcernedly as you must by
+ordinary glance out of your front window, to face a vista so familiar
+that the discovery of any change therein would be troubling. Meanwhile
+she wishes this sorrow-bringing Eglamore assassinated, as the obvious,
+the most convenient, and indeed the only way of getting rid of him: and
+toward the end of the play, alike for her and Guido, the presence of a
+corpse in her garden is merely an inconvenience without any touch of the
+gruesome. Precautions have, of course, to be taken to meet the emergency
+which has arisen: but in the dead body of a man _per se_, the lovers can
+detect nothing more appalling, or more to be shrunk from, than would be
+apparent if the lifeless object in the walkway were a dead flower. The
+thing ought to be removed, if only in the interest of tidiness, but there
+is no call to make a pother over it.
+
+As for our Guido, he is best kept conformable to modern tastes, I suspect,
+by nobody's prying too closely into the earlier relations between the
+Duke and his handsome minion. The insistently curious may resort to
+history to learn at what price the favors of Duke Alessandro were secured
+and retained: it is no part of the play.
+
+Above all, though, I must remind you that the Duke is unspurred by
+malevolence. A twinge of jealousy there may be, just at first, to find his
+pampered Eglamore so far advanced in the good graces of this pretty girl,
+but that is hardly important. Thereafter the Duke is breaking no law,
+for the large reason that his preference in any matter is the only law
+thus far divulged to him. As concerns the man and the girl he discovers on
+this hill-top, they, in common with all else in Tuscany, are possessions
+of Duke Alessandro's. They can raise no question as to how he "ought" to
+deal with them, for to your chattels, whether they be your finger rings or
+your subjects or your pomatum pots or the fair quires whereon you indite
+your verses, you cannot rationally he said to "owe" anything.... No, the
+Duke is but a spirited lad in quest of amusement: and Guido and Graciosa
+are the playthings with which, on this fine sunlit morning, he attempts to
+divert himself.
+
+This much being granted--and confessed,--we let the play begin.
+
+_Dumbarton Grange,_
+_June, 1921_
+
+
+       *       *       *       *       *
+
+["Alessandro de Medici is generally styled by the Italian authors the
+first duke of Florence; but in this they are not strictly accurate. His
+title of duke was derived from Città, or Cività di Penna, and had been
+assumed by him several years before he obtained the direction of the
+Florentine state. It must also be observed, that, after the evasion of
+Eglamore, Duke Alessandro did not, as Robertson observes, 'enjoy the
+same absolute dominion as his family have retained to the present times,'
+(Hist. Charles V. book v.) he being only declared chief or prince of the
+republic, and his authority being in some measure counteracted or
+restrained by two councils chosen from the citizens, for life, one of
+which consisted of forty-eight, and the other of two hundred members.
+(Varchi, Storia Fior. p. 497: Nerli, Com. lib. xi. pp. 257, 264.)"]
+
+
+       *       *       *       *       *
+
+
+            THE JEWEL MERCHANTS
+
+    _"Diamente nè smeraldo nè zaffino."_
+
+
+Originally produced by the Little Theatre League of Richmond, Virginia,
+at the Binford High School Auditorium, 22 February, 1921.
+
+              _Original Cast_
+
+GRACIOSA...........................Elinor Fry
+       Daughter of Balthazar Valori
+
+GUIDO........................Roderick Maybee
+             A jewel merchant
+
+ALESSANDRO DE MEDICI.........Francis F. Bierne
+             Duke of Florence
+
+Produced under the direction of Louise Burleigh.
+
+
+       *       *       *       *       *
+
+
+
+_THE JEWEL MERCHANTS_
+
+_The play begins with the sound of a woman's voice singing a song
+(adapted from Rossetti's version) which is delivered to the accompaniment
+of a lute._
+
+SONG:
+
+    Let me have dames and damsels richly clad
+      To feed and tend my mirth,
+    Singing by day and night to make me glad.
+
+      Let me have fruitful gardens of great girth
+    Filled with the strife of birds,
+      With water-springs and beasts that house i' the earth.
+
+    Let me seem Solomon for lore of words,
+      Samson for strength, for beauty Absalom.
+
+    Knights as my serfs be given;
+      And as I will, let music go and come,
+    Till, when I will, I will to enter Heaven.
+
+_As the singing ends, the curtain rises upon a corner of Balthazar
+Valori's garden near the northern border of Tuscany. The garden is walled.
+There is a shrine in the wall: the tortured figure upon the crucifix is
+conspicuous. To the right stands a rather high-backed stone bench: by
+mounting from the seat to the top of the bench it is possible to scale
+the wall. To the left a crimson pennant on a pole shows against the sky.
+The period is 1533, and a few miles southward the Florentines, after three
+years of formally recognizing Jesus Christ as the sole lord and king of
+Florence, have lately altered matters as profoundly as was possible by
+electing Alessandro de Medici to be their Duke._
+
+_GRACIOSA is seated upon the bench, with a lute. The girl is, to our
+modern taste, very quaintly dressed in gold-colored satin, with a short
+tight bodice, cut square and low at the neck, and with long full skirts.
+When she stands erect, her preposterous "flowing" sleeves, lined with
+sky blue, reach to the ground. Her blonde hair, of which she has a great
+deal, is braided, in the intricate early sixteenth fashion, under a
+jeweled cap and a veil the exact color of this hair._
+
+_There is a call. Smiling, GRACIOSA answers this call by striking her
+lute. She pats straight her hair and gown, and puts aside the instrument.
+GUIDO appears at the top of the wall. All you can see of the handsome
+young fellow, in this posture, is that he wears a green skull-cap and a
+dark blue smock, the slashed sleeves of which are lined with green._
+
+GUIDO
+Ah, madonna....
+
+GRACIOSA
+Welcome, Ser Guido. Your journey has been brief.
+
+GUIDO
+It has not seemed brief to me.
+
+GRACIOSA
+Why, it was only three days ago you told me it would be a fortnight
+before you came this way again.
+
+GUIDO
+Yes, but I did not then know that each day spent apart from you, Madonna
+Graciosa, would be a century in passing.
+
+GRACIOSA
+Dear me, but your search must have been desperate!
+
+GUIDO
+(_Who speaks, as almost always hereinafter, with sober enjoyment of the
+fact that he is stating the exact truth unintelligibly._) Yes, my search
+is desperate.
+
+GRACIOSA
+Did you find gems worthy of your search?
+
+GUIDO
+Very certainly, since at my journey's end I find Madonna Graciosa, the
+chief jewel of Tuscany.
+
+GRACIOSA
+Such compliments, Guido, make your speech less like a merchant's than a
+courtier's.
+
+GUIDO
+Ah, well, to balance that, you will presently find courtiers in Florence
+who will barter for you like merchants. May I descend?
+
+GRACIOSA
+Yes, if you have something of interest to show me.
+
+GUIDO
+Am I to be welcomed merely for the sake of my gems? You were more
+gracious, you were more beautifully like your lovely name, on the
+fortunate day that I first encountered you ... only six weeks ago, and
+only yonder, where the path crosses the highway. But now that I esteem
+myself your friend, you greet me like a stranger. You do not even invite
+me into your garden. I much prefer the manner in which you told me the
+way to the inn when I was an unknown passer-by. And yet your pennant
+promised greeting.
+
+GRACIOSA
+(_With the smile of an exceptionally candid angel._) Ah, Guido, I flew
+it the very minute the boy from the inn brought me your message!
+
+GUIDO
+Now, there is the greeting I had hoped for! But how do you escape your
+father's watch so easily?
+
+GRACIOSA
+My father has no need to watch me in this lonely hill castle. Ever since
+I can remember I have wandered at will in the forest. My father knows that
+to me every path is as familiar as one of the corridors in his house; and
+in no one of them did I ever meet anybody except charcoal-burners, and
+sometimes a nun from the convent, and--oh, yes!--you. But descend, friend
+Guido.
+
+_Thus encouraged, GUIDO descends from the top of the wall to the top of
+the bench, and thence, via its seat, to the ground. You are thereby
+enabled to discover that his nether portions are clad in dark blue tights
+and soft leather shoes with pointed turned-up toes. It is also noticeable
+that he carries a jewel pack of purple, which, when opened, reveals an
+orange lining._
+
+GUIDO
+(_With as much irony as the pleasure he takes in being again with this
+dear child permits._) That "Oh, yes, you!" is a very fitting reward for
+my devotion. For I find that nowadays I travel about the kingdom buying
+jewels less for my patrons at court than for the pleasure of having your
+eyes appraise them, and smile at me.
+
+GRACIOSA
+(_With the condescension of a great lady._) Guido, you have in point of
+fact been very kind to me, and very amusing, too, in my loneliness on
+the top of this hill. (_Drawing back the sleeve from her left arm, she
+reveals the trinket there._) See, here is the turquoise bracelet I had
+from you the second time you passed. I wear it always--secretly.
+
+GUIDO
+That is wise, for the turquoise is a talisman. They say that the woman
+who wears a turquoise is thereby assured of marrying the person whom she
+prefers.
+
+GRACIOSA
+I do not know about that, nor do I expect to have much choice as to what
+rich nobleman marries me, but I know that I love this bracelet--
+
+GUIDO
+In fact, they are handsome stones.
+
+GRACIOSA
+Because it reminds me constantly of the hours which I have spent here
+with my lute--
+
+GUIDO
+Oh, with your lute!
+
+GRACIOSA
+And with your pack of lovely jewels--
+
+GUIDO
+Yes, to be sure! with my jewels.
+
+GRACIOSA
+And with you.
+
+GUIDO
+There is again my gracious lady. Now, in reward for that, you shall
+feast your eyes.
+
+GRACIOSA
+(_All eagerness._) And what have you to-day?
+
+_GUIDO opens his pack. She bends above it with hands outstretched._
+
+GUIDO
+(_Taking out a necklace._) For one thing, pearls, black pearls, set with
+a clasp of emeralds. See! They will become you.
+
+GRACIOSA
+(_Taking them, pressing them to her cheek._) How cool! But I--poor child
+of a poor noble--I cannot afford such.
+
+GUIDO
+Oh, I did not mean to offer them to you to-day. No, this string is
+intended for the Duke's favorite, Count Eglamore.
+
+GRACIOSA
+(_Stiffening._) Count Eglamore! These are for him?
+
+GUIDO
+For Count Eglamore.
+
+GRACIOSA
+Has the upstart such taste?
+
+GUIDO
+If it be taste to appreciate pearls, then the Duke's chief officer has
+excellent taste. He seeks them far and wide. He will be very generous in
+paying for this string.
+
+_GRACIOSA drops the pearls, in which she no longer delights. She returns
+to the bench, and sits down and speaks with a sort of disappointment._
+
+GRACIOSA
+I am sorry to learn that this Eglamore is among your patrons.
+
+GUIDO
+(_Still half engrossed by the contents of his pack. The man loves jewels
+equally for their value and their beauty._) Oh, the nobles complain of
+him, but we merchants have no quarrel with Eglamore. He buys too lavishly.
+
+GRACIOSA
+Do you think only of buying and selling, Guido?
+
+GUIDO
+It is a pursuit not limited to us who frankly live by sale and purchase.
+Count Eglamore, for example, knows that men may be bought as readily as
+merchandise. It is one reason why he is so hated--by the unbought.
+
+GRACIOSA
+(_Irritated by the title._) Count Eglamore, indeed! I ask in my prayers
+every night that some honest gentleman may contrive to cut the throat of
+this abominable creature.
+
+GUIDO
+(_His hand going to his throat._) You pray too much, madonna. Even very
+pious people ought to be reasonable.
+
+GRACIOSA
+(_Rising from the bench._) Have I not reason to hate the man who killed
+my kinsman?
+
+GUIDO
+(_Rising from his gems._) The Marquis of Cibo conspired, or so the court
+judged--
+
+GRACIOSA
+I know nothing of the judgment. But it was this Eglamore who discovered
+the plot, if there indeed was any plot, and who sent my cousin Cibo to
+a death--(_pointing to the shrine_)--oh, to a death as horrible as that.
+So I hate him.
+
+GUIDO
+Yet you have never even seen him, I believe?
+
+GRACIOSA
+And it would be better for him never to see me or any of my kin. My
+father, my uncles and my cousins have all sworn to kill him--
+
+GUIDO
+So I have gathered. They remain among the unbought.
+
+GRACIOSA
+(_Returning, sits upon the bench, and speaks regretfully._) But they
+have never any luck. Cousin Pietro contrived to have a beam dropped on
+Eglamore's head, and it missed him by not half a foot--
+
+GUIDO
+Ah, yes, I remember.
+
+GRACIOSA
+And Cousin Georgio stabbed him in the back one night, but the coward had
+on chain-armor under his finery--
+
+GUIDO
+I remember that also.
+
+GRACIOSA
+And Uncle Lorenzo poisoned his soup, but a pet dog got at it first. That
+was very unfortunate.
+
+GUIDO
+Yes, the dog seemed to think so, I remember.
+
+GRACIOSA
+However, perseverance is always rewarded. So I still hope that one or
+another of my kinsmen will contrive to kill this Eglamore before I go to
+court.
+
+GUIDO
+(_Sits at her feet._) Has my Lord Balthazar yet set a day for that
+presentation?
+
+GRACIOSA
+Not yet.
+
+GUIDO
+I wish to have this Eglamore's accounts all settled by that date.
+
+GRACIOSA
+But in three months, Guido, I shall be sixteen. My sisters went to court
+when they were sixteen.
+
+GUIDO
+In fact, a noble who is not rich cannot afford to continue supporting a
+daughter who is salable in marriage.
+
+GRACIOSA
+No, of course not. (_She speaks in the most matter-of-fact tone possible.
+Then, more impulsively, the girl slips down from the bench, and sits by
+him on the around._) Do you think I shall make as good a match as my
+sisters, Guido? Do you think some great rich nobleman will marry me very
+soon? And shall I like the court! What shall I see there?
+
+GUIDO
+Marvels. I think--yes, I am afraid that you will like them.
+
+GRACIOSA
+And Duke Alessandro--shall I like him?
+
+GUIDO
+Few courtiers have expressed dislike of him in my presence.
+
+GRACIOSA
+Do you like him? Does he too buy lavishly?
+
+GUIDO
+Eh, madonna! some day, when you have seen his jewels--
+
+GRACIOSA
+Oh! I shall see them when I go to court?
+
+GUIDO
+Yes, he will show them to you, I think, without fail, for the Duke loves
+beauty in all its forms. So he will take pleasure in confronting the
+brightness of your eyes with the brightness of the four kinds of sapphires,
+of the twelve kinds of rubies, and of many extraordinary pearls--
+
+GRACIOSA
+(_With eyes shining, and lips parted._) Oh!
+
+GUIDO
+And you will see his famous emerald necklace, and all his diamonds, and
+his huge turquoises, which will make you ashamed of your poor talisman--
+
+GRACIOSA
+He will show all these jewels to me!
+
+GUIDO
+(_Looking at her, and still smiling thoughtfully._) He will show you the
+very finest of his gems, assuredly. And then, worse still, he will be
+making verses in your honor.
+
+GRACIOSA
+It would be droll to have a great duke making songs about me!
+
+GUIDO
+It is a preposterous feature of Duke Alessandro's character that he is
+always making songs about some beautiful thing or another.
+
+GRACIOSA
+Such strange songs, Guido! I was singing over one of them just before
+you came,--
+
+    Let me have dames and damsels richly clad
+      To feed and tend my mirth,
+    Singing by day and night to make me glad--
+
+But I could not quite understand it. Are his songs thought good?
+
+GUIDO
+The songs of a reigning duke are always good.
+
+GRACIOSA
+And is he as handsome as people report?
+
+GUIDO
+Tastes differ, of course--
+
+GRACIOSA
+And is he--?
+
+GUIDO
+I have a portrait of the Duke. It does not, I think, unduly flatter him.
+Will you look at it?
+
+GRACIOSA
+Yes, yes!
+
+GUIDO
+(_Drawing out a miniature on a chain._) Here is the likeness.
+
+GRACIOSA
+But how should you--?
+
+GUIDO
+(_Seeing her surprise._) Oh, it was a gift to me from his highness for a
+special service I did him, and as such must be treasured.
+
+GRACIOSA
+Perhaps, then, I shall see yon at court, Messer Guido, who are the friend
+of princes?
+
+GUIDO
+If you do, I ask only that in noisy Florence you remember this quiet
+garden.
+
+GRACIOSA
+(_Looks at him silently, then glances at the portrait. She speaks with
+evident disappointment._) Is this the Duke?
+
+GUIDO
+You may see his arms on it, and on the back his inscription.
+
+GRACIOSA
+Yes, but--(_looking at the portrait again_)--but ... he is ... so ...
+
+GUIDO
+You are astonished at his highness' coloring? That he inherits from his
+mother. She was, you know, a blackamoor.
+
+GRACIOSA
+And my sisters wrote me he was like a god!
+
+GUIDO
+Such observations are court etiquette.
+
+GRACIOSA
+(_With an outburst of disgust._) Take it back! Though how can you bear to
+look at it, far less to have it touching you! And only yesterday I was
+angry because I had not seen the Duke riding past!
+
+GUIDO
+Seen him! here! riding past!
+
+GRACIOSA
+Old Ursula told me that the Duke had gone by with twenty men, riding down
+toward the convent at the border. And I flung my sewing-bag straight at
+her head because she had not called me.
+
+GUIDO
+That was idle gossip, I fancy. The Duke rarely rides abroad without
+my--(_he stops_)--without my lavish patron Eglamore, the friend of all
+honest merchants.
+
+GRACIOSA
+But that abominable Eglamore may have been with him. I heard nothing to
+the contrary.
+
+GUIDO
+True, madonna, true. I had forgotten you did not see them.
+
+GRACIOSA
+No. What is he like, this Eglamore? Is he as appalling to look at as the
+Duke?
+
+GUIDO
+Madonna! but wise persons do not apply such adjectives to dukes. And wise
+persons do not criticize Count Eglamore's appearance, either, now that
+Eglamore is indispensable to the all-powerful Duke of Florence.
+
+GRACIOSA
+Indispensable?
+
+GUIDO
+It is thanks to the Eglamore whom you hate that the Duke has ample leisure
+to indulge in recreations which are reputed to be--curious.
+
+GRACIOSA
+I do not understand you, Guido.
+
+GUIDO
+That is perhaps quite as well. (_Attempting to explain as much as is
+decently expressible._) To be brief, madonna, business annoys the Duke.
+
+GRACIOSA
+Why?
+
+GUIDO
+It interferes with the pursuit of all the beautiful things he asks for
+in that song.
+
+GRACIOSA
+But how does that make Eglamore indispensable?
+
+GUIDO
+Eglamore is an industrious person who affixes seals, and signs treaties,
+and musters armies, and collects revenues, upon the whole, quite as
+efficiently as Alessandro would be capable of doing these things.
+
+GRACIOSA
+So Duke Alessandro merely makes verses?
+
+GUIDO
+And otherwise amuses himself as his inclinations prompt, while Eglamore
+rules Tuscany--and the Tuscans are none the worse off on account of it.
+(_He rises, and his hand goes to the dagger at his belt._) But is not
+that a horseman?
+
+GRACIOSA
+(_She too has risen, and is now standing on the bench, looking over the
+wall._) A solitary rider, far down by the convent, so far away that he
+seems hardly larger than a scarlet dragon-fly.
+
+GUIDO
+I confess I wish to run no risk of being found here, by your respected
+father or by your ingenious cousins and uncles.
+
+GRACIOSA
+(_She turns, but remains standing upon the bench._) I think your Duke is
+much more dangerous looking than any of them. Heigho! I can quite foresee
+that I shall never fall in love with this Duke.
+
+GUIDO
+A prince has means to overcome all obstacles.
+
+GRACIOSA
+No. It is unbefitting and a little cowardly for Duke Alessandro to shirk
+the duties of his station for verse-making and eternal pleasure-seeking.
+Now if I were Duke--
+
+GUIDO
+What would you do?
+
+GRACIOSA
+(_Posturing a little as she stands upon the bench._) If I were duke?
+Oh ... I would grant my father a pension ... and I would have Eglamore
+hanged ... and I would purchase a new gown of silvery green--
+
+GUIDO
+In which you would be very ravishingly beautiful.
+
+_His tone has become rather ardent, and he is now standing nearer to her
+than the size of the garden necessitates. So GRACIOSA demurely steps
+down from the bench, and sits at the far end._
+
+GRACIOSA
+And that is all I can think of. What would you do if you were duke,
+Messer Guido?
+
+GUIDO
+(_Who is now sitting beside her at closer quarters than the length of the
+bench quite strictly demands._) I? What would I do if I were a great lord
+instead of a tradesman! (_Softly._) I think you know the answer, madonna.
+
+GRACIOSA
+Oh, you would make me your duchess, of course. That is quite understood.
+But I was speaking seriously, Guido.
+
+GUIDO
+And is it not a serious matter that a pedler of crystals should have dared
+to love a nobleman's daughter?
+
+GRACIOSA
+(_Delighted._) This is the first I have heard of it.
+
+GUIDO
+But you are perfectly right. It is not a serious matter. That I worship
+you is an affair which does not seriously concern any person save me in
+any way whatsoever. Yet I think that knowledge of the fact would put your
+father to the trouble of sharpening his dagger.
+
+GRACIOSA
+Ye-es. But not even Father would deny that you were showing excellent
+taste.
+
+GUIDO
+Indeed, I am not certain that I do worship you; for in order to adore
+whole-heartedly the idolater must believe his idol to be perfect.
+(_Taking her hand._) Now your nails are of an ugly shape, like that of
+little fans. Your nose is nothing to boast of. And your mouth is too
+large. I do not admire these faults, for faults they are undoubtedly--
+
+GRACIOSA
+Do they make me very ugly? I know that I have not a really good mouth,
+Guido, but do you think it is positively repulsive?
+
+GUIDO
+No.... Then, too, I know that you are vain and self-seeking, and look
+forward contentedly to the time when your father will transfer his
+ownership of your physical attractions to that nobleman who offers the
+highest price for them.
+
+GRACIOSA
+But we daughters of the poor Valori are compelled to marry--suitably. We
+have only the choice between that and the convent yonder.
+
+GUIDO
+That is true, and nobody disputes it. Still, you participate in a
+monstrous bargain, and I would prefer to have you exhibit distaste for it.
+
+_Bending forward, GUIDO draws from his jewel pack the string of pearls,
+and this he moodily contemplates, in order to evince his complete
+disinterestedness. The pose has its effect. GRACIOSA looks at him for a
+moment, rises, draws a deep breath, and speaks with a sort of humility._
+
+GRACIOSA
+And to what end, Guido? What good would weeping do?
+
+GUIDO
+(_Smiling whimsically._) I am afraid that men do not always love
+according to the strict laws of logic. (_He drops the pearls, and,
+rising, follows her._) I desire your happiness above all things, yet to
+see you so abysmally untroubled by anything which troubles me is--another
+matter.
+
+GRACIOSA
+But I am not untroubled, Guido.
+
+GUIDO
+No?
+
+GRACIOSA
+No. (_Rather tremulously._) Sometimes I sit here dreading my life at
+court. I want never to leave my father's bleak house. I fear that I may
+not like the man who offers the highest price for me. And it seems as
+if the court were a horrible painted animal, dressed in bright silks, and
+shining with jewels, and waiting to devour me.
+
+_Beyond the wall appears a hat of scarlet satin with a divided brim,
+which, rising, is revealed to surmount the head of an extraordinarily
+swarthy person, to whose dark skin much powder has only loaned the hue of
+death: his cheeks, however, are vividly carmined. This is all that the
+audience can now see of the young DUKE of FLORENCE, whose proximity the
+two in the garden are just now too much engrossed to notice._
+
+_The DUKE looks from one to the other. His eyes narrow, his teeth are
+displayed in a wide grin; he now understands the situation. He lowers his
+head as GRACIOSA moves._
+
+GRACIOSA
+No, I am not untroubled. For I cannot fathom you, and that troubles me. I
+am very fond of you--and yet I do not trust you.
+
+GUIDO
+You know that I love you.
+
+GRACIOSA
+You tell me so. It pleases me to have you say it--
+
+GUIDO
+Madonna is candid this morning.
+
+GRACIOSA
+Yes, I am candid. It does please me. And I know that for the sake of
+seeing me you endanger your life, for if my father heard of our meetings
+here he would have you killed.
+
+GUIDO
+Would I incur such risks without caring?
+
+GRACIOSA
+No,--and yet, somehow, I do not believe it is altogether for me that you
+care.
+
+_The DUKE laughs. GUIDO starts, half drawing his dagger. GRACIOSA turns
+with an instinctive gesture of seeking protection. The DUKE'S head and
+shoulders appear above the wall._
+
+THE DUKE
+And you will find, my friend, that the most charming women have just these
+awkward intuitions.
+
+_The DUKE ascends the wall, while the two stand motionless and silent.
+When he is on top of the wall, GUIDO, who now remembers that omnipotence
+perches there, makes haste to serve it, and obsequiously assists the DUKE
+to descend. The DUKE then comes well forward, in smiling meditation, and
+hands first his gloves, then his scarlet cloak (which you now perceive to
+be lined with ermine and sable in four stripes) to GUIDO, who takes them
+as a servant would attend his master._
+
+_The removal of this cloak reveals the DUKE to be clad in a scarlet satin
+doublet, which has a high military collar and sleeves puffed with black.
+His tights also are of scarlet, and he wears shining soft black
+riding-boots. Jewels glisten at his neck. About his middle, too, there is
+a metallic gleaming, for he is equipped with a noticeably long sword and
+a dagger. Such is the personage who now addresses himself more explicitly
+to GRACIOSA._
+
+THE DUKE
+(_Sitting upon the bench, very much at his ease while the others stand
+uncomfortably before him._) Yes, madonna, I suspect that Eglamore here
+cares greatly for the fact that you are Balthazar Valori's daughter, and
+cousin to the late Marquis of Cibo.
+
+GRACIOSA
+(_Just in bewilderment._) Eglamore!
+
+THE DUKE
+For Cibo left many kinsmen. These still resent the circumstance that
+the matching of his wits against Eglamore's wits earned for Cibo an
+unpleasantly public death-bed. So they pursue their feud against Eglamore
+with vexatious industry. And Eglamore goes about in hourly apprehension
+of another falling beam, another knife-thrust in the back, or another
+plate of poison.
+
+GRACIOSA
+(_She comprehends now._) Eglamore!
+
+THE DUKE
+(_Who is pleased alike by Eglamore's neat plan and by his own cleverness
+in unriddling it._) But if rich Eglamore should make a stolen match with
+you, your father--good thrifty man!--could be appeased without much
+trouble. Your cousins, those very angry but penniless Valori, would not
+stay over-obdurate to a kinsman who had at his disposal so many pensions
+and public offices. Honor would permit a truce with their new cousin
+Eglamore, a truce very profitable to everybody.
+
+GRACIOSA
+He said they must be bought somehow!
+
+THE DUKE
+Yes, Eglamore could bind them all to his interest within ten days. All
+could be bought at a stroke by marrying you. And Eglamore would be rid
+of the necessity of sleeping in chain-armor. Have I not unraveled the
+scheme correctly, Eglamore?
+
+GUIDO
+(_Smiling and deferential._) Your highness was never lacking in
+penetration.
+
+_GRACIOSA, at this, turns puzzled from one man to the other._
+
+GRACIOSA
+Are you--?
+
+THE DUKE
+I am Alessandro de Medici, madonna.
+
+GRACIOSA
+The Duke!
+
+THE DUKE
+A sadly neglected prince, who wondered over the frequent absences of his
+chief counselor, and secretly set spies upon him. Eglamore here will
+attest as much--(_As GRACIOSA draws away from GUIDO_)--or if you cannot
+believe Eglamore any longer in anything, I shall have other witnesses
+within the half-hour. Yes, my twenty cut-throats are fetching back for me
+a brace of nuns from the convent yonder. I can imagine that, just now, my
+cut-throats will be in your opinion more trustworthy witnesses than is
+poor Eglamore. And my stout knaves will presently assure you that I am
+the Duke.
+
+GUIDO
+(_Suavely._) It happens that not a moment ago we were admiring your
+highness' portrait.
+
+GRACIOSA
+And so you are Count Eglamore. That is very strange. So it was the hand
+of Eglamore (_rubbing her hands as if to clean them_) that I touched just
+now. I thought it was the hand of my friend Guido. But I forget. There is
+no Guido. You are Eglamore. It is strange you should have been capable of
+so much wickedness, for to me you seem only a smirking and harmless
+lackey.
+
+_The DUKE is watching as if at a play. He is aesthetically pleased by the
+girl's anguish. GUIDO winces. As GRACIOSA begins again to speak, they turn
+facing her, so that to the audience the faces of both men are invisible._
+
+GRACIOSA
+And it was you who detected--so you said--the Marquis of Cibo's
+conspiracy. Tebaldeo was my cousin, Count Eglamore. I loved him. We were
+reared together. We used to play here in this garden. I remember how
+Tebaldeo once fetched me a wren's nest from that maple yonder. I stood
+just here. I was weeping, because I was afraid he would fall. If he had
+fallen, if he had been killed then, it would have been the luckier for
+him. They say that he conspired. I do not know. I only know that by your
+orders, Count Eglamore, my playmate Tebaldeo was fastened to a cross, like
+that (_pointing to the shrine_). I know that his arms and legs were each
+broken in two places with an iron bar. I know that this cross was then set
+upon a pivot, so that it turned slowly. I know that my dear Tebaldeo died
+very slowly in the sunlit marketplace, while the cross turned, and turned,
+and turned. I know this was a public holiday; the shopkeepers took holiday
+to watch him die, the boy who fetched me a wren's nest from yonder maple.
+And I know that you are Eglamore, who ordered these things done.
+
+GUIDO
+I gave orders for the Marquis of Cibo's execution, as was the duty of my
+office. I did not devise the manner of his punishment. The punishment for
+Cibo's crime was long ago fixed by our laws. All who attack the Duke's
+person must die thus.
+
+GRACIOSA
+(_Waves his excuses aside._) And then you plan this masquerade. You plan
+to make me care for you so greatly that even when I know you to be Count
+Eglamore I must still care for you. You plan to marry me, so as to placate
+Tebaldeo's kinsmen, so as to leave them--in your huckster's phrase--no
+longer unbought. It was a fine bold stroke of policy, I know, to use me
+as a stepping-stone to safety. But was it fair to me?
+
+GUIDO
+Graciosa ... you shame me--
+
+GRACIOSA
+Look you, Count Eglamore, I was only a child, playing here, alone, and
+not unhappy. Oh, was it fair, was it worth while to match your skill
+against my ignorance?
+
+THE DUKE
+Fie, Donna Graciosa, you must not be too harsh with Eglamore--
+
+GRACIOSA
+Think how unhappy I would be if even now I loved you, and how I would
+loathe myself!
+
+THE DUKE
+It is his nature to scheme, and he weaves his plots as inevitably as the
+spider does her web--
+
+GRACIOSA
+But I am getting angry over nothing. Nothing has happened except that
+I have dreamed--of a Guido. And there is no Guido. There is only an
+Eglamore, a lackey in attendance upon his master.
+
+THE DUKE
+Believe me, it is wiser to forget this clever lackey--as I do--except when
+there is need of his services. I think that you have no more need to
+consider him--
+
+_He takes the girl's hand. GRACIOSA now looks at him as though seeing him
+for the first time. She is vaguely frightened by this predatory beast, but
+in the main her emotion is as yet bewilderment._
+
+THE DUKE
+For you are very beautiful, Graciosa. You are as slim as a lily, and
+more white. Your eyes are two purple mirrors in each of which I see a
+tiny image of Duke Alessandro. (_GUIDO takes a step forward, and the DUKE
+now addresses him affably._) Those nuns they are fetching me are big
+high-colored wenches with cheeks like apples. It is not desirable that
+women should be so large. Such women do not inspire a poet. Women should
+be little creatures that fear you. They should have thin plaintive voices,
+and in shrinking from you should be as slight to the touch as a cobweb.
+It is not possible to draw inspiration from a woman's beauty unless you
+comprehend how easy it would be to murder her.
+
+GUIDO
+(_Softly, without expression._) God, God!
+
+_The DUKE looks with delight at GRACIOSA, who stands bewildered and
+childlike._
+
+THE DUKE
+You fear me, do you not, Graciosa? Your hand is soft and cold as the skin
+of a viper. When I touch it you shudder. I am very tired of women who
+love me, of women who are infatuated by my beauty. You, I can see, are not
+infatuated. To you my touch will always be a martyrdom, you will always
+loathe me. And therefore I shall not weary of you for a long while,
+because the misery and the helplessness of my lovely victim will incite
+me to make very lovely verses.
+
+_He draws her to the bench, sitting beside her._
+
+THE DUKE
+Yes, Graciosa, you will inspire me. Your father shall have all the wealth
+and state that even his greedy imaginings can devise, so long as you can
+contrive to loathe me. We will find you a suitable husband--say, in
+Eglamore here. You shall have flattery and titles, gold and fine glass,
+soft stuffs and superb palaces and many lovely jewels--
+
+_The DUKE glances down at the pedler's pack._
+
+THE DUKE
+But Eglamore also has been wooing you with jewels. You must see mine,
+dear Graciosa.
+
+GRACIOSA
+(_Without expression._) Count Eglamore said that I must.
+
+THE DUKE
+(_Raises the necklace, and lets it drop contemptuously._) Oh, not such
+trumpery as this. I have in Florence gems which have not their fellows
+anywhere, gems which have not even a name, and the value of which is
+incalculable. I have jewels engendered by the thunder, jewels taken from
+the heart of the Arabian deer. I have jewels cut from the brain of a toad,
+and from the eyes of serpents. I have jewels which are authentically known
+to have fallen from the moon. Well, we will select the rarest, and have a
+pair of slippers encrusted with them, and in these slippers you shall
+dance for me, in a room that I know of--
+
+GUIDO
+(_Without moving._) Highness--!
+
+THE DUKE
+It will all be very amusing, for I think that she is now quite innocent,
+as pure as the high angels. Yes, it will be diverting to make her as I am.
+It will be an atrocious action that will inspire me to write lovelier
+verses than even I have ever written.
+
+GUIDO
+She is a child--
+
+THE DUKE
+Yes, yes, a frightened child who cannot speak, who stays as still as a
+lark that has been taken in a snare. Why, neither of her sisters can
+compare with this, and, besides, the elder one had a quite ugly mole upon
+her thigh--But that old rogue Balthazar Valori has a real jewel to offer,
+this time. Well, I will buy it.
+
+GUIDO
+Highness, I love this child--
+
+THE DUKE
+Ah, then you cannot ever be her husband. You would have suited otherwise.
+But we will find some other person of discretion--
+
+_For a moment the two men regard each other in silence. The DUKE becomes
+aware that he is being opposed. His brows contract a little, but he rises
+from the bench rather as if in meditation than in anger. Then GUIDO drops
+the cloak and gloves he has been holding until this. His lackeyship is
+over._
+
+GUIDO
+No!
+
+THE DUKE
+My friend, some long-faced people say you made a beast of me--
+
+GUIDO
+No, I will not have it.
+
+THE DUKE
+So do you beware lest the beast turn and rend you.
+
+GUIDO
+I have never been too nice to profit by your vices. I have taken my
+thrifty toll of abomination. I have stood by contentedly, not urging you
+on, yet never trying to stay you as you waded deeper and ever deeper into
+the filth of your debaucheries, because meanwhile you left me so much
+power.
+
+THE DUKE
+Would you reshape your handiwork more piously? Come, come, man, be content
+with it as I am. And be content with the kingdom I leave you to play with.
+
+GUIDO
+It was not altogether I who made of you a brainsick beast. But what you
+are is in part my handiwork. Nevertheless, you shall not harm this child.
+
+THE DUKE
+"Shall not" is a delightfully quaint expression. I only regret that you
+are not likely ever to use it to me again.
+
+GUIDO
+I know this means my ruin.
+
+THE DUKE
+Indeed, I must venture to remind you, Count Eglamore, that I am still a
+ruling prince--
+
+GUIDO
+That is nothing to me.
+
+THE DUKE
+And that, where you are master of very admirable sentiments, I happen to
+be master of all Tuscany.
+
+GUIDO
+At court you are the master. At your court in Florence I have seen many
+mothers raise the veil from their daughters' faces because you were
+passing. But here upon this hill-top I can see only the woman I love and
+the man who has insulted her.
+
+THE DUKE
+So all the world is changed, and Pandarus is transformed into Hector!
+Your words are very sonorous words, dear Eglamore, but by what deeds
+do you propose to back them?
+
+GUIDO
+By killing you, your highness.
+
+THE DUKE
+But in what manner? By stifling me with virtuous rhetoric? Hah, it is
+rather awkward for you--is it not--that our sumptuary laws forbid you
+merchants to carry swords?
+
+GUIDO
+(_Draws his dagger._) I think this knife will serve me, highness, to make
+earth a cleaner place.
+
+THE DUKE
+(_Drawing his long sword._) It would save trouble now to split you like a
+chicken for roasting.... (_He shrugs, and sheathes his sword. He unbuckles
+his sword-belt, and lays it aside._) No, no, this farce ascends in
+interest. So let us play it fairly to the end. I risk nothing, since from
+this moment you are useless to me, my rebellious lackey--
+
+GUIDO
+You risk your life, for very certainly I mean to kill you.
+
+THE DUKE
+Two go to every bargain, my friend. Now, if I kill you, it is always
+diverting to kill; and if by any chance you should kill me, I shall at
+least be rid of the intolerable knowledge that to-morrow will be just like
+to-day.
+
+_He draws his dagger. The two men engage warily but with determination,
+the DUKE presently advancing. GUIDO steps backward, and in the act trips
+over the pedler's pack, and falls prostrate. His dagger flies from his
+hand. GRACIOSA, with a little cry, has covered her face. Nobody strikes
+an attitude, because nobody is conscious of any need to be heroic, but
+there is a perceptible silence, which is broken by the DUKE'S quiet
+voice._
+
+THE DUKE
+Well! am I to be kept waiting forever? You were quicker in obeying my
+caprices yesterday. Get up, you muddy lout, and let us kill each other
+with some pretension of adroitness.
+
+GUIDO
+(_Rising, with a sob._) Ah!
+
+_He catches up the fallen dagger, and attacks the DUKE, this time with
+utter disregard of the rules of fence and his own safety. GUIDO drives the
+DUKE back. GUIDO is careless of defence, and desirous only to kill. The
+DUKE is wounded, and falls with a cry at the foot of the shrine. GUIDO
+utters a sort of strangled growl. He raises his dagger, intending to hack
+at and mutilate his antagonist, who is now unconscious. As GUIDO stoops,
+GRACIOSA, from behind him, catches his arm._
+
+GRACIOSA
+He gave you your life.
+
+_GUIDO turns. He drops the weapon. He speaks with great gentleness, almost
+with weariness._
+
+GUIDO
+Madonna, the Duke is not yet dead. That wound is nothing serious.
+
+GRACIOSA
+He spared your life.
+
+GUIDO
+It is impossible to let him live.
+
+GRACIOSA
+But I think he only voiced a caprice--
+
+GUIDO
+I think so, too, but I know that all this madman's whims are ruthless.
+
+GRACIOSA
+But you have power--
+
+GUIDO
+Power! I, who have attacked the Duke's person! I, who have done what your
+dead cousin merely planned to do!
+
+GRACIOSA
+Guido--!
+
+GUIDO
+Living, this brain-sick beast will make of you his plaything--and, a
+little later, his broken, soiled and cast-by plaything. It is therefore
+necessary that I kill Duke Alessandro.
+
+_GRACIOSA moves away from him, and GUIDO rises._
+
+GRACIOSA
+And afterward--and afterward you must die just as Tebaldeo died!
+
+GUIDO
+That is the law, madonna. But what he said is true. I am useless to him,
+a rebellious lackey to be punished. Whether I have his life or no, I am a
+lost man.
+
+GRACIOSA
+A moment since you were Count Eglamore, whom all our nobles feared--
+
+GUIDO
+Now there is not a beggar in the kingdom who would change lots with me.
+But at least I shall first kill this kingdom's lord.
+
+_He picks up his dagger._
+
+GRACIOSA
+You are a friendless and hunted man, in peril of a dreadful death. But
+even so, you are not penniless. These jewels here are of great value--
+
+_GUIDO laughs, and hangs the pearls about her neck._
+
+GUIDO
+Do you keep them, then.
+
+GRACIOSA
+There is a world outside this kingdom. You have only to make your way
+through the forest to be out of Tuscany.
+
+GUIDO
+(_Coolly reflective._) Perhaps I might escape, going north to Bologna, and
+then to Venice, which is at war with the Duke--
+
+GRACIOSA
+I can tell you the path to Bologna.
+
+GUIDO
+But first the Duke must die, because his death saves you.
+
+GRACIOSA
+No, Guido! I would have Eglamore go hence with hands as clean as possible.
+
+GUIDO
+Not even Eglamore would leave you at the mercy of this poet.
+
+GRACIOSA
+How does that matter! It is no secret that my father intends to market me
+as best suits his interests. And the great Duke of Florence, no less,
+would have been my purchaser! You heard him, "I will buy this jewel," he
+said. He would have paid thrice what any of my sisters' purchasers have
+paid. You know very well that my father would have been delighted.
+
+GUIDO
+(_Since the truth of what she has just said is known to him by more
+startling proofs than she dreams of, he speaks rather bitterly, as he
+sheathes the dagger._) And I must need upset the bargain between these
+jewel merchants!
+
+GRACIOSA
+(_Lightly._) "No, I will not have it!" Count Eglamore must cry. (_Her
+hand upon his arm._) My dear unthrifty pedler! it cost you a great deal to
+speak those words.
+
+GUIDO
+I had no choice. I love you. (_A pause. As GRACIOSA does not speak, GUIDO
+continues, very quiet at first._) It is a theme on which I shall not
+embroider. So long as I thought to use you as an instrument I could woo
+fluently enough. Today I saw that you were frightened and helpless--oh,
+quite helpless. And something in me changed. I knew for the first time
+that I loved you. And I knew I was not clean as you are clean. I knew
+that I had more in common with this beast here than I had with you.
+
+GRACIOSA
+(_Who with feminine practicality, while the man talks, has reached her
+decision._) We daughters of the Valori are so much merchandise.... Heigho,
+since I cannot help it, since bought and sold I must be, one day or
+another, at least I will go at a noble price. Yet I do not think I am
+quite worth the wealth and power which you have given up because of me. So
+it will be necessary to make up the difference, dear, by loving you very
+much.
+
+_GUIDO takes her hands, only half-believing that he understands her
+meaning. He puts an arm about her shoulder, holding her at a distance, the
+better to see her face._
+
+GUIDO
+You, who had only scorn to give me when I was a kingdom's master! Would
+you go with me now that I am homeless and friendless?
+
+GRACIOSA
+(_Archly._) But to me you do not seem quite friendless.
+
+GUIDO
+Graciosa--!
+
+GRACIOSA
+And I doubt if you could ever find your way through the forest alone.
+(_But as she stands there with one hand raised to each of his shoulders
+her vindication is self-revealed, and she indicates her bracelet rather
+indignantly._) Besides, what else is a poor maid to do, when she is
+burdened with a talisman that compels her to marry the man whom she--so
+very much--prefers?
+
+GUIDO
+(_Drawing her to him._) Ah, you shall not regret that foolish preference.
+
+GRACIOSA
+But come! There is a path--(_They are gathering up the pack and its
+contents, as GUIDO pauses by the DUKE._) Is he--?
+
+GUIDO
+He will not enter Hell to-day. (_The DUKE stirs._) Already he revives, you
+see. So let us begone before his attendants come.
+
+_GUIDO lifts her to the top of the wall. He lifts up the pack._
+
+GRACIOSA
+My lute!
+
+GUIDO
+(_Giving it to her._) So we may pass for minstrels on the road to Venice.
+
+GRACIOSA
+Yes, singing the Duke's songs to pay our way. (_GUIDO climbs over the
+wall, and stands on the far side, examining the landscape beneath._)
+Horsemen!
+
+GUIDO
+The Duke's attendants fetching him new women--two more of those numerous
+damsels that his song demands. They will revive this ruinous songmaker to
+rule over Tuscany more foolishly than Eglamore governed when Eglamore was
+a great lord. (_He speaks pensively, still looking down._) It is a very
+rich and lovely country, this kingdom which a half-hour since lay in the
+hollow of my hand. Now I am empty-handed.
+
+GRACIOSA
+(_With mocking reproach._) Empty-handed!
+
+_She extends to him both her hands. GUIDO takes them, and laughs joyously,
+saying,_ "Come!" _as he lifts her down._
+
+_There is a moment's silence, then is heard the song and lute-playing with
+which the play began, growing ever more distant:..._
+
+     "Knights as my serfs be given;
+    And as I will, let music go and come."
+
+_... The DUKE moves. The DUKE half raises himself at the foot of the
+crucifix._
+
+THE DUKE
+Eglamore! I am hurt. Help me, Eglamore!
+
+
+(THE CURTAIN FALLS)
+
+
+
+
+
+
+
+
+
+End of Project Gutenberg's The Jewel Merchants, by James Branch Cabell
+
+*** END OF THIS PROJECT GUTENBERG EBOOK THE JEWEL MERCHANTS ***
+
+***** This file should be named 9829-8.txt or 9829-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/9/8/2/9829/
+
+Produced by Suzanne Shell, Clare Boothby and PG Distributed Proofreaders
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.net/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.net),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.net
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

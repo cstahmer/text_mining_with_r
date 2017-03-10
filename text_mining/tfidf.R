@@ -65,10 +65,10 @@ setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
 # define the input directory for the texts to
 # be analyzed
-var_inputDir_character <- "/Users/cstahmer/Documents/rstudio_workspace/digitalmethods/text_mining/data/plainText"
+var_inputDir_character <- "data/plosOneSubset"
 
 # file path to write output csv files
-var_output_write_path <- "/Users/cstahmer/Desktop/"
+var_output_write_path <- "/Users/cstahmer/Desktop/tfidf_plosone"
 
 ###################################
 #      function declarations      #
