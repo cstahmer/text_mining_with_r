@@ -1,7 +1,7 @@
-# Script: word_frequency.R
+# Script: ngrams.R
 # A script written and distributed as a teaching
-# aid for demonstrating how to perform word
-# frequency analysis.  
+# aid for demonstrating how to perform ngram
+# extraction and visualization.  
 #
 # Because the code is designed for teaching, it
 # aims for step by step clarity rather than code
@@ -30,14 +30,6 @@
 # Associate Director for Humanities - UC Davis Data Science Initiative
 # Associate Director - English Broadside Ballad Archive
 #
-# Portions of this code are based on Matt Jockers'
-# Introduction to text analysis with R:
-#
-# Jockers, M. (2014). 
-# _Text Analysis with R for Students of Literature_
-# Quantitative Methods in the Humanities and Social …. 
-# doi:10.1007/978-3-319-03164-4
-#
 # This work is licensed under a Creative Commons 
 # Attribution-ShareAlike 4.0 International License.
 #
@@ -47,7 +39,11 @@
 library(NLP)
 library(tm)
 library(hunspell)
-library(zipfR)
+library(ngram)
+library(dplyr)
+library(ggraph)
+library(igraph)
+
 
 ###################################
 #         configuration           #
@@ -63,9 +59,14 @@ var_word_blacklist = c("orphan",
                        "search",
                        "missing")
 
-# identify a file location to save frequency
-# analysis
-var_outputFile <-"/Users/cstahmer/Desktop/textmining_workshop/word_freq.csv"
+# define n for the n-gram
+var_n = 2
+
+# define how many ngrams to output
+var_plot_ngram_n = 20
+
+# identify a file location to save ngrams
+var_outputFile <-"/Users/cstahmer/Desktop/textmining_workshop/ngrams.csv"
 
 ###################################
 #        Operational Code         #
@@ -131,51 +132,68 @@ var_texBlob_cleaned <- paste(var_wordList_cleaned, collapse=" ")
 # and any extra spaces removed.                        #
 ########################################################
 
-# calculate total word count
-var_totalWords <- length(var_wordList_cleaned)
+# calculate the n-grams
+obj_ngram <- ngram (var_texBlob_cleaned , n = var_n)
 
-# setup a frequency table
-obj_frequencies <- table(var_wordList_cleaned)
+# print truncated results to s creen
+print(obj_ngram, output = "truncated")
 
-# sort the frequency table
-obj_sortedFrequencies <- sort(obj_frequencies , decreasing=T)
+# get a phrase table
+obj_phrasetable <- get.phrasetable(obj_ngram)
 
-# convert to relative frequencies
-obj_sortedRelativeFrequencies <- 100*(obj_sortedFrequencies/sum(obj_sortedFrequencies))
+# make a dataframe representation of the ngrams
 
-# run the command below in your console to find the 
-# relative frequency of any word
-# obj_sortedFrequenciesRel_table["the"]
+# first setup an empty df
+obj_directed_ngram_table <- data.frame()
 
-# plot the actual word frequencies
-var_numToPlot_integer <- 50
-plot(obj_sortedFrequencies[1:var_numToPlot_integer], main="Word Frequency", type="b", xlab="Top Words", ylab="Frequency", xaxt ="n") 
-axis(1, 1:var_numToPlot_integer, labels=names(obj_sortedFrequencies [1:var_numToPlot_integer]))
+# now loop through the obj_phrasetable and extract,
+# split, and arrange the data as needed, then append it
+# to the next row of the df.  For instructional purposes
+# this is set to process only 20 ngrams.  To do the entire
+# ngram list, set loot  1:nrow(obj_phrasetable)
+for (i in 1:var_plot_ngram_n){
+  # extract the gram list into a string
+  var_gram_item <- obj_phrasetable[i,1]
+  print(var_gram_item)
+  # trim leading and trailing spaces
+  var_gram_item <- trimws(var_gram_item)
+  # now split into a vector of items
+  var_gramslist = unlist(strsplit(var_gram_item, split = ' '))
+  # make sure that we actually got a correct sized ngram.
+  # if not, don't process
+  if (length(var_gramslist == var_n)) {
+    # extract the frequency value
+    var_freq <- obj_phrasetable[i,2]
+    # combine the gramlist and frequency value into a single vector
+    var_gramslist <- c(var_gramslist, var_freq)
+    print(var_gramslist)
+    # bind the new vector to the end of the brigram dataframe
+    obj_directed_ngram_table <- rbind(obj_directed_ngram_table, as.data.frame(t(var_gramslist)))
+  }
+}
 
-# plot relative word frequencies
-var_numToPlot_integer <- 50
-plot(obj_sortedRelativeFrequencies[1:var_numToPlot_integer], main="Relative Word Frequency", type="b", xlab="Top Words", ylab="number of occurrances / total words", xaxt ="n") 
-axis(1, 1:var_numToPlot_integer, labels=names(obj_sortedRelativeFrequencies [1:var_numToPlot_integer]))
+# now assign some column names to the ngram table
+var_df_colnames <- paste0("Word", 1:var_n)
+var_df_colnames <- c(var_df_colnames, "Frequency")
+colnames(obj_directed_ngram_table) <- var_df_colnames
 
-# load a tm corpus to plot zipf's curve for the entire corpus
-obj_docs <- VCorpus(VectorSource(c(var_texBlob_cleaned)))
-obj_docTermMatrix <- DocumentTermMatrix(obj_docs)
-Zipf_plot(obj_docTermMatrix)
+# make into graph object
+obj_ngrams_graph = obj_directed_ngram_table %>% graph_from_data_frame()
 
-# save the results to a csv file
-write.csv(obj_sortedFrequencies, file = var_outputFile)
-
-# identify the word of interest
-var_wordOfInterest = "whale"
-
-# calcuate how many of the totals words are
-# the word of interest
-var_seedHits <- length(var_wordList_cleaned[which(var_wordList_cleaned == var_wordOfInterest)])
-
-# calcuate the percentage frequency of the
-# word of interest
-var_wiPercent <- 100 * (var_seedHits / var_totalWords)
-
-print(paste("The word ", var_wordOfInterest, " comprises ", var_wiPercent, " of the text."))
+# plot the graph
+ggraph(obj_ngrams_graph,
+       layout = 'fr') +
+  geom_edge_link(aes(edge_alpha = var_plot_ngram_n),
+                 show.legend = FALSE,
+                 arrow = grid::arrow(type = "open",
+                                     length = unit(.10, "inches")),
+                 end_cap = circle(.07, "inches")) +
+  geom_node_point(color = "lightblue",
+                  size = 3) +
+  geom_node_text(aes(label = name),
+                 repel = TRUE) +
+  theme_void()
 
 
+# save the bigram table
+write.csv(obj_directed_ngram_table, file = var_outputFile)

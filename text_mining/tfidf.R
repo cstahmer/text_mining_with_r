@@ -22,37 +22,22 @@
 # variables, functions, and objects all variables in 
 # the code begin with the "var_" prefix.
 #
-# (2) In order to facilitate distinguishing a
-# a variable's type or class, all variables are
-# names using a _suffix that identifies the 
-# variable type.
-#
-# (3) In order to facilitate distinguishing between
+# (2) In order to facilitate distinguishing between
 # variables, functions, and objects all objects in 
 # the code begin with the "obj_" prefix.
 #
-# (4) Locally defined functions begin with the 
+# (3) Locally defined functions begin with the 
 # function_ prefix
 #
-# Copyright Carl G. Stahmer - 2016
-# Director of Digital Scholarship - UC Davis Library
-# Associate Director for Humanities - Data Science Initiative
+# Copyright Carl G. Stahmer - 2018
+# Director of Data and Digital Scholarship - UC Davis Library
+# Associate Director for Humanities - UC Data Science Initiative
 # Associate Director - English Broadside Ballad Archive
-#
-# Portions of this code are based on Matt Jockers'
-# Introduction to text analysis with R:
-#
-# Jockers, M. (2014). 
-# _Text Analysis with R for Students of Literature_
-# Quantitative Methods in the Humanities and Social …. 
-# doi:10.1007/978-3-319-03164-4
 #
 # This work is licensed under a Creative Commons 
 # Attribution-ShareAlike 4.0 International License.
 #
 # see http://creativecommons.org/licenses/by-sa/4.0/
-
-# install.packages("tm")
 
 library(tm)
 
@@ -60,34 +45,19 @@ library(tm)
 #         configuration           #
 ###################################
 
-# set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
-
 # define the input directory for the texts to
 # be analyzed
-var_inputDir_character <- "data/plosOneSubset"
+var_inputDir <- "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plosOneSubset"
 
 # file path to write output csv files
-var_output_write_path <- "/Users/cstahmer/Desktop/tfidf_plosone"
-
-###################################
-#      function declarations      #
-###################################
-
-# A callable function that writes out the contents
-# of a vector in human readable form.
-show.vector <- function(file.name.v) {
-  for(i in 1:length(file.name.v)) { 
-    cat(i, file.name.v[i], "\n", sep=" ")
-  } 
-}
+var_output_write_path <- "/Users/cstahmer/Desktop/textmining_workshop/tfidf_plosone/"
 
 ###################################
 #        Operational Code         #
 ###################################
 
 # create a tm corpus
-obj_termMatrix_corpus <- VCorpus(DirSource(directory = var_inputDir_character), readerControl = list(language = "en"))
+obj_termMatrix_corpus <- VCorpus(DirSource(directory = var_inputDir), readerControl = list(language = "en"))
 
 # create the tdm from the corpus
 obj_stemmed_tdm <- TermDocumentMatrix(obj_termMatrix_corpus,
@@ -107,6 +77,15 @@ var_numRows_int <- nrow(obj_tfidfMatrix_tdm)
 # get the number of columns in the tfidf
 var_numcols_int <- ncol(obj_tfidfMatrix_tdm)
 
+# look at the results for a single item
+obj_single_doc_matrix <- as.matrix(obj_tfidfMatrix_tdm[, 1])
+
+# sort the results
+obj_single_doc_matrix_sorted <- obj_single_doc_matrix[sort.list(-obj_single_doc_matrix[,1]), decreasing=TRUE]
+
+# print top ten results
+obj_single_doc_matrix_sorted[1:10]
+
 # loop throught the matrix by column
 for (var_document_integer in 1:var_numcols_int) {
   
@@ -118,10 +97,9 @@ for (var_document_integer in 1:var_numcols_int) {
   var_singleDocNonNumeric_matrix <- as.matrix(var_singleDoc_matrix[ !var_numericLabels_list, ]) 
   
   # Sort the results Matrix
-  var_sorted_matrix <- var_singleDocNonNumeric_matrix[sort.list(var_singleDocNonNumeric_matrix[,1]), decreasing=TRUE]
+  var_sorted_matrix <- var_singleDocNonNumeric_matrix[sort.list(-var_singleDocNonNumeric_matrix[,1]), decreasing=TRUE]
   
   # Write CSV in R
-  # write.csv(var_sorted_matrix, file = "/Users/cstahmer/SpiderOak Hive/writing/close_reading_ballads/tfidf2.csv")
   var_write_path <- paste(var_output_write_path, "tfidf.", colnames(var_singleDoc_matrix)[1], ".csv", sep = "")
   write.csv(var_sorted_matrix, file = var_write_path)
 }

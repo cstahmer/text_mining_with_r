@@ -21,30 +21,17 @@
 # variables, functions, and objects all variables in 
 # the code begin with the "var_" prefix.
 #
-# (2) In order to facilitate distinguishing a
-# a variable's type or class, all variables are
-# names using a _suffix that identifies the 
-# variable type.
-#
-# (3) In order to facilitate distinguishing between
+# (2) In order to facilitate distinguishing between
 # variables, functions, and objects all objects in 
 # the code begin with the "obj_" prefix.
 #
-# (4) Locally defined functions begin with the 
+# (3) Locally defined functions begin with the 
 # function_ prefix
 #
-# Copyright Carl G. Stahmer - 2016
-# Director of Digital Scholarship - UC Davis Library
+# Copyright Carl G. Stahmer - 2018
+# Director of Data and Digital Scholarship - UC Davis Library
 # Associate Director for Humanities - Data Science Initiative
 # Associate Director - English Broadside Ballad Archive
-#
-# Portions of this code are based on Matt Jockers'
-# Introduction to text analysis with R:
-#
-# Jockers, M. (2014). 
-# _Text Analysis with R for Students of Literature_
-# Quantitative Methods in the Humanities and Social …. 
-# doi:10.1007/978-3-319-03164-4
 #
 # This work is licensed under a Creative Commons 
 # Attribution-ShareAlike 4.0 International License.
@@ -58,6 +45,7 @@
 # install.packages("RWeka")
 # install.packages("stats")
 # install.packages("openNLPmodels.en", repos = "http://datacube.wu.ac.at/", type = "source")
+# install.packages("dplyr")
 
 # For alternate language openNLPModels see http://datacube.wu.ac.at/src/contrib/
 
@@ -66,13 +54,11 @@ library(NLP)
 library(openNLP)
 library(RWeka)
 library(stats)
+library(dplyr)
 
 ###################################
 #         configuration           #
 ###################################
-
-# set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
 
 # set the entity type you want to extract.  Legal
 # values are: 
@@ -83,11 +69,10 @@ setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
 #     percentage
 #     person
 #     misc [proper nouns deemed not to fit anther category]
-var_entityType_string = "person"
+var_entityType = "person"
 
 # set the file path
-#var_filePath_string = "data/plainText/melville.txt"
-var_filePath_character = "data/plainText/emerson.txt"
+var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText/austen.txt"
 
 ###################################
 #      function declarations      #
@@ -142,39 +127,39 @@ function_checkForEntities <- function(obj_doc, var_kind_character) {
 # the resulting vector will have as many elements as
 # lines in the file with the contents of each line
 # contained in a character vector.
-var_readLinesRaw_vector <- readLines(var_filePath_character)
+var_readLinesRaw <- readLines(var_textFile)
 
 # collapse the vector of lines into a single character 
 # vector
-var_textBlob_character <- paste(var_readLinesRaw_vector, collapse = " ")
+var_textBlob <- paste(var_readLinesRaw, collapse = " ")
 
 # explicitly convert var_textBlog_character to a Java
 # string class.  Necessary because the NLP is written
 # in java.
-var_textBlob_string <- as.String(var_textBlob_character)
+var_textBlob_string <- as.String(var_textBlob)
 
 # create the annotators.
 obj_sentence_annotator <- Maxent_Sent_Token_Annotator()
 obj_word_annotator <- Maxent_Word_Token_Annotator()
-obj_entity_annotator <- Maxent_Entity_Annotator(kind = var_entityType_string)
+obj_entity_annotator <- Maxent_Entity_Annotator(kind = var_entityType)
 
 # assemble the list of annotators into a processing
 # pipeline that will be used to configure the annotator
 var_pipeline_list <- list(obj_sentence_annotator, obj_word_annotator, obj_entity_annotator)
 
 # create the final model
-var_annotationModel_matrix <- annotate(var_textBlob_string, var_pipeline_list)
+var_annotationModel <- annotate(var_textBlob_string, var_pipeline_list)
 
 # create an annotated doc.  This is a version of the document that is
 # represented as a structured hierarchy of sentences and words
-obj_annotatedText_document <- AnnotatedPlainTextDocument(var_textBlob_string, var_annotationModel_matrix)
+obj_annotatedText_document <- AnnotatedPlainTextDocument(var_textBlob_string, var_annotationModel)
 
 # check to see if there are any matching entities.
 # If so, process. If not, extit.
-if (function_checkForEntities(obj_annotatedText_document, var_kind_character = var_entityType_string)) {
+if (function_checkForEntities(obj_annotatedText_document, var_kind_character = var_entityType)) {
 
   # get all entities of the type we are looking for
-  var_foundEntities_vector <- function_extractEntities(obj_annotatedText_document, var_kind_character = var_entityType_string)
+  var_foundEntities_vector <- function_extractEntities(obj_annotatedText_document, var_kind_character = var_entityType)
   
   # get vector of unique items
   var_uniqueEntities_vector <- unique(var_foundEntities_vector)
@@ -185,22 +170,21 @@ if (function_checkForEntities(obj_annotatedText_document, var_kind_character = v
   print("Sorted entity list:")
   function_show_vector(var_sortedEntities_vector)
   
-  ###################################
-  # Code below is for cleaning list #
-  ###################################
-  
-  # review list of returned entities and create list
-  # of items entities that should be removed from the list
-  var_droplist_vector <- c("With", "Starbuck", "Watts", "Plato")
-  
-  # now remove items from the droplist from the vector of
-  # extracted named entities
-  var_cleanedList_vector <- var_sortedEntities_vector[! var_sortedEntities_vector %in% var_droplist_vector ]
-  
-  print("Filtered entity list:")
-  function_show_vector(var_cleanedList_vector)
-  
 } else {
   print("No entities found")
 }
 
+###################################
+# Code below is for cleaning list #
+###################################
+
+# review list of returned entities and create list
+# of items entities that should be removed from the list
+var_droplist_vector <- c("No--to Combe Magna ", "THIS.", "THAT.", "Mrs.", "Mr.")
+
+# now remove items from the droplist from the vector of
+# extracted named entities
+var_cleanedList_vector <- var_sortedEntities_vector[! var_sortedEntities_vector %in% var_droplist_vector ]
+
+print("Filtered entity list:")
+function_show_vector(var_cleanedList_vector)

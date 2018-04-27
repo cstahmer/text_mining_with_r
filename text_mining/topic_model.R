@@ -31,8 +31,8 @@
 # 0.11628 = the distribution probability for the topic
 # "brain regions activation..." = the top tokens in the topic
 
-#install.packages("mallet")
-#install.packages("wordcloud")
+install.packages("mallet")
+install.packages("wordcloud")
 
 library(mallet)
 library(wordcloud)
@@ -42,10 +42,10 @@ library(wordcloud)
 ###################################
 
 # Set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
+setwd("/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/")
 
 # Set directory where files live
-input_directory_var <- "data/plosOneSubset"
+input_directory_var <- "data/cleanText/"
 
 # Set the Dirichlet alpha parameter
 # The lower the value (can be negative)
@@ -118,7 +118,7 @@ for(i in 1:length(files.v)) {
 
 #now instanciate the mallet object
 mallet.instances <- mallet.import(documents$x, documents$y,
-                                  "/Users/cstahmer/ballad_text_full/Dir4/stoplist.csv",
+                                  "text_mining/stoplist.csv",
                                   FALSE,
                                   token.regexp="[\\p{L}']+")
 

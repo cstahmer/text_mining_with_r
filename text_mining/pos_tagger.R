@@ -18,30 +18,17 @@
 # variables, functions, and objects all variables in 
 # the code begin with the "var_" prefix.
 #
-# (2) In order to facilitate distinguishing a
-# a variable's type or class, all variables are
-# names using a _suffix that identifies the 
-# variable type.
-#
-# (3) In order to facilitate distinguishing between
+# (2) In order to facilitate distinguishing between
 # variables, functions, and objects all objects in 
 # the code begin with the "obj_" prefix.
 #
-# (4) Locally defined functions begin with the 
+# (3) Locally defined functions begin with the 
 # function_ prefix
 #
-# Copyright Carl G. Stahmer - 2016
-# Director of Digital Scholarship - UC Davis Library
-# Associate Director for Humanities - Data Science Initiative
+# Copyright Carl G. Stahmer - 2018
+# Director of Data Digital Scholarship - UC Davis Library
+# Associate Director for Humanities - UC Davis Data Science Initiative
 # Associate Director - English Broadside Ballad Archive
-#
-# Portions of this code are based on Matt Jockers'
-# Introduction to text analysis with R:
-#
-# Jockers, M. (2014). 
-# _Text Analysis with R for Students of Literature_
-# Quantitative Methods in the Humanities and Social …. 
-# doi:10.1007/978-3-319-03164-4
 #
 # This work is licensed under a Creative Commons 
 # Attribution-ShareAlike 4.0 International License.
@@ -101,27 +88,11 @@ library(openNLPmodels.en)
 #         configuration           #
 ###################################
 
-# set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
-
 # set the file path
-#var_filePath_character = "data/cleanText/melville_truncated.txt"
-var_filePath_character = "data/plainText/emerson.txt"
+var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText/emerson.txt"
 
 # calculate identification probability
 var_showProbability_boolean <- TRUE
-
-###################################
-#      function declarations      #
-###################################
-
-# A callable function that writes out the contents
-# of a vector in human readable form.
-function_show_vector <- function(var_file_name_vec) {
-  for(i in 1:length(var_file_name_vec)) { 
-    cat(i, var_file_name_vec[i], "\n", sep=" ")
-  } 
-}
 
 ###################################
 #        Operational Code         #
@@ -131,15 +102,15 @@ function_show_vector <- function(var_file_name_vec) {
 # The resulting vector will have as many elements as
 # lines in the file with the contents of each line
 # contained in a character vector.
-var_textLines_vector <- readLines(var_filePath_character)
+var_textLines <- readLines(var_textFile)
 
 # collapse the vector of lines into a single element
-var_textBlog_character <- paste(var_textLines_vector, collapse = " ")
+var_textBlob <- paste(var_textLines, collapse = " ")
 
 # explicitly convert the var_textBlog_character character 
 # to a String class.  Necessary because the NLP is written
 # in java.
-var_text_string <- as.String(var_textBlog_character)
+var_text_string <- as.String(var_textBlob)
 
 # create the annotators.
 obj_sentence_annotator <- Maxent_Sent_Token_Annotator()
@@ -151,6 +122,8 @@ obj_pos_annotator <- Maxent_POS_Tag_Annotator(language = "en", probs = var_showP
                     # model = a character string giving the path to the Maxent model file to be 
                     #         used, or NULL indicating to use a default model file for the given 
                     #         language 
+# create the initial sentence/word annotation model matrix
+var_sentence_annotation_model_matrix <- annotate(var_text_string, list(obj_sentence_annotator))
 
 # create the initial sentence/word annotation model matrix
 var_base_annotation_model_matrix <- annotate(var_text_string, list(obj_sentence_annotator, obj_word_annotator))
@@ -158,22 +131,15 @@ var_base_annotation_model_matrix <- annotate(var_text_string, list(obj_sentence_
 # create a POS Tag Annotator
 var_pos_annotation_model_matrix <- annotate(var_text_string, obj_pos_annotator, var_base_annotation_model_matrix)
 
-print(var_pos_annotation_model_matrix)
-
-
-# create a model of the text as an ordered collection
-# parts of speeach.
+# create a model of the text as an ordered collection of tokens 
+# w/ part of speech and probablility info
 var_textRawPOSModel_matrix <- subset(var_pos_annotation_model_matrix, type == "word")
-var_cleanedTextPOSModel_matrix <- sapply(var_textRawPOSModel_matrix$features, `[[`, "POS")
 
-print(var_cleanedTextPOSModel_matrix)
+# create a model of text as ordered POS identifiers
+var_cleanedTextPOSModel_matrix <- sapply(var_textRawPOSModel_matrix$features, `[[`, "POS")
 
 # create a POS count table
 var_PODCount_table <- table(var_cleanedTextPOSModel_matrix)
-print(var_PODCount_table)
 
 # extract token/POS pairs
 var_wordPOSpairs_vector <- sprintf("%s/%s", var_text_string[var_textRawPOSModel_matrix], var_cleanedTextPOSModel_matrix)
-
-function_show_vector(var_wordPOSpairs_vector)
-

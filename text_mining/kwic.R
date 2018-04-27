@@ -119,7 +119,7 @@ for(var_iteration_int in 1:length(var_files_vector)){
   var_text_lines_vec <- scan(var_filepath_str, what="character", sep="\n") 
   
   # create a new vector that holds the entire text as
-  # as a blog (one long running chunk of text).  This is 
+  # as a blob (one long running chunk of text).  This is 
   # accomplished by joining (using collapse) the vector of 
   # lines (var_text_raw_vec), putting a space between each
   # each element/line.  The result is a charactre vector

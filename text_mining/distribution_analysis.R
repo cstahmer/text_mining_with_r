@@ -19,86 +19,108 @@
 # variables, functions, and objects all variables in 
 # the code begin with the "var_" prefix.
 #
-# (2) In order to facilitate distinguishing a
-# a variable's type or class, all variables are
-# names using a _suffix that identifies the 
-# variable type.
-#
-# (3) In order to facilitate distinguishing between
+# (2) In order to facilitate distinguishing between
 # variables, functions, and objects all objects in 
 # the code begin with the "obj_" prefix.
 #
-# (4) Locally defined functions begin with the 
+# (3) Locally defined functions begin with the 
 # function_ prefix
 #
-# Copyright Carl G. Stahmer - 2016
-# Director of Digital Scholarship - UC Davis Library
-# Associate Director for Humanities - Data Science Initiative
+# Copyright Carl G. Stahmer - 2018
+# Director of Data and Digital Scholarship - UC Davis Library
+# Associate Director for Humanities - UC Davis Data Science Initiative
 # Associate Director - English Broadside Ballad Archive
 #
-# Portions of this code are based on Matt Jockers'
-# Introduction to text analysis with R:
-#
-# Jockers, M. (2014). 
-# _Text Analysis with R for Students of Literature_
-# Quantitative Methods in the Humanities and Social …. 
-# doi:10.1007/978-3-319-03164-4
 #
 # This work is licensed under a Creative Commons 
 # Attribution-ShareAlike 4.0 International License.
 #
 # see http://creativecommons.org/licenses/by-sa/4.0/
 
+library(NLP)
+library(tm)
+
 ###################################
 #         configuration           #
 ###################################
 
-# set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
-
 # identify the text file to analyze
-var_textFile_character = "data/plainText/melville.txt"
+var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/cleanText/melville.txt"
 
-# define a word of interest that you want to plot
-var_wordofinterest_character = "whale"
+# identify any words you want removed from
+# the corpus prior to analysis
+var_word_blacklist = c("orphan", 
+                       "children",
+                       "search",
+                       "missing")
+
+# identify the word of interest
+var_wordOfInterest = "ahab"
 
 ###################################
 #        Operational Code         #
 ###################################
 
-# load the text
-var_textLines_vector <- scan(var_textFile_character, what="character", sep="\n")
+# load the file to be analized into a character vector.
+# The resulting vector will have as many elements as
+# lines in the file with the contents of each line
+# contained in a character vector.
+var_textLines <- readLines(var_textFile)
 
-# find the location in the vector where the first chapter heading is
-var_startElement_integer <- which(var_textLines_vector == "CHAPTER 1. Loomings.")
+# collapse the vector of lines into a single element
+var_textBlob <- paste(var_textLines, collapse = " ")
 
-# find the locatin in the vector where the last word of the text is
-var_endElement_integer <- which(var_textLines_vector == "orphan.")
+# change to lowercase
+var_textBlob_lowercase <- tolower(var_textBlob)
 
-# subset the lines (vector elements) between the start element and 
-# the end element into new vector
-var_subsettedTextLines_vector <-  var_textLines_vector[var_startElement_integer:var_endElement_integer]
+# remove stopwords
+var_textBlob_unStopped <- removeWords(var_textBlob_lowercase, stopwords('english'))
 
-# collapse the vector elements in var_subsettedTextLines_vector
-# into a single text blog.  Put spaces between the elements
-# when they are collapsed.
-var_textBlob_character <- paste(var_subsettedTextLines_vector, collapse=" ")
+# use the below line to remove any other tokens based on blacklist
+var_textBlob_blacklisted <- removeWords(var_textBlob_unStopped, var_word_blacklist)
 
-# convert to lower case
-var_lowerCaseBlob_vector <- tolower(var_textBlob_character)
+# remove punctuation
+var_textBlob_noPunctuation <- removePunctuation(var_textBlob_blacklisted)
 
-# make a list of words 
-var_textWords_list <- strsplit(var_lowerCaseBlob_vector, "\\W")
+# remove numeric elements
+var_textBlob_nonNumeric <- gsub("\\d+", "", var_textBlob_noPunctuation)
 
-# convert list to vector
-var_textWords_vector <- unlist(var_textWords_list)
+# collapse multiple spaces
+var_textBlob_collapseWhitespace <- gsub("\\s+", " ", var_textBlob_nonNumeric)
 
-# get the elements that are not blank
-var_nonBlankElements_vector  <-  which(var_textWords_vector!="")
+# trim leading and trailing spaces
+var_textBlob_trimmed <- trimws(var_textBlob_collapseWhitespace)
 
-# re-define the word vector using only 
-# those elements that aren't blank
-var_textWords_vector <-  var_textWords_vector[var_nonBlankElements_vector]
+# convert blob to list of words
+var_wordlist = unlist(strsplit(var_textBlob_trimmed, split = ' '))
+
+# get a list of all non-word tokens in the blob.  This can taka a long
+# time, so the code below includes two lines of code.  To run in production
+# uncomment the line that uses the hunspell library.  To run during testing
+# and learning comment out the hunspell line and uncomment the line that
+# assigns a random list of non-words to the var_nonWord vector.
+#var_nonWords <- hunspell(var_textBlob_trimmed, dict = dictionary("en_US"))
+var_nonWords <- c("circle", "like", "another", "ixion")
+
+# get a list of all elements in the list of words that
+# aren't a real word
+var_nonwordList <- match(var_wordlist, var_nonWords)
+
+# subset the original list of words to include only those
+# words that don't match the non-word list
+var_wordList_cleaned <- var_wordlist[is.na(var_nonwordList)]
+
+# collapse the vector back into a text blob
+var_texBlob_cleaned <- paste(var_wordList_cleaned, collapse=" ")
+
+########################################################
+# At this point you have a nicely cleaned text blob    # 
+# is all lower case, has stop words, stand-alone       #
+# digits, a user-defined list of other words,          #
+# and any non-word (as compared to dictionary) tokens, #
+# and any extra spaces removed.                        #
+########################################################
+
 
 # dispersion plot is calculated on a measure of time
 # where each word in the sequence of words in the novel
@@ -107,36 +129,25 @@ var_textWords_vector <-  var_textWords_vector[var_nonBlankElements_vector]
 # generate sequence of beats as list of numbered beats
 # this will serve as the x axis (time axis) of our
 # dispersion plot
-var_spaceTime_vector <- seq(1:length(var_textWords_vector))
+var_spaceTime_vector <- seq(1:length(var_wordList_cleaned))
 
 # calculate the location of every instance of the word
 # of interest defined above in the word vector
-var_wordLocations_vector <- which(var_textWords_vector == var_wordofinterest_character)
+var_wordLocations <- which(var_wordList_cleaned == var_wordOfInterest)
 
 # y axis must now be constructed as scale of TRUE/FALSE
-# values for the presence of the wordofinterest. R has 
-# a special variable valuable of NA (not available) which 
-# indicates that a condition is not met in a particular
-# element of an index or matrix.  Here we create an 
+# values for the presence of the wordofinterest. Create a 
 # y-axis vector that is the same length as the x-axis
 # vector and fill it with NAs
 var_yAxis_vector <- rep(NA,length(var_spaceTime_vector))
 
 # now reset the NAs in the y-axis to 1 (TRUE) every place 
 # where the wordofinterest appears
-var_yAxis_vector[var_wordLocations_vector] <- 1
+var_yAxis_vector[var_wordLocations] <- 1
 
 # now generate the plot
-plot(var_yAxis_vector, main="Dispersion Plot of `whale' in Moby Dick",
-     xlab="Novel Time - Words Location in the Novel", ylab="whale", type="h", ylim=c(0,1), yaxt='n')
-
-
-
-
-
-
-
-
-
+plot_title <- paste("Dispersion Plot of token '", var_wordOfInterest, "'", sep="")
+plot(var_yAxis_vector, main=plot_title,
+     xlab="Novel Time - Words Location in Text", ylab=var_wordOfInterest, type="h", ylim=c(0,1), yaxt='n')
 
 
