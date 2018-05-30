@@ -122,6 +122,7 @@ obj_pos_annotator <- Maxent_POS_Tag_Annotator(language = "en", probs = var_showP
                     # model = a character string giving the path to the Maxent model file to be 
                     #         used, or NULL indicating to use a default model file for the given 
                     #         language 
+
 # create the initial sentence/word annotation model matrix
 var_sentence_annotation_model_matrix <- annotate(var_text_string, list(obj_sentence_annotator))
 

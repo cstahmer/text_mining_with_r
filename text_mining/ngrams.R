@@ -50,7 +50,8 @@ library(igraph)
 ###################################
 
 # identify the text file to analyze
-var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/cleanText/melville.txt"
+#var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/cleanText/melville.txt"
+var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plosONE/0000095.txt"
 
 # identify any words you want removed from
 # the corpus prior to analysis
@@ -105,7 +106,7 @@ var_textBlob_trimmed <- trimws(var_textBlob_collapseWhitespace)
 # convert blob to list of words
 var_wordlist = unlist(strsplit(var_textBlob_trimmed, split = ' '))
 
-# get a list of all non-word tokens in the blob.  This can taka a long
+# get a list of all non-word tokens in the blob.  This can take a long
 # time, so the code below includes two lines of code.  To run in production
 # uncomment the line that uses the hunspell library.  To run during testing
 # and learning comment out the hunspell line and uncomment the line that

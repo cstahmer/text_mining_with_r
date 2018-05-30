@@ -72,7 +72,9 @@ library(dplyr)
 var_entityType = "person"
 
 # set the file path
-var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText/austen.txt"
+#var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText/austen.txt"
+var_textFile = "/Users/cstahmer/Desktop/quinn/winiarski_warren_w.txt"
+
 
 ###################################
 #      function declarations      #
