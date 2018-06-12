@@ -63,6 +63,7 @@
 # install.packages("data.table")
 # install.packages("koRpus")
 # install.packages("koRpus.lang.en")
+<<<<<<< HEAD
 # install.packages("colorspace")
 # install.packages("utf8")
 # install.packages("RColorBrewer")
@@ -130,7 +131,7 @@
 # install.packages("servr")
 # install.packages("jsonlite")
 
-# Load Required Packages
+# Load Required Libraries
 library(parallel)
 library(NLP)
 library(tm)
