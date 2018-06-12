@@ -63,11 +63,11 @@ library(XML)
 #         configuration           #
 ###################################
 
-# set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
-
 # set the file path
 filePath.str = "data/plainText/melvyl.txt"
+
+var_input_file <- "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/cleanText/melvyl.txt"
+
 
 ###################################
 #      function declarations      #
@@ -109,23 +109,23 @@ function_show_vector <- function(var_vec_to_show_vector) {
 # the resulting vector will have as many elements as
 # lines in the file with the contents of each line
 # contained in a character vector.
-text.vector <- readLines(filePath.str)
+var_text_lines <- readLines(var_inputDir_string, warn = FALSE)
 
 # convert to lower case
-text.vector <- tolower(text.vector)
+var_text_lines <- tolower(var_text_lines)
 
 # collapse the vector of lines into a single character 
 # vector
-text.string <- paste(text.vector, collapse = " ")
+var_text_blob <- paste(var_text_lines, collapse = " ")
 
 # split each line on spaces
-text.v <- strsplit(text.string, "\\W")
+var_text_words_list <- strsplit(var_text_blob, "\\W")
 
 # unlist to a word vector
-text.v <- unlist(text.v)
+var_text_words <- unlist(var_text_words_list)
 
 # do the lemmatization
-lemmatized.v <- lemmatize(text.v[50:100])
+lemmatized.v <- lemmatize(var_text_words[50:100])
 
 # output results
 #function_show_vector(lemmatized.v)
