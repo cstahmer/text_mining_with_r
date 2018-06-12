@@ -42,7 +42,11 @@
 # Attribution-ShareAlike 4.0 International License.
 #
 # see http://creativecommons.org/licenses/by-sa/4.0/
-#install.packages("tm")0
+
+# install.packages("NLP")
+# install.packages("tm")
+# install.packages("hunspell")
+# install.packages("zipfR")
 
 library(NLP)
 library(tm)
@@ -141,7 +145,7 @@ obj_frequencies <- table(var_wordList_cleaned)
 obj_sortedFrequencies <- sort(obj_frequencies , decreasing=T)
 
 # convert to relative frequencies
-obj_sortedRelativeFrequencies <- 100*(obj_sortedFrequencies/sum(obj_sortedFrequencies))
+obj_sortedRelativeFrequencies <- 100*(obj_sortedFrequencies/var_totalWords)
 
 # run the command below in your console to find the 
 # relative frequency of any word
@@ -162,9 +166,6 @@ obj_docs <- VCorpus(VectorSource(c(var_texBlob_cleaned)))
 obj_docTermMatrix <- DocumentTermMatrix(obj_docs)
 Zipf_plot(obj_docTermMatrix)
 
-# save the results to a csv file
-write.csv(obj_sortedFrequencies, file = var_outputFile)
-
 # identify the word of interest
 var_wordOfInterest = "whale"
 
@@ -178,4 +179,6 @@ var_wiPercent <- 100 * (var_seedHits / var_totalWords)
 
 print(paste("The word ", var_wordOfInterest, " comprises ", var_wiPercent, " of the text."))
 
+# save the results to a csv file
+write.csv(obj_sortedFrequencies, file = var_outputFile)
 
