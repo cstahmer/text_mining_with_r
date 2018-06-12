@@ -53,6 +53,8 @@
 # see http://creativecommons.org/licenses/by-sa/4.0/
 
 # install.packages("rJava")
+# install.packages("qdap")
+install.packages("xlsx")
 
 library(qdap)
 
@@ -64,10 +66,10 @@ library(qdap)
 setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
 # Define the input directory for the texts to be analyzed.
-var_inputDir_character <- "data/cleanText/"
+var_inputDir_character <- "~/Desktop/pylori_ascii"
 
 # Define a word of interest that you want to plot.
-var_wordofinterest_str = "ship"
+var_wordofinterest_str = "pylori"
 
 # Define the range before and after that you want to examine.
 var_range_int = 3
