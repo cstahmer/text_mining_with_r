@@ -51,15 +51,15 @@
 #
 # see http://creativecommons.org/licenses/by-sa/4.0/
 
+# install.packages("stylo")
+
 ###################################
 #         configuration           #
 ###################################
 
-# Set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
-
 # Define the input directory for the texts to be analyzed.
-var_inputDir_string <- "data/plainText"
+var_textFilePath = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText"
+
 
 ###################################
 #      function declarations      #
@@ -79,7 +79,7 @@ function_showVector <- function(var_vec_to_show_vector) {
 
 # Get a list of all files in the working directory
 # that have the appropriate file suffix.
-var_files_vector <- dir(var_inputDir_string, "\\.txt$")
+var_files_vector <- dir(var_textFilePath, "\\.txt$")
 
 # Send our files vector to our function_showVector
 # function to print to display.
@@ -101,17 +101,11 @@ var_relativeTextFrequencies_list <- list()
 # and open and process them.
 for(var_iteration_int in 1:length(var_files_vector)){
   
-  # Define the file path to the file to read by concatenating 
-  # (joining) the var_inputDir_string to the filename contained in 
-  # the vector element being processed (element[var_iteration_int])
-  # and putting a forward shlash between them so that the result
-  # is a correct file path.
-  var_filepath_string <- paste(var_inputDir_string, var_files_vector[var_iteration_int], sep="/")
-  
+
   # Read the file into a character vector using the scan funtion, spliting 
   # the input on newlines ("\n" is unix shorthand for newline) so that each
   # element in the vector is a single line of text.
-  var_textLines_vector <- scan(var_filepath_string, what="character", sep="\n") 
+  var_textLines_vector <- scan(var_textFilePath, what="character", sep="\n") 
   
   # Create a new vector that holds the entire text as
   # as a blob (one long running chunk of text).  This is 
