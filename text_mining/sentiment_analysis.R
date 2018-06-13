@@ -37,6 +37,8 @@
 #
 # see http://creativecommons.org/licenses/by-sa/4.0/
 
+install.packages("sentimentr")
+
 library(sentimentr)
 
 ###################################
@@ -54,7 +56,7 @@ var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/
 # The resulting vector will have as many elements as
 # lines in the file with the contents of each line
 # contained in a character vector.
-var_textLines <- readLines(var_textFile)
+var_textLines <- readLines(var_textFile, warn=FALSE)
 
 # collapse the vector of lines into a single element
 var_textBlob <- paste(var_textLines, collapse = " ")
@@ -67,29 +69,3 @@ obj_sentiment_table <- sentiment(var_sentences)
 
 # plot the sentiment as we move through the text
 plot(obj_sentiment_table)
-
-###################################################
-# calculate grouped sentiment scores for          #
-# speakers from the 2012 Presidential debates.    #
-# Note that the presidential_debates_2012         #
-# dataset is included as part of the sentimentr   #
-# package, so we don't have to load it from disk. #
-###################################################
-
-# take a lookt at the structure of presidential_debates_2012
-str(presidential_debates_2012)
-
-# run a nexted set of commands that tell the system
-# use presidential_debates_2012 as its dataset:
-#      with(presidential_debates_2012)
-# get sentiment group by person->time->sentence
-var_sentiment_table <- with(
-  presidential_debates_2012, 
-  sentiment_by(
-    get_sentences(dialogue), 
-    list(person, time)
-  )
-)
-
-# plot the sentence sentiments
-plot(var_sentiment_table)
