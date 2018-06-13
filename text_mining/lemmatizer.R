@@ -1,5 +1,8 @@
 # Script: lemmatizer.R
 # 
+# see http://morphadorner.northwestern.edu/morphadorner/server/corpusconfigservice/ 
+
+
 # A script written and distributed as a teaching
 # aid for demonstrating how to perform corpus
 # lemmatization in R.  The script demonstrates the use
@@ -66,7 +69,7 @@ library(XML)
 # set the file path
 filePath.str = "data/plainText/melvyl.txt"
 
-var_input_file <- "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/cleanText/melvyl.txt"
+var_input_file <- "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/ballads/20001.txt"
 
 
 ###################################
@@ -77,13 +80,14 @@ lemmatize <- function(wordlist) {
   get.lemma <- function(word, url) {
     response <- GET(url,query=list(spelling=word,standardize="",
                                    wordClass="",wordClass2="",
-                                   corpusConfig="ncf",    # Nineteenth Century Fiction
+                                   corpusConfig="eme",    # Nineteenth Century Fiction eme = early modern ece = 18th century
                                    media="xml"))
     content <- content(response,type="text")
     xml     <- xmlInternalTreeParse(content)
     return(xmlValue(xml["//lemma"][[1]]))    
   }
-  url <- "http://ebba.ds.library.ucdavis.edu:8080/maserver/lemmatizer"
+  #url <- "http://ebba.ds.library.ucdavis.edu:8080/maserver/lemmatizer"
+  url <- "http://morphadorner.northwestern.edu/morphadorner/maserver/lemmatizer"
   return(sapply(wordlist,get.lemma,url=url))
 }
 
@@ -100,8 +104,8 @@ function_show_vector <- function(var_vec_to_show_vector) {
 ###################################
 
 # Do a test run
-#words <- c("is","am","was","are")
-#lemmatize(words)
+# words <- c("is","am","was","are")
+# lemmatize(words)
 
 # Now do a real run
 
@@ -109,7 +113,7 @@ function_show_vector <- function(var_vec_to_show_vector) {
 # the resulting vector will have as many elements as
 # lines in the file with the contents of each line
 # contained in a character vector.
-var_text_lines <- readLines(var_inputDir_string, warn = FALSE)
+var_text_lines <- readLines(var_input_file, warn = FALSE)
 
 # convert to lower case
 var_text_lines <- tolower(var_text_lines)
@@ -125,7 +129,7 @@ var_text_words_list <- strsplit(var_text_blob, "\\W")
 var_text_words <- unlist(var_text_words_list)
 
 # do the lemmatization
-lemmatized.v <- lemmatize(var_text_words[50:100])
+var_lemmatized_words <- lemmatize(var_text_words[50:100])
 
 # output results
-#function_show_vector(lemmatized.v)
+function_show_vector(var_lemmatized_words)

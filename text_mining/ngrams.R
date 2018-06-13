@@ -36,6 +36,15 @@
 # see http://creativecommons.org/licenses/by-sa/4.0/
 #install.packages("tm")0
 
+
+install.packages("NLP")
+install.packages("tm")
+install.packages("hunspell")
+install.packages("ngram")
+install.packages("dplyr")
+install.packages("ggraph")
+install.packages("igraph")
+
 library(NLP)
 library(tm)
 library(hunspell)
@@ -77,7 +86,7 @@ var_outputFile <-"/Users/cstahmer/Desktop/textmining_workshop/ngrams.csv"
 # The resulting vector will have as many elements as
 # lines in the file with the contents of each line
 # contained in a character vector.
-var_textLines <- readLines(var_textFile)
+var_textLines <- readLines(var_textFile, warn = FALSE)
 
 # collapse the vector of lines into a single element
 var_textBlob <- paste(var_textLines, collapse = " ")
