@@ -55,7 +55,7 @@ require(XML)
 setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")
 
 # Define the input directory for the texts to be analyzed.
-var_inputDir_character <- "/Users/cstahmer/Documents/rstudio_workspace/digitalmethods/text_mining/data/MEIexamples"
+var_inputDir_character <- "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/MEIexamples"
 
 # Define a word of interest that you want to plot.
 var_node_str = ""
@@ -84,9 +84,13 @@ function_show_vector <- function(var_file_name_vec) {
 var_files_vector <- dir(var_inputDir_character, var_filename_filter)
 print(length(var_files_vector));
 
+
+
+
 # loop through all files listed in the files vector
 # and open and process them.
 for(var_iteration_int in 1:length(var_files_vector)){
+  #var_filepath_str <- paste(var_inputDir_character, var_files_vector[1], sep="/")
   
   # define the file path to the file to read by concatenating 
   # (joining) the var_inputDir_character to the filename contained in 

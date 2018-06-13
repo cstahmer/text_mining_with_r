@@ -72,8 +72,8 @@ library(dplyr)
 var_entityType = "person"
 
 # set the file path
-#var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText/austen.txt"
-var_textFile = "/Users/cstahmer/Desktop/quinn/winiarski_warren_w.txt"
+var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText/austen.txt"
+
 
 
 ###################################
@@ -129,7 +129,7 @@ function_checkForEntities <- function(obj_doc, var_kind_character) {
 # the resulting vector will have as many elements as
 # lines in the file with the contents of each line
 # contained in a character vector.
-var_readLinesRaw <- readLines(var_textFile)
+var_readLinesRaw <- readLines(var_textFile, warn=FALSE)
 
 # collapse the vector of lines into a single character 
 # vector
@@ -150,14 +150,14 @@ obj_entity_annotator <- Maxent_Entity_Annotator(kind = var_entityType)
 var_pipeline_list <- list(obj_sentence_annotator, obj_word_annotator, obj_entity_annotator)
 
 # create the final model
-var_annotationModel <- annotate(var_textBlob_string, var_pipeline_list)
+var_annotation_model <- annotate(var_textBlob_string, var_pipeline_list)
 
 # create an annotated doc.  This is a version of the document that is
 # represented as a structured hierarchy of sentences and words
-obj_annotatedText_document <- AnnotatedPlainTextDocument(var_textBlob_string, var_annotationModel)
+obj_annotatedText_document <- AnnotatedPlainTextDocument(var_textBlob_string, var_annotation_model)
 
 # check to see if there are any matching entities.
-# If so, process. If not, extit.
+# If so, process. If not, exit.
 if (function_checkForEntities(obj_annotatedText_document, var_kind_character = var_entityType)) {
 
   # get all entities of the type we are looking for

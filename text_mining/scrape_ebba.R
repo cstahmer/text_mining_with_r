@@ -55,20 +55,20 @@ library(XML)
 #         configuration           #
 ###################################
 
-# set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/") 
-
 # define an output path for the Text files 
-var_textOutputFilePath_character = "/Users/cstahmer/ballad_text2/ballads_text/"
+var_textOutputFilePath_character = "/Users/cstahmer/ballads_text/"
 
 # define the URL for the search
-var_searchURL_character <- "http://ebba.english.ucsb.edu/search_combined/?ss=king&p="
+var_searchURL_character <- "http://ebba.english.ucsb.edu/search_combined/?ss=jockey&p="
 
 # define the start of the page range for the search
 var_searchStartRange_int <- 1
 
 # define an end to the page range for the search
-var_searchEndRange_int <- 1
+var_searchEndRange_int <- 2
+
+# define the system wait time between requests
+var_wait_interval <- 5
 
 
 ###################################
@@ -80,6 +80,9 @@ print("Process Started")
 
 # Define a range of search return pages to get
 for (var_page_int in var_searchStartRange_int:var_searchEndRange_int) {
+  
+  # wait to avoid a dos
+  Sys.sleep(var_wait_interval/2)
   
   # define the URL for the search
   var_iterationSearchUrl_character <- paste(var_searchURL_character, var_page_int, sep="")
@@ -111,28 +114,45 @@ for (var_page_int in var_searchStartRange_int:var_searchEndRange_int) {
     
     # use XPath to extract the title
     var_balladTitle_character <- lapply(obj_tei_doc['//title[@type="main"]'],xmlValue)
-    print(paste("     ", var_balladTitle_character))
     
-    # use XPath to extract the <div type="ballad"></div>
-    obj_balladTeiText_list <- lapply(obj_tei_doc['//div[@type="ballad"]'],xmlValue)
+    # make sure the ballad has xml data
+    if (length(var_balladTitle_character) > 0) {
+    
+      print(paste("     Writing ballad: ", var_balladTitle_character))
+    
+      # use XPath to extract the <div type="ballad"></div>
+      obj_balladTeiText_list <- lapply(obj_tei_doc['//div[@type="ballad"]'],xmlValue)
 
-    # remove all tei tags from the text
-    var_balladPlainText_character <- gsub("<.*?>", " ", obj_balladTeiText_list)
+      # remove all tei tags from the text
+      var_balladPlainText_character <- gsub("<.*?>", " ", obj_balladTeiText_list)
     
-    # convert multiple spaces to single spaces
-    var_balladPlainTextTrimmed_character <- gsub("\\s+", " ", var_balladPlainText_character, TRUE)
-
-    # define a file path where to save the plain text
-    var_writeFilePath_character <- paste(var_textOutputFilePath_character, var_balladIdClean_character, ".txt", sep="")
-
-    # open a file writing connection
-    fileConn<-file(var_writeFilePath_character)
+      # convert multiple spaces to single spaces
+      var_balladPlainTextTrimmed_character <- gsub("\\s+", " ", var_balladPlainText_character, TRUE)
     
-    # write the file
-    writeLines(var_balladPlainTextTrimmed_character, con = fileConn, sep = " ", useBytes = FALSE)
+      # define a file path where to save the plain text
+      var_writeFilePath_character <- paste(var_textOutputFilePath_character, var_balladIdClean_character, ".txt", sep="")
     
-    # close the file writing connection
-    close(fileConn)
+      # open a file writing connection
+      fileConn<-file(var_writeFilePath_character)
+    
+      # write the file
+      writeLines(var_balladPlainTextTrimmed_character, con = fileConn, sep = " ", useBytes = FALSE)
+    
+     # close the file writing connection
+     close(fileConn)
+    
+    } else {
+      print("     No TEI available")
+    }
+    
+    # setup a seeded, random wait interval
+    var_wait <- var_wait_interval + sample(3:13, 1)
+    
+    # communicate wait interval
+    print(paste("Waiting ", var_wait, " seconds before next request...", sep="", collapse=""))
+    
+    # wait to avoid a dos
+    Sys.sleep(var_wait)
     
     # do next ballad
   }
