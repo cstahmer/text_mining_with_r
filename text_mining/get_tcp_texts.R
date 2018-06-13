@@ -1,4 +1,4 @@
-# Script: distribution_analysis.R
+# Script: get_tcp_texts.R
 # 
 # A script written and distributed as a teaching
 # aid that takes a csv list of TCP ID's,
@@ -55,28 +55,25 @@ library(tm)
 ###################################
 #         configuration           #
 ###################################
-
-# set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining/")  
   
 # configure the file that contains the TCP IDs 
-var_tcpIDFile_character <- "data/ecco-tcp-ids.csv"
+var_tcpIDFile_character <- "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/ecco-tcp-ids.csv"
 
 # configure the file path to look for and/or write 
 # the cacert.pm file for getting files from github
-var_cacert_character <- "data/certs/cacert.pem"
+var_cacert_character <- "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/certs/cacert.pem"
 
 # maximum number to get (if set to zero then get all)
-var_numTexts_integer <- 5
+var_numTexts_integer <- 25
 
 # output diretory for TEI files
-var_teiOutputDir_character <- "/Users/cstahmer/textmining/tcp_tei/"
+var_teiOutputDir_character <- "/Users/cstahmer/Desktop/temp/textmining/tcp_tei/"
 
 # output directory for plain text
-var_textOutputDir_character <- "/Users/cstahmer/textmining/tcp_text/"
+var_textOutputDir_character <- "/Users/cstahmer/Desktop/temp/textmining/tcp_text/"
 
 # output diretory for corpus blob
-var_corpusOutputDir_character <- "/Users/cstahmer/textmining/tcp_blob/"
+var_corpusOutputDir_character <- "/Users/cstahmer/Desktop/temp/textmining/tcp_blob/"
 
 ###################################
 #      function declarations      #
@@ -142,7 +139,8 @@ var_tcpids_data.frame <- var_tcpids_data.frame[2]
 
 # convert the list to a vector
 var_tcpids_vector <- as.vector(t(var_tcpids_data.frame))
-  
+
+# cap at maximum number of texts if indicated  
 if (var_numTexts_integer > 0) {
     length(var_tcpids_vector) <- var_numTexts_integer
 }
@@ -175,14 +173,14 @@ for (var_id_character in var_tcpids_vector) {
   writeLines(c(var_fileLines_vector), fileConn)
   close(fileConn)
   
-  # convert TEI to plain text (dumb conversion)
+  # convert TEI to plain text / .txt (dumb conversion)
   obj_plainFileLines_list <- lapply(obj_fileLines_list, function_HtmlToText)
   
   # convert the list of lines to a vector
   var_plainFileLines_vector <- unlist(obj_plainFileLines_list)
   
-  # set the TEI output file path
-  var_plainOutPath_character <- paste(var_textOutputDir_character, var_id_character, ".tei", sep="")
+  # set the .txt output path
+  var_plainOutPath_character <- paste(var_textOutputDir_character, var_id_character, ".txt", sep="")
   
   # write the text file
   fileConn<-file(var_plainOutPath_character)
