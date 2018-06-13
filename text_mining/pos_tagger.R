@@ -126,7 +126,7 @@ obj_pos_annotator <- Maxent_POS_Tag_Annotator(language = "en", probs = var_showP
 # create the initial sentence/word annotation model matrix
 var_sentence_annotation_model_matrix <- annotate(var_text_string, list(obj_sentence_annotator))
 
-# create the initial sentence/word annotation model matrix
+# create the initial word annotation model matrix
 var_base_annotation_model_matrix <- annotate(var_text_string, list(obj_sentence_annotator, obj_word_annotator))
 
 # create a POS Tag Annotator
