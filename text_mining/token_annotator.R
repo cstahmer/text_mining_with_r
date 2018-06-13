@@ -69,11 +69,9 @@ library(RWeka)
 #         configuration           #
 ###################################
 
-# set working directory
-setwd("~/Documents/rstudio_workspace/digitalmethods/text_mining")
-
 # set the file path
-var_filePath_character = "data/plainText/emerson.txt"
+var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText/emerson.txt"
+
 
 ###################################
 #        Operational Code         #
@@ -83,7 +81,7 @@ var_filePath_character = "data/plainText/emerson.txt"
 # the resulting vector will have as many elements as
 # lines in the file with the contents of each line
 # contained in its own element.
-var_textLines_vector <- readLines(var_filePath_character)
+var_textLines_vector <- readLines(var_textFile, warn=FALSE)
 
 # collapse the vector of lines into a single character 
 # vector
@@ -101,7 +99,7 @@ var_textBlob_string <- as.String(var_textBlob_vector)
 obj_sentence_annotator <- Maxent_Sent_Token_Annotator()
 obj_word_annotator <- Maxent_Word_Token_Annotator()
 
-# testing just running a word annotator without a sentence one
+# run the annotation model
 var_annotationModel_matrix <- annotate(var_textBlob_string, list(obj_sentence_annotator, obj_word_annotator))
 
 # create an annotated doc.  This is a version of the document that is
