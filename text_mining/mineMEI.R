@@ -115,8 +115,10 @@ for(var_iteration_int in 1:length(var_files_vector)){
   var_text_vec <- paste(var_text_lines_vec, collapse=" ")
   
   # load the XML file
-  doc <- xmlParse(var_text_vec)
-  root <- xmlRoot(doc)
-  listOfMeasureNodes = getNodeSet(doc, "//x:measure/staff", namespaces = "x")
-  print(length(listOfMeasureNodes))
+  obj_doc <- xmlParse(var_text_vec)
+  obj_root <- xmlRoot(obj_doc)
+  obj_listOfMeasureNodes = getNodeSet(obj_doc, "//x:measure/staff", namespaces = "x")
+  obj_scoreDef <- xpathSApply(obj_doc, "//x:scoreDef", namespaces = "x", xmlValue)
+  obj_titles = xpathSApply(obj_doc, "//x:title", namespaces = "x")
+  print(obj_scoreDef)
 }
