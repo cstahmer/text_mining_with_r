@@ -83,7 +83,7 @@ var_cores = 2
 var_start_topic_number = 20	
 
 # number of topics to end testing
-var_end_topic_number = 300	
+var_end_topic_number = 50	
 
 # N=number of topics by which to increment tests
 var_test_by = 5		# Number of topics to increment by

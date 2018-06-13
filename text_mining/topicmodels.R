@@ -67,17 +67,17 @@ library(topicmodels)
 ###################################
 
 # set the path to corpus
-var_textFilePath = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText"
+var_textFilePath = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/ballads"
 #var_textFilePath = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/movie_reviews"
 
 # set path to save outpus
 var_out_path = "~/Desktop/textmining_workshop/"
 
 # blacklist words
-var_blacklist = c("httpwwwgutenbergorg", "sletter")
+var_blacklist = c("the", "to", "a", "an")
 
 # lda number of topics
-var_number_of_topics <- 25
+var_number_of_topics <- 50
 
 # lda burnin
 var_burnin <- 10
@@ -96,7 +96,7 @@ var_best <- TRUE
 
 # configure the number of results to 
 # view/save for the "top view" outputs
-var_top_results_view <- 5
+var_top_results_view <- 25
 
 
 ###################################
@@ -139,11 +139,14 @@ var_filenames <- list.files(var_textFilePath,pattern="*.txt", full.names=TRUE)
 # complete text from a file in the corpus
 var_fileContents <- lapply(var_filenames, readLines, warn=FALSE)
 
+# insure utf8 encoding
+var_newfileContents <- lapply(var_fileContents, function(x) enc2utf8(x))
+
 # if desired, remove all non-words
 #var_wordFileContents <- lapply(var_fileContents, function_dictionaryClean)
 
 # load the files into a tm Corpus object
-obj_corpus <- Corpus(VectorSource(var_fileContents))
+obj_corpus <- Corpus(VectorSource(var_newfileContents))
 
 # inspect a particular document in the Corpus
 writeLines(as.character(obj_corpus[[3]]))
@@ -195,6 +198,7 @@ rownames(obj_dtm) <- list.files(var_textFilePath,pattern="*.txt", full.names=FAL
 #Run LDA using Gibbs sampling
 obj_lda_out <-LDA(obj_dtm, var_number_of_topics, method="Gibbs", control=list(nstart=var_nstart, seed = var_seed, best=var_best, burnin = var_burnin, iter = var_gibbs_sampler_iterations, thin=var_thin))
 
+
 ########################
 # save lda fit results #
 ########################
@@ -216,8 +220,6 @@ var_formatted_date_time <- paste(var_datetime_segments[1], "_", var_formatted_ti
 var_output_filename_base <- paste(var_out_path, 
                              "lda_gibbs_k-", var_number_of_topics, 
                              "_i-", var_gibbs_sampler_iterations, 
-                             "_a-", var_prior_alpha,
-                             "_b-",var_prior_eta, 
                              "_burn-", var_burnin,
                              "_", var_formatted_date_time, 
                              sep="", collapse="")
