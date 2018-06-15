@@ -69,7 +69,7 @@ library(dplyr)
 #     percentage
 #     person
 #     misc [proper nouns deemed not to fit anther category]
-var_entityType = "person"
+var_entityType = "location"
 
 # set the file path
 var_textFile = "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plainText/austen.txt"

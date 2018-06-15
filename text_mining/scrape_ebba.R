@@ -65,10 +65,10 @@ var_searchURL_character <- "http://ebba.english.ucsb.edu/search_combined/?ss=joc
 var_searchStartRange_int <- 1
 
 # define an end to the page range for the search
-var_searchEndRange_int <- 2
+var_searchEndRange_int <- 5
 
 # define the system wait time between requests
-var_wait_interval <- 5
+var_wait_interval <- 7
 
 
 ###################################
