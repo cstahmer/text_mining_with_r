@@ -59,7 +59,7 @@ library(XML)
 var_textOutputFilePath_character = "/Users/cstahmer/ballads_text/"
 
 # define the URL for the search
-var_searchURL_character <- "http://ebba.english.ucsb.edu/search_combined/?ss=jockey&p="
+var_searchURL_character <- "http://ebba.english.ucsb.edu/search_combined/?ss=barber&p="
 
 # define the start of the page range for the search
 var_searchStartRange_int <- 1

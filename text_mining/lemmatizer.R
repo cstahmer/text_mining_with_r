@@ -67,9 +67,10 @@ library(XML)
 ###################################
 
 # set the file path
-filePath.str = "data/plainText/melvyl.txt"
+#filePath.str = "data/plainText/melvyl.txt"
 
 var_input_file <- "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/ballads/20001.txt"
+
 
 
 ###################################
@@ -86,8 +87,8 @@ lemmatize <- function(wordlist) {
     xml     <- xmlInternalTreeParse(content)
     return(xmlValue(xml["//lemma"][[1]]))    
   }
-  #url <- "http://ebba.ds.library.ucdavis.edu:8080/maserver/lemmatizer"
-  url <- "http://morphadorner.northwestern.edu/morphadorner/maserver/lemmatizer"
+  url <- "http://ebba.ds.library.ucdavis.edu:8080/maserver/lemmatizer"
+  #url <- "http://morphadorner.northwestern.edu/morphadorner/maserver/lemmatizer"
   return(sapply(wordlist,get.lemma,url=url))
 }
 
@@ -129,7 +130,7 @@ var_text_words_list <- strsplit(var_text_blob, "\\W")
 var_text_words <- unlist(var_text_words_list)
 
 # do the lemmatization
-var_lemmatized_words <- lemmatize(var_text_words[50:100])
+var_lemmatized_words <- lemmatize(var_text_words[50:60])
 
 # output results
 function_show_vector(var_lemmatized_words)
