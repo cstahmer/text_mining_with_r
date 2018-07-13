@@ -78,7 +78,7 @@ var_wait_interval <- 7
 # Initialize process
 print("Process Started")
 
-# Define a range of search return pages to get
+# Loop through search pages in the range
 for (var_page_int in var_searchStartRange_int:var_searchEndRange_int) {
   
   # wait to avoid a dos
