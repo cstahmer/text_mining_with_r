@@ -96,5 +96,5 @@ obj_json <- httr::content(obj_req, as = "text")
 # Convert from JSON object to data.frame for easier processing
 var_tweets <- fromJSON(obj_json)
 
-# subset some tweets
-substring(var_tweets$text, 1, 140)
+# look at some text
+var_tweets$text
