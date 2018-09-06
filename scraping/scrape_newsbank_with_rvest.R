@@ -106,3 +106,6 @@ obj_divs <- html_nodes(obj_session, "div")
 # Extract the nodeset to a text blob for kicks
 obj_html_text <- html_text(obj_body)
 
+
+conn
+writeLines(obj_parse)

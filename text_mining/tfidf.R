@@ -50,7 +50,7 @@ library(tm)
 var_inputDir <- "/Users/cstahmer/workspaces/rstudio_workspace/text_mining_with_r/data/plosOneSubset"
 
 # file path to write output csv files
-var_output_write_path <- "/Users/cstahmer/Desktop/textmining_workshop/tfidf_plosone/"
+var_output_write_path <- "/Users/cstahmer/Desktop/STRIDE/"
 
 ###################################
 #        Operational Code         #

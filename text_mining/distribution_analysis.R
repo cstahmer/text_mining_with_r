@@ -55,7 +55,7 @@ var_word_blacklist = c("orphan",
                        "missing")
 
 # identify the word of interest
-var_wordOfInterest = "one"
+var_wordOfInterest = "whale"
 
 ###################################
 #        Operational Code         #
